@@ -1,0 +1,209 @@
+{
+ "generated_at": "2026-11-17",
+ "policy": "L1=纯脚本秒级；L2=快模型+脚本；L3=强模型判断",
+ "tasks": [
+  {
+   "id": "schedule-095a1661-bf5d-4d5b-b1e5-108c4c04f62e",
+   "title": "浏览器卫生巡检（每 4 小时）",
+   "tier": "L1"
+  },
+  {
+   "id": "schedule-fe2b5851-8d38-405a-b12f-43652abe83f7",
+   "title": "Gmail 预热邮件清理（每天 08:40）",
+   "tier": "L1"
+  },
+  {
+   "id": "schedule-e1378196-cf11-4713-af17-931946138c69",
+   "title": "看板刷新（R6，GSC/GA4 官方 API）",
+   "tier": "L2"
+  },
+  {
+   "id": "schedule-8d50f79e-4bcb-4f65-8835-11dd6b41cc71",
+   "title": "每日进度播报（发到本会话）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-48b5bcf4-027a-45e2-93aa-109be6be2558",
+   "title": "表单询盘守夜（R6，每日 4 次告警 + SLA）",
+   "tier": "L2"
+  },
+  {
+   "id": "schedule-28613153-91be-4478-854a-1cbbea4f13be",
+   "title": "新询盘 Gmail 兜底通知（每天 4 次，与守夜对齐）",
+   "tier": "L1"
+  },
+  {
+   "id": "schedule-837cfcec-8061-4657-9191-5cf91304f629",
+   "title": "每日询盘摘要（09:20 → kerry@anaricharge.com）",
+   "tier": "L1"
+  },
+  {
+   "id": "schedule-25763395-e753-4fea-b45b-3dbb3f6c3f7c",
+   "title": "内容主编日更（R3，每日一篇五件套）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-86b1c05d-514d-44d1-9ef9-97bec446a673",
+   "title": "程序化 SEO 批量页（P3）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-fd1bd4b1-082f-4130-8919-8b23239ebe95",
+   "title": "每日增长脉冲（每天一件推进北极星的事）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-0fc0c28c-1ec4-4419-90d1-a1476a55dbbb",
+   "title": "营销外联（Marketing Outbound：PR/媒体/投稿/合作）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-52b0d084-96f0-4c40-b900-0a33d7e2d03d",
+   "title": "内容验收 + 索引提交（E1）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-3c4c14ea-e317-4301-b7bc-13fb8a5ae514",
+   "title": "GEO / AI 可见度（P4，两层测量）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-502a013b-c3b4-4dae-81be-bd7476cb615f",
+   "title": "社区引流 / 社媒（R5，Quora + Reddit）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-fc8a1568-c149-4f0e-9097-ba3e5cf585d6",
+   "title": "社媒分发（P6，LinkedIn/Quora/Reddit 一稿多用）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-a9005889-8606-45dc-9630-5ac62b020cfc",
+   "title": "每日简报（仪表盘格式 · 中国时间 23:30 前送达）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-8b94b5e1-3491-406c-a573-6aba52e6d7b2",
+   "title": "外联发信后体检（工作日 22:05）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-9cf9ed74-5ad4-4ab2-b80d-ab659fd574e8",
+   "title": "页面工厂 / 建站（P2）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-43caec01-5ddd-4c33-9612-d75ffb67e115",
+   "title": "外链资产化推进（Pod C，每周）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-47f5708b-f09d-4ed3-9742-205808f086c3",
+   "title": "内链网络与孤儿页治理（P3）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-04493417-ff80-4ebe-8483-588c06240510",
+   "title": "法规监测（A04，每周三）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-0f15afe7-a637-4b40-b932-1e459c3e850d",
+   "title": "CRO 转化优化与询盘链路诊断（P5）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-d4802806-270b-459d-a52e-577801bb3a8a",
+   "title": "生命周期培育（A32，每周四）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-7c417340-f9f4-4df6-9784-7fd0935ab71f",
+   "title": "竞品情报（A05，每周四）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-0739aecf-9410-4d5d-b358-c07fc1458f95",
+   "title": "项目招标信号（A06，每周五）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-c445c15d-3d89-45e9-9740-2ec5c3806004",
+   "title": "存量刷新与内链加固（Pod A，机会排序驱动）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-269cec5f-4efa-4cbf-8f08-f4186d0f9bb9",
+   "title": "社媒监听（A28，每周五）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-ef731484-8682-4eec-9f51-88ddf24adec7",
+   "title": "位次监控（A18，每周六）",
+   "tier": "L2"
+  },
+  {
+   "id": "schedule-5e5d6f04-4774-49a6-9cf4-06ecf1985dd8",
+   "title": "关键词策略师（E5，周日选题队列）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-786fb043-955c-4deb-9718-667ff8712e1d",
+   "title": "周运营总编排（R1 增长操盘手）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-74e5b711-4869-4674-83eb-ce4c2f2280e6",
+   "title": "技术 SEO 巡检 + 收录覆盖（R2）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-129ebd8a-0d16-4f0c-8d03-8b87962b130c",
+   "title": "送达率与抑制（A13，每周一）",
+   "tier": "L2"
+  },
+  {
+   "id": "schedule-90e0cafb-81de-4cd9-9a24-3d7a69ad97ba",
+   "title": "广告小额验证（A33，≤$100/月，需授权）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-64b5e246-e09c-401f-8219-e5e20906f41a",
+   "title": "数据飞轮复盘与团队自进化（每周一 20:00）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-5c574de9-e9c7-431d-adcb-6e4249e69350",
+   "title": "每周营销复盘与插队裁决（R1）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-72038f99-677a-4ac6-aab0-e2d9e95f341b",
+   "title": "会话治理巡检（每月 1 日）",
+   "tier": "L1"
+  },
+  {
+   "id": "schedule-e6465c9d-9f0f-4948-81ff-d9e8efc279fe",
+   "title": "月度归因结账（A37，每月 1 日）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-b327fdc4-2279-4c50-9608-f7ead89c80db",
+   "title": "月度策略复盘（A01，每月 15 日）",
+   "tier": "L3"
+  },
+  {
+   "id": "schedule-29a1d8db-772d-44fa-a7e0-234cd69237d4",
+   "title": "每日工作总结（发到本会话）",
+   "tier": "L3"
+  },
+  {
+   "id": "deploy-guard",
+   "title": "部署守卫（每小时）",
+   "tier": "L1",
+   "why": "纯脚本 deploy-guard.sh：比对 sitemap 指纹，不一致才自动部署；无判断无写作",
+   "schedule_id": "schedule-821b8593-f885-49b4-b73d-e7c980e89685",
+   "added": "2026-11-21"
+  }
+ ]
+}
