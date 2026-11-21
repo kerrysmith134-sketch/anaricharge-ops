@@ -23,3 +23,9 @@ ops/indexnow-state.json
 .anariev-facts-wt/
 .agents/
 .tmpcfg/
+
+# 工作树/缓存目录
+.merge-gate-wt/
+.wbhome/
+.wrangler/
+.npm/
