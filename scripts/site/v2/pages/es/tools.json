@@ -1,0 +1,120 @@
+{
+  "slug": "es/tools",
+  "url": "/es/tools/",
+  "breadcrumb": "Herramientas",
+  "title": "Calculadoras de carga y almacenamiento | Anari",
+  "meta": "Cuatro calculadoras gratuitas en el navegador sin registro: retorno de la estación, coste del almacenamiento, selección de clase y TCO a la vida útil.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Herramientas",
+      "h1": "Haga los números antes de hablar con nosotros.",
+      "lede": "Cuatro calculadoras funcionan en el navegador, sin registro y sin enviar datos. Los supuestos están abiertos y el resultado se puede revisar; si quiere una lectura de ingeniero, se pide aparte.",
+      "image": "/assets/img/v2/scene-commercial-1280.webp",
+      "credit": "Cálculo en el navegador · sin registro",
+      "facts": [
+        {
+          "value": "4",
+          "label": "calculadoras"
+        },
+        {
+          "value": "0",
+          "label": "registros"
+        },
+        {
+          "value": "—",
+          "label": "los datos no salen del dispositivo"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Abrir calculadora de ROI",
+          "href": "/tools/charging-station-roi"
+        },
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "eyebrow": "Qué calcula cada una",
+      "h2": "Cuatro preguntas distintas, cuatro herramientas",
+      "lede": "La interfaz de las calculadoras está en inglés: no traducimos las etiquetas técnicas de los campos para no deformar el significado. Las fórmulas y los supuestos son los mismos en todos los idiomas.",
+      "items": [
+        {
+          "title": "Retorno de la estación",
+          "text": "Ingresos, costes operativos y plazo de retorno con su utilización y tarifa. Responde sobre todo a «¿tiene sentido?»."
+        },
+        {
+          "title": "Coste de propiedad del almacenamiento",
+          "text": "Arbitraje pico/valle, ciclos y vida útil: cuánto cuesta cada kWh que pasa por el sistema."
+        },
+        {
+          "title": "Selección de clase de equipo",
+          "text": "Tres preguntas sobre escenario, tiempo de estancia y presupuesto dan una banda de potencia y una clase de equipo — como primer filtro, no como decisión final."
+        },
+        {
+          "title": "TCO a la vida útil",
+          "text": "Coste completo a 5–15 años: equipo, electricidad, mantenimiento y sustitución, para comparar opciones con honestidad."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Cómo usarlas",
+      "h2": "Primero sus cifras, después nuestra revisión",
+      "lede": "La herramienta sirve para llegar con datos, no con intuiciones. Eso acelera también nuestra respuesta.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Reúna tres números",
+          "text": "Tarifa y estructura de demanda, utilización esperada y capacidad disponible en el sitio."
+        },
+        {
+          "no": "02",
+          "title": "Calcule y mire los supuestos",
+          "text": "La calculadora muestra qué supuestos producen el resultado — son los que conviene discutir."
+        },
+        {
+          "no": "03",
+          "title": "Pida revisión de ingeniero",
+          "text": "El botón «Send these numbers to an engineer» traslada su cálculo a la consulta junto con los datos de entrada."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Envíe el cálculo y le añadimos revisión de ingeniero.",
+      "lede": "No vendemos cifras. Si los supuestos no aguantan la revisión, lo decimos antes de firmar.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/tools/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/tools/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/tools/"
+    }
+  ]
+}

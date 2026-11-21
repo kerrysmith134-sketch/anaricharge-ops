@@ -1,0 +1,142 @@
+{
+  "slug": "products/vulco",
+  "url": "/products/vulco.html",
+  "breadcrumb": "Vulco",
+  "title": "Vulco — modular DC charger, 60–480 kW | Anari Energy",
+  "meta": "Vulco: Opens at 60–120 kW and scales to 480 kW by adding modules. The choice for operators who expect the site to grow and do not want to replace the cabinet ",
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Product · Vulco",
+      "h1": "Vulco — modular DC charger, 60–480 kW",
+      "lede": "Opens at 60–120 kW and scales to 480 kW by adding modules. The choice for operators who expect the site to grow and do not want to replace the cabinet to get there.",
+      "image": "/assets/img/products/v2/vulco-60-480kw.webp",
+      "image1024": "/assets/img/products/v2/vulco-60-480kw-1024.webp",
+      "imageAlt": "Vulco product photograph",
+      "note": "Specifications below are the published configuration; the binding constraint on your site decides the variant.",
+      "actions": [
+        {
+          "label": "Request a configuration",
+          "href": "/inquiry"
+        },
+        {
+          "label": "Full datasheet",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Specifications",
+      "h2": "Vulco specifications",
+      "lede": "Modularity, connectors and efficiency.",
+      "rows": [
+        {
+          "k": "Power range",
+          "v": "60–480 kW (modular; 120 → 480 kW upgrade path)"
+        },
+        {
+          "k": "DC connectors",
+          "v": "2 × CCS2 (200 A) or GB/T (250 A)"
+        },
+        {
+          "k": "Optional AC connector",
+          "v": "Type 2, 7 kW or 22 kW"
+        },
+        {
+          "k": "Peak efficiency",
+          "v": "96%"
+        },
+        {
+          "k": "User interface",
+          "v": "10″ HD touchscreen"
+        },
+        {
+          "k": "Network protocol",
+          "v": "OCPP 1.6J native, OCPP 2.0.1 compatible"
+        },
+        {
+          "k": "Certifications and testing",
+          "v": "CE · TÜV · 48-hour salt spray · semi-potted electronics"
+        },
+        {
+          "k": "Climate options",
+          "v": "Reserved heater interface for sub-zero regions"
+        }
+      ],
+      "caption": "Vulco — published specifications",
+      "alt": false
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Where it fits",
+      "h2": "The constraint this family answers",
+      "lede": "Sites expected to expand: start small on the grid you have, add modules when utilisation justifies the connection upgrade. It runs at 96% peak efficiency, and upgrading 120 → 480 kW costs about 70% less than replacing the whole cabinet.",
+      "items": [
+        {
+          "title": "Typical deployment",
+          "text": "Chosen when the site constraint matches the family, not because it is the cheapest unit."
+        },
+        {
+          "title": "What decides the variant",
+          "text": "Grid capacity, duty cycle, climate envelope and connector standard."
+        },
+        {
+          "title": "What to send us",
+          "text": "Available kVA, vehicles served per day, dwell time and ambient temperature range."
+        },
+        {
+          "title": "How it is delivered",
+          "text": "Within the turnkey scope: design, permits, installation supervision, commissioning and handover."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Related families",
+      "h2": "Often specified together",
+      "items": [
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · dual standard"
+        },
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Storage · 120 / 261 / 418 kWh"
+        }
+      ],
+      "action": {
+        "label": "Compare all families",
+        "href": "/products/"
+      }
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Next step",
+      "h2": "Send the site parameters and we will return a Vulco configuration.",
+      "lede": "Available capacity, duty cycle and climate are enough to narrow the variant in one exchange.",
+      "actions": [
+        {
+          "label": "Request a configuration",
+          "href": "/inquiry"
+        },
+        {
+          "label": "See deployed sites",
+          "href": "/cases/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "ru/products/vulco",
+  "url": "/ru/products/vulco.html",
+  "breadcrumb": "Vulco",
+  "locale": "ru",
+  "title": "Vulco — модульная DC-зарядка | Anari",
+  "meta": "Vulco: модульная DC-зарядка, 60–480 кВт. Полный цикл: проект, поставка, пуск, эксплуатация. Anari. Anari. Anari. Anari. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/vulco"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/vulco"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/vulco"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Продукт · Vulco",
+      "h1": "Vulco — модульная DC-зарядка, 60–480 кВт",
+      "lede": "Площадки с ожидаемым ростом: начать на имеющейся мощности и добавить модули, когда загрузка оправдает расширение сети.",
+      "image": "/assets/img/products/v2/vulco-60-480kw.webp",
+      "image1024": "/assets/img/products/v2/vulco-60-480kw-1024.webp",
+      "imageAlt": "Vulco — фото продукта",
+      "note": "Параметры приведены в оригинальной нотации изготовителя; вариант определяется ограничением вашей площадки.",
+      "actions": [
+        {
+          "label": "Запросить конфигурацию",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Полные характеристики",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Характеристики",
+      "h2": "Vulco — характеристики",
+      "lede": "Опубликованная конфигурация.",
+      "rows": [
+        {
+          "k": "Диапазон мощности",
+          "v": "60–480 kW (modular; 120 → 480 kW upgrade path)"
+        },
+        {
+          "k": "Разъёмы DC",
+          "v": "2 × CCS2 (200 A) or GB/T (250 A)"
+        },
+        {
+          "k": "Опциональный AC-разъём",
+          "v": "Type 2, 7 kW or 22 kW"
+        },
+        {
+          "k": "Пиковый КПД",
+          "v": "96%"
+        },
+        {
+          "k": "Интерфейс",
+          "v": "10″ HD touchscreen"
+        },
+        {
+          "k": "Сетевой протокол",
+          "v": "OCPP 1.6J native, OCPP 2.0.1 compatible"
+        },
+        {
+          "k": "Сертификаты и испытания",
+          "v": "CE · TÜV · 48-hour salt spray · semi-potted electronics"
+        },
+        {
+          "k": "Климатические опции",
+          "v": "Reserved heater interface for sub-zero regions"
+        }
+      ],
+      "caption": "Vulco"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Где применяется",
+      "h2": "Ограничение, на которое отвечает семейство",
+      "lede": "Площадки с ожидаемым ростом: начать на имеющейся мощности и добавить модули, когда загрузка оправдает расширение сети.",
+      "items": [
+        {
+          "title": "Типовое развёртывание",
+          "text": "Выбирается, когда ограничение площадки совпадает с семейством."
+        },
+        {
+          "title": "Что определяет вариант",
+          "text": "Мощность сети, график, климат и стандарт разъёма."
+        },
+        {
+          "title": "Что нам пришлёте",
+          "text": "Доступные кВА, число машин в день, время стоянки, температура."
+        },
+        {
+          "title": "Как поставляется",
+          "text": "В объёме под ключ: проект, разрешения, надзор, пуск, передача."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Смежные семейства",
+      "h2": "Часто заказывают вместе",
+      "items": [
+        {
+          "href": "/ru/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 кВт · модульная"
+        },
+        {
+          "href": "/ru/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 кВт · CCS2 + GB/T"
+        },
+        {
+          "href": "/ru/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Накопитель · 120 / 261 / 418 кВт·ч"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Следующий шаг",
+      "h2": "Пришлите параметры площадки — вернём конфигурацию Vulco.",
+      "lede": "Доступной мощности, графика и климата достаточно.",
+      "actions": [
+        {
+          "label": "Запросить конфигурацию",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Смотреть объекты",
+          "href": "/ru/cases/"
+        }
+      ]
+    }
+  ]
+}

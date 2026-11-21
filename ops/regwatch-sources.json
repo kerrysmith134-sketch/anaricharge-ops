@@ -1,0 +1,62 @@
+{
+ "_note": "A04 法规监测抓取源。只抓公开官方页面，比对 sha256 判断变化。**已标注 manual 的源一律标为『需人工看』**——我们抓不到不等于没有变化，不假装监控覆盖了它们。当前自动可抓：EU AFIR 原文 + 捷克 ERÚ；其余 4 国人工抽查。",
+ "updated_at": "2026-11-09",
+ "sources": [
+  {
+   "id": "eu-afir",
+   "market": "EU",
+   "label": "AFIR 法规原文 (CELEX:32023R1804)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1804",
+   "why": "AFIR 直接规定欧洲站点功率/间距/支付要求，原文变=口径要变"
+  },
+  {
+   "id": "cz-eru",
+   "market": "Czechia",
+   "label": "ERÚ 能源监管",
+   "url": "https://www.eru.cz/",
+   "why": "捷克充电服务许可与电价相关",
+   "status": "ok"
+  },
+  {
+   "id": "ro-anre-manual",
+   "market": "Romania",
+   "label": "ANRE（站点 SSL 证书异常，需人工看）",
+   "url": "https://www.anre.ro/",
+   "why": "罗马尼亚并网审批是主要瓶颈",
+   "manual": true
+  },
+  {
+   "id": "jo-emrc-manual",
+   "market": "Jordan",
+   "label": "EMRC（抓取超时，需人工看）",
+   "url": "https://www.emrc.gov.jo/",
+   "why": "约旦许可与并网条件",
+   "manual": true
+  },
+  {
+   "id": "ke-epra-manual",
+   "market": "Kenya",
+   "label": "EPRA（抓取超时，需人工看）",
+   "url": "https://www.epra.go.ke/",
+   "why": "肯尼亚电价与充电许可",
+   "manual": true
+  },
+  {
+   "id": "ae-moei-manual",
+   "market": "UAE",
+   "label": "MoEI（抓取超时，需人工看）",
+   "url": "https://www.moei.gov.ae/en",
+   "why": "UAE 充电基础设施规范",
+   "manual": true
+  }
+ ],
+ "manual_review_pages": [
+  "/markets/georgia",
+  "/markets/kazakhstan",
+  "/markets/kenya",
+  "/markets/nepal",
+  "/regulations/eu-afir",
+  "/regulations/index",
+  "/regulations/us-nevi"
+ ]
+}

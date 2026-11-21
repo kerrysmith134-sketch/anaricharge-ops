@@ -1,0 +1,152 @@
+{
+  "slug": "ru/products/pales",
+  "url": "/ru/products/pales.html",
+  "breadcrumb": "Pales",
+  "locale": "ru",
+  "title": "Pales — моноблочная DC-зарядка | Anari",
+  "meta": "Pales: моноблочная DC-зарядка, 60–240 кВт. Полный цикл: проект, поставка, пуск, эксплуатация. Anari. Anari. Anari. Anari. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/pales"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/pales"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/pales"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Продукт · Pales",
+      "h1": "Pales — моноблочная DC-зарядка, 60–240 кВт",
+      "lede": "Площадки со смешанным парком, где машины с разъёмами CCS2 и GB/T делят одну станцию.",
+      "image": "/assets/img/products/v2/pales-60-240kw.webp",
+      "image1024": "/assets/img/products/v2/pales-60-240kw-1024.webp",
+      "imageAlt": "Pales — фото продукта",
+      "note": "Параметры приведены в оригинальной нотации изготовителя; вариант определяется ограничением вашей площадки.",
+      "actions": [
+        {
+          "label": "Запросить конфигурацию",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Полные характеристики",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Характеристики",
+      "h2": "Pales — характеристики",
+      "lede": "Опубликованная конфигурация.",
+      "rows": [
+        {
+          "k": "Выходная мощность DC",
+          "v": "60–240 kW (configurable)"
+        },
+        {
+          "k": "Разъёмы",
+          "v": "2 × DC guns: CCS2 (250 A) and GB/T (250 A)"
+        },
+        {
+          "k": "Выходное напряжение",
+          "v": "DC 200–1000 V"
+        },
+        {
+          "k": "Пиковый КПД",
+          "v": "≥96%"
+        },
+        {
+          "k": "Оплата",
+          "v": "App / RFID; optional POS credit-card terminal"
+        },
+        {
+          "k": "Степень защиты",
+          "v": "IP54 · IK08"
+        },
+        {
+          "k": "Рабочая температура",
+          "v": "−30 °C to +70 °C (derating above 50 °C)"
+        },
+        {
+          "k": "Сетевой протокол",
+          "v": "OCPP 1.6J"
+        }
+      ],
+      "caption": "Pales"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Где применяется",
+      "h2": "Ограничение, на которое отвечает семейство",
+      "lede": "Площадки со смешанным парком, где машины с разъёмами CCS2 и GB/T делят одну станцию.",
+      "items": [
+        {
+          "title": "Типовое развёртывание",
+          "text": "Выбирается, когда ограничение площадки совпадает с семейством."
+        },
+        {
+          "title": "Что определяет вариант",
+          "text": "Мощность сети, график, климат и стандарт разъёма."
+        },
+        {
+          "title": "Что нам пришлёте",
+          "text": "Доступные кВА, число машин в день, время стоянки, температура."
+        },
+        {
+          "title": "Как поставляется",
+          "text": "В объёме под ключ: проект, разрешения, надзор, пуск, передача."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Смежные семейства",
+      "h2": "Часто заказывают вместе",
+      "items": [
+        {
+          "href": "/ru/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 кВт · модульная"
+        },
+        {
+          "href": "/ru/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 кВт · CCS2 + GB/T"
+        },
+        {
+          "href": "/ru/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Накопитель · 120 / 261 / 418 кВт·ч"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Следующий шаг",
+      "h2": "Пришлите параметры площадки — вернём конфигурацию Pales.",
+      "lede": "Доступной мощности, графика и климата достаточно.",
+      "actions": [
+        {
+          "label": "Запросить конфигурацию",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Смотреть объекты",
+          "href": "/ru/cases/"
+        }
+      ]
+    }
+  ]
+}

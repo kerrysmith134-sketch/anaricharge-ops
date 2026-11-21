@@ -1,0 +1,159 @@
+{
+  "slug": "agents",
+  "url": "/agents/",
+  "breadcrumb": "Platform & AI",
+  "title": "ANARI OS and the AI Agent Ecosystem | Anari Energy",
+  "meta": "ANARI OS runs charging sites in production. Around it, 18 agents cover acquisition, delivery, operations and growth — each labelled live, pilot or planned.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Platform & AI",
+      "h1": "An operation, not a hardware vendor.",
+      "lede": "Hardware is the part you can photograph. What keeps a site earning is the layer above it: monitoring, fault triage, maintenance dispatch and the commercial work that follows go-live. Two of those agents are already measurable: N-Tech cut support response from 4 hours to 90 seconds, and N-SDR delivers 5x lead-screening efficiency.",
+      "image": "/assets/img/v2/hero-agents-1920.webp",
+      "credit": "Installed unit in service · cold-climate site, Finland",
+      "actions": [
+        {
+          "label": "See what is live today",
+          "href": "#status"
+        },
+        {
+          "label": "Talk to us",
+          "href": "/inquiry"
+        }
+      ],
+      "facts": [
+        {
+          "value": "18",
+          "label": "agents in the ecosystem"
+        },
+        {
+          "value": "4h → 90s",
+          "label": "support response, N-Tech"
+        },
+        {
+          "value": "5×",
+          "label": "screening efficiency, N-SDR"
+        },
+        {
+          "value": "Q4 2025",
+          "label": "N-Tech in production since"
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "eyebrow": "Status before promises",
+      "h2": "What is actually running today",
+      "lede": "Most vendor pages describe an agent ecosystem as if all of it were live. This is the honest split: what is in production, what is in pilot, and what is still a plan.",
+      "items": [
+        {
+          "status": "Live",
+          "title": "Monitoring & remote support",
+          "text": "Fleet telemetry, alarm triage and remote intervention. Response measured in seconds rather than hours."
+        },
+        {
+          "status": "Live",
+          "title": "N-Tech maintenance",
+          "text": "Diagnostics and field dispatch in production since Q4 2025 — support response 4 hours to 90 seconds."
+        },
+        {
+          "status": "Live",
+          "title": "N-SDR demand generation",
+          "text": "Outbound screening at 5x lead-screening efficiency, supporting acquisition after go-live."
+        },
+        {
+          "status": "Pilot",
+          "title": "Design & sizing agents",
+          "text": "Site study and system design assistance — used on live projects, still under human sign-off for final specification."
+        },
+        {
+          "status": "Pilot",
+          "title": "Knowledge & training agents",
+          "text": "Operator training and documentation generation, being trialled with new site handovers."
+        },
+        {
+          "status": "Planned",
+          "title": "Autonomous energy trading",
+          "text": "Tariff-arbitrage and demand-response orchestration. Architected, not deployed — we are not claiming it as a feature today."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "How the four layers fit",
+      "h2": "Acquire → deliver → operate → grow",
+      "lede": "The agents are grouped by the business function they serve, not by the technology they use. A layer is only useful if the one before it produced something real.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Acquire",
+          "text": "Market scan, lead screening and commercial analysis before a site is chosen."
+        },
+        {
+          "no": "02",
+          "title": "Deliver",
+          "text": "Site study, design assistance and compliance tracking during the build."
+        },
+        {
+          "no": "03",
+          "title": "Operate",
+          "text": "Monitoring, fault triage, maintenance dispatch and operator training."
+        },
+        {
+          "no": "04",
+          "title": "Grow",
+          "text": "Demand generation and utilisation growth after the site is live."
+        },
+        {
+          "no": "05",
+          "title": "Orchestrate",
+          "text": "Cross-agent scheduling with a human approval gate on anything irreversible."
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "eyebrow": "Boundaries we set deliberately",
+      "h2": "Where a human still signs off",
+      "lede": "An operations system that can change tariffs, dispatch work orders or trade energy without a human in the loop is a liability. These gates exist on purpose.",
+      "items": [
+        {
+          "title": "Final equipment specification",
+          "text": "Agents draft; an engineer signs. A wrong rating is expensive and physical."
+        },
+        {
+          "title": "Tariff and pricing changes",
+          "text": "Proposed with a rationale and a simulation, applied by the operator."
+        },
+        {
+          "title": "Field dispatch",
+          "text": "Diagnosed and scheduled automatically; the site visit still needs a human decision."
+        },
+        {
+          "title": "Anything irreversible",
+          "text": "The same rule we apply to our own automation: no silent external action."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Next step",
+      "h2": "See the operations layer against your own site.",
+      "lede": "If you already operate chargers, the useful comparison is not a feature list — it is fault-to-fix time and what your data currently shows.",
+      "actions": [
+        {
+          "label": "Start a project",
+          "href": "/inquiry"
+        },
+        {
+          "label": "How ANARI OS is delivered",
+          "href": "/turnkey/anari-os"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "ru/products/castor",
+  "url": "/ru/products/castor.html",
+  "breadcrumb": "Castor",
+  "locale": "ru",
+  "title": "Castor — настенный DC-бокс | Anari",
+  "meta": "Castor: настенный DC-бокс, 20–40 кВт. Полный цикл: проект, поставка, пуск, эксплуатация. Anari. Anari. Anari. Anari. Anari. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/castor"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/castor"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/castor"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Продукт · Castor",
+      "h1": "Castor — настенный DC-бокс, 20–40 кВт",
+      "lede": "Депо, мастерские и служебные зоны, где машины стоят часами, а не минутами.",
+      "image": "/assets/img/products/v2/castor-20-40kw.webp",
+      "image1024": "/assets/img/products/v2/castor-20-40kw-1024.webp",
+      "imageAlt": "Castor — фото продукта",
+      "note": "Параметры приведены в оригинальной нотации изготовителя; вариант определяется ограничением вашей площадки.",
+      "actions": [
+        {
+          "label": "Запросить конфигурацию",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Полные характеристики",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Характеристики",
+      "h2": "Castor — характеристики",
+      "lede": "Опубликованная конфигурация.",
+      "rows": [
+        {
+          "k": "Выходная мощность DC",
+          "v": "20 kW (single gun) · 30/40 kW (dual gun)"
+        },
+        {
+          "k": "Разъёмы",
+          "v": "CCS2 or GB/T, 5 m cable"
+        },
+        {
+          "k": "Выходное напряжение",
+          "v": "DC 200–1000 V"
+        },
+        {
+          "k": "Аутентификация",
+          "v": "Plug and charge / RFID / app"
+        },
+        {
+          "k": "Степень защиты",
+          "v": "IP54 · IK08"
+        },
+        {
+          "k": "Рабочая температура",
+          "v": "−30 °C to +70 °C"
+        },
+        {
+          "k": "Монтаж",
+          "v": "Wall-mounted or floor pedestal"
+        },
+        {
+          "k": "Сертификация",
+          "v": "CE; IEC 61851, IEC 62196, ISO 15118-3, CHAdeMO 1.2"
+        }
+      ],
+      "caption": "Castor"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Где применяется",
+      "h2": "Ограничение, на которое отвечает семейство",
+      "lede": "Депо, мастерские и служебные зоны, где машины стоят часами, а не минутами.",
+      "items": [
+        {
+          "title": "Типовое развёртывание",
+          "text": "Выбирается, когда ограничение площадки совпадает с семейством."
+        },
+        {
+          "title": "Что определяет вариант",
+          "text": "Мощность сети, график, климат и стандарт разъёма."
+        },
+        {
+          "title": "Что нам пришлёте",
+          "text": "Доступные кВА, число машин в день, время стоянки, температура."
+        },
+        {
+          "title": "Как поставляется",
+          "text": "В объёме под ключ: проект, разрешения, надзор, пуск, передача."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Смежные семейства",
+      "h2": "Часто заказывают вместе",
+      "items": [
+        {
+          "href": "/ru/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 кВт · модульная"
+        },
+        {
+          "href": "/ru/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 кВт · CCS2 + GB/T"
+        },
+        {
+          "href": "/ru/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Накопитель · 120 / 261 / 418 кВт·ч"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Следующий шаг",
+      "h2": "Пришлите параметры площадки — вернём конфигурацию Castor.",
+      "lede": "Доступной мощности, графика и климата достаточно.",
+      "actions": [
+        {
+          "label": "Запросить конфигурацию",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Смотреть объекты",
+          "href": "/ru/cases/"
+        }
+      ]
+    }
+  ]
+}

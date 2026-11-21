@@ -1,0 +1,103 @@
+{
+  "slug": "es/cases/bus-depot-czechia",
+  "url": "/es/cases/bus-depot-czechia.html",
+  "breadcrumb": "Cochera de 12 puestos: se juzga a las 06:40, no ",
+  "locale": "es",
+  "title": "Cochera de 12 puestos: se juzga a las 06:40, no por kWh  | A",
+  "meta": "Un operador de servicios regulares de autobús encargó doce cargadores DC de 120 kW de dos pistolas en mayo de 2026 y los tuvo energizados en Detalles y especifi",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/bus-depot-czechia"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/bus-depot-czechia"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/bus-depot-czechia"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Caso",
+      "h1": "Cochera de 12 puestos: se juzga a las 06:40, no por kWh al día",
+      "lede": "Un operador de servicios regulares de autobús encargó doce cargadores DC de 120 kW de dos pistolas en mayo de 2026 y los tuvo energizados en julio. Son 24 conectores DC desde 12 acometidas: suficiente para cubrir el pico de la mañana sin pagar una ampliación de conexión.",
+      "image": "/assets/img/v2/scene-fleet-1280.webp",
+      "credit": "La versión completa del análisis está en inglés",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Todos los proyectos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/bus-depot-czechia"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Análisis",
+      "h2": "Restricción → solución → resultado",
+      "lede": "El análisis técnico completo, con fórmulas y tablas, está en la página en inglés.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Restricción",
+          "text": "Pico de horario: doce autobuses deben salir a la vez por la mañana."
+        },
+        {
+          "no": "02",
+          "title": "Qué hicimos",
+          "text": "Reparto de potencia entre pistolas en lugar de ampliar la acometida."
+        },
+        {
+          "no": "03",
+          "title": "Resultado",
+          "text": "24 conectores DC desde 12 acometidas; pico de la mañana cubierto sin ampliar la conexión."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Parámetros del sitio",
+      "h2": "Cochera de 12 puestos: se juzga a  — parámetros",
+      "rows": [
+        {
+          "k": "Dimensionar para la media",
+          "v": "Cheapest on paper. Produces a site that fails precisely when it is needed, because average demand is not what a depot presents at 05:30."
+        },
+        {
+          "k": "Size for the peak without sharing",
+          "v": "Technically correct, commercially difficult. Two dozen dedicated high-power bays means a grid connection the operator cannot justify for the other twenty hours of the day."
+        },
+        {
+          "k": "Size for the peak with sharing",
+          "v": "What was built: fewer cabinets, more connectors, output allocated by the cabinet rather than fixed by the cable."
+        }
+      ],
+      "caption": "Cochera de 12 puestos: se juzga a las 06:40, no po"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Un sitio parecido? Envíe los datos.",
+      "lede": "Basta con el país, la potencia disponible y cómo operará el sitio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/bus-depot-czechia"
+        }
+      ]
+    }
+  ]
+}

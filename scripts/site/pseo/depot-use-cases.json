@@ -1,0 +1,369 @@
+{
+ "_comment": "F3 场站场景页。每个场景锚定一类真实约束 + 可核对的产品/案例事实；禁止写无事实支撑的数字。",
+ "family": "depot-use-cases",
+ "base_path": "/depot",
+ "base_url": "https://www.anaricharge.com",
+ "date_modified": "2026-11-07",
+ "pages": [
+  {
+   "slug": "bus-depot-charging",
+   "power": "Bus depots",
+   "product": "Fora",
+   "title": "Bus Depot Charging: Size for the Worst Night",
+   "meta": "A bus depot is a queue problem, not a power problem. How to size DC charging so the last bus out still leaves on time, and where storage beats a bigger supply.",
+   "h1": "Bus depot charging: sizing for the worst night",
+   "eyebrow": "Site type · bus depot",
+   "lede": "A depot does not fail on an average night. It fails on the night two buses arrive late, the same four bays are free, and every one of them needs to leave on schedule. That is a queue design problem before it is a power problem.",
+   "tldr_label": "In brief",
+   "tldr": "Depot charging is governed by the tightest window, not the daily average. Two levers decide whether it works: how many dispensers serve the peak window, and whether a peak shaving system lets you avoid a supply upgrade. Our split system Fora feeds up to 16 dispensers from one cabinet, and liquid-cooled storage at 120, 261 or 418 kWh can shave the peak instead of raising the connection.",
+   "facts": [
+    [
+     "16",
+     "Dispensers per Fora system"
+    ],
+    [
+     "360–960 kW",
+     "Fora cabinet range"
+    ],
+    [
+     "120–418 kWh",
+     "Storage options for peak shaving"
+    ],
+    [
+     "96%",
+     "Peak efficiency, Vulco line"
+    ]
+   ],
+   "sections": [
+    [
+     "Start from the worst night, not the timetable average",
+     "<p>Take the night with the most simultaneous arrivals, subtract the bays that are already occupied, and that remainder is your design load. Most depot projects that later fail were sized on the daily average, because the average hides the two-hour window where every vehicle needs to be ready at once.</p><p>Once the peak window is known, the question becomes how many dispensers must be live during it. A split system is the practical answer at scale: one cabinet feeds up to 16 dispensers, so the electrical room does not need to grow with the bay count.</p>"
+    ],
+    [
+     "Storage often beats a supply upgrade",
+     "<p>Depots are the clearest case for peak shaving. The load is concentrated in a known window and predictable, which is exactly what storage is good at. A liquid-cooled unit at 120, 261 or 418 kWh, rated −35 °C to +55 °C in an IP55 outdoor enclosure, can carry the peaks and let the site stay on its existing connection.</p><p>We treat that as a commercial decision, not a technical one: compare the cost of the storage against the cost and the delay of a grid upgrade. In constrained markets the delay usually decides it.</p>"
+    ],
+    [
+     "What to put in the specification",
+     "<p>Ask for the peak-window load calculation, the number of dispensers live in that window, the derating behaviour at your summer ambient, and the storage sizing basis if storage is proposed. A depot plan without the worst-night figure is a plan for a different depot.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How do I size charging for a bus depot?",
+     "Start from the worst night: the maximum simultaneous arrivals minus occupied bays. That peak-window load, not the daily average, sets the dispenser count and the supply requirement. Storage can then be compared against a supply upgrade on cost and on delay."
+    ],
+    [
+     "Can storage avoid a grid upgrade at a depot?",
+     "Often, because depot load is concentrated in a known window and predictable. Liquid-cooled storage at 120, 261 or 418 kWh, rated −35 °C to +55 °C and IP55 outdoor, can shave the peak. Whether it wins depends on the upgrade cost and, usually, the upgrade delay."
+    ],
+    [
+     "How many dispensers can one cabinet serve?",
+     "The Fora split system supports up to 16 dispensers from one cabinet across its 360–960 kW range, so the electrical room does not grow with the bay count."
+    ]
+   ],
+   "internal": [
+    [
+     "/cost/360-kw-dc-fast-charging-station",
+     "the 360 kW band"
+    ],
+    [
+     "/products/fora",
+     "Fora 360–960 kW"
+    ],
+    [
+     "/data/hot-climate-charging",
+     "hot-climate field observations"
+    ]
+   ]
+  },
+  {
+   "slug": "highway-corridor-charging",
+   "power": "Corridor sites",
+   "product": "Vulco",
+   "title": "Highway Corridor Charging: Why Commissioning Needs Presence",
+   "meta": "A corridor site has no local operator. What that changes about power choice, commissioning and first response, from our Romanian highway delivery at 180 kW.",
+   "h1": "Highway corridor charging: no local operator, no second chance",
+   "eyebrow": "Site type · highway corridor",
+   "lede": "A corridor site is judged by a driver who has no alternative. There is no local operator to walk over when a unit misbehaves, which makes commissioning and first response part of the product.",
+   "tldr_label": "In brief",
+   "tldr": "On our Romanian highway delivery we used 180 kW Vulco units in two-gun and three-gun configurations, with an Anari engineer on site for commissioning. Corridor work needs presence at start-up and a first-response plan before opening, not remote guidance. Vulco spans 60–480 kW at 96% peak efficiency, so the same platform grows by module swap later.",
+   "facts": [
+    [
+     "180 kW",
+     "Vulco on the Romanian corridor"
+    ],
+    [
+     "On-site",
+     "Engineer commissioning"
+    ],
+    [
+     "96%",
+     "Vulco peak efficiency"
+    ],
+    [
+     "~70% less",
+     "120→480 kW module swap"
+    ]
+   ],
+   "sections": [
+    [
+     "The failure mode is not hardware, it is absence",
+     "<p>Corridor outages are rarely a charger design problem. They are a nobody-is-local problem: a connector left latched, a payment terminal misconfigured, a protection trip that needs a person. On our Romanian highway deployment — the first Anari delivery in the country — an engineer was on site for commissioning rather than guiding it remotely, precisely because a remote handover at a corridor site is not a handover.</p>"
+    ],
+    [
+     "Power choice on a corridor",
+     "<p>180 kW is our corridor figure: fast enough that a passing driver accepts the stop, small enough that the supply conversation does not stall the project. Vulco covers 60–480 kW at 96% peak efficiency, and the 120→480 kW step is a module swap costing roughly 70% less than replacing the unit, so opening power is not the site's ceiling.</p>"
+    ],
+    [
+     "What to write into the contract",
+     "<p>Commissioning method and who attends, the first-response time and who provides it, the spare parts held locally, and the remote diagnostics available. A corridor contract that specifies hardware but not response is only half a contract.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Why does commissioning matter more on a highway site?",
+     "Because there is no local operator to correct a misconfigured start-up. On our Romanian highway delivery an Anari engineer attended commissioning on site; a corridor site cannot be handed over remotely and then staffed by nobody."
+    ],
+    [
+     "What power level suits a highway corridor?",
+     "180 kW is our corridor figure — fast enough for a passing driver, small enough that the supply does not stall the project. Vulco covers 60–480 kW, so the same platform can grow by module swap."
+    ],
+    [
+     "Can a corridor site grow after opening?",
+     "Yes. Moving from 120 kW to 480 kW on Vulco is a power-module swap costing about 70% less than replacing the charger, which is what makes a phased corridor build viable."
+    ]
+   ],
+   "internal": [
+    [
+     "/cases/romania-highway",
+     "Romanian highway deployment"
+    ],
+    [
+     "/cost/180-kw-dc-fast-charging-station",
+     "the 180 kW band"
+    ],
+    [
+     "/products/vulco",
+     "Vulco 60–480 kW"
+    ]
+   ]
+  },
+  {
+   "slug": "fleet-depot-charging",
+   "power": "Fleet depots",
+   "product": "Castor",
+   "title": "Fleet Depot Charging: Modular Beats Monumental",
+   "meta": "Fleet depots change shape as the fleet changes. Why a modular DC platform and a wall-mounted starting band keep a depot from being rebuilt every two years.",
+   "h1": "Fleet depot charging: build for the fleet you will have",
+   "eyebrow": "Site type · fleet depot",
+   "lede": "A fleet depot is not built once. Vehicles are added, routes change, and the charging layout that fitted last year is short this year. The design objective is to make each of those changes cheap.",
+   "tldr_label": "In brief",
+   "tldr": "Start with a wall-mounted DC band so the first year needs no pad and no supply upgrade: Castor covers 20–40 kW over 200–1000 V, certified to IEC 61851, IEC 62196, ISO 15118-3 and CHAdeMO 1.2. When the fleet outgrows it, the escape route matters more than the opening specification — Vulco reaches 480 kW by power-module swap at roughly 70% less than replacing the unit.",
+   "facts": [
+    [
+     "20–40 kW",
+     "Castor wall-mounted band"
+    ],
+    [
+     "4 standards",
+     "IEC 61851/62196, ISO 15118-3, CHAdeMO 1.2"
+    ],
+    [
+     "200–1000 V",
+     "Output range"
+    ],
+    [
+     "~70% less",
+     "Module-swap upgrade path"
+    ]
+   ],
+   "sections": [
+    [
+     "The first year should need no civil works",
+     "<p>Fleet depots usually start with a small number of vehicles and a tight budget. That argues for starting in the wall-mounted band: Castor covers 20–40 kW over 200–1000 V, mounts on a wall rather than a pad, and needs no canopy. The saving is not the hardware, it is the civil works and the supply upgrade you defer.</p>"
+    ],
+    [
+     "Design the escape route before the first unit",
+     "<p>The expensive part is not moving from 20 to 40 kW in the same band — it is discovering at year two that the trench and the supply cannot support anything above 40 kW. Cable and trench capacity should be sized for the realistic five-year load, even if the first hardware is small.</p><p>Where the platform allows it, prefer a modular line whose upgrade is a module swap rather than a replacement: on Vulco the 120→480 kW step costs about 70% less than a new unit.</p>"
+    ],
+    [
+     "Mixed standards, one site",
+     "<p>Fleet depots frequently hold vehicles with different connector standards. Castor is certified to IEC 61851, IEC 62196, ISO 15118-3 and CHAdeMO 1.2, and the dual-standard DC lines carry CCS2 with GB/T. Checking that against the actual fleet list is a one-hour exercise that prevents a two-year compromise.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "What is the cheapest way to start charging a small fleet?",
+     "Usually the wall-mounted DC band. Castor covers 20–40 kW over 200–1000 V and mounts on a wall, so the first year needs no pad, no canopy and often no supply upgrade — the deferred civil works are the real saving."
+    ],
+    [
+     "How do I avoid rebuilding a fleet depot later?",
+     "Size the trench, cable and supply for the realistic five-year load even if the opening hardware is small. Where possible pick a platform whose upgrade is a module swap: on Vulco the 120→480 kW step costs about 70% less than replacing the charger."
+    ],
+    [
+     "Which connector standards should a mixed fleet depot support?",
+     "Match the specification to the fleet list. Castor is certified to IEC 61851, IEC 62196, ISO 15118-3 and CHAdeMO 1.2, and our dual-standard DC lines carry CCS2 with GB/T."
+    ]
+   ],
+   "internal": [
+    [
+     "/cost/40-kw-dc-fast-charging-station",
+     "the 40 kW band"
+    ],
+    [
+     "/products/castor",
+     "Castor 20–40 kW"
+    ],
+    [
+     "/markets/",
+     "market guides by country"
+    ]
+   ]
+  },
+  {
+   "slug": "off-grid-charging",
+   "power": "Off-grid sites",
+   "product": "BESS",
+   "title": "Off-Grid EV Charging: Storage First, Charger Second",
+   "meta": "Where there is no supply to upgrade, storage decides what the site can do. How to size storage for EV charging, and what rating to demand for harsh sites.",
+   "h1": "Off-grid EV charging: storage first, charger second",
+   "eyebrow": "Site type · weak or absent grid",
+   "lede": "On a grid-constrained site the charger is the easy part. What the site can actually deliver is decided by the storage behind it — its capacity, its thermal range, and how it behaves in the season that matters.",
+   "tldr_label": "In brief",
+   "tldr": "Size the storage from the sessions you must serve per day, not from the charger's nameplate. Our liquid-cooled units come in 120, 261 and 418 kWh, rated −35 °C to +55 °C in an IP55 outdoor enclosure and 7,000–10,000 cycles. On the charging side, our Cambodia site ran its first monsoon quarter with zero weather-related downtime.",
+   "facts": [
+    [
+     "120 / 261 / 418 kWh",
+     "Storage capacities"
+    ],
+    [
+     "7,000–10,000",
+     "Cycle life"
+    ],
+    [
+     "−35 to +55 °C",
+     "Operating range, IP55 outdoor"
+    ],
+    [
+     "0",
+     "Weather downtime, first monsoon (Cambodia)"
+    ]
+   ],
+   "sections": [
+    [
+     "Size from sessions per day, not from the charger",
+     "<p>The natural mistake is to pick a charger and then a battery just large enough to start it. The right direction is the reverse: decide how many sessions of what length the site must serve per day, then size storage for that energy, then pick the charger the storage can feed.</p><p>Our liquid-cooled units come in 120, 261 and 418 kWh with 7,000–10,000 cycles, and are rated −35 °C to +55 °C in an IP55 outdoor enclosure — the rating matters more than the capacity on sites that see real weather.</p>"
+    ],
+    [
+     "Weather is a specification, not a footnote",
+     "<p>Off-grid sites are usually weather-exposed by definition. Our Cambodia site — 2 × 180 kW plus 1 × 240 kW — completed its first monsoon quarter with zero weather-related downtime while holding full power above 35 °C. That is the kind of evidence worth requiring from a supplier, and it is why we publish the observations with their limits stated.</p>"
+    ],
+    [
+     "What to demand in writing",
+     "<p>Operating temperature range with the enclosure rating, cycle life at a stated depth of discharge, the round-trip efficiency figure, and what happens to output at the top of the temperature range. Anything quoted without those four is a brochure number.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How do I size battery storage for EV charging?",
+     "Start from the sessions the site must serve per day and their length, size the storage for that energy, then choose a charger the storage can feed. Our units come in 120, 261 and 418 kWh with 7,000–10,000 cycles."
+    ],
+    [
+     "What temperature range should storage be rated for?",
+     "Our liquid-cooled units are rated −35 °C to +55 °C in an IP55 outdoor enclosure. For weather-exposed sites that rating, and the enclosure class, matter more than the headline capacity."
+    ],
+    [
+     "Does weather actually cause charging downtime?",
+     "It can, which is why we publish the observations rather than promise uptime. Our Cambodia site completed its first monsoon quarter with zero weather-related downtime while holding full power above 35 °C."
+    ]
+   ],
+   "internal": [
+    [
+     "/data/hot-climate-charging",
+     "hot-climate field observations"
+    ],
+    [
+     "/markets/cambodia",
+     "EV charging in Cambodia"
+    ],
+    [
+     "/cost/240-kw-dc-fast-charging-station",
+     "the 240 kW band"
+    ]
+   ]
+  },
+  {
+   "slug": "hotel-destination-charging",
+   "power": "Destinations",
+   "product": "Gaia",
+   "title": "Hotel and Destination Charging: Dwell Time Is the Spec",
+   "meta": "At a hotel the car sits for hours, so the spec is durability and simplicity, not kilowatts. What to choose for overnight sites, and when DC earns its place.",
+   "h1": "Hotel and destination charging: dwell time is the specification",
+   "eyebrow": "Site type · destinations",
+   "lede": "A hotel does not need speed. It needs a charger that survives years of use by guests who have never touched one before, at a power level the building can already supply.",
+   "tldr_label": "In brief",
+   "tldr": "For overnight and destination sites, AC is usually the right answer: Gaia covers 7.4, 11 and 22 kW with 20,000 mating cycles, which is the number that decides how the unit ages in guest hands. Add DC only where guests need a meaningful top-up in an hour or two — Castor starts at 20 kW and needs no pad.",
+   "facts": [
+    [
+     "7.4 / 11 / 22 kW",
+     "Gaia AC output"
+    ],
+    [
+     "20,000",
+     "Mating cycles"
+    ],
+    [
+     "20 kW",
+     "Castor DC entry point"
+    ],
+    [
+     "No pad",
+     "Wall-mounted DC option"
+    ]
+   ],
+   "sections": [
+    [
+     "Durability, not speed, is what fails at destinations",
+     "<p>Destination chargers are handled by people who charge twice a year. The wear is in the connector and the routine, not in the power electronics. Gaia is rated at 20,000 mating cycles — that is the figure to compare, because it is the component that gets used and abused.</p>"
+    ],
+    [
+     "Where a small DC unit earns its place",
+     "<p>Some guests genuinely need a top-up rather than an overnight charge: a day visitor, a shuttle, a late arrival leaving early. Castor starts at 20 kW and mounts on a wall, so a hotel can offer real DC without a pad, a canopy or a supply conversation.</p>"
+    ],
+    [
+     "What to specify",
+     "<p>Mating cycles, IP rating for outdoor posts, payment or access method that a first-time user can complete without staff, and who handles support calls. Hotels rarely have anyone on site who can debug a charger at 23:00.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Should a hotel install AC or DC charging?",
+     "Usually AC: cars sit for hours, so speed adds little. Gaia covers 7.4, 11 and 22 kW with 20,000 mating cycles. Add DC only where some guests need a real top-up in an hour or two — Castor starts at 20 kW with no pad required."
+    ],
+    [
+     "What wears out first on a destination charger?",
+     "In practice the connector and the routine, because guests who charge rarely are hard on both. That makes mating cycles the comparison figure — Gaia is rated at 20,000."
+    ],
+    [
+     "Can a hotel offer DC charging without civil works?",
+     "Yes, in the wall-mounted band. Castor covers 20–40 kW over 200–1000 V and mounts on a wall, so no pad and no canopy are needed."
+    ]
+   ],
+   "internal": [
+    [
+     "/products/gaia",
+     "Gaia 7.4–22 kW AC"
+    ],
+    [
+     "/products/castor",
+     "Castor 20–40 kW"
+    ],
+    [
+     "/cost/20-kw-dc-fast-charging-station",
+     "the 20 kW band"
+    ]
+   ]
+  }
+ ]
+}

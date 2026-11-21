@@ -1,0 +1,188 @@
+{
+  "slug": "es/index",
+  "url": "/es/",
+  "breadcrumb": "Inicio",
+  "title": "Infraestructura de carga llave en mano | Anari",
+  "meta": "Diseñamos, construimos y operamos estaciones de carga en 22 países: desde la decisión del emplazamiento hasta la operación de la red. Entrega llave en mano: est",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Carga llave en mano · sistemas de energía · operación",
+      "h1": "Un negocio de carga listo para operar.",
+      "lede": "Desde la decisión del emplazamiento y el diseño del sistema hasta el equipo, el montaje y la operación inteligente: un único socio responsable en 22 países.",
+      "image": "/assets/img/v2/hero-solutions-1920.webp",
+      "credit": "Instalación en servicio · cochera de 12 unidades, Chequia",
+      "actions": [
+        {
+          "label": "Planificar el proyecto",
+          "href": "/journey/"
+        },
+        {
+          "label": "Ver instalaciones",
+          "href": "/es/cases/"
+        }
+      ],
+      "facts": [
+        {
+          "value": "22",
+          "label": "países atendidos"
+        },
+        {
+          "value": "100+",
+          "label": "clientes desde 2021"
+        },
+        {
+          "value": "20–960 kW",
+          "label": "rango DC"
+        },
+        {
+          "value": "120–418 kWh",
+          "label": "BESS refrigerado por líquido"
+        }
+      ]
+    },
+    {
+      "type": "sceneGrid",
+      "eyebrow": "Elija el escenario",
+      "h2": "¿Qué está construyendo?",
+      "lede": "Cuatro contextos operativos, cuatro restricciones distintas. De ellas se deriva todo el diseño.",
+      "items": [
+        {
+          "href": "/es/solutions/",
+          "image": "/assets/img/v2/scene-commercial-640.webp",
+          "title": "Carga comercial",
+          "text": "Corredores y emplazamientos urbanos: el plazo lo marca la conexión, no el cargador."
+        },
+        {
+          "href": "/es/solutions/",
+          "image": "/assets/img/v2/scene-fleet-640.webp",
+          "title": "Flotas y cocheras",
+          "text": "Ventanas nocturnas y ciclos de servicio: el sitio debe aguantar la peor noche del año."
+        },
+        {
+          "href": "/es/solutions/",
+          "image": "/assets/img/v2/scene-offgrid-640.webp",
+          "title": "FV, almacenamiento y aislado",
+          "text": "Cuando la red no entrega la potencia, primero se almacena."
+        },
+        {
+          "href": "/es/solutions/",
+          "image": "/assets/img/v2/scene-destination-640.webp",
+          "title": "Destino y oficina",
+          "text": "La estancia larga cambia la decisión: importa el control de acceso, no los kW."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Un solo responsable",
+      "h2": "Cinco etapas desde el terreno hasta la red operativa",
+      "lede": "Cinco etapas, cada una con un responsable y un entregable. No hay que coordinar cinco proveedores.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Emplazamiento y mercado",
+          "text": "Si el sitio y el mercado sostienen el caso de negocio."
+        },
+        {
+          "no": "02",
+          "title": "Diseño del sistema",
+          "text": "Potencia, almacenamiento, layout y esquema unifilar."
+        },
+        {
+          "no": "03",
+          "title": "Equipos",
+          "text": "Familias y potencias elegidas contra la restricción real."
+        },
+        {
+          "no": "04",
+          "title": "Permisos y puesta en marcha",
+          "text": "Tramitación, aprobación de la utility, montaje y pruebas."
+        },
+        {
+          "no": "05",
+          "title": "Operación y crecimiento",
+          "text": "Monitorización, mantenimiento y generación de demanda."
+        }
+      ],
+      "action": {
+        "label": "Cómo funciona la entrega llave en mano",
+        "href": "/es/turnkey/"
+      }
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Equipos",
+      "h2": "Hardware para cada parte de la red",
+      "lede": "DC de 60 a 960 kW, AC de 7,4 a 22 kW y almacenamiento refrigerado por líquido.",
+      "items": [
+        {
+          "href": "/es/products/fora",
+          "image": "/assets/img/products/v2/fora-split-960kw-640.webp",
+          "name": "Fora",
+          "spec": "DC · 360–960 kW · split"
+        },
+        {
+          "href": "/es/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/es/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · CCS2 + GB/T"
+        },
+        {
+          "href": "/es/products/castor",
+          "image": "/assets/img/products/v2/castor-20-40kw-640.webp",
+          "name": "Castor",
+          "spec": "DC de pared · 20–40 kW"
+        },
+        {
+          "href": "/es/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Almacenamiento · 120 / 261 / 418 kWh"
+        }
+      ],
+      "action": {
+        "label": "Comparar familias",
+        "href": "/es/products/"
+      }
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Cuéntenos el emplazamiento. Le diremos qué es realmente construible.",
+      "lede": "La capacidad disponible, el clima, el ciclo de servicio y el modelo de negocio bastan para una primera evaluación.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/"
+    }
+  ]
+}

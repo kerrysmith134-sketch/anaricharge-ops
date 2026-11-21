@@ -1,0 +1,1441 @@
+{
+ "_comment": "F1 国别页 · 拉美批次 1 · 西语版（2026-11-09）。EN 规格 markets-latam.json 的逐页翻译，结构一致；只写运营条件与技术约束，不暗示未交付国家的已交付（仅 El Salvador 与 Peru 有站内证据）。",
+ "family": "markets-latam",
+ "base_path": "/markets",
+ "base_url": "https://www.anaricharge.com",
+ "date_modified": "2026-11-09",
+ "pages": [
+  {
+   "slug": "mexico",
+   "country": "México",
+   "region": "Norteamérica",
+   "eyebrow": "Mercado · Norteamérica",
+   "title": "Carga de VE en México: red de CFE, calor y nearshoring",
+   "meta": "El calor del desierto del norte, las colas de capacidad de CFE y las cadenas ligadas a EE. UU. deciden un sitio de carga en México. Qué especificar antes.",
+   "h1": "Carga de VE en México: capacidad de red, calor del desierto y el sitio de nearshoring",
+   "lede": "México se divide en dos problemas de diseño: un norte cálido y seco que atiende parques industriales, y un centro y sur húmedos. Ambos están limitados por lo mismo: la capacidad que CFE puede darte en el sitio.",
+   "tldr_label": "En resumen — México",
+   "tldr": "Trata la conexión como el proyecto. Las ventanas de capacidad de CFE definen el calendario; el calor ambiente del norte define el gabinete y la curva de reducción. Pide ambas cosas por escrito.",
+   "facts": [
+    [
+     "CFE",
+     "Conexión a la red nacional"
+    ],
+    [
+     "40 °C+",
+     "Punto de diseño del desierto norte"
+    ],
+    [
+     "CCS1 + CCS2",
+     "Ambos aparecen en campo"
+    ],
+    [
+     "Nearshoring",
+     "Motor de demanda industrial"
+    ]
+   ],
+   "sections": [
+    [
+     "La conexión define el proyecto, no el cargador",
+     "<p>En México la restricción vinculante rara vez es el equipo. Un sitio puede quedar liberado para construir mientras la solicitud de capacidad sigue en trámite ante CFE, y en esa brecha mueren los calendarios. Dimensiona la primera fase con la capacidad que realmente puedes obtener y luego amplía por módulo, no con obra civil nueva.</p><p>Pide a tu proveedor un documento que separe hardware, instalación y obra eléctrica. Si esos tres puntos vienen en una sola cifra, no puedes saber qué parte está esperando a la empresa de red.</p>"
+    ],
+    [
+     "Calor del desierto y la curva de reducción",
+     "<p>Los estados del norte pasan largas temporadas por encima de 40 °C. Un equipo cotizado a 25 °C no dice nada de julio. Solicita la curva de reducción en función de la temperatura ambiente y la potencia sostenida en tu punto de diseño, no la cifra de placa.</p><p>La misma pregunta de especificación aplica a gabinetes y cables. El calor envejece los conectores más rápido que la electrónica, y por eso el daño en los conectores aparece antes que la falla electrónica.</p>"
+    ],
+    [
+     "Dos cadenas de suministro, no una",
+     "<p>México está junto al ecosistema norteamericano de conectores y dentro de un modelo de servicio latinoamericano. Eso significa que hay equipos CCS1 en campo mientras también circulan vehículos CCS2. Define la mezcla de conectores a partir de los vehículos que esperas, no del estándar que prefieres.</p><p>Para refacciones y servicio, la pregunta práctica es cuántas horas necesita un técnico para llegar al sitio. Los corredores industriales del norte son más fáciles que el sur húmedo; cotiza el radio de servicio antes de cotizar el equipo.</p>"
+    ],
+    [
+     "Pago, permisos y la cadena de suministro fronteriza",
+     "<p>El pago es la parte de un proyecto mexicano que más se supone y menos se verifica. Conviven tarjetas de flota, transferencias bancarias y pago por aplicación, y la ruta de liquidación que espera el dueño del sitio suele ser la que ya usan sus clientes. Acuérdala antes del pedido de equipo, porque readaptar un modelo de pago cuesta más que elegirlo.</p><p>Los permisos siguen al municipio y en la inspección eléctrica es donde los proyectos pierden semanas. Pide el paquete de permisos como entregable, no como seguimiento. La cadena fronteriza ayuda con el plazo del hardware, pero no acorta la inspección local.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Registra cinco cosas durante el estudio: la capacidad de CFE realmente disponible y su fecha de aprobación, la temperatura ambiente de diseño de verano del sitio, la mezcla de conectores de los vehículos que esperas, la distancia de servicio desde la base técnica más cercana y el método de pago que el dueño del sitio ya acepta.</p><p>Esas cinco respuestas deciden el gabinete, el nivel de potencia, la configuración de conectores, el contrato de servicio y el diseño de liquidación. Ninguna sale de una ficha técnica.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Qué estándar de conector debe usar un sitio mexicano?",
+     "Tanto CCS1 como CCS2 aparecen en campo. Decide a partir de la flota de vehículos que esperas y no de un valor por defecto; una configuración de salida con doble estándar cuesta menos que una readaptación. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cuánto tarda una solicitud de capacidad ante CFE?",
+     "Varía por región y por la carga que solicites. Planifica la primera fase con una capacidad que puedas obtener razonablemente y trata cada fase posterior como una solicitud separada. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿El calor del desierto es un tema de garantía?",
+     "Solo si la especificación lo ignora. Pide por escrito la potencia sostenida a tu temperatura de diseño local y la curva de reducción. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ]
+   ]
+  },
+  {
+   "slug": "guatemala",
+   "country": "Guatemala",
+   "region": "Centroamérica",
+   "eyebrow": "Mercado · Centroamérica",
+   "title": "Carga de VE en Guatemala: altiplano, hidro y costa húmeda",
+   "meta": "Guatemala opera con una red de base hidroeléctrica entre altiplano volcánico y costa húmeda. La altitud, la lluvia y la conexión deciden el sitio de carga.",
+   "h1": "Carga de VE en Guatemala: altitud del altiplano, energía hidroeléctrica y una costa húmeda",
+   "lede": "Guatemala es pequeño pero no uniforme: altiplano volcánico, costa caribeña húmeda y una red de base hidroeléctrica. Un sitio especificado para la capital no está especificado para la costa.",
+   "tldr_label": "En resumen — Guatemala",
+   "tldr": "Diseña para la altitud y la lluvia tanto como para el calor. La oferta hidroeléctrica significa que la energía está; lo que limita un sitio es la capacidad de distribución local y la distancia de servicio.",
+   "facts": [
+    [
+     "Hidrodominante",
+     "Matriz de generación"
+    ],
+    [
+     "1,500 m+",
+     "Altitud de diseño del altiplano"
+    ],
+    [
+     "Costa húmeda",
+     "Control de ingreso de agua"
+    ],
+    [
+     "SIEPAC",
+     "Interconexión regional"
+    ]
+   ],
+   "sections": [
+    [
+     "La altitud es una condición eléctrica",
+     "<p>Los sitios del altiplano están por encima de 1,500 m y algunos corredores suben bastante más. La altitud cambia la disipación de calor y las distancias de aislamiento, así que las potencias nominales que están bien a nivel del mar deben revisarse contra la altura de instalación. Pide la reducción por altitud, no solo la reducción por temperatura.</p><p>El aire más frío ayuda al cargador y no perjudica nada, hasta que al gabinete se le pide evacuar calor con menor densidad de aire. Ambos efectos deben calcularse juntos.</p>"
+    ],
+    [
+     "Una red hidroeléctrica con límites locales",
+     "<p>La generación de Guatemala está dominada por hidroeléctrica y el país participa en la interconexión regional SIEPAC. A nivel nacional la energía está disponible; a nivel local, el transformador de distribución de tu sitio es la restricción real. Esa distinción importa porque desplaza el costo de la generación a la obra civil.</p><p>Para cualquier sitio por encima de unos 100 kW, obtén la potencia del transformador y el nivel de cortocircuito disponible antes de fijar el número de cargadores.</p>"
+    ],
+    [
+     "Lluvia, no solo temperatura",
+     "<p>La costa caribeña recibe lluvias fuertes durante meses seguidos. La protección contra ingreso no es una formalidad de ficha técnica: la entrada de cables, el asiento de los conectores y el drenaje del gabinete deciden si la estación sigue en línea durante la temporada húmeda.</p><p>Planifica el modelo de servicio en función de la distancia. Un técnico que cubre altiplano y costa pasa más tiempo conduciendo que trabajando, así que el kit de refacciones importa tanto como el tiempo de respuesta.</p>"
+    ],
+    [
+     "Suelo, comunidad y acceso en el altiplano",
+     "<p>Los sitios del altiplano a menudo están en terrenos con propiedad estratificada o acuerdos comunales, y el acceso para la construcción difiere del acceso para la operación. Un cargador instalado antes de resolver el tema del suelo se convierte en un activo que nadie puede atender. Confirma los derechos de acceso para vehículos pesados y para una camioneta de servicio antes de la puesta en marcha.</p><p>El terreno volcánico también encarece la nivelación y el drenaje frente a las estimaciones de sitio plano que se usan en las propuestas. Presupuesta la obra civil desde el estudio, no desde una plantilla.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: la elevación del sitio, la exposición en temporada húmeda de la posición propuesta para el gabinete, la potencia del transformador y la capacidad libre, los derechos de suelo y acceso, y la distancia a una base de servicio.</p><p>En terreno de altiplano, el acceso para una camioneta de servicio es un requisito de diseño. Si al gabinete solo se llega en tracción total durante la temporada húmeda, eso pertenece al plan de operación.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿La altitud cambia la selección del cargador?",
+     "Sí. Por encima de unos 1,500 m la densidad del aire baja y cambia la disipación de calor. Pide la cifra de reducción por altitud para la altura exacta del sitio. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿La red es fiable para carga rápida DC?",
+     "La generación es mayoritariamente hidroeléctrica y hay interconexión regional. El límite habitual es la capacidad de distribución local, que hay que estudiar sitio por sitio. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué pasa con la exposición en temporada de huracanes?",
+     "Para el equipo en sí, el ingreso de agua y el drenaje importan más que el viento. Especifica explícitamente la entrada de cables y el drenaje del gabinete. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ]
+   ]
+  },
+  {
+   "slug": "honduras",
+   "country": "Honduras",
+   "region": "Centroamérica",
+   "eyebrow": "Mercado · Centroamérica",
+   "title": "Carga de VE en Honduras: calor, tormentas y red limitada",
+   "meta": "Honduras combina calor tropical, una larga temporada de tormentas y una red de distribución que limita la carga rápida. Qué decide un sitio y qué especificar.",
+   "h1": "Carga de VE en Honduras: calor tropical, temporada de tormentas y profundidad de conexión",
+   "lede": "Honduras es un mercado cálido y húmedo, con una temporada de tormentas que pone a prueba el ingreso de agua y una red de distribución que decide cuánta potencia puede tomar realmente un sitio.",
+   "tldr_label": "En resumen — Honduras",
+   "tldr": "El ingreso de agua y el transformador de distribución son las dos restricciones. Trata la disponibilidad en temporada de tormentas como un requisito de diseño y no como un problema de mantenimiento.",
+   "facts": [
+    [
+     "Tropical",
+     "Cálido y húmedo todo el año"
+    ],
+    [
+     "Temporada de tormentas",
+     "Exposición jun–nov"
+    ],
+    [
+     "Limitado por distribución",
+     "Restricción de capacidad del sitio"
+    ],
+    [
+     "SIEPAC",
+     "Interconexión regional"
+    ]
+   ],
+   "sections": [
+    [
+     "Diseñar para la temporada húmeda",
+     "<p>Durante casi la mitad del año Honduras está húmeda, y los sitios que fallan suelen ser aquellos donde el agua llegó a un prensaestopas o a un conector. La protección contra ingreso debe especificarse en el gabinete, en la entrada de cables y en el soporte del conector, no solo en la etiqueta del envolvente principal.</p><p>Pide el plan de drenaje y el recorrido de cables a nivel de suelo. El ingreso de agua es un detalle civil tanto como un detalle de equipo.</p>"
+    ],
+    [
+     "El transformador decide el tamaño de la fase",
+     "<p>La carga rápida exige una potencia para la que muchos sitios nunca fueron cableados. Antes de comprometer un número de cargadores, establece la potencia del transformador existente, la capacidad libre y el costo de una ampliación. Ese único estudio suele cambiar el diseño de la primera fase.</p><p>Una plataforma modular y dividida permite que la primera fase coincida con la capacidad que tienes y que amplíes después añadiendo módulos en lugar de reemplazar equipos.</p>"
+    ],
+    [
+     "El alcance del servicio es el costo oculto",
+     "<p>Fuera del corredor urbano principal, el tiempo de viaje del técnico domina la factura de servicio. Para un primer sitio, pregunta qué refacciones se guardan localmente y cuál es la ventana de respuesta realista, por escrito.</p><p>El calor y la humedad también envejecen los conectores más rápido que la electrónica. Presupuesta el reemplazo de conectores desde el primer año en lugar de tratarlo como un evento de garantía.</p>"
+    ],
+    [
+     "Clientes ancla: puertos, flotas y empresas de red",
+     "<p>Los proyectos que funcionan en Honduras tienen un ancla con nombre: un operador portuario, una flota de distribución o un negocio vinculado a la empresa eléctrica. Un ancla aporta un ciclo de trabajo predecible, que es lo que hace que valga la pena pagar por una conexión estudiada. Sin ella, un sitio público es una apuesta a una demanda que el mercado todavía no muestra.</p><p>Pregunta quién es el primer usuario que paga antes de preguntar cuánto cuesta el cargador. Esa sola pregunta reordena la mayoría de los planes de proyecto.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: la potencia del transformador existente y su capacidad libre, la ruta de drenaje en temporada de tormentas, la mezcla de conectores de la flota esperada, el esquema local de refacciones y el cliente ancla con nombre.</p><p>Si no hay cliente ancla, detente y revisa el caso de negocio. Un sitio público en este mercado depende de una utilización que debe demostrarse, no suponerse.</p><p>Por último, escribe cómo se verá el sitio en la temporada húmeda y no en la seca. Las fotografías de la visita no son evidencia; un plan de drenaje y una especificación de ingreso sí lo son.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Es Honduras un primer mercado viable?",
+     "Es viable para sitios de flota y de corredor donde existe un cliente ancla concreto. Es un mal mercado para carga pública especulativa sin una conexión estudiada. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cuánta potencia soporta un sitio típico?",
+     "Es una pregunta que se responde sitio por sitio. Estudia el transformador existente y la capacidad libre antes de elegir un número de cargadores. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué falla primero en este clima?",
+     "Los conectores y las terminaciones de cable, no la electrónica de potencia. Especifica el reemplazo de conectores como partida programada. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ]
+   ]
+  },
+  {
+   "slug": "el-salvador",
+   "country": "El Salvador",
+   "region": "Centroamérica",
+   "eyebrow": "Mercado · Centroamérica",
+   "title": "Carga de VE en El Salvador: del primer sitio al modelo",
+   "meta": "La red pequeña y geotérmica de El Salvador es donde entregamos nuestro primer sitio en Latinoamérica. Qué cambió el despliegue en el modelo de servicio.",
+   "h1": "Carga de VE en El Salvador: de un primer sitio a un modelo de servicio repetible",
+   "lede": "El Salvador es compacto, rico en geotermia y lo bastante pequeño para que un solo sitio defina el modelo de servicio de la región. Aquí entregamos nuestro primer despliegue latinoamericano.",
+   "tldr_label": "En resumen — El Salvador",
+   "tldr": "Un mercado compacto con una red de base geotérmica. La lección del despliegue no fue sobre electrónica de potencia; fue sobre integración de pago y alcance del servicio local.",
+   "facts": [
+    [
+     "Primer sitio LatAm",
+     "Despliegue entregado"
+    ],
+    [
+     "Geotermia",
+     "Participación relevante en generación"
+    ],
+    [
+     "Compacto",
+     "Radio de servicio corto"
+    ],
+    [
+     "Integración de pago",
+     "Modelo local necesario"
+    ]
+   ],
+   "sections": [
+    [
+     "Por qué el primer sitio se ubicó aquí",
+     "<p>La red de El Salvador es pequeña y la generación geotérmica le da un suministro comparativamente estable. Para un primer despliegue latinoamericano, esa combinación reduce dos riesgos a la vez: la conexión es manejable y la matriz de generación es menos volátil.</p><p>El país también es compacto. Una sola base de servicio puede cubrir el territorio, lo que importa cuando el almacén de refacciones más cercano está en otro continente.</p>"
+    ],
+    [
+     "Lo que el despliegue enseñó de verdad",
+     "<p>Las preguntas de hardware tenían respuesta de antemano. Las difíciles eran locales: cómo paga un conductor, cómo concilia sus ingresos el dueño del sitio y quién contesta el teléfono a las 22:00. La integración de pago fue la parte que necesitó rediseño y no traducción.</p><p>Esa es la pieza que hoy tratamos como entregable de primera categoría para la región: una ruta de pago y liquidación que coincide con la práctica local y se acuerda antes de colocar el pedido de equipo.</p>"
+    ],
+    [
+     "Construir la base regional por debajo de la línea base",
+     "<p>Latinoamérica es una región prioritaria para nosotros, y un primer sitio solo sirve si se convierte en base para los siguientes. El trabajo siguiente es alcance de servicio, un socio local para obra civil y una mezcla de conectores que refleje los vehículos que realmente llegan.</p><p>Si estás evaluando un sitio en la región, la primera conversación debería ser sobre quién le da servicio y cómo fluye el dinero, y después sobre el cargador.</p>"
+    ],
+    [
+     "Qué necesitaría un segundo sitio",
+     "<p>El primer despliegue respondió la pregunta del equipo. Un segundo sitio pondría a prueba el modelo de servicio: si un socio local puede hacer la respuesta de primera línea, si se guardan conectores de repuesto en el país y si la ruta de pago escala más allá de una ubicación.</p><p>Esa es la secuencia que recomendamos para la región: probar el modelo de operación en un sitio y luego replicarlo. Replicar equipos antes de probar el modelo de servicio es como se estancan los despliegues regionales.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: la capacidad de conexión disponible, el método de pago que los conductores locales ya usan, el socio local para obra civil, el plan de tenencia de refacciones y el compromiso de tiempo de respuesta que realmente puedes dotar de personal.</p><p>El primer despliegue mostró que los últimos tres deciden si un sitio sigue siendo útil después de la puesta en marcha. Deberían acordarse por escrito antes de pedir el equipo.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Tienen un sitio entregado en El Salvador?",
+     "Sí: es nuestro primer despliegue en Latinoamérica y es el caso que usamos como referencia para la región. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Significa eso que tienen proyectos en toda Latinoamérica?",
+     "No. Latinoamérica es una región prioritaria, pero la evidencia pública cubre hoy un sitio entregado. Pregúntanos qué países tienen despliegues documentados antes de planificar sobre esa base. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué es lo primero que hay que resolver para un sitio nuevo?",
+     "La ruta de pago y liquidación, y quién presta el servicio local. Ambas son más difíciles de cambiar después de la puesta en marcha que la elección del equipo. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ]
+   ]
+  },
+  {
+   "slug": "nicaragua",
+   "country": "Nicaragua",
+   "region": "Centroamérica",
+   "eyebrow": "Mercado · Centroamérica",
+   "title": "Carga de VE en Nicaragua: calor tropical y servicio escaso",
+   "meta": "Nicaragua combina una matriz geotérmica e hidroeléctrica con calor tropical y una red de servicio escasa. Cómo dimensionar un primer sitio de carga.",
+   "h1": "Carga de VE en Nicaragua: oferta geotérmica, calor tropical y servicio escaso",
+   "lede": "Nicaragua tiene una matriz de generación inusualmente limpia para la región, pero una red de servicio escasa y condiciones tropicales hacen que el modelo de soporte sea la mitad difícil de un proyecto.",
+   "tldr_label": "En resumen — Nicaragua",
+   "tldr": "La generación no es la restricción. Lo son la logística de servicio y el desgaste de conectores por calor. Dimensiona un primer sitio en torno a un cliente ancla y no a la demanda pública.",
+   "facts": [
+    [
+     "Geotermia + hidro",
+     "Matriz de generación"
+    ],
+    [
+     "Tropical",
+     "Calor y humedad"
+    ],
+    [
+     "Servicio escaso",
+     "Larga distancia técnica"
+    ],
+    [
+     "Anclado a clientes",
+     "Lógica del primer sitio"
+    ]
+   ],
+   "sections": [
+    [
+     "La generación es la parte fácil",
+     "<p>La red de Nicaragua se beneficia de capacidad geotérmica e hidroeléctrica, lo que hace que la disponibilidad de energía sea un riesgo menor que en mercados dependientes de combustible importado. La restricción práctica está en la distribución y en el transformador del propio sitio.</p><p>Para un primer proyecto, estudia la capacidad disponible del sitio antes de seleccionar niveles de potencia. Una primera fase de 60 kW que está en línea supera a un diseño de 240 kW que espera un año.</p>"
+    ],
+    [
+     "El calor y la humedad envejecen los conectores",
+     "<p>Las condiciones tropicales aceleran el desgaste de conectores y cables. En un sitio de uso público eso se manifiesta como carga intermitente mucho antes de aparecer como falla de equipo, y los conductores lo reportan como una estación averiada.</p><p>Incorpora la inspección de conectores al plan de operación desde el primer día y mantén un juego de repuesto en el sitio, no en un almacén lejano.</p>"
+    ],
+    [
+     "Clientes ancla antes que sitios públicos",
+     "<p>Con una red de servicio escasa, un cliente ancla (una flota, un depósito o un grupo hotelero) hace que la economía y el plan de mantenimiento funcionen. La carga pública sin ancla traslada todo el riesgo a una utilización que puede no existir todavía.</p><p>Empieza con un sitio y un socio local con nombre para la obra civil y la respuesta de primera línea.</p>"
+    ],
+    [
+     "Normas, documentación y certificación",
+     "<p>La certificación y la documentación forman parte de la ruta crítica en mercados con cadenas de suministro más delgadas. Un cargador sin el papeleo de certificación correcto para la autoridad local es un cargador que no se puede energizar. Pide el paquete de certificación y la clasificación aduanera desde el inicio.</p><p>Mantén los planos eléctricos y los ajustes de protección en el idioma local y en el sitio. Cuando ocurre una falla meses después, quien los necesita no es quien compró el equipo.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: la potencia del transformador y la capacidad libre, los documentos de certificación que exige la autoridad local, la mezcla de conectores, la tenencia de conectores de repuesto y la distancia a un socio de servicio de primera línea.</p><p>La certificación es una partida de calendario aquí, no papeleo. Un cargador que no se puede energizar no es un cargador entregado.</p><p>Trata el primer proyecto como un piloto de modelo de servicio y no como una apuesta de volumen. Un sitio que se mantiene en línea enseña más sobre este mercado que tres instalados e inalcanzables.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Es la red nicaragüense un factor limitante?",
+     "Menos que en mercados dependientes de combustible: la geotermia y la hidroeléctrica aportan una parte significativa. La capacidad de distribución local de tu sitio sigue siendo el número vinculante. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cómo debería ser un primer sitio?",
+     "Una primera fase modesta, dimensionada a la capacidad estudiada, anclada por un cliente de flota o depósito y con un socio local para el servicio de primera línea. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué partida de mantenimiento se pasa por alto?",
+     "La inspección de conectores y cables. El calor y la humedad los desgastan más rápido que a la electrónica. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ]
+   ]
+  },
+  {
+   "slug": "costa-rica",
+   "country": "Costa Rica",
+   "region": "Centroamérica",
+   "eyebrow": "Mercado · Centroamérica",
+   "title": "Carga de VE en Costa Rica: 99% renovable y clima húmedo",
+   "meta": "Costa Rica opera una red casi renovable y una larga estación lluviosa. Las restricciones son la capacidad de distribución y el agua, no la energía.",
+   "h1": "Carga de VE en Costa Rica: una red renovable, un clima húmedo y capacidad local",
+   "lede": "Costa Rica genera casi toda su electricidad con renovables y tiene una de las políticas de electrificación más firmes de la región. Eso hace de la red una aliada, y de la estación lluviosa el problema de diseño.",
+   "tldr_label": "En resumen — Costa Rica",
+   "tldr": "La disponibilidad de energía no es el problema; sí lo son la capacidad de distribución local y meses de lluvia. Especifica la protección contra ingreso y el drenaje como requisitos de ingeniería.",
+   "facts": [
+    [
+     "~99%",
+     "Generación renovable"
+    ],
+    [
+     "Estación lluviosa",
+     "Lluvias fuertes may–nov"
+    ],
+    [
+     "Limitado por distribución",
+     "Restricción de capacidad local"
+    ],
+    [
+     "Turismo",
+     "Demanda de carga en destino"
+    ]
+   ],
+   "sections": [
+    [
+     "Una red que ayuda al caso de negocio",
+     "<p>Con una generación cercana a la renovable total, el argumento de carbono para electrificar ya está resuelto localmente. Eso cambia la conversación de venta: el caso se apoya en el costo operativo y en cumplir una dirección de política que difícilmente se revierta.</p><p>La restricción se traslada a la distribución. Un sitio de destino con una acometida débil puede seguir siendo un buen proyecto si la primera fase se dimensiona según lo que soporta la conexión.</p>"
+    ],
+    [
+     "Lluvia durante medio año",
+     "<p>Meses de lluvia sostenida encuentran cada punto débil: prensaestopas, soportes de conector, sellos del gabinete y drenaje de suelo. Una estación que sobrevive a la estación seca no es evidencia de una especificación correcta.</p><p>Pide el detalle de drenaje y entrada de cables en el diseño del sitio, y la clase de ingreso en cada unión y no solo en el gabinete.</p>"
+    ],
+    [
+     "Turismo y carga en destino",
+     "<p>La economía de Costa Rica es intensiva en turismo, lo que concentra la demanda en hoteles, alojamientos y accesos a parques nacionales. Esos sitios suelen querer potencia menor con alta disponibilidad, no la potencia más alta posible.</p><p>La disponibilidad es lo que los huéspedes notan. Una mezcla de 22 kW en AC más DC con un plan de servicio supera a una única unidad de alta potencia que está fuera de línea una semana.</p>"
+    ],
+    [
+     "Dirección de política y corredores de destino",
+     "<p>La política de electrificación de Costa Rica es un viento a favor que la mayoría de los mercados no tiene, y hace más fácil justificar infraestructura de larga vida. La implicación práctica es que un sitio se puede planificar a diez años y no a dos.</p><p>Los corredores de destino, las rutas que conectan la capital con las principales regiones turísticas, son donde una inversión en carga pública tiene el caso de uso más claro. Un conductor necesita una parada fiable entre dos puntos y no un grupo denso en una sola ciudad.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: la capacidad de acometida disponible para carga, la ruta de drenaje en temporada lluviosa, la mezcla de demanda nocturna y diurna, el método de pago que esperan los huéspedes y el esquema de servicio para un sitio turístico que puede estar alejado.</p><p>Para un sitio de destino, la disponibilidad es el producto. El estudio debe incluir la rapidez con que se puede atender una falla en temporada alta, no solo en temporada baja.</p><p>La misma lógica aplica al nivel de potencia: una unidad fiable de 50 kW que atiende huéspedes todos los días es un activo mejor que una de 200 kW que la conexión no soporta y el sitio no puede atender.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿La red renovable es una ventaja?",
+     "Sí, para el caso de negocio y para el alineamiento con la política. No elimina la restricción de distribución local, que aún debe estudiarse. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué nivel de potencia conviene a un hotel?",
+     "Normalmente una mezcla de carga AC nocturna y una o dos unidades DC, dimensionadas a la conexión disponible y no a una cifra máxima. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cuál es el principal riesgo climático?",
+     "El ingreso de agua durante la estación lluviosa. Especifica prensaestopas, soportes y drenaje de forma explícita. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ]
+   ]
+  },
+  {
+   "slug": "panama",
+   "country": "Panamá",
+   "region": "Centroamérica",
+   "eyebrow": "Mercado · Centroamérica",
+   "title": "Carga de VE en Panamá: humedad, logística del canal e islas",
+   "meta": "Panamá combina demanda logística del canal, humedad alta y redes insulares. Cómo dimensionar carga de depósito y de corredor en un clima tropical húmedo.",
+   "h1": "Carga de VE en Panamá: logística del canal, humedad alta y redes insulares",
+   "lede": "La demanda de Panamá está marcada por el canal y la logística que lo rodea, no por el tráfico de cercanías. La humedad alta y las instalaciones insulares lo convierten en un mercado intensivo en especificación.",
+   "tldr_label": "En resumen — Panamá",
+   "tldr": "La demanda de depósito y de corredor en torno al canal es el primer caso realista. El control de la humedad y la diferencia entre red continental y red insular deciden el diseño.",
+   "facts": [
+    [
+     "Logística del canal",
+     "Demanda de depósito y corredor"
+    ],
+    [
+     "Humedad alta",
+     "Condiciones todo el año"
+    ],
+    [
+     "Redes insulares",
+     "Límites de capacidad separados"
+    ],
+    [
+     "CCS2 + Type2",
+     "Comunes en campo"
+    ]
+   ],
+   "sections": [
+    [
+     "La demanda sigue al canal",
+     "<p>La actividad de carga y puertos de Panamá genera movimientos de vehículos concentrados y predecibles, el tipo de ciclo de trabajo en el que la carga de depósito funciona económicamente. Un sitio logístico sabe cuántos vehículos vuelven cada noche y a qué hora.</p><p>Esa previsibilidad vale más que una ubicación de mucho tráfico para un primer sitio, porque la utilización se puede modelar antes de pedir el equipo.</p>"
+    ],
+    [
+     "La humedad es un problema de corrosión",
+     "<p>La humedad sostenida ataca gabinetes, terminaciones y conectores. En ubicaciones costeras se suma la carga de sal. La pregunta de especificación no es si el gabinete está apto para uso exterior, sino si las terminaciones y las interfaces de conector están protegidas contra corrosión durante años.</p><p>Pide la clase de protección contra corrosión y los materiales usados en la entrada de cables.</p>"
+    ],
+    [
+     "Red continental, red insular",
+     "<p>El sistema continental de Panamá y sus instalaciones insulares son problemas de ingeniería distintos. Un sitio insular puede tener un suministro pequeño y aislado donde un búfer de batería es más útil que potencia adicional de cargador.</p><p>Trata el almacenamiento como opción de diseño y no como venta adicional: cambia el requisito de conexión y, en una isla, suele ser el factor decisivo.</p>"
+    ],
+    [
+     "Flotas marítimas, portuarias y logísticas",
+     "<p>La economía de Panamá se concentra en el canal y en la logística que lo rodea. Las flotas portuarias y de distribución tienen rutas cortas y repetidas y vuelven a una base conocida cada noche, que es el ciclo de trabajo para el que se diseñó la carga de depósito.</p><p>Esas flotas ya gestionan infraestructura eléctrica y procedimientos de seguridad, así que la conversación del proyecto es técnica y no didáctica. Eso suele acortar el ciclo de venta y mejorar la precisión del cálculo de carga.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: si el sitio está en la red continental o en un suministro insular, la exposición a corrosión de la posición del gabinete, el ciclo de trabajo y la hora de retorno de la flota, la capacidad disponible y el esquema local de servicio.</p><p>En un sitio insular añade uno más: el valor de un búfer de almacenamiento frente a una ampliación de la conexión. Esa comparación suele cambiar el diseño.</p><p>Si la respuesta favorece el almacenamiento, resuélvelo como una cuestión de diseño eléctrico con el ingeniero del sitio y no como una elección de producto de catálogo.</p><p>Un depósito que devuelve los mismos vehículos a las mismas dársenas cada noche se puede dimensionar con ciclos contados, una base más firme que una estimación de tráfico.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Cuál es el primer caso más sólido en Panamá?",
+     "La carga de depósito para flotas logísticas y portuarias, donde los ciclos de trabajo son predecibles y el sitio se puede dimensionar con conteos reales de vehículos. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿La humedad realmente afecta a los cargadores?",
+     "Sí. La corrosión en terminaciones e interfaces de conector es un modo de falla común en sitios costeros tropicales y debe especificarse en contra. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Las instalaciones insulares son distintas?",
+     "Sustancialmente. Un suministro más pequeño y aislado suele hacer que un búfer de almacenamiento valga más que potencia adicional de cargador. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ]
+   ]
+  },
+  {
+   "slug": "dominican-republic",
+   "country": "República Dominicana",
+   "region": "Caribe",
+   "eyebrow": "Mercado · Caribe",
+   "title": "Carga de VE en República Dominicana: isla y calor",
+   "meta": "Una red insular, calor tropical y demanda turística definen la carga en República Dominicana. Qué especificar antes de comprometer un sitio de carga.",
+   "h1": "Carga de VE en República Dominicana: red insular, calor tropical y turismo",
+   "lede": "La República Dominicana es un mercado insular con un patrón de demanda muy turístico. El calor y la humedad son constantes, y la capacidad de la red es una pregunta de sitio, no una pregunta nacional.",
+   "tldr_label": "En resumen — República Dominicana",
+   "tldr": "Los sitios de resort y de flota son los primeros casos realistas. La capacidad de la red insular y el calor todo el año fijan la especificación; el almacenamiento puede sustituir ampliaciones de conexión.",
+   "facts": [
+    [
+     "Red insular",
+     "Límites de capacidad separados"
+    ],
+    [
+     "Tropical",
+     "Calor todo el año"
+    ],
+    [
+     "Turismo",
+     "Demanda de destino vacacional"
+    ],
+    [
+     "Almacenamiento",
+     "Alternativa a ampliar red"
+    ]
+   ],
+   "sections": [
+    [
+     "La capacidad insular es una pregunta de sitio",
+     "<p>En un sistema insular, la generación y la capacidad de red son finitas de una forma que condiciona cada proyecto. A un resort o a un depósito pueden decirle que la conexión se puede ampliar, pero solo con obras que cambian el retorno del proyecto.</p><p>Establece primero la capacidad disponible y luego decide si dimensionas el cargador a ella o si añades almacenamiento y desplazas carga fuera del pico.</p>"
+    ],
+    [
+     "El calor es continuo, no estacional",
+     "<p>El calor tropical todo el año hace que el punto de diseño esté cerca del peor mes. Un cargador especificado para un verano europeo se reducirá durante la mayor parte del año aquí. Pide la potencia sostenida a la temperatura de diseño local y la curva de reducción.</p><p>El diseño de refrigeración también afecta los intervalos de mantenimiento: la limpieza de filtros y las revisiones de flujo de aire pertenecen al plan de operación y no a un reclamo de garantía.</p>"
+    ],
+    [
+     "La demanda turística es de picos",
+     "<p>La demanda de carga en resorts se concentra en llegadas y salidas. Ese patrón premia la disponibilidad y el pago simple por encima de la potencia bruta, y hace que pocas unidades fiables valgan más que una instalación grande con fallas frecuentes.</p><p>Para las flotas que sirven a la economía turística, la carga nocturna en depósito es el caso más limpio porque el ciclo de trabajo es predecible.</p>"
+    ],
+    [
+     "Compras de resort y generación de respaldo",
+     "<p>Los grupos de resorts y hoteles en República Dominicana suelen operar generación de respaldo, porque la continuidad importa a los huéspedes. Ese hábito existente es útil: la sala eléctrica, el equipo de mantenimiento y la logística de combustible ya existen, y el proyecto de carga puede apoyarse en ellos.</p><p>También fija una expectativa de disponibilidad. Una instalación de carga caída una semana se juzga contra un generador que arranca en segundos. Planifica el contrato de servicio en consecuencia.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: la capacidad disponible del sitio y cualquier costo de ampliación, el esquema de generación de respaldo ya presente, la temperatura ambiente de diseño de verano, la exposición a corrosión y la expectativa de disponibilidad que el operador ya cumple con generadores.</p><p>Ese último punto fija el estándar de servicio. Si el sitio ya promete respaldo en segundos, un contrato de cargador redactado en días no satisfará al mismo cliente.</p><p>Redacta el compromiso de servicio a ese estándar y especifica la ventana de respuesta en horas en lugar de días hábiles.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Puede la red soportar carga rápida DC?",
+     "Varía por sitio y por región de la isla. Estudia la capacidad disponible antes de seleccionar niveles de potencia; el almacenamiento puede reducir la ampliación necesaria. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cuál es el principal riesgo climático?",
+     "Calor sostenido más humedad. Especifica la potencia sostenida a la temperatura de diseño local y protege las terminaciones de la corrosión. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué carga conviene a un resort?",
+     "Pocas unidades fiables con pago simple, dimensionadas a la conexión, en lugar de potencia máxima. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ]
+   ]
+  },
+  {
+   "slug": "colombia",
+   "country": "Colombia",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Colombia: altitud, hidro y dos climas",
+   "meta": "Colombia combina ciudades andinas de gran altitud, una costa caribeña cálida y una red hidroeléctrica. Dos climas, dos especificaciones, un solo mercado.",
+   "h1": "Carga de VE en Colombia: altitud, energía hidroeléctrica y dos climas",
+   "lede": "Colombia es dos mercados en un país: ciudades andinas por encima de 2,500 m con aire fresco y terreno empinado, y una costa caribeña cálida y húmeda todo el año.",
+   "tldr_label": "En resumen — Colombia",
+   "tldr": "La altitud y la costa son puntos de diseño distintos. La generación hidroeléctrica ayuda al caso de negocio; la conexión de distribución y el relieve deciden el sitio.",
+   "facts": [
+    [
+     "2,600 m",
+     "Altitud de diseño de Bogotá"
+    ],
+    [
+     "Hidrodominante",
+     "Matriz de generación"
+    ],
+    [
+     "Dos climas",
+     "Andino vs. Caribe"
+    ],
+    [
+     "Relieve",
+     "Restricción de ruta y emplazamiento"
+    ]
+   ],
+   "sections": [
+    [
+     "Dos puntos de diseño en un solo mercado",
+     "<p>Bogotá está a unos 2,600 m, donde el aire es fino y fresco. Las ciudades costeras son cálidas y húmedas a nivel del mar. Un cargador especificado para una no está especificado para la otra: la altitud cambia la disipación de calor, la humedad cambia la corrosión y el riesgo de ingreso.</p><p>Si operas en ambas, especifica dos configuraciones en lugar de un compromiso único.</p>"
+    ],
+    [
+     "Oferta hidroeléctrica, límites de distribución",
+     "<p>La generación de Colombia está dominada por la hidroeléctrica, lo que da un suministro bajo en carbono pero también expone al sistema a ciclos de sequía. Para un sitio, la consecuencia práctica es que las conversaciones sobre resiliencia no son teóricas.</p><p>La capacidad de distribución sigue siendo la restricción vinculante para un proyecto concreto. Obtén el transformador del sitio y el nivel de cortocircuito antes de fijar el número de cargadores.</p>"
+    ],
+    [
+     "El relieve da forma a la red",
+     "<p>La geografía andina implica rutas largas y empinadas entre ciudades. La carga de corredor debe considerar el desnivel y la energía que consume un vehículo cargado al subir, lo que cambia el espaciado entre paradas.</p><p>Para depósitos de flota en las ciudades, el relieve importa menos que el perfil de carga nocturna y el espacio disponible para que los vehículos hagan fila.</p>"
+    ],
+    [
+     "Regulación, tarifas y política de carga",
+     "<p>Colombia viene desarrollando un marco específico para la movilidad eléctrica, y el efecto práctico para un proyecto es que el tratamiento tarifario de una instalación de carga merece una pregunta concreta a la empresa eléctrica. Que un sitio se facture como carga comercial, como servicio o como categoría especial cambia materialmente el costo operativo.</p><p>Consigue la clasificación tarifaria confirmada por escrito. Es una partida administrativa pequeña con un efecto grande en el retorno.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia seis puntos: la elevación del sitio, el rango de temperatura ambiente de diseño, la potencia del transformador y la capacidad libre, la clasificación tarifaria que aplicará la empresa eléctrica, la mezcla de conectores y el acceso del terreno para servicio.</p><p>La clasificación tarifaria es la que más se omite y la que mayor efecto tiene en el costo operativo. Pregúntala a la empresa eléctrica; no la infieras.</p><p>Una vez confirmada la clasificación, compárala con la utilización modelada antes de firmar el nivel de potencia en un contrato.</p><p>Sobre todo, resiste la especificación nacional única. Dos sitios del mismo país pueden requerir gabinetes distintos, protección distinta e intervalos de servicio distintos.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿La altitud es un tema real de especificación en Colombia?",
+     "Sí, para sitios andinos. Por encima de unos 1,500 m la densidad del aire afecta la disipación de calor, así que pide la reducción por altitud a la altura real del sitio. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿La generación hidroeléctrica es un riesgo?",
+     "Baja la intensidad de carbono y aumenta la sensibilidad a la sequía. Para un sitio concreto, la pregunta práctica sigue siendo la capacidad de distribución local. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿A qué ciudad debería apuntar un primer proyecto?",
+     "A aquella donde tengas un cliente ancla y una conexión estudiada. Bogotá y la costa caribeña necesitan especificaciones distintas. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ]
+   ]
+  },
+  {
+   "slug": "ecuador",
+   "country": "Ecuador",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Ecuador: Andes, Amazonía y estrés de red",
+   "meta": "Ecuador abarca altiplano andino, llanura amazónica y costa cálida, con una red hidroeléctrica expuesta a la sequía. Cómo condiciona el diseño de un sitio.",
+   "h1": "Carga de VE en Ecuador: tres regiones, una red expuesta a la hidrología",
+   "lede": "Ecuador es Andes, Amazonía y costa a la vez, y su red de base hidroeléctrica está expuesta a ciclos de sequía. El diseño del sitio tiene que responder por la geografía y por la pregunta de resiliencia.",
+   "tldr_label": "En resumen — Ecuador",
+   "tldr": "Elige primero la región: altiplano, Amazonía o costa implican un punto de diseño distinto. La exposición hidrológica hace que la resiliencia y la gestión de carga merezcan una partida propia.",
+   "facts": [
+    [
+     "2,850 m",
+     "Altitud de diseño de Quito"
+    ],
+    [
+     "Hidrodominante",
+     "Oferta expuesta a sequía"
+    ],
+    [
+     "Tres regiones",
+     "Andes / Amazonía / costa"
+    ],
+    [
+     "Gestión de carga",
+     "Palanca de resiliencia"
+    ]
+   ],
+   "sections": [
+    [
+     "La región fija el punto de diseño",
+     "<p>Quito está cerca de 2,850 m, la cuenca amazónica es cálida y húmeda a baja altitud, y la costa es cálida con una marcada temporada húmeda. La altitud altera la disipación de calor; la humedad altera la corrosión y el riesgo de ingreso. Son especificaciones distintas, no marketing distinto.</p><p>Si un proyecto abarca regiones, especifica por sitio en lugar de adoptar una norma nacional.</p>"
+    ],
+    [
+     "Una red hidroeléctrica con exposición a sequía",
+     "<p>La electricidad de Ecuador es mayoritariamente hidroeléctrica, lo que da un suministro bajo en carbono y una sensibilidad real a los años secos. Cuando bajan los niveles de los embalses, el sistema lo resiente y las grandes cargas nuevas enfrentan más escrutinio.</p><p>Eso hace que valga la pena diseñar la gestión de carga: programar la carga de depósito fuera de los picos del sistema y añadir un búfer de almacenamiento donde la conexión está ajustada.</p>"
+    ],
+    [
+     "Relieve y la cuestión del corredor",
+     "<p>Las rutas entre el altiplano y la costa implican subidas y bajadas sostenidas. Para la carga de corredor, la energía que un vehículo cargado usa al subir cambia el espaciado entre paradas, y el descenso plantea una pregunta aparte sobre carga regenerativa.</p><p>Para flotas urbanas la restricción es más simple: carga nocturna y espacio para que los vehículos hagan fila.</p>"
+    ],
+    [
+     "Minería y flotas municipales como anclas",
+     "<p>Los candidatos más predecibles a la electrificación en Ecuador son industriales: servicios mineros, flotas municipales y transporte turístico en rutas fijas. Esos compradores ya entienden la gestión de carga, porque ya gestionan cargas grandes.</p><p>Para un primer proyecto, un ancla de este tipo aporta una conexión estudiada y un ciclo de trabajo conocido. La carga pública puede seguir una vez que existe el modelo de operación.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia seis puntos: la región y por tanto el punto de diseño, la elevación del sitio, la potencia del transformador, la opción de gestión de carga disponible, la mezcla de conectores y el ciclo de trabajo del corredor o del depósito.</p><p>Dada la exposición hidrológica a la sequía, pregunta también cuál es el plan del operador del sitio para una semana de oferta restringida. Un sitio de carga que puede desplazar carga es más fácil de mantener en línea.</p><p>Ese plan es un documento comercial tanto como uno de ingeniería: un sitio que puede limitar carga sin quedar fuera de línea conserva sus ingresos durante una semana ajustada.</p><p>Pregunta al operador qué pasa en un año seco y diseña la respuesta dentro del sitio y no dentro de un plan de contingencia.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Importa la altitud en Ecuador?",
+     "Sí, para sitios de altiplano. Pide la reducción por altitud a la altura real del sitio y no una potencia nominal a nivel del mar. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué tan expuesta está la red a la sequía?",
+     "La generación es mayoritariamente hidroeléctrica, así que los años secos estresan el sistema. Diseña gestión de carga y considera almacenamiento donde la conexión está ajustada. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cuál es el primer proyecto realista?",
+     "Un sitio urbano o de depósito con una flota ancla y una conexión estudiada, en la región donde el cliente ya opera. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ]
+   ]
+  },
+  {
+   "slug": "peru",
+   "country": "Perú",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Perú: costa hiperárida y sitios andinos",
+   "meta": "Perú combina una de las costas más secas del mundo con los Andes altos y la Amazonía. Hemos entregado proyectos aquí: qué exige el clima a un sitio de carga.",
+   "h1": "Carga de VE en Perú: costa hiperárida, altitud andina y humedad amazónica",
+   "lede": "Perú tiene proyectos entregados y tres entornos operativos radicalmente distintos: una franja costera hiperárida, los Andes altos y la llanura amazónica húmeda. La especificación sigue a la geografía.",
+   "tldr_label": "En resumen — Perú",
+   "tldr": "La costa es seca y polvorienta, los Andes son altos y fríos, la Amazonía es cálida y húmeda. Hemos entregado aquí, y la lección es que una especificación nacional única no sobrevive al contacto con las tres.",
+   "facts": [
+    [
+     "Entregado",
+     "Proyectos en Perú"
+    ],
+    [
+     "Hiperárido",
+     "Polvo y sequedad costera"
+    ],
+    [
+     "4,000 m",
+     "Altitud de diseño andina"
+    ],
+    [
+     "Tres climas",
+     "Costa / Andes / Amazonía"
+    ]
+   ],
+   "sections": [
+    [
+     "La costa más seca cambia el mantenimiento",
+     "<p>Lima y buena parte de la franja costera casi no reciben lluvia. Eso elimina el problema de ingreso de agua e introduce otro: el polvo. El polvo fino en suspensión se deposita en los caminos de refrigeración y en los soportes de conector, y con los meses reduce el margen térmico.</p><p>Los intervalos de limpieza de filtros en la costa deben fijarse por la carga de polvo y no por el programa de servicio genérico.</p>"
+    ],
+    [
+     "Altitud en los Andes",
+     "<p>Los sitios andinos están lo bastante altos para que la densidad del aire importe en la refrigeración, y las temperaturas nocturnas caen muy por debajo del rango costero. Un mismo diseño de gabinete debe responder al aire enrarecido y al arranque en frío.</p><p>Pide curvas de reducción frente a temperatura y altitud en la elevación real del sitio.</p>"
+    ],
+    [
+     "La humedad amazónica es el problema opuesto",
+     "<p>En las tierras bajas vuelven el calor y la humedad: corrosión en terminaciones, ingreso en las entradas de cables y desgaste de conectores. El equipo puede ser idéntico al del sitio costero; la protección y el plan de mantenimiento no lo son.</p><p>Para proyectos que abarcan regiones, planifica tres perfiles de servicio en lugar de uno nacional.</p>"
+    ],
+    [
+     "Corredores mineros y depósitos costeros",
+     "<p>La economía minera de Perú crea dos casos de carga distintos: depósitos costeros que sirven a puertos e industria, y corredores de gran altitud que sirven a las minas. El caso costero es un proyecto logístico con una conexión estudiada; el caso andino es un proyecto de altitud y arranque en frío.</p><p>Trátalos como diseños separados. Una especificación que funciona en Lima no funcionará a 4,000 m, y en los Andes la distancia de servicio se mide en horas y no en kilómetros.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia seis puntos: la elevación del sitio, la carga de polvo en la posición del gabinete, el rango de temperatura ambiente de diseño, la potencia del transformador, la mezcla de conectores y la distancia a una base de servicio.</p><p>En la costa, el polvo fija el intervalo de mantenimiento. En los Andes, la elevación fija la reducción. En la Amazonía, la humedad fija el requisito de ingreso. Un mismo formulario de estudio debería registrar los tres.</p><p>Registra los tres en un solo formulario, porque un proyecto que abarca regiones se especificará de otro modo según la región que el comprador visitó primero.</p><p>La consecuencia práctica es un formulario de estudio de tres filas: costa, Andes, Amazonía. Cada fila tiene sus propios supuestos de reducción y mantenimiento.</p><p>Registra la elevación en la misma línea que la temperatura ambiente, para que la cifra de reducción se lea de una fila y no se reconstruya después.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Tienen proyectos entregados en Perú?",
+     "Sí. Perú es uno de los países de Latinoamérica donde hemos entregado y forma parte de la base de evidencia de la región. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿La costa seca necesita menos protección?",
+     "Necesita protección distinta. El ingreso de agua es menos riesgo; el polvo y el margen térmico lo son más. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué es lo más difícil de un sitio andino?",
+     "La altitud y la temperatura varían juntas. Especifica la reducción frente a ambas, en la elevación real del sitio. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ]
+   ]
+  },
+  {
+   "slug": "bolivia",
+   "country": "Bolivia",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Bolivia: 4,000 m de altitud y reducción",
+   "meta": "El altiplano boliviano está cerca de 4,000 m, donde el aire fino cambia la refrigeración y las noches frías cambian la operación. Un problema de especificación.",
+   "h1": "Carga de VE en Bolivia: 4,000 m de altitud, noches frías y aire fino",
+   "lede": "Bolivia incluye las áreas urbanas principales más altas de la región. En el altiplano, la altitud y el frío no son casos límite: son la condición de operación durante la mayor parte del año.",
+   "tldr_label": "En resumen — Bolivia",
+   "tldr": "La reducción por altitud es la primera pregunta de especificación y el comportamiento en arranque en frío es la segunda. Consigue ambas por escrito antes de hablar de niveles de potencia.",
+   "facts": [
+    [
+     "~4,000 m",
+     "Altitud del altiplano"
+    ],
+    [
+     "Noches frías",
+     "Temperaturas bajas todo el año"
+    ],
+    [
+     "Aire fino",
+     "Menor capacidad de refrigeración"
+    ],
+    [
+     "Reducción por altitud",
+     "Primera pregunta de especificación"
+    ]
+   ],
+   "sections": [
+    [
+     "El aire fino cambia el diseño térmico",
+     "<p>A 4,000 m, la densidad del aire es aproximadamente dos tercios de la del nivel del mar. Los ventiladores mueven menos masa, la transferencia de calor baja, y un equipo térmicamente cómodo a nivel del mar puede reducirse mucho antes aquí. La potencia de placa no es lo entregado.</p><p>Pide la curva de reducción en función de la altitud en la elevación real del sitio y la potencia sostenida en la combinación de altitud y temperatura de verano.</p>"
+    ],
+    [
+     "Noches frías y arranques en frío",
+     "<p>Las noches del altiplano son frías todo el año, y el equipo de carga tiene que arrancar de forma fiable a baja temperatura. El comportamiento de la batería en el vehículo también cambia: la potencia de carga se reduce antes cuando el paquete está frío.</p><p>Eso afecta el tiempo de carga práctico que experimentan los conductores, que es por lo que juzgan la estación.</p>"
+    ],
+    [
+     "Un mercado para flotas ancla primero",
+     "<p>La demanda de carga en Bolivia se concentra donde un operador de flota tiene razones para electrificar: servicios mineros, flotas municipales, transporte turístico. Esos sitios justifican una instalación estudiada e ingenierizada.</p><p>Un sitio público sin cliente ancla es una apuesta a una utilización que todavía no aparece.</p>"
+    ],
+    [
+     "Los servicios mineros como ancla",
+     "<p>La ruta de electrificación más creíble en Bolivia pasa por los servicios mineros y las flotas municipales, donde los vehículos vuelven a una base conocida y el operador ya gestiona cargas eléctricas grandes. Ese ciclo de trabajo hace honesta la ingeniería: vehículos reales, rutas reales, carga nocturna real.</p><p>La altitud es un tema de especificación en todo el sitio, así que el estudio debe registrar la elevación con el mismo cuidado con que registra la potencia del transformador.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia seis puntos: la elevación exacta del sitio, la temperatura de diseño de invierno, la temperatura ambiente de diseño de verano, la potencia del transformador, el ciclo de trabajo de la flota ancla y la distancia a una base de servicio.</p><p>La elevación va primero en el formulario. A las alturas del altiplano cambia el cálculo de refrigeración y el tiempo de carga práctico que experimenta el conductor.</p><p>Después revisa el lado del vehículo: a estas temperaturas, la potencia de carga que acepta un vehículo importa tanto como la que puede entregar el cargador.</p><p>Un paquete frío acepta menos potencia, así que el tiempo de carga práctico a 4,000 m es mayor que lo que sugiere un cálculo de placa.</p><p>Luego pide por escrito la especificación de arranque en frío, porque un cargador que arranca despacio en una mañana fría es un cargador que los conductores dejan de confiar.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿La altitud de 4,000 m realmente cambia el rendimiento del cargador?",
+     "Sí. La densidad del aire cae cerca de un tercio, lo que reduce la capacidad de refrigeración. Pide la reducción por altitud a la elevación real del sitio. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cómo afecta el frío al tiempo de carga?",
+     "Las baterías del vehículo aceptan menos potencia en frío, así que el tiempo de carga práctico es mayor que lo que sugiere la placa. Ambos efectos deben estar en los supuestos de operación del sitio. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cuál es el mejor tipo de primer proyecto?",
+     "Un depósito o sitio de flota con un ciclo de trabajo predecible, diseñado para la altitud en lugar de adaptado después. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ]
+   ]
+  },
+  {
+   "slug": "paraguay",
+   "country": "Paraguay",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Paraguay: Itaipú y calor subtropical",
+   "meta": "Paraguay tiene energía hidroeléctrica entre las más baratas de la región y veranos cálidos y húmedos. Costo bajo y calor alto se cruzan al diseñar un sitio.",
+   "h1": "Carga de VE en Paraguay: energía hidroeléctrica barata y calor subtropical",
+   "lede": "Paraguay se beneficia de la capacidad hidroeléctrica de Itaipú y de costos eléctricos bajos, lo que fortalece el caso operativo. El contrapeso es un clima subtropical cálido y húmedo.",
+   "tldr_label": "En resumen — Paraguay",
+   "tldr": "El costo de la energía es una ventaja real aquí. El trabajo de especificación es sobre calor y humedad, y el trabajo comercial es sobre utilización, no sobre tarifa.",
+   "facts": [
+    [
+     "Itaipú",
+     "Capacidad hidroeléctrica"
+    ],
+    [
+     "Tarifas bajas",
+     "Ventaja en costo de energía"
+    ],
+    [
+     "Subtropical",
+     "Veranos cálidos y húmedos"
+    ],
+    [
+     "Corredor",
+     "Ruta Asunción–Ciudad del Este"
+    ]
+   ],
+   "sections": [
+    [
+     "El caso de costo es inusualmente fuerte",
+     "<p>La capacidad hidroeléctrica de Itaipú le da a Paraguay costos de electricidad bajos para los estándares de la región, lo que mejora directamente la economía operativa de la carga. Es una ventaja real y debería estar en el centro de una propuesta comercial.</p><p>No elimina la necesidad de una conexión estudiada. Las tarifas bajas no crean capacidad de distribución donde no la hay.</p>"
+    ],
+    [
+     "Calor y humedad subtropicales",
+     "<p>Los veranos son cálidos y húmedos, y la temporada húmeda es marcada. El diseño de refrigeración debe reflejar temperaturas ambiente altas sostenidas, y la protección contra ingreso debe reflejar lluvia intensa.</p><p>Pide la potencia sostenida en el punto de diseño de verano local, no una potencia nominal a 25 °C.</p>"
+    ],
+    [
+     "Corredor y tráfico fronterizo",
+     "<p>El eje Asunción–Ciudad del Este concentra comercio y tráfico de pasajeros, lo que hace plausible la carga de corredor a lo largo de una ruta definida en lugar de dispersa por el país.</p><p>Para un corredor, el espaciado importa más que la potencia de cada sitio: los conductores necesitan una siguiente parada fiable, no una estación impresionante.</p>"
+    ],
+    [
+     "Comercio fronterizo y el caso del corredor",
+     "<p>La economía de Paraguay está marcada por el comercio transfronterizo, y la ruta Asunción–Ciudad del Este lleva una mezcla estable de carga y pasajeros. Eso hace que una estrategia de corredor sea más creíble que sitios urbanos dispersos.</p><p>Para un corredor, el criterio de diseño es la garantía de una siguiente parada operativa. La potencia de cada sitio importa menos que la promesa de que la ruta sea utilizable de punta a punta.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: la potencia del transformador y la capacidad libre, la temperatura ambiente de diseño de verano, el drenaje en temporada húmeda, la posición en el corredor respecto de la siguiente parada fiable y el método de pago que usan las flotas locales.</p><p>Las tarifas bajas facilitan el caso operativo, pero no cambian el estudio de conexión. Mantén las dos conversaciones separadas.</p><p>Para un sitio de corredor, la decisión de espaciado es la decisión comercial. Resuelve la siguiente parada fiable antes de optimizar cualquier otra cosa.</p><p>Las tarifas bajas mejoran el retorno, pero no crean tráfico. La selección del sitio sigue siendo la mayor variable del caso de negocio.</p><p>La decisión de corredor, el estudio de conexión y el método de pago son las tres partidas que deciden si el sitio rinde según el modelo.</p><p>Un sitio bien estudiado y dimensionado con modestia superará a una instalación mayor que nunca se contrastó con la conexión.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿El costo de la electricidad es una ventaja real?",
+     "Sí, la capacidad hidroeléctrica le da a Paraguay tarifas comparativamente bajas, lo que mejora la economía de la carga. La conexión del sitio aún debe estudiarse. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué exige el clima?",
+     "Calor alto sostenido y lluvia intensa. Especifica la potencia en el punto de diseño de verano y la protección contra ingreso en cada unión. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Dónde tiene sentido la carga de corredor?",
+     "A lo largo de una ruta definida con tráfico estable, como el eje Asunción–Ciudad del Este. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ]
+   ]
+  },
+  {
+   "slug": "uruguay",
+   "country": "Uruguay",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Uruguay: red eólica y cuatro estaciones",
+   "meta": "La red de Uruguay es eólica e hidroeléctrica y su clima tiene cuatro estaciones reales. Un mercado templado donde la disponibilidad supera la potencia pico.",
+   "h1": "Carga de VE en Uruguay: una red de base eólica y cuatro estaciones reales",
+   "lede": "El sistema eléctrico de Uruguay es inusualmente renovable, con eólica e hidroeléctrica cubriendo la mayor parte de la carga. Su clima es templado con estaciones reales, lo que cambia la especificación respecto de los mercados tropicales.",
+   "tldr_label": "En resumen — Uruguay",
+   "tldr": "Un mercado templado y renovable donde la red es sólida y la restricción es la utilización. La cobertura de corredor entre Montevideo y la costa es el caso práctico.",
+   "facts": [
+    [
+     "Eólica + hidro",
+     "Generación dominante"
+    ],
+    [
+     "Cuatro estaciones",
+     "Rango de diseño templado"
+    ],
+    [
+     "Red sólida",
+     "Menos límites de conexión"
+    ],
+    [
+     "Corredor",
+     "Montevideo a la costa"
+    ]
+   ],
+   "sections": [
+    [
+     "Una red que no es la restricción",
+     "<p>La capacidad eólica e hidroeléctrica de Uruguay significa que, para muchos sitios, la capacidad disponible es menos bloqueante que en mercados vecinos. Eso desplaza el centro de gravedad del proyecto de la obra civil a la utilización y el servicio.</p><p>También hace más fácil justificar internamente los compromisos de electrificación: el suministro ya es bajo en carbono.</p>"
+    ],
+    [
+     "Templado, no tropical",
+     "<p>Cuatro estaciones reales significan que importan tanto el calor del verano como el frío del invierno. El rango de diseño es más amplio que el de un mercado tropical y los extremos son más bajos. El comportamiento de carga en mañanas frías afecta el tiempo de carga práctico que ven los conductores.</p><p>Especifica un rango y no un punto de diseño único, y revisa el comportamiento de arranque en frío del equipo.</p>"
+    ],
+    [
+     "La cobertura de corredor supera a la densidad",
+     "<p>La población y el tráfico se concentran en el eje Montevideo–costa. Para un país de este tamaño, un número pequeño de sitios de corredor fiables cambia la usabilidad de los vehículos eléctricos más que una cobertura densa en una sola ciudad.</p><p>Un solo sitio de corredor que siempre está disponible vale más que tres que fallan de vez en cuando.</p>"
+    ],
+    [
+     "Política y programas públicos de corredor",
+     "<p>Uruguay ha impulsado la electrificación de forma consistente, incluido el apoyo a la infraestructura de carga y una red ya mayoritariamente renovable. Esa combinación hace inusualmente sencillo el caso público de un proyecto de carga: el suministro es limpio y la dirección de política es estable.</p><p>La restricción práctica es la utilización, no el permiso. Un sitio de corredor colocado donde el tráfico realmente se concentra vale más que una cobertura dispersa por razones políticas.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia cinco puntos: la capacidad de conexión disponible, los puntos de diseño de invierno y verano, la posición en el corredor, la expectativa de disponibilidad del sitio y el esquema de servicio.</p><p>Con una red renovable sólida, la conexión rara vez es el bloqueo, así que el estudio debería concentrarse en la utilización y en el compromiso de servicio.</p><p>Cuando la red no es la restricción, el riesgo del proyecto está en la demanda. Ponle precio a ese riesgo antes de comprometer una construcción multi-sitio.</p><p>Un corredor realmente completo es más útil para un conductor que una red densa que termina de golpe en el límite del siguiente departamento.</p><p>Fija el objetivo de disponibilidad antes del nivel de potencia y deja que el equipo se derive de la promesa de servicio y no al revés.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿La capacidad de red es un problema en Uruguay?",
+     "Menos que en muchos mercados regionales gracias a la capacidad eólica e hidroeléctrica. Las verificaciones por sitio siguen siendo necesarias, pero rara vez son el factor decisivo. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Qué rango climático hay que especificar?",
+     "Un rango realmente de cuatro estaciones, del calor de verano al frío de invierno. Revisa el arranque en frío además de la reducción por calor. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Dónde debería ir un primer sitio de corredor?",
+     "En el eje Montevideo–costa, donde se concentra el tráfico, priorizando la fiabilidad por encima de la potencia. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ]
+   ]
+  },
+  {
+   "slug": "argentina",
+   "country": "Argentina",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Argentina: distancia, frío y aduana",
+   "meta": "Argentina es un país largo, con frío patagónico, Pampas templadas y restricciones a la importación. La distancia y la disponibilidad de equipo definen un sitio.",
+   "h1": "Carga de VE en Argentina: distancia, frío patagónico y realidad de importación",
+   "lede": "Argentina se extiende del norte subtropical al sur patagónico. Esa distancia, más un punto de diseño frío en el sur y un entorno de importación restringido, definen lo que un proyecto debe planificar.",
+   "tldr_label": "En resumen — Argentina",
+   "tldr": "La distancia de servicio y la disponibilidad de refacciones son las restricciones duras. El frío patagónico y los corredores largos hacen de la fiabilidad una especificación y no una aspiración.",
+   "facts": [
+    [
+     "3,700 km",
+     "Extensión norte-sur"
+    ],
+    [
+     "Patagonia",
+     "Punto de diseño bajo cero"
+    ],
+    [
+     "Restricción de importación",
+     "Plazo de refacciones"
+    ],
+    [
+     "Corredores largos",
+     "Distancia de servicio"
+    ]
+   ],
+   "sections": [
+    [
+     "La distancia es el motor del diseño",
+     "<p>La extensión de Argentina hace que una estrategia de corredor y una de depósito sean negocios distintos. Para corredores, el espaciado entre paradas fiables decide la usabilidad; para depósitos, la restricción es la carga nocturna y el acceso al sitio.</p><p>Planifica la tenencia de refacciones antes de elegir niveles de potencia. En un país largo, una unidad averiada lejos de un almacén es una interrupción y no un ticket de mantenimiento.</p>"
+    ],
+    [
+     "Frío patagónico y Pampas templadas",
+     "<p>Los sitios del sur enfrentan condiciones bajo cero y viento, mientras las Pampas son templadas con veranos calurosos. Una especificación nacional única estará equivocada en uno de los extremos. Especifica por región y revisa el arranque en frío donde el punto de diseño de invierno es negativo.</p><p>El comportamiento del lado del vehículo también importa: los paquetes fríos aceptan menos potencia, así que el tiempo de carga práctico en invierno es mayor.</p>"
+    ],
+    [
+     "Realidad de importación y documentación",
+     "<p>La disponibilidad de equipo y los plazos se ven afectados por el entorno de importación. Eso hace que la certificación y la documentación formen parte de la ruta crítica y no sean papeleo posterior al pedido.</p><p>Pide el paquete aduanero y de certificación desde el inicio, y planifica la fecha de puesta en marcha con un margen realista.</p>"
+    ],
+    [
+     "Variación provincial y permisos",
+     "<p>Las provincias argentinas difieren en permisos, en práctica de inspección eléctrica y en el tratamiento de cargas distribuidas. Una plantilla nacional estará equivocada en algún lugar. Consigue el requisito provincial del sitio concreto antes de comprometer un calendario.</p><p>Las reglas cambiarias y de importación también afectan los tiempos del equipo, así que el trabajo de permisos y el papeleo de importación deberían correr en paralelo y no en secuencia. La planificación secuencial es la causa más común de una fecha de puesta en marcha incumplida aquí.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia seis puntos: el requisito de permisos provincial, la temperatura de diseño de invierno, la distancia al acopio de refacciones más cercano, la situación de importación y certificación del equipo elegido, la capacidad disponible y el acceso del sitio para vehículos pesados.</p><p>Ejecuta permisos y papeleo de importación en paralelo. Secuenciarlos es la razón más común de que una fecha de puesta en marcha se corra en este mercado.</p><p>Cuando corren en paralelo, el proyecto es un ejercicio logístico; cuando corren en secuencia se convierte en un riesgo de calendario que ningún proveedor puede absorber.</p><p>Un margen realista no es pesimismo en este mercado; es la diferencia entre una fecha de puesta en marcha y una fecha incumplida.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Qué hace a Argentina más difícil que otros mercados regionales?",
+     "La distancia y la logística de importación. El equipo no es la parte difícil; llevar refacciones y documentación a un sitio remoto a tiempo sí lo es. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿El frío patagónico cambia la especificación?",
+     "Sí. Los puntos de diseño bajo cero afectan el comportamiento de arranque en frío y, del lado del vehículo, la potencia de carga. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Un primer proyecto debería ser corredor o depósito?",
+     "Un depósito con flota ancla es más fácil de modelar. Un proyecto de corredor depende de que varios sitios sean fiables a la vez. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ]
+   ]
+  },
+  {
+   "slug": "chile",
+   "country": "Chile",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Chile: sol de Atacama, Andes y minería",
+   "meta": "Chile combina el sol de Atacama, la altitud andina, un corredor de 4,300 km y flotas mineras. La condición de operación cambia a lo largo de 3,000 km.",
+   "h1": "Carga de VE en Chile: sol de Atacama, altitud andina y flotas mineras",
+   "lede": "Chile es una franja de 4,300 km con el desierto más seco del mundo al norte, un centro templado y la Patagonia fría al sur. Las flotas mineras y la cobertura de corredor son los dos primeros casos creíbles.",
+   "tldr_label": "En resumen — Chile",
+   "tldr": "Atacama es un problema de polvo y de sol; los Andes son un problema de altitud; el sur es un problema de frío. Las flotas mineras dan un primer caso predecible y de alta utilización.",
+   "facts": [
+    [
+     "4,300 km",
+     "Extensión norte-sur"
+    ],
+    [
+     "Atacama",
+     "Hiperárido, alta radiación solar"
+    ],
+    [
+     "Andes",
+     "Punto de diseño por altitud"
+    ],
+    [
+     "Flotas mineras",
+     "Utilización alta y predecible"
+    ]
+   ],
+   "sections": [
+    [
+     "Atacama: polvo, sol y aire enrarecido",
+     "<p>El desierto del norte combina carga solar intensa, aire muy seco y polvo. Los sistemas de refrigeración aspiran polvo, así que los intervalos de servicio de filtros deben fijarse para el sitio y no para un programa genérico. La gran altitud reduce la densidad del aire y por tanto la capacidad de refrigeración.</p><p>Pide una cifra de reducción que combine altitud y temperatura en el sitio concreto, no un solo número para todo el país.</p>"
+    ],
+    [
+     "Las flotas mineras son el caso más sólido",
+     "<p>Las operaciones mineras tienen ciclos de vehículos predecibles y de alta utilización, y ya gestionan cargas eléctricas grandes. Eso convierte la carga de depósito en un ejercicio de ingeniería con un ciclo de trabajo conocido y no en una apuesta a la demanda pública.</p><p>También implica requisitos de fiabilidad altos: un cargador que falla a mitad de turno detiene una operación y no a un conductor.</p>"
+    ],
+    [
+     "El problema del corredor",
+     "<p>Cubrir con carga un país de 4,300 km no es un solo proyecto. El enfoque defendible son tramos de ruta con una garantía definida de siguiente parada, empezando donde el tráfico ya se concentra.</p><p>Entre el norte desértico, el centro templado y la Patagonia fría, cada tramo tiene su propia especificación.</p>"
+    ],
+    [
+     "Electrificación minera y permisos",
+     "<p>El sector minero de Chile se está electrificando a una escala que crea demanda real de carga, y las empresas mineras ya operan infraestructura eléctrica grande. Eso hace que la conversación técnica sea inusualmente detallada y el proceso de compra correspondientemente formal.</p><p>Los permisos siguen a la región y a la clasificación ambiental del sitio. Incorpora el paso de aprobación al plan desde el principio; un sitio minero no se pone en marcha con una aprobación verbal.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia seis puntos: la región y su punto de diseño, la elevación del sitio, la carga de polvo en la posición del gabinete, la potencia del transformador, la clasificación ambiental que impulsa los permisos y el ciclo de trabajo de la flota.</p><p>Para un sitio minero, añade el patrón de turnos. Los requisitos de fiabilidad siguen al turno y no al calendario, y el contrato de servicio debe reflejarlo.</p><p>Para tramos de corredor, la misma disciplina aplica a la garantía de siguiente parada: debe ser un compromiso escrito con respuesta definida y no una aspiración.</p><p>La compra minera es formal, así que la documentación debe estar completa antes de que empiece siquiera la discusión técnica.</p><p>Un operador minero pedirá en la primera reunión la reducción a la altitud, el intervalo de mantenimiento por polvo y la cifra de disponibilidad según el patrón de turnos.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Por qué Atacama es distinto de otros mercados cálidos?",
+     "Es seco y no húmedo. Dominan el ingreso de polvo y la carga solar; el ingreso de agua es menos preocupante. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Importa la altitud en Chile?",
+     "Sí, en sitios andinos. Pide la reducción combinada de altitud y temperatura a la altura real del sitio. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cuál es el primer caso más creíble?",
+     "Un depósito minero o de flota con un ciclo de trabajo medido, o un tramo de corredor con tráfico definido. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ],
+    [
+     "/es/tools/",
+     "Calculadoras de carga"
+    ]
+   ]
+  },
+  {
+   "slug": "brazil",
+   "country": "Brasil",
+   "region": "Sudamérica",
+   "eyebrow": "Mercado · Sudamérica",
+   "title": "Carga de VE en Brasil: red hidro, calor y portugués",
+   "meta": "Brasil combina una red hidroeléctrica, calor tropical y subtropical, distancia continental y un mercado en portugués. Qué define un sitio de carga.",
+   "h1": "Carga de VE en Brasil: energía hidroeléctrica, calor tropical y un mercado en portugués",
+   "lede": "Brasil es un mercado del tamaño de un continente con una red de base hidroeléctrica, climas tropical y subtropical, y el portugués como idioma de trabajo. La distancia y el idioma cambian el plan tanto como el clima.",
+   "tldr_label": "En resumen — Brasil",
+   "tldr": "La hidro da suministro bajo en carbono; la distancia y el calor fijan la especificación. El contenido y el servicio deben estar en portugués: el material en español suena extranjero al comprador brasileño.",
+   "facts": [
+    [
+     "Hidrodominante",
+     "Matriz de generación"
+    ],
+    [
+     "Portugués",
+     "Idioma del mercado"
+    ],
+    [
+     "Tropical + subtropical",
+     "Dos rangos de diseño"
+    ],
+    [
+     "Continental",
+     "Distancia de servicio"
+    ]
+   ],
+   "sections": [
+    [
+     "Oferta hidroeléctrica y la cuestión de la conexión",
+     "<p>La electricidad de Brasil es mayoritariamente hidroeléctrica, lo que da una base baja en carbono para electrificar y un suministro generalmente adecuado a nivel nacional. Como en el resto de la región, la conexión de distribución del propio sitio es la restricción vinculante para un proyecto concreto.</p><p>Obtén la capacidad disponible y el costo de ampliación antes de decidir el número de cargadores.</p>"
+    ],
+    [
+     "Dos climas, un país",
+     "<p>El norte y el noreste son cálidos y húmedos todo el año; el sur es subtropical con frío invernal real. Una especificación escrita para São Paulo no se acerca a ninguno de los dos. El calor y la humedad impulsan el ingreso y el desgaste de conectores; los inviernos del sur impulsan el comportamiento de arranque en frío.</p><p>Especifica por región y revisa tanto la reducción como el arranque en frío.</p>"
+    ],
+    [
+     "El portugués no es un detalle de traducción",
+     "<p>Los compradores brasileños leen portugués, y las páginas en español suenan extranjeras. Eso es una decisión de contenido y de servicio, no un matiz de localización: la demanda de búsqueda, las conversaciones de venta y el soporte ocurren en portugués.</p><p>Tratamos el portugués como un idioma distinto del español y no como una variante, incluidos URL y señales de idioma separadas.</p>"
+    ],
+    [
+     "Contexto regulatorio y variación estatal",
+     "<p>La regulación eléctrica de Brasil se fija a nivel nacional, pero la experiencia práctica de un sitio de carga varía por estado y por distribuidora. El tratamiento tarifario de una instalación de carga debe confirmarse con la distribuidora local y no suponerse a partir de una regla nacional.</p><p>El tamaño de Brasil también implica que un despliegue nacional son en realidad varios proyectos regionales. Elige el primer estado por donde ya existan el cliente ancla y la relación con la distribuidora, y luego reutiliza ese modelo.</p>"
+    ],
+    [
+     "Datos del sitio a resolver antes del pedido",
+     "<p>Estudia seis puntos: el estado y la distribuidora, el tratamiento tarifario de la instalación, el punto de diseño regional, la capacidad disponible, la mezcla de conectores y la distancia a una base de servicio.</p><p>Resuelve también la cuestión del idioma desde el principio. La documentación, el etiquetado y el soporte en portugués son parte del entregable en Brasil y no una traducción añadida después.</p><p>Acertar con la relación de la distribuidora en el primer estado es lo que hace que el segundo y el tercer estado sean más rápidos y no más difíciles.</p><p>Trata cada estado como un proyecto separado con su propia distribuidora, y reutiliza la relación en lugar del papeleo.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "¿Por qué importa el portugués si existen páginas en español?",
+     "Son mercados distintos y comportamientos de búsqueda distintos. Un comprador brasileño que busca en portugués no encuentra útil el contenido en español, y tratar los dos como un solo idioma suprime ambos. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿Cuáles son los dos puntos de diseño climático de Brasil?",
+     "Cálido y húmedo en el norte y noreste; subtropical con frío invernal real en el sur. Implican requisitos distintos de protección y reducción. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ],
+    [
+     "¿La generación hidroeléctrica es un beneficio?",
+     "Sí, para la intensidad de carbono. No elimina la restricción de conexión local de un sitio concreto. El siguiente paso práctico es un estudio del emplazamiento: la conexión y los requisitos locales deciden más que la ficha técnica del equipo."
+    ]
+   ],
+   "internal": [
+    [
+     "/es/markets/",
+     "Todos los mercados que atendemos"
+    ],
+    [
+     "/es/inquiry",
+     "Hablemos del proyecto"
+    ],
+    [
+     "/es/products/vulco",
+     "Vulco: DC modular de 60–480 kW"
+    ],
+    [
+     "/es/cases/",
+     "Proyectos entregados y verificados"
+    ],
+    [
+     "/pt/markets/brazil",
+     "Portugués (Brasil)"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+# —— 体积/嵌套/机密：不纳入版本控制 ——
+06-site/            # 站点仓库（自带 git，独立 push）
+08-execution/       # 执行产物与台账（181M，逐日增长）
+02-skills/          # 技能库（5.8M，来源外部）
+03-workflows/       # 流程库（12M，多为导入的规格文档）
+
+# 机密与临时
+.secrets/
+.tmpcfg/
+.tools/
+node_modules/
+*.pyc
+__pycache__/
+.DS_Store
+*.log
+
+# 运行态
+ops/locks/
+ops/write-scope.json
+ops/indexnow-state.json

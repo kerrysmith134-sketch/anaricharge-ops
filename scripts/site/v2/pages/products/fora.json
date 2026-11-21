@@ -1,0 +1,142 @@
+{
+  "slug": "products/fora",
+  "url": "/products/fora.html",
+  "breadcrumb": "Fora",
+  "title": "Fora — split ultra-fast DC system, 360–960 kW | Anari Energy",
+  "meta": "Fora: A centralised power cabinet feeding remote dispensers: up to sixteen guns from one power block, so a corridor hub can grow terminal by terminal instead ",
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Product · Fora",
+      "h1": "Fora — split ultra-fast DC system, 360–960 kW",
+      "lede": "A centralised power cabinet feeding remote dispensers: up to sixteen guns from one power block, so a corridor hub can grow terminal by terminal instead of being rebuilt.",
+      "image": "/assets/img/products/v2/fora-split-960kw.webp",
+      "image1024": "/assets/img/products/v2/fora-split-960kw-1024.webp",
+      "imageAlt": "Fora product photograph",
+      "note": "Specifications below are the published configuration; the binding constraint on your site decides the variant.",
+      "actions": [
+        {
+          "label": "Request a configuration",
+          "href": "/inquiry"
+        },
+        {
+          "label": "Full datasheet",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Specifications",
+      "h2": "Fora specifications",
+      "lede": "Power cabinet ratings, dispenser count and terminal types.",
+      "rows": [
+        {
+          "k": "System power",
+          "v": "360–960 kW (centralized power cabinet)"
+        },
+        {
+          "k": "Dispensers per cabinet",
+          "v": "Up to 16 (6 / 8 / 10 / 12 / 16 configurations)"
+        },
+        {
+          "k": "Fora-L terminal",
+          "v": "Liquid-cooled, single gun, 0–600 A, up to 600 kW"
+        },
+        {
+          "k": "Fora-A terminal",
+          "v": "Air-cooled, dual gun, 250 kW"
+        },
+        {
+          "k": "DC output voltage",
+          "v": "200–1,000 V (constant power 300–1,000 V)"
+        },
+        {
+          "k": "Session start",
+          "v": "QR code · VIN recognition · RFID"
+        },
+        {
+          "k": "Protection and environment",
+          "v": "IP54 · 10-layer protection · −20 °C to +50 °C"
+        },
+        {
+          "k": "Network protocol",
+          "v": "OCPP 1.6J native, OCPP 2.0.1 compatible"
+        }
+      ],
+      "caption": "Fora — published specifications",
+      "alt": false
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Where it fits",
+      "h2": "The constraint this family answers",
+      "lede": "Ultra-fast corridor hubs and high-throughput sites where the power block should outlive the individual dispensers.",
+      "items": [
+        {
+          "title": "Typical deployment",
+          "text": "Chosen when the site constraint matches the family, not because it is the cheapest unit."
+        },
+        {
+          "title": "What decides the variant",
+          "text": "Grid capacity, duty cycle, climate envelope and connector standard."
+        },
+        {
+          "title": "What to send us",
+          "text": "Available kVA, vehicles served per day, dwell time and ambient temperature range."
+        },
+        {
+          "title": "How it is delivered",
+          "text": "Within the turnkey scope: design, permits, installation supervision, commissioning and handover."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Related families",
+      "h2": "Often specified together",
+      "items": [
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · dual standard"
+        },
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Storage · 120 / 261 / 418 kWh"
+        }
+      ],
+      "action": {
+        "label": "Compare all families",
+        "href": "/products/"
+      }
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Next step",
+      "h2": "Send the site parameters and we will return a Fora configuration.",
+      "lede": "Available capacity, duty cycle and climate are enough to narrow the variant in one exchange.",
+      "actions": [
+        {
+          "label": "Request a configuration",
+          "href": "/inquiry"
+        },
+        {
+          "label": "See deployed sites",
+          "href": "/cases/"
+        }
+      ]
+    }
+  ]
+}

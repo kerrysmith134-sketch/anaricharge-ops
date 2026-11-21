@@ -1,0 +1,75 @@
+{
+  "_note": "案例证据字段（Growth OS 计划 §3 案例页要求）。每条只用页面已陈述的事实；缺的写 Not published，不补编。",
+  "bus-depot-czechia": {
+    "site_context": "Czech bus station operated by a scheduled-service company; the timetable peak (06:40 departure) is the binding event, not daily kWh.",
+    "binding_constraint": "Morning peak: twelve buses must leave at once. Sizing for the average day would have under-sized the site; sizing each bus for its own peak would have required a larger grid connection.",
+    "configuration": "12 × dual-gun 120 kW DC chargers → 24 DC connectors from 12 supplies. Ordered May 2026, energised July 2026.",
+    "commissioning": "Delivered and energised July 2026 (operator-run site).",
+    "outcome": "The morning peak is cleared without paying for a grid upgrade; peak is met by sharing power across dispensers rather than by adding capacity.",
+    "limits": "Single site, single operator, one timetable season. Figures are the ordered configuration and the operator's operating pattern — not an independently audited throughput study.",
+    "source": "Project configuration as delivered; operating pattern supplied by the operator."
+  },
+  "jordan-160kw": {
+    "site_context": "Highway corridor charging built with a leading Middle East CPO, in a summer climate that exceeds 45 °C.",
+    "binding_constraint": "Heat: ambient above 45 °C for sustained periods is what limits output on corridor sites, because the enclosure has no forced cooling beyond what the design provides.",
+    "configuration": "Vulco DC Series at 160 kW, in dual-gun and three-gun configurations (2 × and 3 × connectors per cabinet).",
+    "commissioning": "Site commissioned with the partner CPO; the completed station is one of the largest charging sites in Jordan.",
+    "outcome": "Rated output is held through summer operation above 45 °C; the site ranks among the largest charging stations in the country.",
+    "limits": "Per-site observation at one power rating — it does not establish a derating curve and says nothing about a 360 kW cabinet in the same air.",
+    "source": "Deployment record; operating conditions from the site."
+  },
+  "cambodia-240kw": {
+    "site_context": "Phnom Penh charging operator on Cambodia's national highway, returning after an earlier Vulco deployment.",
+    "binding_constraint": "Monsoon season plus a limited grid, with zero tolerance for downtime at a site the operator had already committed to.",
+    "configuration": "3 × Pales DC Series: 2 × 180 kW + 1 × 240 kW, dual-gun GB/T.",
+    "commissioning": "Second deployment for the same operator; units placed along the national highway.",
+    "outcome": "Repeat order — the same customer bought again after running the first site.",
+    "limits": "One operator, one corridor. Continuous-downtime claims refer to the monsoon period observed, not to a multi-year availability study.",
+    "source": "Order and deployment record from the repeat customer."
+  },
+  "romania-highway": {
+    "site_context": "Highway service areas for a leading Romanian CPO — our first deployment in Romania.",
+    "binding_constraint": "AFIR-era compliance and approval sequencing: what stops a project is the permitting and evidence trail before energisation, not the hardware.",
+    "configuration": "Vulco DC Series at 180 kW, dual-gun and three-gun configurations, at highway service areas.",
+    "commissioning": "Entire go-live run by embedded Anari engineers rather than remote support.",
+    "outcome": "First Romania deployment completed; the commissioning sequence became the template used for later EU sites.",
+    "limits": "Narrative is a commissioning account, not a measured utilisation dataset. Site throughput is not published.",
+    "source": "Commissioning record and partner confirmation."
+  },
+  "hot-climate": {
+    "site_context": "Public charging networks in the Middle East and an Israeli partner network, from 2025 onward.",
+    "binding_constraint": "Peak summer: networks fail on the same point — sustained ambient heat above what a standard enclosure assumes.",
+    "configuration": "120–180 kW DC across an Israeli partner's network; 120 kW three-gun in Saudi Arabia; 160 kW in Jordan.",
+    "commissioning": "Multiple public sites across 2025–2026.",
+    "outcome": "Rated power is held past 45 °C on the sites described; the failure mode seen elsewhere (cable/connector rather than power modules) is documented in our field report.",
+    "limits": "Sample is small and operator-reported, not a failure-rate study. Treat it as a maintenance-priority hint, not a reliability claim.",
+    "source": "Field observations; full method and limits in /data/findings-2026."
+  },
+  "cold-climate": {
+    "site_context": "Commercial parking in northern/central Kazakhstan (minus 30 °C for weeks) and a Georgian charging network operator.",
+    "binding_constraint": "Cold start: at sustained minus 30 °C a conventional cabinet does not simply run at reduced power — it may not start at all.",
+    "configuration": "6 × dual-gun 120 kW DC in Kazakhstan (12 connectors), ordered July 2026, in service August 2026; 120 kW and 180 kW dual-gun units in Georgia.",
+    "commissioning": "Kazakhstan site in service August 2026; Georgia delivered to the country's second charging network operator.",
+    "outcome": "Cold-start operation at minus 30 °C achieved on the Kazakhstan site.",
+    "limits": "One winter season observed; no multi-year cold-soak data. Connector-level failures are not reported.",
+    "source": "Deployment record; seasonal conditions from site."
+  },
+  "off-grid-pv-ess": {
+    "site_context": "Industrial park in China with no usable grid connection for the required charging power.",
+    "binding_constraint": "No grid: the system has to generate, store and deliver energy on site, so storage sizing comes before charger selection.",
+    "configuration": "PV array mounted above the parking area + battery energy storage + 22 kW AC and 80/120 kW DC charging, designed as one off-grid system.",
+    "commissioning": "Off-grid architecture commissioned as a single system rather than three separate purchases.",
+    "outcome": "Site runs off-grid; storage capacity sets how many charging points can be energised at once.",
+    "limits": "Single industrial site; no published year-round yield data for the PV array. Economics depend on local tariffs and cannot be generalised.",
+    "source": "System design as installed."
+  },
+  "emerging-markets": {
+    "site_context": "Ethiopia, Bulgaria and El Salvador — markets where policy or demand arrived before the infrastructure did.",
+    "binding_constraint": "Policy-first demand: the absence of infrastructure, not competition for share, is what decides whether a project can start.",
+    "configuration": "Ethiopia: 3 × dual-gun 180 kW DC (6 connectors, 540 kW) at one commercial site. Bulgaria: 4 × Castor cabinets. El Salvador: 40 kW dual-gun wallbox DC.",
+    "commissioning": "Commissioned in each market as an early deployment.",
+    "outcome": "Three early-market deployments delivered where networks did not yet exist.",
+    "limits": "Three separate single-site deployments; utilisation data is not published for any of them.",
+    "source": "Deployment records per market."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "es/cases/romania-highway",
+  "url": "/es/cases/romania-highway.html",
+  "breadcrumb": "Primer despliegue en Rumanía: puesta en marcha d",
+  "locale": "es",
+  "title": "Primer despliegue en Rumanía: puesta en marcha de 180 kW | A",
+  "meta": "Un CPO rumano nos eligió para expandir su red de autopista. Suministramos cargadores Vulco DC de 180 kW en configuraciones de dos y tres pis Detalles y especifi",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/romania-highway"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/romania-highway"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/romania-highway"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Caso",
+      "h1": "Primer despliegue en Rumanía: puesta en marcha de 180 kW en la era AFIR",
+      "lede": "Un CPO rumano nos eligió para expandir su red de autopista. Suministramos cargadores Vulco DC de 180 kW en configuraciones de dos y tres pistolas en áreas de servicio y ejecutamos toda la puesta en marcha con ingenieros propios en sitio.",
+      "image": "/assets/img/v2/case-romania-640.webp",
+      "credit": "La versión completa del análisis está en inglés",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Todos los proyectos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/romania-highway"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Análisis",
+      "h2": "Restricción → solución → resultado",
+      "lede": "El análisis técnico completo, con fórmulas y tablas, está en la página en inglés.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Restricción",
+          "text": "Requisitos AFIR y plazos de aprobación antes de energizar."
+        },
+        {
+          "no": "02",
+          "title": "Qué hicimos",
+          "text": "Ingenieros de Anari en sitio durante la puesta en marcha, no soporte remoto."
+        },
+        {
+          "no": "03",
+          "title": "Resultado",
+          "text": "El primer despliegue del país se volvió nuestro patrón de puesta en marcha en la UE."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Parámetros del sitio",
+      "h2": "Primer despliegue en Rumanía: pues — parámetros",
+      "rows": [
+        {
+          "k": "Producto",
+          "v": "Vulco DC Series integrated floor-mounted fast charger"
+        },
+        {
+          "k": "Potencia",
+          "v": "180 kW DC"
+        },
+        {
+          "k": "Configuraciones",
+          "v": "Dual-gun and three-gun (2 × DC + 1 × AC Type 2)"
+        },
+        {
+          "k": "Tipo de sitio",
+          "v": "Highway service areas"
+        },
+        {
+          "k": "Modelo de soporte",
+          "v": "Embedded Anari commissioning engineers until acceptance sign-off"
+        },
+        {
+          "k": "Operador",
+          "v": "Leading Romanian CPO (first cooperation)"
+        }
+      ],
+      "caption": "Primer despliegue en Rumanía: puesta en marcha de "
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Un sitio parecido? Envíe los datos.",
+      "lede": "Basta con el país, la potencia disponible y cómo operará el sitio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/romania-highway"
+        }
+      ]
+    }
+  ]
+}

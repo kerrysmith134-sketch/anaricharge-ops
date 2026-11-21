@@ -1,0 +1,178 @@
+{
+ "slug": "es/maintenance",
+ "url": "/es/maintenance/",
+ "breadcrumb": "Operación y mantenimiento",
+ "locale": "es",
+ "hreflangs": [
+  {
+   "lang": "en",
+   "href": "/maintenance/"
+  },
+  {
+   "lang": "ru",
+   "href": "/ru/maintenance/"
+  },
+  {
+   "lang": "es",
+   "href": "/es/maintenance/"
+  },
+  {
+   "lang": "x-default",
+   "href": "/maintenance/"
+  }
+ ],
+ "title": "Operación y mantenimiento de cargadores | Anari",
+ "meta": "Qué cubre el servicio de operación y mantenimiento: monitorización, plan preventivo, repuestos críticos, escalado y cómo fijamos el SLA de cada sitio.",
+ "sections": [
+  {
+   "type": "hero",
+   "eyebrow": "Operación y mantenimiento",
+   "h1": "El mantenimiento se define antes de firmar, no tras la primera avería.",
+   "lede": "El contrato de O&M suele escribirse después de la puesta en marcha, cuando el sitio ya está caído y el proveedor tiene la ventaja. Nosotros lo fijamos en la entrega: qué se monitoriza, qué hay en el sitio, a quién se llama y cómo se mide la obligación de respuesta.",
+   "image": "/assets/img/v2/hero-fleet-depot-1280.webp",
+   "credit": "Depósito: una parada es un servicio cancelado",
+   "actions": [
+    {
+     "label": "Ver la estructura del SLA",
+     "href": "#sla"
+    },
+    {
+     "label": "Hablar de mantenimiento",
+     "href": "/es/inquiry"
+    }
+   ],
+   "facts": [
+    {
+     "value": "8",
+     "label": "etapas antes de operar"
+    },
+    {
+     "value": "2",
+     "label": "capas: ANARI OS + N-Tech"
+    },
+    {
+     "value": "12",
+     "label": "puntos en el depósito de referencia"
+    },
+    {
+     "value": "22",
+     "label": "países con sitios entregados"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "eyebrow": "Qué cubre el servicio",
+   "h2": "Cinco puntos que el contrato debe nombrar",
+   "lede": "Si alguno queda difuso, se convierte en disputa la primera vez que un punto está caído.",
+   "items": [
+    {
+     "no": "01",
+     "title": "Monitorización remota",
+     "text": "Cada sitio corre sobre ANARI OS: sesiones, códigos de fallo y estado de los módulos de potencia son visibles en remoto, así que la avería se detecta antes de que la reporte el conductor."
+    },
+    {
+     "no": "02",
+     "title": "Plan preventivo",
+     "text": "Inspección de conectores, limpieza de filtros y ventiladores, comprobación de pares de apriete y política de firmware con una cadencia fijada por clima y régimen de uso, no por una visita anual genérica."
+    },
+    {
+     "no": "03",
+     "title": "Repuestos críticos",
+     "text": "Al menos un módulo de potencia por tipo de armario DC y las piezas de conector que causan las paradas más largas, en sitio o en la región, para que un envío transoceánico no esté en la ruta crítica."
+    },
+    {
+     "no": "04",
+     "title": "Primera línea y escalado",
+     "text": "El nivel 1 (reinicio, cambio de cable, limpieza, inspección visual) se hace en sitio; el trabajo de armario y eléctrico escala en garantía, con el límite escrito."
+    },
+    {
+     "no": "05",
+     "title": "Reporte auditable",
+     "text": "Disponibilidad medida por punto y por mes, no como media de flota, con causas de parada y exclusiones listadas — la misma base que usan los reguladores para sitios DC de financiación pública."
+    }
+   ]
+  },
+  {
+   "type": "cardGrid",
+   "cols": 2,
+   "eyebrow": "Estructura del SLA",
+   "id": "sla",
+   "h2": "Cinco cláusulas que deciden si el SLA le protege",
+   "lede": "Son las que separan un plan de servicio de una promesa de marketing.",
+   "items": [
+    {
+     "title": "Disponibilidad por punto",
+     "text": "Por punto y por mes, no una media de flota donde un punto muerto se esconde detrás de veinte sanos. Se indican ventana de medición y exclusiones."
+    },
+    {
+     "title": "Parada definida por función",
+     "text": "Un punto cuenta como caído cuando no entrega su sesión nominal, no solo cuando el hardware está muerto. La funcionalidad parcial sigue siendo parada para el conductor."
+    },
+    {
+     "title": "Reloj desde la detección",
+     "text": "La obligación de respuesta empieza cuando la monitorización detecta el fallo, no cuando llama el operador; si no, la detección lenta es gratis para el proveedor y cara para usted."
+    },
+    {
+     "title": "Consecuencia económica",
+     "text": "Crédito de servicio por cada punto porcentual por debajo del objetivo. Sin consecuencia, el objetivo es un comentario."
+    },
+    {
+     "title": "Datos independientes",
+     "text": "Cifras auditables contra registros de sesión y pagos, no autoinforme del proveedor."
+    },
+    {
+     "title": "Lo que no prometemos",
+     "text": "Un número único para todos los mercados. La exposición a fallos depende de clima, calidad de red y régimen, así que los objetivos se fijan por sitio con la base escrita."
+    }
+   ]
+  },
+  {
+   "type": "evidence",
+   "eyebrow": "De nuestros sitios",
+   "image": "/assets/img/v2/hero-fleet-depot-1280.webp",
+   "imageAlt": "Armarios de carga en un depósito",
+   "caption": "Depósito: repuestos y escalado construidos para proteger el horario",
+   "h2": "Cuáles son de verdad los modos de fallo",
+   "lede": "El plan de servicio se diseña a partir de lo que falló en sitios entregados, no de una checklist genérica.",
+   "kv": [
+    {
+     "k": "Régimen de depósito",
+     "v": "Depósito de 12 puntos en Chequia: un punto caído es un servicio cancelado y una reclamación, así que repuestos y escalado giran en torno a proteger el horario."
+    },
+    {
+     "k": "Clima monzónico",
+     "v": "Sitio de 240 kW en Camboya: cero paradas por clima en el primer trimestre de monzón, con el cliente volviendo para más sitios."
+    },
+    {
+     "k": "Calor",
+     "v": "Corredor en Jordania: potencia nominal mantenida con operación de verano por encima de 45 °C — la restricción allí es térmica en componentes, no de potencia."
+    },
+    {
+     "k": "Capas remotas",
+     "v": "Monitorización ANARI OS y N-Tech tras la entrega son las dos capas que hacen la detección y la primera respuesta más rápidas que llamar a un distribuidor."
+    }
+   ],
+   "action": {
+    "label": "Desglose del coste de mantenimiento",
+    "href": "/blog/ev-charging-station-maintenance"
+   }
+  },
+  {
+   "type": "cta",
+   "eyebrow": "Siguiente paso",
+   "h2": "Envíe número de sitios, modelos de cargador y objetivo de disponibilidad.",
+   "lede": "Le describimos el plan de servicio, el kit de repuestos y la estructura de SLA que encaja — antes de firmar.",
+   "actions": [
+    {
+     "label": "Hablar de mantenimiento",
+     "href": "/es/inquiry"
+    },
+    {
+     "label": "Cómo entregamos un sitio",
+     "href": "/es/turnkey/"
+    }
+   ]
+  }
+ ]
+}

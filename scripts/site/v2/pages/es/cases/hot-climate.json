@@ -1,0 +1,103 @@
+{
+  "slug": "es/cases/hot-climate",
+  "url": "/es/cases/hot-climate.html",
+  "breadcrumb": "Carga DC en clima cálido: mantiene la potencia n",
+  "locale": "es",
+  "title": "Carga DC en clima cálido: mantiene la potencia nominal p | A",
+  "meta": "Las redes públicas de Oriente Medio fallan en el mismo punto: el pico del verano. Nuestros cargadores DC de 120–180 kW están desplegados en  Detalles y especifi",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/hot-climate"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/hot-climate"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/hot-climate"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Caso",
+      "h1": "Carga DC en clima cálido: mantiene la potencia nominal por encima de 45 °C",
+      "lede": "Las redes públicas de Oriente Medio fallan en el mismo punto: el pico del verano. Nuestros cargadores DC de 120–180 kW están desplegados en la red de un socio israelí desde 2025 y en Arabia Saudí en configuración de tres pistolas.",
+      "image": "/assets/img/v2/scene-hotclimate-640.webp",
+      "credit": "La versión completa del análisis está en inglés",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Todos los proyectos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/hot-climate"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Análisis",
+      "h2": "Restricción → solución → resultado",
+      "lede": "El análisis técnico completo, con fórmulas y tablas, está en la página en inglés.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Restricción",
+          "text": "Pico de verano: la temperatura ambiente supera lo previsto en el diseño."
+        },
+        {
+          "no": "02",
+          "title": "Qué hicimos",
+          "text": "Gestión térmica y reparto inteligente en lugar de reducir potencia."
+        },
+        {
+          "no": "03",
+          "title": "Resultado",
+          "text": "Potencia nominal en las horas más calurosas, no «derating» en el informe."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Parámetros del sitio",
+      "h2": "Carga DC en clima cálido: mantiene — parámetros",
+      "rows": [
+        {
+          "k": "Israel · public network",
+          "v": "120–180 kW DC, multi-standard, multiple batches"
+        },
+        {
+          "k": "Saudi Arabia · public site",
+          "v": "120 kW DC, three-gun"
+        },
+        {
+          "k": "Jordan · highway corridor",
+          "v": "160 kW DC, dual/three-gun"
+        }
+      ],
+      "caption": "Carga DC en clima cálido: mantiene la potencia nom"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Un sitio parecido? Envíe los datos.",
+      "lede": "Basta con el país, la potencia disponible y cómo operará el sitio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/hot-climate"
+        }
+      ]
+    }
+  ]
+}

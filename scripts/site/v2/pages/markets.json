@@ -1,0 +1,371 @@
+{
+ "slug": "markets",
+ "url": "/markets/",
+ "breadcrumb": "Markets",
+ "title": "Markets: Where We Deliver Charging Projects | Anari",
+ "meta": "22 countries in service across the Middle East, Caucasus and Central Asia, Europe, Asia, Africa and Latin America — each with its deciding constraint.",
+ "sections": [
+  {
+   "type": "hero",
+   "eyebrow": "Markets",
+   "h1": "Emerging markets, not the mature ones where price decides.",
+   "lede": "We work where the grid is the constraint and the operating model still has to be designed. 22 countries in service, grouped by the factor that decides projects there.",
+   "image": "/assets/img/v2/hero-cases-1920.webp",
+   "credit": "Corridor deployment · dual-gun 120 kW, Central Asia",
+   "actions": [
+    {
+     "label": "See the coverage",
+     "href": "#coverage"
+    },
+    {
+     "label": "Talk about your market",
+     "href": "/inquiry"
+    }
+   ],
+   "facts": [
+    {
+     "value": "22",
+     "label": "countries served"
+    },
+    {
+     "value": "6",
+     "label": "regions in service"
+    },
+    {
+     "value": "45 °C+",
+     "label": "hottest site in operation"
+    },
+    {
+     "value": "−30 °C",
+     "label": "coldest site in operation"
+    }
+   ]
+  },
+  {
+   "type": "mapPanel",
+   "alt": "World map marking the 22 countries where Anari has delivered charging projects",
+   "eyebrow": "Coverage",
+   "h2": "Where the 22 countries actually are",
+   "lede": "Grouped by the factor that decides a project in that region — heat, grid capacity, service access or certification. Countries are listed as delivered footprint, not as a target roadmap.",
+   "caption": "Map generated in-house from Natural Earth data (public domain), equirectangular projection — the same projection places the country markers.",
+   "dots": [
+    {
+     "name": "Jordan",
+     "x": 60.0,
+     "y": 32.8
+    },
+    {
+     "name": "Lebanon",
+     "x": 60.0,
+     "y": 31.2
+    },
+    {
+     "name": "Israel",
+     "x": 59.7,
+     "y": 32.8
+    },
+    {
+     "name": "Saudi Arabia",
+     "x": 62.5,
+     "y": 36.7
+    },
+    {
+     "name": "United Arab Emirates",
+     "x": 65.0,
+     "y": 36.7
+    },
+    {
+     "name": "Oman",
+     "x": 65.5,
+     "y": 38.1
+    },
+    {
+     "name": "Georgia",
+     "x": 62.1,
+     "y": 26.7
+    },
+    {
+     "name": "Armenia",
+     "x": 62.5,
+     "y": 27.7
+    },
+    {
+     "name": "Kazakhstan",
+     "x": 68.6,
+     "y": 23.3
+    },
+    {
+     "name": "Uzbekistan",
+     "x": 67.9,
+     "y": 27.0
+    },
+    {
+     "name": "Kyrgyzstan",
+     "x": 70.8,
+     "y": 27.1
+    },
+    {
+     "name": "Tajikistan",
+     "x": 69.8,
+     "y": 28.4
+    },
+    {
+     "name": "Romania",
+     "x": 56.9,
+     "y": 24.5
+    },
+    {
+     "name": "Bulgaria",
+     "x": 57.1,
+     "y": 26.3
+    },
+    {
+     "name": "Czechia",
+     "x": 54.3,
+     "y": 22.3
+    },
+    {
+     "name": "Finland",
+     "x": 57.1,
+     "y": 15.6
+    },
+    {
+     "name": "Cambodia",
+     "x": 79.1,
+     "y": 43.0
+    },
+    {
+     "name": "Nepal",
+     "x": 73.4,
+     "y": 34.2
+    },
+    {
+     "name": "Kenya",
+     "x": 60.5,
+     "y": 50.0
+    },
+    {
+     "name": "Ethiopia",
+     "x": 61.3,
+     "y": 44.9
+    },
+    {
+     "name": "Ghana",
+     "x": 49.7,
+     "y": 45.6
+    },
+    {
+     "name": "El Salvador",
+     "x": 25.3,
+     "y": 42.3
+    }
+   ],
+   "regions": [
+    {
+     "name": "Middle East",
+     "count": "6 countries",
+     "countries": "Jordan · Lebanon · Israel · Saudi Arabia · United Arab Emirates · Oman — extreme ambient heat and transformer-limited sites."
+    },
+    {
+     "name": "Caucasus & Central Asia",
+     "count": "6 countries",
+     "countries": "Georgia · Armenia · Kazakhstan · Uzbekistan · Kyrgyzstan · Tajikistan — corridor distances and service access."
+    },
+    {
+     "name": "Europe",
+     "count": "4 countries",
+     "countries": "Romania · Bulgaria · Czechia · Finland — EU procurement, AFIR timing and cold-climate operation."
+    },
+    {
+     "name": "South & Southeast Asia",
+     "count": "2 countries",
+     "countries": "Cambodia · Nepal — monsoon season, water ingress control and grid reliability."
+    },
+    {
+     "name": "Africa",
+     "count": "3 countries",
+     "countries": "Kenya · Ethiopia · Ghana — grid stability and off-grid or storage-first designs."
+    },
+    {
+     "name": "Latin America",
+     "count": "1 country",
+     "countries": "El Salvador — first site delivered, payment integration and local service model."
+    }
+   ],
+   "caption_note": "Delivered project footprint. Countries on the 23-market target list are not plotted — they appear here only after a project is delivered and handed over."
+  },
+  {
+   "type": "linkList",
+   "alt": true,
+   "eyebrow": "Latin America",
+   "h2": "Latin America: country guides",
+   "lede": "Latin America is a priority region for us. These guides set out the operating condition and the site inputs to settle in each market.",
+   "items": [
+    {
+     "href": "/markets/mexico",
+     "title": "Mexico",
+     "text": "Desert heat, CFE capacity and nearshoring sites."
+    },
+    {
+     "href": "/markets/guatemala",
+     "title": "Guatemala",
+     "text": "Highland altitude, hydro supply and a humid coast."
+    },
+    {
+     "href": "/markets/honduras",
+     "title": "Honduras",
+     "text": "Tropical heat, storm season and a distribution limit."
+    },
+    {
+     "href": "/markets/el-salvador",
+     "title": "El Salvador",
+     "text": "Our first Latin American deployment."
+    },
+    {
+     "href": "/markets/nicaragua",
+     "title": "Nicaragua",
+     "text": "Geothermal supply, tropical heat, thin service."
+    },
+    {
+     "href": "/markets/costa-rica",
+     "title": "Costa Rica",
+     "text": "~99% renewable generation and a long wet season."
+    },
+    {
+     "href": "/markets/panama",
+     "title": "Panama",
+     "text": "Canal logistics, humidity and island grids."
+    },
+    {
+     "href": "/markets/dominican-republic",
+     "title": "Dominican Republic",
+     "text": "Island grid, tropical heat and tourism demand."
+    },
+    {
+     "href": "/markets/colombia",
+     "title": "Colombia",
+     "text": "Andean altitude, Caribbean heat, two specifications."
+    },
+    {
+     "href": "/markets/ecuador",
+     "title": "Ecuador",
+     "text": "Andes, Amazon and a drought-exposed hydro grid."
+    },
+    {
+     "href": "/markets/peru",
+     "title": "Peru",
+     "text": "Hyper-arid coast, Andean altitude, delivered projects."
+    },
+    {
+     "href": "/markets/bolivia",
+     "title": "Bolivia",
+     "text": "4,000 m altiplano: altitude and cold-start behaviour."
+    },
+    {
+     "href": "/markets/paraguay",
+     "title": "Paraguay",
+     "text": "Itaipú hydro power and subtropical heat."
+    },
+    {
+     "href": "/markets/uruguay",
+     "title": "Uruguay",
+     "text": "Wind-heavy grid and four real seasons."
+    },
+    {
+     "href": "/markets/argentina",
+     "title": "Argentina",
+     "text": "Distance, Patagonian cold and import reality."
+    },
+    {
+     "href": "/markets/chile",
+     "title": "Chile",
+     "text": "Atacama solar, Andes altitude and mining fleets."
+    },
+    {
+     "href": "/markets/brazil",
+     "title": "Brazil",
+     "text": "Hydro grid, two climates and a Portuguese market."
+    },
+    {
+     "href": "/pt/markets/brazil",
+     "title": "Brasil (português)",
+     "text": "Hydro grid, two climates and a Portuguese market."
+    }
+   ]
+  },
+  {
+   "type": "cardGrid",
+   "cols": 2,
+   "eyebrow": "How to read a market",
+   "h2": "Four things decide whether a country works",
+   "lede": "We do not enter a market because it looks attractive on a growth chart. These four decide whether a project there is buildable and serviceable.",
+   "items": [
+    {
+     "title": "Grid capacity",
+     "text": "What the local utility will actually approve, and how long the connection takes. This decides half the projects before equipment is discussed."
+    },
+    {
+     "title": "Climate envelope",
+     "text": "Sustained 45 °C+ heat, monsoon humidity or −30 °C cold — each changes the cooling, sealing and heating specification."
+    },
+    {
+     "title": "Service access",
+     "text": "Whether a fault can be fixed in days or weeks. It decides between modular field-serviceable units and sealed cabinets."
+    },
+    {
+     "title": "Certification & paperwork",
+     "text": "CE, local grid codes, import documentation and subsidy or grant requirements, which often decide the timeline more than the hardware."
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "alt": true,
+   "eyebrow": "Entering a new market",
+   "h2": "How a country gets added to this list",
+   "lede": "A country appears here only after a project has been delivered and handed over — not after a first enquiry.",
+   "items": [
+    {
+     "no": "01",
+     "title": "A real site",
+     "text": "A named project with a site, an operator and a binding constraint."
+    },
+    {
+     "no": "02",
+     "title": "Delivered scope",
+     "text": "Study, design, equipment, permits and commissioning completed."
+    },
+    {
+     "no": "03",
+     "title": "Handover",
+     "text": "Operations model, monitoring and spares path agreed with the operator."
+    },
+    {
+     "no": "04",
+     "title": "Evidence",
+     "text": "A case page with context, configuration and measured outcome."
+    }
+   ],
+   "action": {
+    "label": "Browse the projects",
+    "href": "/cases/"
+   }
+  },
+  {
+   "type": "cta",
+   "eyebrow": "Next step",
+   "h2": "Tell us the country and the site — we will tell you what is buildable there.",
+   "lede": "If your market is not on the list, that is useful information too: we will say whether the constraint is one we can work with.",
+   "actions": [
+    {
+     "label": "Start a project",
+     "href": "/inquiry"
+    },
+    {
+     "label": "Read the market briefs",
+     "href": "/markets/jordan"
+    }
+   ]
+  }
+ ]
+}

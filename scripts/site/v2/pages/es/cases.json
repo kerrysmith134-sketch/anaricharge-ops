@@ -1,0 +1,158 @@
+{
+  "slug": "es/cases",
+  "url": "/es/cases/",
+  "breadcrumb": "Proyectos",
+  "title": "Proyectos de carga ejecutados y verificables | Anari",
+  "meta": "Proyectos en servicio con contexto de sitio, configuración y resultado: cocheras, corredores, clima cálido y frío en 22 países. Entrega llave en mano: estudio d",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Proyectos",
+      "h1": "Cada afirmación del sitio debe poder comprobarse con una instalación.",
+      "lede": "9 casos documentados: contexto del sitio, configuración instalada y qué ocurrió tras la puesta en marcha, incluidas las condiciones que el equipo tuvo que soportar.",
+      "image": "/assets/img/v2/hero-cases-1920.webp",
+      "credit": "Corredor · DC de dos pistolas, Asia Central",
+      "actions": [
+        {
+          "label": "Ver casos",
+          "href": "#cases"
+        },
+        {
+          "label": "Hablar de un sitio similar",
+          "href": "/es/inquiry"
+        }
+      ],
+      "facts": [
+        {
+          "value": "22",
+          "label": "países atendidos"
+        },
+        {
+          "value": "100+",
+          "label": "clientes desde 2021"
+        },
+        {
+          "value": "45 °C+",
+          "label": "ambiente más exigente"
+        },
+        {
+          "value": "−30 °C",
+          "label": "sitio más frío"
+        }
+      ]
+    },
+    {
+      "type": "sceneGrid",
+      "eyebrow": "Filtrar por dificultad",
+      "h2": "Qué fue difícil en cada proyecto",
+      "lede": "Los casos se agrupan por el problema que había que resolver, porque eso es lo que los hace comparables con su sitio.",
+      "items": [
+        {
+          "href": "/es/cases/bus-depot-czechia",
+          "image": "/assets/img/v2/scene-fleet-640.webp",
+          "title": "Cochera de 12 unidades",
+          "text": "Chequia · ciclo nocturno, 12 unidades DC, marquesina."
+        },
+        {
+          "href": "/es/cases/jordan-160kw",
+          "image": "/assets/img/v2/case-jordan-640.webp",
+          "title": "160 kW a 45 °C+",
+          "text": "Jordania · potencia nominal sostenida con calor extremo."
+        },
+        {
+          "href": "/es/cases/cambodia-240kw",
+          "image": "/assets/img/v2/case-cambodia-640.webp",
+          "title": "240 kW en monzón",
+          "text": "Camboya · control de entrada de agua y dimensionado limitado por red."
+        },
+        {
+          "href": "/es/cases/romania-highway",
+          "image": "/assets/img/v2/case-romania-640.webp",
+          "title": "Área de servicio",
+          "text": "Rumanía · primera entrega, puesta en marcha con soporte en sitio."
+        },
+        {
+          "href": "/es/cases/cold-climate",
+          "image": "/assets/img/v2/case-cold-640.webp",
+          "title": "Clima frío",
+          "text": "Hasta −30 °C · comportamiento de carga y calefacción de envolvente."
+        },
+        {
+          "href": "/es/cases/off-grid-pv-ess",
+          "image": "/assets/img/v2/scene-offgrid-640.webp",
+          "title": "FV + almacenamiento aislado",
+          "text": "Sin conexión utilizable · almacenamiento dimensionado antes del cargador."
+        },
+        {
+          "href": "/es/cases/hot-climate",
+          "image": "/assets/img/v2/scene-hotclimate-640.webp",
+          "title": "Calor y humedad: servicio continuo",
+          "text": "Gestión térmica y control de agua en temporada de monzón."
+        },
+        {
+          "href": "/es/cases/emerging-markets",
+          "image": "/assets/img/v2/scene-commercial-640.webp",
+          "title": "La política antes que la red",
+          "text": "Etiopía, Bulgaria, El Salvador: demanda sí, infraestructura no."
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Cómo leer un caso",
+      "h2": "Los mismos cuatro hechos en cada proyecto",
+      "lede": "Un caso solo sirve si declara las condiciones: qué necesitaba el sitio, qué se instaló, qué restricción decidió el diseño y el resultado medido. Las páginas de caso detalladas están en inglés.",
+      "items": [
+        {
+          "title": "Contexto del sitio",
+          "text": "País, tipo de sitio y capacidad de red disponible."
+        },
+        {
+          "title": "Configuración",
+          "text": "Familias, potencias, estándar de conector y almacenamiento."
+        },
+        {
+          "title": "Restricción",
+          "text": "El único factor que decidió el diseño."
+        },
+        {
+          "title": "Resultado",
+          "text": "Qué ocurrió tras la puesta en marcha, incluidos los límites."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Tiene un sitio como estos?",
+      "lede": "Envíe país, capacidad disponible y cómo se operará el sitio: responderemos con el caso comparable más cercano.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/"
+    }
+  ]
+}

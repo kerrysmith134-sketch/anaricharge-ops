@@ -1,0 +1,152 @@
+{
+  "slug": "es/products/fora",
+  "url": "/es/products/fora.html",
+  "breadcrumb": "Fora",
+  "locale": "es",
+  "title": "Fora — sistema DC ultrarápido split | Anari",
+  "meta": "Fora: sistema DC ultrarápido split, 360–960 kW. Ciclo completo: diseño, suministro, puesta en marcha y operación. Anari. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/fora"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/fora"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/fora"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Producto · Fora",
+      "h1": "Fora — sistema DC ultrarápido split, 360–960 kW",
+      "lede": "Hubs de corredor ultrarrápidos y sitios de alto tránsito donde el bloque de potencia debe sobrevivir a varias generaciones de dispensadores.",
+      "image": "/assets/img/products/v2/fora-split-960kw.webp",
+      "image1024": "/assets/img/products/v2/fora-split-960kw-1024.webp",
+      "imageAlt": "Fora — fotografía del producto",
+      "note": "Valores en la notación original del fabricante; la variante la decide la restricción de su sitio.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ficha completa",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Especificaciones",
+      "h2": "Fora — especificaciones",
+      "lede": "Configuración publicada.",
+      "rows": [
+        {
+          "k": "Potencia del sistema",
+          "v": "360–960 kW (centralized power cabinet)"
+        },
+        {
+          "k": "Dispensadores por armario",
+          "v": "Up to 16 (6 / 8 / 10 / 12 / 16 configurations)"
+        },
+        {
+          "k": "Terminal Fora-L",
+          "v": "Liquid-cooled, single gun, 0–600 A, up to 600 kW"
+        },
+        {
+          "k": "Terminal Fora-A",
+          "v": "Air-cooled, dual gun, 250 kW"
+        },
+        {
+          "k": "Tensión de salida DC",
+          "v": "200–1,000 V (constant power 300–1,000 V)"
+        },
+        {
+          "k": "Inicio de sesión",
+          "v": "QR code · VIN recognition · RFID"
+        },
+        {
+          "k": "Protección y entorno",
+          "v": "IP54 · 10-layer protection · −20 °C to +50 °C"
+        },
+        {
+          "k": "Protocolo de red",
+          "v": "OCPP 1.6J native, OCPP 2.0.1 compatible"
+        }
+      ],
+      "caption": "Fora"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Dónde encaja",
+      "h2": "La restricción que responde esta familia",
+      "lede": "Hubs de corredor ultrarrápidos y sitios de alto tránsito donde el bloque de potencia debe sobrevivir a varias generaciones de dispensadores.",
+      "items": [
+        {
+          "title": "Despliegue típico",
+          "text": "Se elige cuando la restricción del sitio coincide con la familia."
+        },
+        {
+          "title": "Qué decide la variante",
+          "text": "Capacidad de red, ciclo, clima y estándar de conector."
+        },
+        {
+          "title": "Qué enviarnos",
+          "text": "kVA disponibles, vehículos al día, estancia y temperatura."
+        },
+        {
+          "title": "Cómo se entrega",
+          "text": "Dentro del alcance llave en mano: diseño, permisos, supervisión y puesta en marcha."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Familias relacionadas",
+      "h2": "A menudo se especifican juntas",
+      "items": [
+        {
+          "href": "/es/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/es/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · CCS2 + GB/T"
+        },
+        {
+          "href": "/es/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Almacenamiento · 120 / 261 / 418 kWh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Envíe los parámetros del sitio y devolvemos una configuración Fora.",
+      "lede": "Con potencia disponible, ciclo y clima es suficiente.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver instalaciones",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ]
+}

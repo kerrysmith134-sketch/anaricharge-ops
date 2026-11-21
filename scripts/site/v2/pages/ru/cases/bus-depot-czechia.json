@@ -1,0 +1,103 @@
+{
+  "slug": "ru/cases/bus-depot-czechia",
+  "url": "/ru/cases/bus-depot-czechia.html",
+  "breadcrumb": "Депо на 12 постов: проверка в 06:40, а не по кВт",
+  "locale": "ru",
+  "title": "Депо на 12 постов: проверка в 06:40, а не по кВт·ч в сут | A",
+  "meta": "Оператор регулярных автобусных перевозок заказал двенадцать двухпостовых DC-зарядок 120 кВт в мае 2026 года и получил их под напряжением в и Подробности и парам",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/bus-depot-czechia"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/bus-depot-czechia"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/bus-depot-czechia"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Кейс",
+      "h1": "Депо на 12 постов: проверка в 06:40, а не по кВт·ч в сутки",
+      "lede": "Оператор регулярных автобусных перевозок заказал двенадцать двухпостовых DC-зарядок 120 кВт в мае 2026 года и получил их под напряжением в июле. Это 24 разъёма DC с 12 вводов — достаточно, чтобы пройти утренний пик по расписанию без платы за расширение подключения.",
+      "image": "/assets/img/v2/scene-fleet-1280.webp",
+      "credit": "Полная версия анализа — на английском",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Все проекты",
+          "href": "/ru/cases/"
+        },
+        {
+          "label": "Полный разбор (EN)",
+          "href": "/cases/bus-depot-czechia"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Разбор",
+      "h2": "Ограничение → решение → результат",
+      "lede": "Полный технический разбор с формулами и таблицами — на английской странице.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Ограничение",
+          "text": "Пик расписания: двенадцать автобусов должны уехать утром одновременно."
+        },
+        {
+          "no": "02",
+          "title": "Что сделали",
+          "text": "Распределение мощности между постами вместо наращивания ввода."
+        },
+        {
+          "no": "03",
+          "title": "Результат",
+          "text": "24 разъёма DC от 12 вводов; утренний пик закрыт без расширения подключения."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Параметры площадки",
+      "h2": "Депо на 12 постов: проверка в 06:4 — параметры",
+      "rows": [
+        {
+          "k": "Расчёт под средний день",
+          "v": "Cheapest on paper. Produces a site that fails precisely when it is needed, because average demand is not what a depot presents at 05:30."
+        },
+        {
+          "k": "Size for the peak without sharing",
+          "v": "Technically correct, commercially difficult. Two dozen dedicated high-power bays means a grid connection the operator cannot justify for the other twenty hours of the day."
+        },
+        {
+          "k": "Size for the peak with sharing",
+          "v": "What was built: fewer cabinets, more connectors, output allocated by the cabinet rather than fixed by the cable."
+        }
+      ],
+      "caption": "Депо на 12 постов: проверка в 06:40, а не по кВт·ч"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Следующий шаг",
+      "h2": "Похожая площадка? Пришлите вводные.",
+      "lede": "Достаточно страны, доступной мощности и того, как площадка будет работать.",
+      "actions": [
+        {
+          "label": "Обсудить проект",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Полный разбор (EN)",
+          "href": "/cases/bus-depot-czechia"
+        }
+      ]
+    }
+  ]
+}

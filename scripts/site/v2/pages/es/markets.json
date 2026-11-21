@@ -1,0 +1,231 @@
+{
+  "slug": "es/markets",
+  "url": "/es/markets/",
+  "breadcrumb": "Mercados",
+  "title": "22 países con estaciones ya operando | Anari Energy",
+  "meta": "22 países con proyectos de carga entregados en seis regiones: calor, red débil, frío, monzón. Los mercados objetivo no se dibujan en el mapa: solo lo entregado.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Cobertura",
+      "h1": "22 países donde las estaciones ya funcionan.",
+      "lede": "El mapa muestra solo proyectos entregados y transferidos. Los países de la lista objetivo no aparecen hasta que la obra está entregada — si no, el mapa se convierte en una promesa.",
+      "image": "/assets/img/v2/hero-markets-1920.webp",
+      "credit": "Base: Natural Earth (dominio público); la misma proyección coloca los puntos de país",
+      "facts": [
+        {
+          "value": "22",
+          "label": "países con proyectos"
+        },
+        {
+          "value": "6",
+          "label": "regiones"
+        },
+        {
+          "value": "45 °C+",
+          "label": "calor de diseño"
+        },
+        {
+          "value": "−30 °C",
+          "label": "frío de diseño"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ver casos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Hablar del mercado",
+          "href": "/es/inquiry"
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "eyebrow": "Seis regiones",
+      "h2": "La región la define la restricción, no la distancia",
+      "lede": "En cada región el diseño resuelve la misma restricción limitante — de ella dependen especificación y plazo.",
+      "items": [
+        {
+          "title": "Oriente Medio · 6 países",
+          "text": "Jordania, Líbano, Israel, Arabia Saudí, EAU, Omán. Calor por encima de 45 °C y sitios limitados por el transformador."
+        },
+        {
+          "title": "Cáucaso y Asia Central · 6",
+          "text": "Georgia, Armenia, Kazajistán y otros. Frío hasta −30 °C y redes que hay que calcular antes de elegir equipo."
+        },
+        {
+          "title": "Europa · 4",
+          "text": "Rumanía, Chequia, Bulgaria, Italia. Requisitos AFIR y secuencia de aprobaciones antes de energizar."
+        },
+        {
+          "title": "Asia · 2",
+          "text": "Camboya, China. Monzón, polvo y necesidad de mantener la potencia nominal con red limitada."
+        },
+        {
+          "title": "África · 3",
+          "text": "Etiopía · Kenia · Ghana — estabilidad de red y diseños off-grid o con almacenamiento primero."
+        },
+        {
+          "title": "Latinoamérica · 1",
+          "text": "El Salvador — primer sitio entregado, integración de pagos y modelo de servicio local."
+        }
+      ]
+    },
+    {
+      "type": "linkList",
+      "alt": true,
+      "eyebrow": "Latinoamérica",
+      "h2": "América Latina: guías por país",
+      "lede": "Latinoamérica es una región prioritaria para nosotros. Estas guías exponen la condición de operación y los datos de sitio a resolver en cada mercado.",
+      "items": [
+        {
+          "href": "/es/markets/mexico",
+          "title": "México",
+          "text": "Calor del desierto, capacidad de CFE y sitios de nearshoring."
+        },
+        {
+          "href": "/es/markets/guatemala",
+          "title": "Guatemala",
+          "text": "Altitud del altiplano, oferta hidroeléctrica y costa húmeda."
+        },
+        {
+          "href": "/es/markets/honduras",
+          "title": "Honduras",
+          "text": "Calor tropical, temporada de tormentas y límite de distribución."
+        },
+        {
+          "href": "/es/markets/el-salvador",
+          "title": "El Salvador",
+          "text": "Nuestro primer despliegue en Latinoamérica."
+        },
+        {
+          "href": "/es/markets/nicaragua",
+          "title": "Nicaragua",
+          "text": "Oferta geotérmica, calor tropical y servicio escaso."
+        },
+        {
+          "href": "/es/markets/costa-rica",
+          "title": "Costa Rica",
+          "text": "Generación ~99% renovable y una larga estación lluviosa."
+        },
+        {
+          "href": "/es/markets/panama",
+          "title": "Panamá",
+          "text": "Logística del canal, humedad y redes insulares."
+        },
+        {
+          "href": "/es/markets/dominican-republic",
+          "title": "República Dominicana",
+          "text": "Red insular, calor tropical y demanda turística."
+        },
+        {
+          "href": "/es/markets/colombia",
+          "title": "Colombia",
+          "text": "Altitud andina, calor caribeño y dos especificaciones."
+        },
+        {
+          "href": "/es/markets/ecuador",
+          "title": "Ecuador",
+          "text": "Andes, Amazonía y una red hidroeléctrica expuesta a sequía."
+        },
+        {
+          "href": "/es/markets/peru",
+          "title": "Perú",
+          "text": "Costa hiperárida, altitud andina y proyectos entregados."
+        },
+        {
+          "href": "/es/markets/bolivia",
+          "title": "Bolivia",
+          "text": "Altiplano a 4,000 m: altitud y arranque en frío."
+        },
+        {
+          "href": "/es/markets/paraguay",
+          "title": "Paraguay",
+          "text": "Energía hidroeléctrica de Itaipú y calor subtropical."
+        },
+        {
+          "href": "/es/markets/uruguay",
+          "title": "Uruguay",
+          "text": "Red de base eólica y cuatro estaciones reales."
+        },
+        {
+          "href": "/es/markets/argentina",
+          "title": "Argentina",
+          "text": "Distancia, frío patagónico y realidad de importación."
+        },
+        {
+          "href": "/es/markets/chile",
+          "title": "Chile",
+          "text": "Sol de Atacama, altitud andina y flotas mineras."
+        },
+        {
+          "href": "/es/markets/brazil",
+          "title": "Brasil",
+          "text": "Red hidroeléctrica, dos climas y mercado en portugués."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Cómo elegimos mercado",
+      "h2": "Cuatro condiciones sin las cuales no tomamos el país",
+      "lede": "Un país entra en la lista cuando se cumplen las cuatro; si no, el proyecto acaba con equipos parados.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Demanda",
+          "text": "¿Hay vehículos reales y propietarios dispuestos a pagar, y no solo un objetivo político?"
+        },
+        {
+          "no": "02",
+          "title": "Red",
+          "text": "¿Se puede aprobar la potencia y cuánto cuesta la conexión?"
+        },
+        {
+          "no": "03",
+          "title": "Servicio",
+          "text": "¿Quién acude la primera mala noche y en cuántas horas?"
+        },
+        {
+          "no": "04",
+          "title": "Certificación",
+          "text": "Conectores y normas que el país acepta sin excepciones."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Díganos país y sitio y revisamos las condiciones.",
+      "lede": "Si el mercado no está en la lista, la respuesta es honesta: diremos qué debe aparecer para que aparezca.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/markets/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/markets/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/markets/"
+    }
+  ]
+}

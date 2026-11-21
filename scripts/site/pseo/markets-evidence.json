@@ -1,0 +1,233 @@
+{
+ "_comment": "F1 国别页（有真实部署证据的国家）。每页锚定一个 case，禁止写没有事实支撑的国家。",
+ "family": "markets-evidence",
+ "base_path": "/markets",
+ "base_url": "https://www.anaricharge.com",
+ "date_modified": "2026-11-07",
+ "pages": [
+  {
+   "slug": "jordan",
+   "power": "Jordan",
+   "product": "Vulco",
+   "title": "EV Charging in Jordan: What 45 °C Operation Actually Costs",
+   "meta": "Jordan's summer decides which chargers work. Our 160 kW Vulco units hold full power past 45 °C — what that means for specification, grid capacity and delivery.",
+   "h1": "EV charging in Jordan: specifying for 45 °C, not 25 °C",
+   "eyebrow": "Market guide · Jordan",
+   "lede": "A charger rated at 160 kW in a lab is not a 160 kW charger in Amman in August. The difference is thermal design, and it is the first specification decision on any Jordanian site.",
+   "tldr_label": "In brief",
+   "tldr": "Our Jordan deployment runs 160 kW Vulco units at sustained full power above 45 °C, in both two-gun and three-gun (2 DC + 1 AC Type 2) configurations. Vulco also reaches 480 kW by power-module swap at roughly 70% less than replacing the unit, so the site is not fixed at its opening capacity.",
+   "facts": [
+    [
+     "160 kW",
+     "Vulco units deployed"
+    ],
+    [
+     "45 °C+",
+     "Sustained full power"
+    ],
+    [
+     "3 guns",
+     "2 DC + 1 AC Type 2 option"
+    ],
+    [
+     "~70% less",
+     "120→480 kW module swap"
+    ]
+   ],
+   "sections": [
+    [
+     "Why thermal headroom is the first line of the spec",
+     "<p>In Jordan, ambient temperature is not a seasonal exception — it is the operating condition for months. A unit that derates in that window delivers less power exactly when demand peaks, which turns a capacity calculation into a queue.</p><p>Our <a href=\"/cases/jordan-160kw\">160 kW Vulco deployment in Jordan</a> holds rated output at sustained temperatures above 45 °C. That is the number worth asking any supplier for, in writing, before signing.</p>"
+    ],
+    [
+     "Grid capacity is the second decision",
+     "<p>Jordanian sites frequently face the same constraint we see across emerging markets: the connection or transformer capacity available at the site is smaller than the charging ambition. Split and modular platforms let you size to the capacity you have and expand by module rather than by new civil works.</p><p>Vulco reaching 480 kW from 60 kW by module swap — about 70% less than replacing the unit — is what makes a phased build viable rather than a compromise.</p>"
+    ],
+    [
+     "What to specify",
+     "<p>Ask for four things in writing: sustained output at 45 °C ambient, the derating curve, the connector configuration (CCS2 and GB/T both appear in the region), and the module-upgrade path with its cost basis. Anything quoted only at 25 °C is not a specification for Jordan.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Do EV chargers lose power in Jordan's heat?",
+     "Many do — derating at high ambient temperature is common. Our 160 kW Vulco units hold rated output at sustained temperatures above 45 °C in the Jordan deployment, which is the figure to require in a specification."
+    ],
+    [
+     "What connector standards are used in Jordan?",
+     "Both CCS2 and GB/T appear in the region, so dual-standard configurations matter. Vulco ships CCS2 (200 A) and GB/T (250 A), with an optional Type 2 AC third gun."
+    ],
+    [
+     "Can a Jordanian site start small and expand?",
+     "Yes. Vulco spans 60–480 kW and the upgrade is a power-module swap costing about 70% less than replacing the charger, so the opening capacity does not fix the site's ceiling."
+    ]
+   ],
+   "internal": [
+    [
+     "/cases/jordan-160kw",
+     "160 kW Vulco deployment in Jordan"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "the 160 kW band"
+    ],
+    [
+     "/products/vulco",
+     "Vulco 60–480 kW"
+    ],
+    [
+     "/data/hot-climate-charging",
+     "hot-climate field observations"
+    ]
+   ]
+  },
+  {
+   "slug": "cambodia",
+   "power": "Cambodia",
+   "product": "Pales",
+   "title": "EV Charging in Cambodia: Rainy Season and Full Power",
+   "meta": "Our 240 kW Cambodia site ran a full rainy season with zero weather-related downtime at 35 °C+. What that means for specification and site design in the region.",
+   "h1": "EV charging in Cambodia: building for the rainy season",
+   "eyebrow": "Market guide · Cambodia",
+   "lede": "Two conditions decide whether a Cambodian charging site earns: sustained heat and months of heavy rain. Both are engineering problems, and both show up in the first rainy season.",
+   "tldr_label": "In brief",
+   "tldr": "Our Cambodia deployment runs 2 × 180 kW plus 1 × 240 kW Pales units with GB/T dual guns, at 35 °C+ sustained full power, and completed its first rainy season with zero weather-related downtime. Pales covers 60–240 kW at ≥96% peak efficiency.",
+   "facts": [
+    [
+     "240 kW",
+     "Pales in the mix"
+    ],
+    [
+     "0",
+     "Weather-caused downtime, first rainy season"
+    ],
+    [
+     "35 °C+",
+     "Sustained full power"
+    ],
+    [
+     "GB/T",
+     "Dual guns"
+    ]
+   ],
+   "sections": [
+    [
+     "The first rainy season is the real test",
+     "<p>Weather-related downtime is not a warranty question — it is a design question. Enclosure rating, drainage at the foundation, cable entry direction and connector protection all decide whether a site stays up through months of rain.</p><p>Our <a href=\"/cases/cambodia-240kw\">Cambodia deployment</a> — 2 × 180 kW plus 1 × 240 kW Pales with GB/T dual guns — completed its first rainy season with zero weather-related downtime, while holding full power above 35 °C.</p>"
+    ],
+    [
+     "Multi-standard guns, because the fleet is mixed",
+     "<p>In Cambodia the vehicle mix spans GB/T and CCS2, so dual-standard hardware is not a nice-to-have. Pales ships CCS2 (250 A) and GB/T (250 A) dual guns at ≥96% peak efficiency, which lets one unit serve both fleets without a second dispenser.</p>"
+    ],
+    [
+     "What to specify",
+     "<p>Ask for enclosure rating and IP class, the foundation and drainage detail, connector protection, and the derating curve at 35–40 °C. Then ask what the supplier's installed base has actually survived — a rainy season is the only evidence that counts.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How do charging stations handle Cambodia's rainy season?",
+     "Through design: enclosure rating, foundation drainage, cable entry direction and connector protection. Our Cambodia site completed its first rainy season with zero weather-related downtime."
+    ],
+    [
+     "Which connectors are needed in Cambodia?",
+     "Both GB/T and CCS2 are in service. Pales ships CCS2 (250 A) and GB/T (250 A) dual guns on the same unit, which covers a mixed fleet without a second dispenser."
+    ],
+    [
+     "Does power output drop at 35 °C+?",
+     "On our Cambodia deployment the units hold full power above 35 °C. That is a thermal design property, not a universal one — it should be required in writing."
+    ]
+   ],
+   "internal": [
+    [
+     "/cases/cambodia-240kw",
+     "Cambodia deployment"
+    ],
+    [
+     "/cost/240-kw-dc-fast-charging-station",
+     "the 240 kW band"
+    ],
+    [
+     "/products/pales",
+     "Pales 60–240 kW"
+    ],
+    [
+     "/data/hot-climate-charging",
+     "hot-climate field observations"
+    ]
+   ]
+  },
+  {
+   "slug": "romania",
+   "power": "Romania",
+   "product": "Vulco",
+   "title": "EV Charging in Romania: Corridor Sites and Commissioning",
+   "meta": "Romania's first Anari delivery: 180 kW Vulco units on a highway corridor, commissioned by an on-site engineer. Why corridors need presence, not remote handover.",
+   "h1": "EV charging in Romania: what a corridor site actually needs",
+   "eyebrow": "Market guide · Romania",
+   "lede": "Romania's charging build-out is corridor-shaped: long routes between cities where a failed site is not an inconvenience but a stranded driver. That shape changes the delivery model.",
+   "tldr_label": "In brief",
+   "tldr": "Our first Romanian delivery used 180 kW Vulco units in two-gun and three-gun configurations on a highway corridor, with an Anari engineer on site for commissioning. Vulco spans 60–480 kW, and the 120→480 kW upgrade is a module swap at roughly 70% less than replacing the unit.",
+   "facts": [
+    [
+     "180 kW",
+     "Vulco on the corridor"
+    ],
+    [
+     "On-site",
+     "Engineer commissioning"
+    ],
+    [
+     "96%",
+     "Vulco peak efficiency"
+    ],
+    [
+     "~70% less",
+     "Module-swap upgrade"
+    ]
+   ],
+   "sections": [
+    [
+     "Corridor sites have no local operator",
+     "<p>On a highway corridor there is nobody local to walk over when a unit misbehaves. Every commissioning decision has to be right the first time, and the first-response plan has to exist before the site opens.</p><p>Our <a href=\"/cases/romania-highway\">Romanian highway deployment</a> was the first Anari delivery in the country, and an Anari engineer was on site for commissioning rather than guiding it remotely. That is the pattern corridor work requires.</p>"
+    ],
+    [
+     "Power choice on a corridor",
+     "<p>180 kW is the corridor number in our experience: fast enough that a passing driver waits, not so large that the supply conversation stalls the project. Vulco covers 60–480 kW at 96% peak efficiency, so the same platform scales if traffic justifies it later.</p>"
+    ],
+    [
+     "Grid and upgrade reality",
+     "<p>Across emerging and grid-constrained markets the binding constraint is connection capacity, not hardware. Split and modular platforms let a site go live on the capacity it has, then grow by module swap — about 70% cheaper than replacing the unit when moving from 120 to 480 kW.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "What does an EV charging corridor site in Romania need?",
+     "Rated power suited to passing traffic (180 kW is our corridor figure), a supply that clears the local capacity constraints, and a commissioning model with on-site presence — corridors have no local operator to fix a bad start-up."
+    ],
+    [
+     "Do you send engineers to commission sites in Romania?",
+     "For our first Romanian delivery an Anari engineer was on site for commissioning. It was the first Anari project in the country, and remote handover was not an acceptable risk."
+    ],
+    [
+     "Can a Romanian site expand after opening?",
+     "Yes. Vulco spans 60–480 kW and the upgrade path is a power-module swap costing about 70% less than replacing the charger."
+    ]
+   ],
+   "internal": [
+    [
+     "/cases/romania-highway",
+     "Romanian highway deployment"
+    ],
+    [
+     "/cost/180-kw-dc-fast-charging-station",
+     "the 180 kW band"
+    ],
+    [
+     "/products/vulco",
+     "Vulco 60–480 kW"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "slug": "turnkey",
+ "url": "/turnkey/",
+ "breadcrumb": "Turnkey delivery",
+ "title": "Turnkey EV Charging Delivery, Stage by Stage | Anari Energy",
+ "meta": "One accountable scope from bare land to a running CPO: site selection, design, equipment, compliance, commissioning and operations handover.",
+ "sections": [
+  {
+   "type": "hero",
+   "eyebrow": "Turnkey delivery",
+   "h1": "From bare land to a running charging business.",
+   "lede": "Seven workstreams and eight delivery stages carried by one team, so the site study, the electrical design, the equipment and the permits do not point at each other when something slips.",
+   "image": "/assets/img/v2/hero-turnkey-1920.webp",
+   "credit": "Commissioning support · 180 kW DC site, Ethiopia",
+   "actions": [
+    {
+     "label": "See the eight stages",
+     "href": "#stages"
+    },
+    {
+     "label": "Ask for a project assessment",
+     "href": "/inquiry"
+    }
+   ],
+   "facts": [
+    {
+     "value": "7",
+     "label": "workstreams in scope"
+    },
+    {
+     "value": "8",
+     "label": "delivery stages"
+    },
+    {
+     "value": "22",
+     "label": "countries served"
+    },
+    {
+     "value": "100+",
+     "label": "customers since 2021"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "eyebrow": "The eight stages",
+   "h2": "Each stage has one owner and one deliverable",
+   "lede": "A stage is finished when its output exists and has been accepted — not when the invoice is issued. This is the same order a project actually fails in if any stage is skipped.",
+   "items": [
+    {
+     "no": "01",
+     "title": "Market & site study",
+     "text": "Can this market, and this specific site, support the business case?"
+    },
+    {
+     "no": "02",
+     "title": "Grid & capacity check",
+     "text": "The kVA the utility will actually approve, and what it costs to get there."
+    },
+    {
+     "no": "03",
+     "title": "System design",
+     "text": "Power, storage, layout and the electrical single-line drawing."
+    },
+    {
+     "no": "04",
+     "title": "Equipment selection",
+     "text": "Families and ratings chosen against the binding constraint."
+    },
+    {
+     "no": "05",
+     "title": "Permits & utility approval",
+     "text": "Applications, inspections and the paperwork that gates construction."
+    }
+   ],
+   "action": {
+    "label": "How site selection works",
+    "href": "/turnkey/ai-site-selection"
+   }
+  },
+  {
+   "type": "steps",
+   "alt": true,
+   "eyebrow": "The eight stages (continued)",
+   "h2": "Build, energise, hand over, operate",
+   "lede": "The last three stages are where most projects quietly lose money: construction quality, first energisation, and who is accountable on the first bad night.",
+   "items": [
+    {
+     "no": "06",
+     "title": "Civil & electrical works",
+     "text": "Foundations, cabling, transformer work and installation supervision."
+    },
+    {
+     "no": "07",
+     "title": "Commissioning",
+     "text": "Energisation, protocol tests, payment loop and the first charging sessions."
+    },
+    {
+     "no": "08",
+     "title": "Operations handover",
+     "text": "Monitoring, maintenance model, spares and the escalation path."
+    },
+    {
+     "no": "→",
+     "title": "Ongoing operation",
+     "text": "ANARI OS monitoring and the N-Tech maintenance layer after handover."
+    }
+   ],
+   "action": {
+    "label": "How ANARI OS runs the site",
+    "href": "/turnkey/anari-os"
+   }
+  },
+  {
+   "type": "cardGrid",
+   "cols": 2,
+   "eyebrow": "Scope, stated plainly",
+   "h2": "What is included — and what is not",
+   "lede": "The value of a turnkey scope is that the boundary is written down before the project starts, not negotiated when a problem appears.",
+   "items": [
+    {
+     "title": "Included",
+     "text": "Site and market study, system design and single-line, equipment supply, compliance and utility paperwork, installation supervision, commissioning, operations handover."
+    },
+    {
+     "title": "Not included",
+     "text": "Land acquisition, the operator's own commercial decisions on tariffs, and long-term financing. These stay with you — we will say so early rather than after the deposit."
+    },
+    {
+     "title": "Handled separately",
+     "text": "Demand generation after go-live is a separate program (N-SDR), so the delivery scope is not padded with marketing promises."
+    },
+    {
+     "title": "Change control",
+     "text": "If the binding constraint changes — grid, climate, duty cycle — the design changes with a written delta, not a silent substitution."
+    }
+   ]
+  },
+  {
+   "type": "evidence",
+   "alt": true,
+   "eyebrow": "Proof, not process diagrams",
+   "h2": "The same scope across 22 countries",
+   "lede": "Every stage above exists because a real project needed it. The case pages show what each stage produced on site.",
+   "image": "/assets/img/v2/scene-offgrid-1280.webp",
+   "imageAlt": "ANARI commissioning team on site with a 180 kW DC charger",
+   "caption": "Commissioning support, 180 kW DC site — the stage that decides whether the site runs.",
+   "kv": [
+    {
+     "k": "Corridors",
+     "v": "Jordan 160 kW · Central Asia dual-gun 120 kW"
+    },
+    {
+     "k": "Depots",
+     "v": "Czechia 12-unit bus depot · Cambodia 240 kW fleet"
+    },
+    {
+     "k": "Grid-constrained",
+     "v": "Off-grid PV + storage sites where storage was sized first"
+    },
+    {
+     "k": "Cold & hot",
+     "v": "−30 °C cold-climate operation and 45 °C+ ambient heat"
+    }
+   ],
+   "action": {
+    "label": "See the deployments",
+    "href": "/cases/"
+   }
+  },
+  {
+   "type": "cta",
+   "eyebrow": "Next step",
+   "h2": "Send the site. We will tell you which stage will be the hard one.",
+   "lede": "A short assessment identifies the stage most likely to delay your project — usually the grid connection.",
+   "actions": [
+    {
+     "label": "Request a project assessment",
+     "href": "/inquiry"
+    },
+    {
+     "label": "Run the numbers first",
+     "href": "/tools/charging-station-roi"
+    }
+   ]
+  }
+ ]
+}

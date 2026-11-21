@@ -1,0 +1,152 @@
+{
+  "slug": "es/products/aquila",
+  "url": "/es/products/aquila.html",
+  "breadcrumb": "Aquila",
+  "locale": "es",
+  "title": "Aquila — cargador DC con pantalla publicitaria | Anari",
+  "meta": "Aquila: cargador DC con pantalla publicitaria, 60–240 kW. Ciclo completo: diseño, suministro, puesta en marcha y operación. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/aquila"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/aquila"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/aquila"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Producto · Aquila",
+      "h1": "Aquila — cargador DC con pantalla publicitaria, 60–240 kW",
+      "lede": "Sitios comerciales de alto tránsito donde la publicidad o los ingresos de comercios cubren parte del caso de negocio.",
+      "image": "/assets/img/products/v2/aquila-ads-60-240kw.webp",
+      "image1024": "/assets/img/products/v2/aquila-ads-60-240kw-1024.webp",
+      "imageAlt": "Aquila — fotografía del producto",
+      "note": "Valores en la notación original del fabricante; la variante la decide la restricción de su sitio.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ficha completa",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Especificaciones",
+      "h2": "Aquila — especificaciones",
+      "lede": "Configuración publicada.",
+      "rows": [
+        {
+          "k": "Potencia de salida DC",
+          "v": "60 / 120 / 160 / 180 / 200 / 240 kW"
+        },
+        {
+          "k": "Conectores",
+          "v": "2 × DC guns: CCS2 (200 A) and GB/T (250 A)"
+        },
+        {
+          "k": "Pantalla publicitaria",
+          "v": "32-inch HD true-color anti-glare LCD"
+        },
+        {
+          "k": "Formatos de anuncio",
+          "v": "Image ads standard; video ads on custom order"
+        },
+        {
+          "k": "Modelo de monetización",
+          "v": "Charging fees + ad sales / merchant conversion commissions"
+        },
+        {
+          "k": "Protocolo de red",
+          "v": "OCPP 1.6J"
+        },
+        {
+          "k": "Certificación",
+          "v": "CE · CB"
+        },
+        {
+          "k": "Dimensiones (An×Pr×Al)",
+          "v": "800 × 500 × 1,880 mm · 230–330 kg"
+        }
+      ],
+      "caption": "Aquila"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Dónde encaja",
+      "h2": "La restricción que responde esta familia",
+      "lede": "Sitios comerciales de alto tránsito donde la publicidad o los ingresos de comercios cubren parte del caso de negocio.",
+      "items": [
+        {
+          "title": "Despliegue típico",
+          "text": "Se elige cuando la restricción del sitio coincide con la familia."
+        },
+        {
+          "title": "Qué decide la variante",
+          "text": "Capacidad de red, ciclo, clima y estándar de conector."
+        },
+        {
+          "title": "Qué enviarnos",
+          "text": "kVA disponibles, vehículos al día, estancia y temperatura."
+        },
+        {
+          "title": "Cómo se entrega",
+          "text": "Dentro del alcance llave en mano: diseño, permisos, supervisión y puesta en marcha."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Familias relacionadas",
+      "h2": "A menudo se especifican juntas",
+      "items": [
+        {
+          "href": "/es/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/es/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · CCS2 + GB/T"
+        },
+        {
+          "href": "/es/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Almacenamiento · 120 / 261 / 418 kWh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Envíe los parámetros del sitio y devolvemos una configuración Aquila.",
+      "lede": "Con potencia disponible, ciclo y clima es suficiente.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver instalaciones",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ]
+}

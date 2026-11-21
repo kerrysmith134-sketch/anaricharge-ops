@@ -1,0 +1,152 @@
+{
+  "slug": "es/products/bess",
+  "url": "/es/products/bess.html",
+  "breadcrumb": "BESS",
+  "locale": "es",
+  "title": "BESS — refrigeración líquida | Anari",
+  "meta": "BESS: refrigeración líquida, 120 / 261 / 418 kWh. Ciclo completo: diseño, suministro, puesta en marcha y operación. Anari. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/bess"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/bess"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/bess"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Producto · BESS",
+      "h1": "BESS — refrigeración líquida, 120 / 261 / 418 kWh",
+      "lede": "Sitios con red limitada, recorte de picos y ubicaciones aisladas donde el almacenamiento se dimensiona antes del cargador.",
+      "image": "/assets/img/products/v2/bess-261kwh.webp",
+      "image1024": "/assets/img/products/v2/bess-261kwh-1024.webp",
+      "imageAlt": "BESS — fotografía del producto",
+      "note": "Valores en la notación original del fabricante; la variante la decide la restricción de su sitio.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ficha completa",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Especificaciones",
+      "h2": "BESS — especificaciones",
+      "lede": "Configuración publicada.",
+      "rows": [
+        {
+          "k": "Capacidades / potencia AC",
+          "v": "120 kWh · 50 kW | 261 kWh · 131 kW | 418 kWh · 209 kW"
+        },
+        {
+          "k": "Celdas",
+          "v": "LFP 3.2 V / 314 Ah · full liquid cooling"
+        },
+        {
+          "k": "Profundidad de descarga",
+          "v": "100%"
+        },
+        {
+          "k": "Vida útil en ciclos",
+          "v": "7,000–10,000 cycles (by model)"
+        },
+        {
+          "k": "Rendimiento del sistema",
+          "v": "≥90% round-trip (PCS ≥98% on 418 kWh)"
+        },
+        {
+          "k": "Rango operativo",
+          "v": "−35 °C to +55 °C · IP55 outdoor"
+        },
+        {
+          "k": "Funciones FV / red",
+          "v": "120 kWh: PV input up to 100 kWp · 261 kWh: on/off-grid &lt;50 ms · 418 kWh: 1,500 V platform, AC-side parallel to GWh scale"
+        },
+        {
+          "k": "Seguridad y códigos de red",
+          "v": "UL 9540A tested · perfluorohexanone suppression · VDE 4105/4110 · EN 50549 · CEI 0-21/0-16"
+        }
+      ],
+      "caption": "BESS"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Dónde encaja",
+      "h2": "La restricción que responde esta familia",
+      "lede": "Sitios con red limitada, recorte de picos y ubicaciones aisladas donde el almacenamiento se dimensiona antes del cargador.",
+      "items": [
+        {
+          "title": "Despliegue típico",
+          "text": "Se elige cuando la restricción del sitio coincide con la familia."
+        },
+        {
+          "title": "Qué decide la variante",
+          "text": "Capacidad de red, ciclo, clima y estándar de conector."
+        },
+        {
+          "title": "Qué enviarnos",
+          "text": "kVA disponibles, vehículos al día, estancia y temperatura."
+        },
+        {
+          "title": "Cómo se entrega",
+          "text": "Dentro del alcance llave en mano: diseño, permisos, supervisión y puesta en marcha."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Familias relacionadas",
+      "h2": "A menudo se especifican juntas",
+      "items": [
+        {
+          "href": "/es/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/es/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · CCS2 + GB/T"
+        },
+        {
+          "href": "/es/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Almacenamiento · 120 / 261 / 418 kWh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Envíe los parámetros del sitio y devolvemos una configuración BESS.",
+      "lede": "Con potencia disponible, ciclo y clima es suficiente.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver instalaciones",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ]
+}

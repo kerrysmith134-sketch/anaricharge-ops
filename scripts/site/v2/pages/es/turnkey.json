@@ -1,0 +1,171 @@
+{
+  "slug": "es/turnkey",
+  "url": "/es/turnkey/",
+  "breadcrumb": "Llave en mano",
+  "title": "Entrega de carga llave en mano | Anari Energy",
+  "meta": "Un alcance responsable desde el terreno hasta un operador en marcha: estudio de sitio, diseño, equipos, permisos, puesta en marcha y operación.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Llave en mano",
+      "h1": "Del terreno a un negocio de carga en operación.",
+      "lede": "Siete líneas de trabajo y ocho etapas de entrega con un solo equipo, para que el estudio del sitio, el diseño eléctrico, el equipo y los permisos no se señalen entre sí cuando algo se retrasa.",
+      "image": "/assets/img/v2/hero-turnkey-1920.webp",
+      "credit": "Soporte de puesta en marcha · sitio DC de 180 kW, Etiopía",
+      "actions": [
+        {
+          "label": "Las ocho etapas",
+          "href": "#stages"
+        },
+        {
+          "label": "Pedir evaluación",
+          "href": "/es/inquiry"
+        }
+      ],
+      "facts": [
+        {
+          "value": "7",
+          "label": "líneas de trabajo"
+        },
+        {
+          "value": "8",
+          "label": "etapas de entrega"
+        },
+        {
+          "value": "22",
+          "label": "países atendidos"
+        },
+        {
+          "value": "100+",
+          "label": "clientes desde 2021"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Las ocho etapas",
+      "h2": "Cada etapa tiene un responsable y un entregable",
+      "lede": "Una etapa termina cuando su resultado existe y se acepta, no cuando se emite la factura. Es el mismo orden en el que un proyecto falla si se salta una etapa.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Mercado y sitio",
+          "text": "Si el mercado y el sitio sostienen el caso de negocio."
+        },
+        {
+          "no": "02",
+          "title": "Red y capacidad",
+          "text": "Los kVA que la utility aprobará y lo que cuesta conseguirlos."
+        },
+        {
+          "no": "03",
+          "title": "Diseño del sistema",
+          "text": "Potencia, almacenamiento, layout y esquema unifilar."
+        },
+        {
+          "no": "04",
+          "title": "Selección de equipos",
+          "text": "Familias y potencias contra la restricción que condiciona."
+        },
+        {
+          "no": "05",
+          "title": "Permisos y aprobación",
+          "text": "Solicitudes, inspecciones y documentación que abre la obra."
+        }
+      ],
+      "action": {
+        "label": "Cómo se elige el sitio",
+        "href": "/turnkey/ai-site-selection"
+      }
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Las ocho etapas (continuación)",
+      "h2": "Construir, energizar, entregar, operar",
+      "lede": "Las últimas etapas son donde los proyectos pierden dinero en silencio: calidad del montaje, primera energización y quién responde la primera mala noche.",
+      "items": [
+        {
+          "no": "06",
+          "title": "Obra civil y eléctrica",
+          "text": "Cimentaciones, cableado, trabajos de transformador y supervisión de montaje."
+        },
+        {
+          "no": "07",
+          "title": "Puesta en marcha",
+          "text": "Energización, pruebas de protocolo, bucle de pago y primeras sesiones."
+        },
+        {
+          "no": "08",
+          "title": "Traspaso a operación",
+          "text": "Monitorización, modelo de mantenimiento, repuestos y escalado."
+        },
+        {
+          "no": "→",
+          "title": "Operación",
+          "text": "Monitorización con ANARI OS y mantenimiento N-Tech tras el traspaso."
+        }
+      ],
+      "action": {
+        "label": "Cómo ANARI OS opera el sitio",
+        "href": "/turnkey/anari-os"
+      }
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "eyebrow": "Límites del alcance",
+      "h2": "Qué está incluido y qué no",
+      "lede": "El valor del alcance llave en mano es que el límite se escribe antes de empezar y no se negocia cuando aparece el problema.",
+      "items": [
+        {
+          "title": "Incluido",
+          "text": "Estudio de sitio y mercado, diseño y unifilar, suministro de equipos, permisos y trámites, supervisión de montaje, puesta en marcha y traspaso."
+        },
+        {
+          "title": "No incluido",
+          "text": "Compra de suelo, decisiones comerciales de tarifa y financiación: quedan de su lado y lo decimos antes del anticipo."
+        },
+        {
+          "title": "Aparte",
+          "text": "La generación de demanda posterior es un programa separado, para no inflar el alcance con promesas."
+        },
+        {
+          "title": "Control de cambios",
+          "text": "Si cambia la restricción — red, clima, ciclo — el diseño cambia con un delta escrito."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Envíe el sitio. Le diremos qué etapa será la difícil.",
+      "lede": "Una evaluación corta identifica la etapa que probablemente retrase el proyecto: casi siempre la conexión de red.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/turnkey/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/turnkey/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/turnkey/"
+    }
+  ]
+}

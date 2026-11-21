@@ -1,0 +1,177 @@
+{
+ "slug": "maintenance",
+ "url": "/maintenance/",
+ "breadcrumb": "Maintenance & O&M",
+ "title": "EV Charger O&M Service: Scope, SLA and Spares | Anari",
+ "meta": "What our operations and maintenance service covers: monitoring, preventive schedule, critical spares, escalation path and how SLA terms are set per site.",
+ "sections": [
+  {
+   "type": "hero",
+   "eyebrow": "Maintenance & O&M",
+   "h1": "Operations and maintenance, defined before you sign.",
+   "lede": "Most O&M contracts are written after commissioning, when the site is already down and the vendor has the leverage. Ours is defined at handover: what is monitored, what is stocked on site, who is called, and how response obligations are measured.",
+   "image": "/assets/img/v2/hero-fleet-depot-1280.webp",
+   "credit": "Depot environment · where downtime means a cancelled service",
+   "actions": [
+    {
+     "label": "See the SLA structure",
+     "href": "#sla"
+    },
+    {
+     "label": "Plan a service program",
+     "href": "/inquiry"
+    }
+   ],
+   "facts": [
+    {
+     "value": "8",
+     "label": "handover stages before O&M starts"
+    },
+    {
+     "value": "2",
+     "label": "layers: ANARI OS + N-Tech"
+    },
+    {
+     "value": "12",
+     "label": "unit depot in reference case"
+    },
+    {
+     "value": "22",
+     "label": "countries with delivered sites"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "eyebrow": "What the service covers",
+   "h2": "Five things an O&M contract must name",
+   "lede": "If any of these is vague in the contract, it becomes a dispute the first time a port is down. We scope them explicitly.",
+   "items": [
+    {
+     "no": "01",
+     "title": "Remote monitoring",
+     "text": "Every site runs on ANARI OS: session data, fault codes and power-stage state are visible remotely, so faults are detected before a driver reports them."
+    },
+    {
+     "no": "02",
+     "title": "Preventive schedule",
+     "text": "Connector inspection, filter and fan cleaning, torque checks and firmware policy on a fixed cadence — with the interval set by climate and duty cycle, not by a generic annual visit."
+    },
+    {
+     "no": "03",
+     "title": "Critical spares",
+     "text": "At least one power module per DC cabinet type and the connector parts that cause the longest outages, held on site or in-region, so an ocean crossing is not on the critical path."
+    },
+    {
+     "no": "04",
+     "title": "First-line and escalation",
+     "text": "Level-1 work (resets, connector swap, cleaning, visual checks) is trained on site; cabinet-level and electrical work escalates under warranty to the responsible party, with the boundary written down."
+    },
+    {
+     "no": "05",
+     "title": "Reporting you can audit",
+     "text": "Uptime measured per port per month rather than as a fleet average, with outage reasons and exclusions listed — the same basis regulators use for publicly funded DC sites."
+    }
+   ]
+  },
+  {
+   "type": "cardGrid",
+   "cols": 2,
+   "eyebrow": "SLA structure",
+   "id": "sla",
+   "h2": "Five clauses that decide whether an SLA protects you",
+   "lede": "These are the clauses that separate a service plan from a marketing promise. We write them into the contract before the site is live.",
+   "items": [
+    {
+     "title": "Uptime measured per port",
+     "text": "Per port, per month — not a fleet average that lets one dead port hide behind twenty healthy ones. We state the measurement window and the exclusions."
+    },
+    {
+     "title": "Downtime defined by function",
+     "text": "A port counts as down when it cannot deliver its rated session, not only when the hardware is dead. Partial functionality is still downtime for the driver."
+    },
+    {
+     "title": "Response clock starts at detection",
+     "text": "The response obligation begins when monitoring detects the fault, not when the operator calls — otherwise slow detection is free for the vendor and expensive for you."
+    },
+    {
+     "title": "Financial consequence",
+     "text": "A service credit per percentage point below target. Without a consequence, the uptime target is commentary."
+    },
+    {
+     "title": "Independent data",
+     "text": "Uptime figures you can audit against session records and payment logs, rather than vendor self-reporting."
+    },
+    {
+     "title": "What we will not promise",
+     "text": "A blanket number for every market. Fault exposure differs by climate, grid quality and duty cycle, so targets are set per site with the basis written down."
+    }
+   ]
+  },
+  {
+   "type": "evidence",
+   "eyebrow": "From our own sites",
+   "h2": "What the failure modes actually are",
+   "lede": "The service plan is shaped by what failed on delivered sites, not by a generic checklist.",
+   "kv": [
+    {
+     "k": "Depot duty cycle",
+     "v": "Czechia 12-unit bus depot: a port down is a cancelled service and a passenger complaint, so the spares and escalation model is built around schedule protection."
+    },
+    {
+     "k": "Monsoon climate",
+     "v": "Cambodia 240 kW site: zero weather-related downtime in the first monsoon quarter, with the customer returning for further sites."
+    },
+    {
+     "k": "Heat",
+     "v": "Jordan corridor: rated output held through summer operation above 45 °C — the constraint on maintenance there is heat exposure of components, not hardware capacity."
+    },
+    {
+     "k": "Remote layers",
+     "v": "ANARI OS monitoring and N-Tech after handover are the two layers that make detection and first response faster than a phone call to a distributor."
+    }
+   ],
+   "action": {
+    "label": "Read the maintenance cost breakdown",
+    "href": "/blog/ev-charging-station-maintenance"
+   },
+   "image": "/assets/img/v2/hero-fleet-depot-1280.webp",
+   "imageAlt": "Charging cabinets at a depot site",
+   "caption": "Depot environment · spares and escalation built around schedule protection"
+  },
+  {
+   "type": "cta",
+   "eyebrow": "Next step",
+   "h2": "Send the site count, charger models and uptime target.",
+   "lede": "We will outline the service plan, the spares kit and the SLA structure that fits — before you commit to a contract.",
+   "actions": [
+    {
+     "label": "Plan my service program",
+     "href": "/inquiry"
+    },
+    {
+     "label": "See how we hand over a site",
+     "href": "/turnkey/"
+    }
+   ]
+  }
+ ],
+ "hreflangs": [
+  {
+   "lang": "en",
+   "href": "/maintenance/"
+  },
+  {
+   "lang": "ru",
+   "href": "/ru/maintenance/"
+  },
+  {
+   "lang": "es",
+   "href": "/es/maintenance/"
+  },
+  {
+   "lang": "x-default",
+   "href": "/maintenance/"
+  }
+ ]
+}

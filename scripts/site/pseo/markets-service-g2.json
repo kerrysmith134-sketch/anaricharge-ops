@@ -1,0 +1,618 @@
+{
+  "_comment": "2026-11-10 PSEO batch — /markets/{country} service markets group 2",
+  "family": "markets-service-g2",
+  "base_path": "/markets",
+  "base_url": "https://www.anaricharge.com",
+  "date_modified": "2026-11-10",
+  "hreflang_locales": [
+    "en"
+  ],
+  "pages": [
+    {
+      "slug": "armenia",
+      "country": "Armenia",
+      "region": "South Caucasus",
+      "eyebrow": "Market · South Caucasus",
+      "title": "EV Charging in Armenia: EAEU Certificate and -25 °C Cold",
+      "meta": "Armenia is one customs file and one mountain winter: EAEU certification, thin 220/380 V feeders and a -25 °C design point decide the site before the quote.",
+      "h1": "EV charging in Armenia: one EAEU certificate and a mountain winter",
+      "lede": "Armenia is not hard to certify in — one EAEU certificate covers it. It is hard to site in. Thin 220/380 V feeders, towns above 1,500 m and winters that reach -25 °C decide more about the project than the charger does.",
+      "tldr_label": "In brief — Armenia",
+      "tldr": "Settle the certificate route, the capacity at the exact address and the winter design temperature, in that order. Armenia's constraint is rarely the unit; it is the feeder serving the site and the cold that arrives every January.",
+      "facts": [
+        [
+          "TR CU 004/2011",
+          "Low-voltage certificate"
+        ],
+        [
+          "220/380 V",
+          "50 Hz distribution"
+        ],
+        [
+          "-25 °C",
+          "Mountain winter design"
+        ],
+        [
+          "Metsamor",
+          "Single 440 MW unit"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Metsamor, Armenia's only nuclear station, is a single 440 MW unit 36 km west of Yerevan, and it has carried around 40% of the country's electricity.",
+        "source": "Armenian NPP operator data and IAEA country profile; World Bank Armenia energy review, 2023"
+      },
+      "sources": [
+        "EAEU Technical Regulations TR CU 004/2011, 020/2011 and 037/2016, applied in Armenia since 2015",
+        "Public Services Regulatory Commission of Armenia, licensing and tariff framework, 2024",
+        "World Bank Armenia energy sector review, 2023 — generation mix and Metsamor output share"
+      ],
+      "sections": [
+        [
+          "One certificate, five markets, no local mark",
+          "<p>Armenia joined the Eurasian Economic Union in 2015, so a charging station entering the country is treated as a customs-union good. Three regulations apply: TR CU 004/2011 on low-voltage equipment, TR CU 020/2011 on electromagnetic compatibility, and TR CU 037/2016 on hazardous substances. A certificate issued in Yerevan is valid in all five member states, and the EAC mark is what customs reads. There is no separate Armenian charging standard to chase.</p>"
+        ],
+        [
+          "Hydro and nuclear at the top, one transformer at the kerb",
+          "<p>The grid runs at 220/380 V, 50 Hz, regulated by the Public Services Regulatory Commission. Generation is hydro plus Metsamor, and nationally the balance holds. Locally it often does not. Outside Yerevan many candidate plots sit behind a single distribution transformer, and a 120 kW load can exhaust it on its own. Ask the distribution company for the available capacity at the meter, in writing, before you size the power stage.</p>"
+        ],
+        [
+          "Gyumri cold is a materials decision, not a comfort note",
+          "<p>Winters run from about -10 °C on the plains to -25 °C in the mountain towns, and several corridors sit above 1,500 m. Cold changes four things: cable jacket stiffness at the connector, screen response time, usable capacity in any battery buffer, and condensation when a cold cabinet warms up after a session. Specify the operating range in writing and ask what the unit delivers at -25 °C, not at 25 °C. Canopy snow load is a separate structural calculation.</p>"
+        ],
+        [
+          "The import file is short, and that is the advantage",
+          "<p>Because Armenia sits inside the EAEU, there is no parallel national certification track for DC chargers. What the customs file needs is the certificate, the technical passport, the marking and labels in Russian alongside Armenian. The failure mode is rarely a missing standard — it is a certificate whose scope names a different product variant from the one on the pallet. Match the model code on the certificate to the nameplate before the container ships, and keep the grid-connection drawing separate from the product dossier.</p>"
+        ],
+        [
+          "Five inputs before a price means anything",
+          "<p>Collect these first: the capacity letter from the distribution company, the design temperature for the exact town, the connector mix you expect (CCS2 is the common one; GB/T arrives on Chinese imports), the snow and wind load for the canopy, and the drive time to the nearest technician. A quote that lands without them is a guess about somebody else's site. When you have them, <a href=\"/inquiry\">send the project</a> and the specification follows the grid you actually have.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Does one EAEU certificate really cover Armenia?",
+          "Yes. Armenia has been a member since 2015, and TR CU 004/2011, 020/2011 and 037/2016 certificates issued in any member state are recognised across all five. What the certificate does not cover is the site itself: the capacity at your transformer, the earthing arrangement and the connection permission are separate approvals handled inside Armenia, usually with the local distribution company."
+        ],
+        [
+          "How cold does an Armenian site get, and what changes?",
+          "About -10 °C on the plains, colder in the mountain towns, with design points near -25 °C on the higher corridors. That changes cable jacket material, screen behaviour, cabinet heating and any battery buffer. Ask for the operating range and the low-temperature derating in writing, then check the answer against the site's altitude. A unit specified only for 0 to 40 °C is under-specified for Gyumri, Sevan or the Vardenyats pass."
+        ],
+        [
+          "Is the grid strong enough for a 120 kW station?",
+          "Nationally yes: hydro and Metsamor cover demand, and supply is not the binding issue. Locally it depends on the transformer serving the address. Outside Yerevan a single distribution transformer often caps a site well below 100 kW. The answer is a capacity request plus a short load study, both of which cost less than discovering the limit after the civil works are poured and the canopy is up."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/journey/compliance",
+          "Certification and import route"
+        ],
+        [
+          "/cases/cold-climate",
+          "Cold-climate field notes"
+        ],
+        [
+          "/products/vulco",
+          "Vulco 60–480 kW"
+        ],
+        [
+          "/regulations/armenia",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "uzbekistan",
+      "country": "Uzbekistan",
+      "region": "Central Asia",
+      "eyebrow": "Market · Central Asia",
+      "title": "EV Charging in Uzbekistan: GB/T Plugs and 40 °C Heat",
+      "meta": "Uzbekistan's EV fleet grew before its charging network did, so GB/T now sits beside CCS2. District capacity and 40 °C summers decide the site case.",
+      "h1": "EV charging in Uzbekistan: a Chinese-EV fleet, GB/T plugs and summer heat",
+      "lede": "Uzbekistan did not wait for a charging network before importing electric cars. They arrived from 2022 onward, GB/T inlets came with them, and the binding constraint moved to something more expensive: the capacity available at a Tashkent or Samarkand address.",
+      "tldr_label": "In brief — Uzbekistan",
+      "tldr": "Count the fleet before you pick a connector, and request capacity before you pick a power rating. Uzbekistan's two live risks are a mixed GB/T and CCS2 vehicle base and a district transformer that was never sized for a 120 kW load.",
+      "facts": [
+        [
+          "GB/T + CCS2",
+          "Two connector fleets"
+        ],
+        [
+          "220/380 V",
+          "50 Hz distribution"
+        ],
+        [
+          "40 °C+",
+          "Summer design point"
+        ],
+        [
+          "O'zDSt",
+          "Uzstandard conformity"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Uzbekistan imported roughly 7,100 electric cars in 2023 — several times the 2022 figure — which is why GB/T and CCS2 now share the same kerb.",
+        "source": "State Customs Committee of Uzbekistan import figures, reported April 2024"
+      },
+      "sources": [
+        "State Customs Committee of Uzbekistan, electric vehicle import figures for 2023 (reported April 2024)",
+        "Uzstandard / O'zDSt conformity assessment framework, 2024",
+        "JETRO Tashkent, market report on the Chinese EV influx, 2024"
+      ],
+      "sections": [
+        [
+          "The fleet landed before the plugs did",
+          "<p>From 2022 Chinese-brand electric cars entered Uzbekistan in volume; by 2023 imports had reached roughly 7,100 units in a single year. Most of those cars carry GB/T inlets. Vehicles brought in from Europe and Korea carry CCS2. A public site in Tashkent therefore faces a connector split that no standard resolves — only a count of the cars that will actually park there does. Two guns on different standards cost less than a retrofit and less than a lost customer.</p>"
+        ],
+        [
+          "Capacity is a district question in a 220/380 V country",
+          "<p>The country runs 220/380 V at 50 Hz, with distribution handled by regional electricity companies and regulated nationally. The national balance is not the issue; the substation serving your street is. A 120 kW charger draws roughly what forty households draw at evening peak, and summer peaks already carry air-conditioning load. Apply early with a load estimate and a single-line diagram, and expect the answer to be a transformer upgrade rather than a connection date.</p>"
+        ],
+        [
+          "Forty degrees, dust, and a cold snap in January",
+          "<p>Tashkent and the southern regions pass 40 °C in July, while continental winters reach -15 °C in the north. Both ends of the range matter: heat derates the power modules and ages the cable, cold stiffens it. Dust from the steppe and from unpaved approach roads loads filters and settles on heat exchangers, which makes the service interval a specification item rather than an afterthought. Ask for the derating curve at 45 °C and the filter service interval in writing.</p>"
+        ],
+        [
+          "Not an EAEU member, so a separate conformity file",
+          "<p>Uzbekistan is not in the Eurasian Economic Union, so an EAC certificate is not the document that clears customs here. Conformity is assessed against Uzbek state standards (O'zDSt) through Uzstandard-accredited bodies, and labelling is expected in Uzbek and Russian. Treat certification and the grid connection as two workstreams with different owners: one clears the border, the other clears the site, and neither waits for the other.</p><p>Budget the timelines separately. Customs work can begin before a site is chosen; the capacity request cannot, because it needs an address and a load figure.</p>"
+        ],
+        [
+          "What to settle before a single-line diagram",
+          "<p>Four inputs decide the design: the connector count by fleet, the capacity the district company will grant, the summer design temperature at the site, and whether the plot can host a transformer plinth. Add the service distance, since a corridor site four hours from Tashkent needs a different maintenance plan from a city forecourt. <a href=\"/inquiry\">Send the site data</a> and the sizing follows from the site rather than from a product sheet.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Should a Uzbek site fit GB/T, CCS2, or both?",
+          "Count the fleet first. GB/T dominates among the Chinese EVs that arrived from 2022 onward, while European and Korean imports carry CCS2. Outside Tashkent the mix shifts further toward GB/T. A dual-standard cabinet costs less than a retrofit and avoids turning away either group; a depot with a known vehicle list can standardise on one connector and save the second gun for later."
+        ],
+        [
+          "How do I get capacity for a fast charger?",
+          "Apply to the regional electricity company with a load estimate and a single-line diagram, and ask for the available capacity at the meter. In older Tashkent districts the answer is often a transformer upgrade, which moves cost from the charger into civil works. Start that request before choosing the power rating, because the granted figure usually sets the first phase and the expansion plan after it."
+        ],
+        [
+          "Does summer heat reduce output?",
+          "It can. Above roughly 40 °C many units derate to protect the power modules. Ask for the derating curve as a function of ambient temperature and the sustained output at 45 °C, plus a filter service interval for dust. A nameplate figure quoted at 25 °C tells you nothing about a Tashkent forecourt in July, and the gap can be the difference between one and two sessions per hour."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/products/pales",
+          "Pales 60–240 kW"
+        ],
+        [
+          "/blog/ccs1-vs-ccs2-nacs-connector-guide",
+          "Connector standards explained"
+        ],
+        [
+          "/data/hot-climate-charging",
+          "Hot-climate field observations"
+        ],
+        [
+          "/regulations/uzbekistan",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "kyrgyzstan",
+      "country": "Kyrgyzstan",
+      "region": "Central Asia",
+      "eyebrow": "Market · Central Asia",
+      "title": "EV Charging in Kyrgyzstan: Toktogul Water and -30 °C",
+      "meta": "Kyrgyzstan's winter question is a reservoir question: hydro carries the grid, Toktogul sets February output, and EAEU marking plus -30 °C decide the equipment.",
+      "h1": "EV charging in Kyrgyzstan: a hydro winter and -30 °C design points",
+      "lede": "Kyrgyzstan generates almost all of its electricity from hydro, and a single reservoir decides how much of it is available in February. A charging site here is a winter-reliability project before it is a charging project, and the feeder matters as much as the unit.",
+      "tldr_label": "In brief — Kyrgyzstan",
+      "tldr": "Design for the reservoir level, not the annual average. Decide whether a battery buffer belongs in the first phase, check the feeder's voltage drop before the power rating, and get the EAEU certificate scope right — those three choices carry the project.",
+      "facts": [
+        [
+          "Toktogul",
+          "Reservoir-led winter output"
+        ],
+        [
+          "-30 °C",
+          "Naryn design point"
+        ],
+        [
+          "TR CU 004/2011",
+          "EAEU low-voltage mark"
+        ],
+        [
+          "220/380 V",
+          "50 Hz distribution"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Hydropower supplies roughly 90% of Kyrgyzstan's electricity, and the level of the Toktogul reservoir decides how much of it is available through the winter peak.",
+        "source": "IEA and World Bank country energy data, 2023; Eurasianet reporting on Toktogul levels, 2024"
+      },
+      "sources": [
+        "IEA and World Bank country energy data for Kyrgyzstan, 2023 — hydro share of generation",
+        "EAEU Technical Regulations TR CU 004/2011, 020/2011 and 037/2016; Kyrgyzstan a member since 2015",
+        "Eurasianet, reporting on Toktogul reservoir levels and winter supply, 2024"
+      ],
+      "sections": [
+        [
+          "February is decided at the reservoir, not the substation",
+          "<p>Hydro supplies roughly 90% of Kyrgyzstan's electricity, and the Toktogul reservoir regulates the whole Naryn cascade. In a low-water year the winter deficit is real and consumption limits follow. For a charging site that means two things: assume scheduled hours rather than firm round-the-clock supply, and decide now whether a battery buffer is part of the design or an upgrade you will regret not ordering with the first phase. Ask for the limit schedule in writing.</p>"
+        ],
+        [
+          "Long feeders at 220/380 V, and voltage drop as a constraint",
+          "<p>Bishkek and the Chuy valley carry most of the load; Naryn, Talas and the southern corridors are long, thin and lightly loaded. At 220/380 V, voltage drop over distance is a design input rather than a detail: a site at the end of a rural feeder may need a larger cable or a dedicated transformer before the first charger arrives. Ask for the feeder diagram and the short-circuit level at the connection point, since both set how many sessions can run at once.</p>"
+        ],
+        [
+          "Minus 30 °C in Naryn changes the bill of materials",
+          "<p>Winter in the mountain provinces reaches -30 °C, and that is a materials problem long before it is a comfort problem. Cable jackets stiffen, connectors get hard to seat, screens slow down, and any lithium buffer loses usable capacity. Ask for the low-temperature operating range, heated enclosures where they are specified, and a connector a driver can handle at night wearing gloves. Summer dust on the same site is the other half of the maintenance plan.</p>"
+        ],
+        [
+          "EAEU marking, with a national standards body still in the loop",
+          "<p>Kyrgyzstan has been an EAEU member since 2015, so TR CU 004/2011, 020/2011 and 037/2016 apply and the EAC mark is what customs reads. Kyrgyzstandart still holds the national standards file, and the technical passport plus Russian-language labelling are part of what gets checked. The practical risk is a certificate naming a different power variant than the unit on the pallet — verify the model code before the container leaves.</p>"
+        ],
+        [
+          "Five decisions before an order",
+          "<p>The capacity available on the feeder, the winter design temperature for the exact district, whether the site needs a buffer for winter limits, the connector mix (Chinese EVs sold through Bishkek's car markets mostly carry GB/T; European imports carry CCS2), and who signs the connection agreement and with which utility. Those five answers set the power rating and the enclosure. <a href=\"/inquiry\">Send them</a> and the specification stops being a guess.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Will the grid carry a DC fast charger through winter?",
+          "Nationally the hydro base is large, but winter output depends on the Toktogul reservoir level, and low-water years bring consumption limits. Plan for scheduled availability and consider a battery buffer sized to bridge the gaps. Ask the utility for the winter schedule in writing; treat any verbal promise of firm round-the-clock supply as unverified until it appears on paper and is signed by the utility that owns your feeder."
+        ],
+        [
+          "What certification does an imported charger need?",
+          "Kyrgyzstan applies the EAEU technical regulations: TR CU 004/2011 for low voltage, 020/2011 for electromagnetic compatibility and 037/2016 for hazardous substances. The EAC mark is required, and Kyrgyzstandart maintains the national standards system. Keep the certificate's model designation identical to the nameplate of the unit actually shipped, and reissue the certificate, with fresh test reports, if the power variant changes."
+        ],
+        [
+          "Which connector should a Bishkek site fit?",
+          "Mostly GB/T, because the Chinese EVs that dominate the local and resale market carry it. CCS2 appears on European and some Korean imports and on cross-border traffic. A dual-standard cabinet is the usual answer for a public site, while a depot whose vehicle list is already known can pick one standard and spend the difference on capacity instead."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cases/cold-climate",
+          "Cold-climate field notes"
+        ],
+        [
+          "/journey/compliance",
+          "Certification and import route"
+        ],
+        [
+          "/products/vulco",
+          "Vulco 60–480 kW"
+        ],
+        [
+          "/regulations/kyrgyzstan",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "tajikistan",
+      "country": "Tajikistan",
+      "region": "Central Asia",
+      "eyebrow": "Market · Central Asia",
+      "title": "EV Charging in Tajikistan: Nurek Water and Winter Limits",
+      "meta": "Tajikistan rations electricity in winter and runs on Nurek hydro. What a Dushanbe or Kulob charging site has to design for before the equipment is ordered.",
+      "h1": "EV charging in Tajikistan: a winter-limited hydro grid and Pamir altitude",
+      "lede": "Tajikistan's binding constraint is a season. Hydro supplies nearly all of the country's power, the Nurek reservoir sets winter output, and consumption limits follow. A charging site here is an energy decision as much as an electrical one, and the site's altitude decides the rest.",
+      "tldr_label": "In brief — Tajikistan",
+      "tldr": "Size the first phase to the hours the grid can be relied on, not to a nameplate. Then decide whether a battery buffer belongs in the design, and separate the Dushanbe case from the Pamir case — they are different projects with different derating.",
+      "facts": [
+        [
+          "Nurek 300 m",
+          "Reservoir-led supply"
+        ],
+        [
+          "Winter limits",
+          "Scheduled consumption caps"
+        ],
+        [
+          "220/380 V",
+          "50 Hz distribution"
+        ],
+        [
+          "Tajikstandart",
+          "Conformity assessment"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Nurek's dam stands 300 m high on the Vakhsh, and the reservoir behind it decides how much power Tajikistan has in the winter peak.",
+        "source": "World Bank Tajikistan energy sector review, 2023; UNDP winter electricity monitoring reports"
+      },
+      "sources": [
+        "World Bank Tajikistan energy sector review, 2023 — hydro share and winter deficit",
+        "Barki Tojik system data, 2024",
+        "UNDP Tajikistan winter electricity monitoring reports, 2023"
+      ],
+      "sections": [
+        [
+          "The constraint arrives in November, not at commissioning",
+          "<p>Tajikistan's electricity is overwhelmingly hydro, and Nurek — a 300 m dam on the Vakhsh — sets how much is available through winter. When the reservoir runs low, consumption limits follow, and they land on industry and large consumers first. A site designed for firm round-the-clock supply is mis-specified. Decide whether the design includes a battery buffer, then size the first phase to the hours you can actually rely on across December and January.</p>"
+        ],
+        [
+          "A hydropower spine with 220/380 V at the door",
+          "<p>Barki Tojik operates the system, with the Nurek and Rogun cascade feeding a national grid that reaches the customer at 220/380 V, 50 Hz. Dushanbe, Kulob and the Vakhsh corridor are the practical first markets; the Gorno-Badakhshan plateau is a different problem on long, weak feeders. Ask for the available capacity and the outage pattern at the exact address, not the national average, which hides both. Measure voltage at the far end before committing to two simultaneous sessions.</p>"
+        ],
+        [
+          "Dushanbe is mild; the Pamir is not",
+          "<p>Winter in Dushanbe is gentle by Central Asian standards, so a capital-city station can be specified like a normal continental site. The Pamir highway is not that site: Khorog, Murghab and the plateau sit above 2,000 m, with -30 °C nights and thin air. Lower air density reduces heat-exchanger performance and changes clearances, so a unit rated at sea level needs its altitude derating checked before it is installed at 3,600 m.</p>"
+        ],
+        [
+          "Import paperwork without an EAEU umbrella",
+          "<p>Tajikistan is not an EAEU member, so the EAC mark is not the document customs reads. Conformity runs through Tajikstandart against national standards, and the technical file is normally expected in Russian or Tajik. Most equipment arrives overland through the Uzbek or Kyrgyz border, or over the Kulma pass from China, so treat the transit route and the customs broker as part of the schedule — the certificate alone does not move a container. Ask the forwarder which border is moving fastest this quarter.</p>"
+        ],
+        [
+          "Five inputs for a Tajik site",
+          "<p>Fix these before pricing: the seasonal hours the grid can be relied on, whether a buffer is in scope, the altitude and winter temperature at the exact site, the connector mix (GB/T on Chinese imports, CCS2 on European), and the service route from Dushanbe. Each one changes either the power rating or the enclosure. <a href=\"/inquiry\">Send the site data</a> and we price against a grid that has a season in it rather than an annual average.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can a charging station run through a Tajik winter?",
+          "With design, yes — but not by assuming firm supply. Hydro output follows the Nurek reservoir, and winter consumption limits apply to large users. Size the first phase to the hours you can count on, and add a battery buffer if the site must stay open regardless. The Pamir is a separate case, with altitude derating stacked on top of the seasonal limit."
+        ],
+        [
+          "Is Tajikistan in the EAEU?",
+          "No. An EAC certificate does not clear Tajik customs. Conformity is assessed through Tajikstandart against national standards, and the technical file is normally in Russian or Tajik. Budget time for the transit route as well: most units arrive overland through Uzbekistan, Kyrgyzstan or the Kulma pass, and that leg can outlast certification by weeks in a busy season. Ask two forwarders before committing to a route."
+        ],
+        [
+          "What derating applies above 2,000 m?",
+          "Altitude thins the air, so heat exchangers reject less heat and clearances change. Ask for the altitude derating curve and the maximum installation height, then apply both to the real site elevation rather than to Dushanbe's. On the eastern plateau, where sites sit above 3,000 m, that derating is a design input and not a footnote in the manual."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/off-grid-charging",
+          "Off-grid charging sites"
+        ],
+        [
+          "/solutions/pv-ess-charging-solution",
+          "PV and storage with charging"
+        ],
+        [
+          "/products/bess",
+          "Liquid-cooled BESS"
+        ],
+        [
+          "/regulations/tajikistan",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "ethiopia",
+      "country": "Ethiopia",
+      "region": "Africa",
+      "eyebrow": "Market · Africa",
+      "title": "EV Charging in Ethiopia: The 2024 Import Ban and Altitude",
+      "meta": "Ethiopia stopped importing petrol and diesel cars in 2024, so charging is now the bottleneck. Altitude, outages and import paperwork decide the site.",
+      "h1": "EV charging in Ethiopia: an EV-only import rule on a hydro grid",
+      "lede": "Ethiopia did something no other country had done: it stopped letting petrol and diesel cars in. That settles the vehicle question and moves the constraint to charging — on a hydro grid that still sheds load, and at an altitude that changes the thermal design.",
+      "tldr_label": "In brief — Ethiopia",
+      "tldr": "Demand is not the risk; capacity is. Addis Ababa already has the cars, so the work is to secure a feeder, design for altitude rather than heat, and clear the import file before the production slot rather than after it.",
+      "facts": [
+        [
+          "EV-only imports",
+          "Since January 2024"
+        ],
+        [
+          "2,300 m",
+          "Addis Ababa altitude"
+        ],
+        [
+          "220/380 V",
+          "50 Hz distribution"
+        ],
+        [
+          "GERD",
+          "Hydro-dominated supply"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Ethiopia stopped issuing import permits for petrol and diesel vehicles in January 2024 — the first national ban of its kind — leaving EVs as the only legal import.",
+        "source": "IEA policy database, Ban on import of internal combustion engine vehicles (Ethiopia, 2024); Ministry of Transport and Logistics announcement, January 2024"
+      },
+      "sources": [
+        "IEA Policies Database — Ethiopia, ban on import of internal combustion engine vehicles, 2024",
+        "Ethiopian Electric Utility and Ethiopian Energy Authority system data, 2024",
+        "JICA Ogata Research Institute, early findings on Ethiopia's EV transition, 2026"
+      ],
+      "sections": [
+        [
+          "The policy removed one variable and exposed another",
+          "<p>In January 2024 Ethiopia stopped issuing import permits for petrol and diesel vehicles, which left electric cars as the only legal import. That is the strongest EV policy any government has adopted, and it moves the constraint from the showroom to the kerb: the cars arrive and the charging has to be built. For a developer the question is no longer whether demand exists, but where the first 200 kW of it will be served, and who holds the lease on that forecourt.</p>"
+        ],
+        [
+          "A hydro grid with an outage pattern",
+          "<p>The Ethiopian Electric Utility distributes power that is overwhelmingly hydro, with the Grand Ethiopian Renaissance Dam adding large capacity on the Blue Nile. National supply is not the binding limit; the local substation and the interruption pattern are. Sites in Addis Ababa increasingly see voltage excursions and unplanned outages, which is why a DC site with a buffer behaves differently from one without. Ask for the feeder's outage history in hours, not in adjectives.</p>"
+        ],
+        [
+          "Altitude, not heat, is the thermal design point",
+          "<p>Addis Ababa sits near 2,300 m and the plateau is cool all year, so heat derating is rarely the issue. Thin air is. Thinner air rejects heat less effectively and alters the clearances a designer would use at sea level, so a unit that holds full power at 100 m needs its altitude rating checked. The same plateau brings intense seasonal lightning and, on unpaved approach roads, fine dust that loads filters quickly and shortens the service interval.</p>"
+        ],
+        [
+          "Conformity, foreign exchange and the import file",
+          "<p>Ethiopia assesses imports against national standards through the Ethiopian Standards Agency, and the technical file plus the customs declaration are what actually gate a shipment. The harder constraint is often foreign currency: allocation for capital imports can delay a container longer than certification does. Plan the payment route and the letter of credit before the production slot is booked, and keep the product documentation in English so the file does not need translating twice.</p>"
+        ],
+        [
+          "What to fix before the first site survey",
+          "<p>Set these: the capacity at the substation feeding the site, the outage pattern plus whether a buffer is in scope, the site's own altitude and lightning exposure, the connector mix (CCS2 across the imported fleet, GB/T on Chinese models), and the service route from Addis. Each answer changes the power stage or the enclosure, and the wind load on a highland canopy is its own calculation. <a href=\"/inquiry\">Send the site details</a> and we specify against the grid you have rather than a reference design.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is it true Ethiopia banned petrol and diesel car imports?",
+          "Yes. In January 2024 the government stopped issuing import permits for internal-combustion vehicles, making EVs the only legal import. It is the first national ban of its kind. For charging developers the effect is a fleet that grows without a network behind it, so demand is not the risk — delivering capacity at the right junctions, in time, is. The practical next move is a site with a real feeder, not another vehicle forecast."
+        ],
+        [
+          "Does altitude affect charger performance?",
+          "Above roughly 2,000 m the air is thin enough that a cabinet sheds heat more slowly, and Addis Ababa at about 2,300 m sits inside that band. Ask for the altitude derating and the maximum installation height, and apply both to the real site elevation. Cool ambient air helps, but it does not cancel the air-density effect on a sealed cabinet. Specify the maximum installation height in metres, not just the curve."
+        ],
+        [
+          "How reliable is the grid for a DC site?",
+          "Generation is hydro-dominated and nationally adequate, with GERD adding capacity. Distribution is the weak link: substations can be loaded and interruptions happen without much warning. Ask for the feeder's outage history, then decide whether a battery buffer belongs in the first phase or in a later upgrade. If a buffer looks likely, size it now. Comparable deployments are documented in our <a href=\"/cases/emerging-markets\">emerging-markets case notes</a>."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cases/emerging-markets",
+          "Emerging-market case notes"
+        ],
+        [
+          "/depot/off-grid-charging",
+          "Off-grid charging sites"
+        ],
+        [
+          "/cost/120-kw-dc-fast-charging-station",
+          "120 kW station cost bands"
+        ],
+        [
+          "/regulations/ethiopia",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "ghana",
+      "country": "Ghana",
+      "region": "Africa",
+      "eyebrow": "Market · Africa",
+      "title": "EV Charging in Ghana: Dumsor Memory and Coastal Humidity",
+      "meta": "Ghana's charging sites inherit a reliability problem: ECG load management, salt-laden coastal air and Akosombo's lake level. What to design for before ordering.",
+      "h1": "EV charging in Ghana: reliability, humidity and the Akosombo constraint",
+      "lede": "Ghana's grid is not short of ambition; it is short of firm capacity at the worst moments. A site here is designed around interruption, coastal humidity and the lake level that decides how much hydro reaches Accra — three constraints that rarely appear together.",
+      "tldr_label": "In brief — Ghana",
+      "tldr": "Treat reliability as a line item, not a risk paragraph. Decide early between a battery buffer, a clean shutdown and a generator interlock, and specify corrosion class and filter service as separate numbers — Accra punishes vague enclosure specs.",
+      "facts": [
+        [
+          "Dumsor",
+          "Load-shedding memory"
+        ],
+        [
+          "230/400 V",
+          "50 Hz distribution"
+        ],
+        [
+          "6 x 170 MW",
+          "Akosombo turbines"
+        ],
+        [
+          "GSA",
+          "Standards conformity"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Akosombo, Ghana's largest generating station, runs six 170 MW turbines, and their output follows the level of Lake Volta rather than the demand curve.",
+        "source": "Volta River Authority, Akosombo hydro plant data; Ghana Energy Commission supply outlook, 2023"
+      },
+      "sources": [
+        "Volta River Authority — Akosombo hydro plant data",
+        "Ghana Energy Commission, electricity supply and demand outlook, 2023",
+        "Ghana Standards Authority, conformity assessment framework, 2024"
+      ],
+      "sections": [
+        [
+          "Reliability is a line item, not a risk paragraph",
+          "<p>The dumsor years left a design habit that still shapes sites: assume the supply can stop. For a DC charger that means deciding early whether the site rides through on a battery buffer, shuts down cleanly, or hands over to a generator with a proper interlock. Choosing later means rebuilding the switchgear. The question worth asking is not whether outages happen, but how long the ones on your feeder last, and the honest answer is usually in hours rather than counts.</p>"
+        ],
+        [
+          "GRIDCo at the top, ECG at the kerb, 230/400 V in between",
+          "<p>Transmission belongs to GRIDCo, distribution to ECG and the northern networks, and the customer connection runs at 230/400 V, 50 Hz. Capacity for a 120 kW station is requested from the distribution utility, and in dense Accra or Tema districts the answer can be a transformer upgrade with a civil works bill attached. Ask for the available capacity at the meter and the feeder's existing load profile, not a generic connection quote for the postcode.</p>"
+        ],
+        [
+          "Coastal humidity and harmattan dust arrive in the same year",
+          "<p>Accra and Tema sit on the Gulf of Guinea with year-round humidity and salt in the air, and from December the harmattan carries fine dust down from the north. They attack different parts: humidity and salt drive corrosion on enclosures, fasteners and connector pins, while dust loads filters and coats heat exchangers. Specify the corrosion class, the IP rating and the filter service interval as three separate items, and check screen readability in direct light.</p>"
+        ],
+        [
+          "Conformity through the Ghana Standards Authority",
+          "<p>Imports are assessed against Ghana Standards Authority requirements, so the technical file, the test reports behind it and the labelling are part of clearing a shipment. Transport and energy policy has been moving toward e-mobility, which helps at the framework level but does not remove the documentation step. Keep the certificate's model designation aligned with the shipped unit, and treat the customs broker as part of the project team rather than as a supplier who joins at the end.</p>"
+        ],
+        [
+          "Five inputs before a Ghanaian quote",
+          "<p>The feeder's outage history and typical duration, the capacity the distribution utility will grant, whether a buffer or generator interlock is in scope, the corrosion and dust exposure at the site, and the service distance from Accra. Those five answers decide the enclosure, the power stage and the maintenance contract — and the order matters, because capacity comes before the enclosure. <a href=\"/inquiry\">Send them</a> and the specification follows from the site rather than from a datasheet.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Does load shedding still affect charging sites?",
+          "The dumsor period left a grid that can still interrupt supply at short notice, especially on loaded urban feeders. Design for it: decide whether the site needs a battery buffer, a clean shutdown, or a generator handover with an interlock. Ask the distribution utility for the outage record at your feeder rather than planning against national averages, which hide the local pattern."
+        ],
+        [
+          "How much capacity can I get for a fast charger?",
+          "It depends on the transformer serving the address. In dense Accra and Tema districts a 120 kW station can trigger a transformer upgrade; on newer industrial feeders it may fit inside existing capacity. Request the available capacity at the meter plus the feeder load profile, and let that answer set the first-phase power rating rather than the other way round."
+        ],
+        [
+          "What does coastal humidity do to equipment?",
+          "It corrodes enclosures, fasteners and connector pins faster than dry heat does, and airborne salt accelerates it. Specify the corrosion class and the IP rating explicitly, then add connector inspection to the maintenance schedule. Harmattan dust from December adds a filter problem on top, so the service interval is a design decision rather than a callout. A connector that corrodes early is a warranty argument, not a maintenance note."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/fleet-depot-charging",
+          "Fleet depot charging"
+        ],
+        [
+          "/products/pales",
+          "Pales 60–240 kW"
+        ],
+        [
+          "/blog/ev-charging-grid-connection-requirements",
+          "Grid connection requirements"
+        ],
+        [
+          "/regulations/ghana",
+          "Approvals and grid connection"
+        ]
+      ]
+    }
+  ]
+}

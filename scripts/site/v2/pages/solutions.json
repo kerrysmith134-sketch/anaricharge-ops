@@ -1,0 +1,133 @@
+{
+  "slug": "solutions",
+  "url": "/solutions/",
+  "breadcrumb": "Solutions",
+  "title": "EV Charging Solutions by Operating Context | Anari Energy",
+  "meta": "Four charging solutions organised by the constraint that decides the design: public corridors, fleet depots, PV plus storage, and destination sites.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Solutions",
+      "h1": "The site decides the design, not the product catalogue.",
+      "lede": "A corridor site, a bus depot and a hotel car park fail for different reasons. Each solution below starts from the constraint that will actually bind your project — grid capacity, dwell time, duty cycle or climate.",
+      "image": "/assets/img/v2/hero-solutions-1920.webp",
+      "credit": "Bus depot, Czechia — twelve DC units under canopy",
+      "actions": [
+        {
+          "label": "Find your scenario",
+          "href": "#contexts"
+        },
+        {
+          "label": "See project evidence",
+          "href": "/cases/"
+        }
+      ]
+    },
+    {
+      "type": "sceneGrid",
+      "eyebrow": "Choose the operating context",
+      "h2": "Three contexts, three binding constraints",
+      "lede": "Pick the row that matches how the site will actually be used. Everything downstream — power, storage, connectors, maintenance model — follows from it.",
+      "items": [
+        {
+          "href": "/solutions/commercial-charging",
+          "image": "/assets/img/v2/scene-commercial-640.webp",
+          "title": "Commercial & public charging",
+          "text": "Corridor and urban sites where the grid connection, not the charger, sets the timeline."
+        },
+        {
+          "href": "/solutions/fleet-depot-charging",
+          "image": "/assets/img/v2/scene-fleet-640.webp",
+          "title": "Fleet & depot charging",
+          "text": "Overnight windows and duty cycles: the site must survive the worst night of the year."
+        },
+        {
+          "href": "/solutions/pv-ess-charging-solution",
+          "image": "/assets/img/v2/scene-offgrid-640.webp",
+          "title": "PV, storage & off-grid",
+          "text": "When the grid cannot deliver the power on time, storing it first changes what is buildable."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "How a solution is selected",
+      "h2": "Four questions before any equipment is chosen",
+      "lede": "Every solution page answers these in the same order, so the comparison between two sites is a comparison of constraints, not of marketing copy.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Power available",
+          "text": "The kVA the site can actually draw, and what the utility will approve."
+        },
+        {
+          "no": "02",
+          "title": "Dwell & duty",
+          "text": "How long vehicles stay, and how many sessions the site must serve at peak."
+        },
+        {
+          "no": "03",
+          "title": "Climate envelope",
+          "text": "Ambient heat, monsoon, dust or cold — which component derates first."
+        },
+        {
+          "no": "04",
+          "title": "Operating model",
+          "text": "Who runs it, who fixes it, and what happens on the worst night."
+        }
+      ],
+      "action": {
+        "label": "How the turnkey scope works",
+        "href": "/turnkey/"
+      }
+    },
+    {
+      "type": "evidence",
+      "eyebrow": "Same method, different countries",
+      "h2": "Solutions are only real if they shipped",
+      "lede": "The cases below were selected for the same reason the solutions pages exist: each one had a binding constraint that decided the design.",
+      "image": "/assets/img/v2/scene-fleet-1280.webp",
+      "imageAlt": "Twelve-unit bus depot charging installation in Czechia",
+      "caption": "Bus depot, Czechia — twelve DC units on an overnight duty cycle.",
+      "kv": [
+        {
+          "k": "Corridor sites",
+          "v": "Jordan 160 kW, Kazakhstan dual-gun 120 kW corridors"
+        },
+        {
+          "k": "Depot sites",
+          "v": "Czechia 12-unit bus depot, Cambodia 240 kW fleet"
+        },
+        {
+          "k": "Climate extremes",
+          "v": "45 °C+ ambient heat, monsoon season, −30 °C cold-climate operation"
+        },
+        {
+          "k": "Grid-constrained",
+          "v": "Off-grid PV + storage deployments and transformer-limited urban sites"
+        }
+      ],
+      "action": {
+        "label": "Browse all project cases",
+        "href": "/cases/"
+      }
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Next step",
+      "h2": "Tell us the site. We will tell you which of the three it is.",
+      "lede": "Available capacity, dwell pattern and climate are enough to place your project in one of these contexts.",
+      "actions": [
+        {
+          "label": "Start a project",
+          "href": "/inquiry"
+        },
+        {
+          "label": "Compare product families",
+          "href": "/products/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "es/solutions",
+  "url": "/es/solutions/",
+  "breadcrumb": "Soluciones",
+  "title": "Soluciones de carga por tipo de sitio | Anari Energy",
+  "meta": "Cuatro soluciones ordenadas por la restricción que decide el diseño: corredores públicos, flotas y cocheras, FV con almacenamiento, destino y oficina.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Soluciones",
+      "h1": "El emplazamiento decide el diseño, no el catálogo.",
+      "lede": "Un corredor, una cochera de autobuses y un aparcamiento de hotel fallan por motivos distintos. Cada solución parte de la restricción que de verdad va a condicionar el proyecto.",
+      "image": "/assets/img/v2/hero-solutions-1920.webp",
+      "credit": "Instalación de corredor · DC de dos pistolas, Asia Central",
+      "actions": [
+        {
+          "label": "Elegir escenario",
+          "href": "/es/solutions/#contexts"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Cómo se elige la solución",
+      "h2": "Cuatro preguntas antes de elegir equipo",
+      "lede": "Todas las páginas de solución las responden en el mismo orden, para que dos emplazamientos se comparen por restricciones y no por marketing.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Potencia disponible",
+          "text": "Los kVA que el sitio puede tomar y lo que aprobará la utility."
+        },
+        {
+          "no": "02",
+          "title": "Estancia y ciclo",
+          "text": "Cuánto tiempo paran los vehículos y cuántas sesiones exige el pico."
+        },
+        {
+          "no": "03",
+          "title": "Clima",
+          "text": "Calor, monzón, polvo o frío: qué componente pierde potencia primero."
+        },
+        {
+          "no": "04",
+          "title": "Modelo operativo",
+          "text": "Quién opera, quién repara y qué ocurre en la peor noche."
+        }
+      ],
+      "action": {
+        "label": "Alcance llave en mano",
+        "href": "/es/turnkey/"
+      }
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "eyebrow": "Lo que no prometemos",
+      "h2": "Límites del alcance, por escrito",
+      "lede": "El valor de una entrega llave en mano es que el límite se escribe antes de empezar, no se negocia cuando aparece el problema.",
+      "items": [
+        {
+          "title": "Incluido",
+          "text": "Estudio de sitio y mercado, diseño y esquema unifilar, suministro, permisos y trámites, supervisión de montaje, puesta en marcha y traspaso."
+        },
+        {
+          "title": "No incluido",
+          "text": "Compra del suelo, decisiones comerciales de tarifa y financiación a largo plazo: quedan con usted, y lo decimos antes del anticipo."
+        },
+        {
+          "title": "Aparte",
+          "text": "La generación de demanda posterior es un programa separado, no una promesa dentro del alcance."
+        },
+        {
+          "title": "Control de cambios",
+          "text": "Si cambia la restricción, el diseño cambia con un delta escrito, no con una sustitución silenciosa."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Cuéntenos el sitio y le diremos cuál de los cuatro escenarios es el suyo.",
+      "lede": "Con la capacidad disponible, el patrón de estancia y el clima basta para situar el proyecto.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/solutions/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/solutions/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/solutions/"
+    }
+  ]
+}

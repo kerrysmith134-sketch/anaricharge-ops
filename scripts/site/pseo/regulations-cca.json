@@ -1,0 +1,428 @@
+{
+  "_comment": "2026-11-10 PSEO F5 regulations — Caucasus & Central Asia (Armenia, Uzbekistan, Kyrgyzstan, Tajikistan)",
+  "family": "regulations-cca",
+  "base_path": "/regulations",
+  "base_url": "https://www.anaricharge.com",
+  "date_modified": "2026-11-10",
+  "hreflang_locales": [
+    "en"
+  ],
+  "pages": [
+    {
+      "slug": "armenia",
+      "country": "Armenia",
+      "region": "Caucasus",
+      "eyebrow": "Compliance · Caucasus",
+      "regulator": "PSRC",
+      "connection": "ENA / HVEN",
+      "statute_status": "No EV law; EAEU TR CU applies",
+      "about": {
+        "@type": "Legislation",
+        "name": "Law of the Republic of Armenia on Energy"
+      },
+      "title": "Armenia charging permits: PSRC, ENA and the grid",
+      "meta": "Armenia has no EV charging statute. What decides a site is ENA's technical conditions, PSRC's tariff position and a 220/110 kV grid that peaks in winter.",
+      "h1": "Armenia EV charging approvals: what ENA signs before the meter turns",
+      "lede": "Armenia has no dedicated EV charging law, so a DC site is processed as an electricity installation. That moves the schedule onto Electric Networks of Armenia: technical conditions, a transformer decision and a commercial meter. This page maps who signs what, in what order, and where Armenian projects usually wait.",
+      "tldr_label": "In brief — Armenia",
+      "tldr": "Two signatures set the date: ENA's technical conditions and, if you resell kWh, PSRC's written position on the tariff basis. Product admission is an EAEU certificate, already covered on the market page. Budget 60–120 days at ENA, and treat the winter peak rather than the summer case as the capacity you have to justify.",
+      "facts": [
+        [
+          "220/110 kV",
+          "transmission voltage, HVEN"
+        ],
+        [
+          "2 Jan 2015",
+          "EAEU accession in force"
+        ],
+        [
+          "1",
+          "distribution licensee: ENA"
+        ],
+        [
+          "0",
+          "EV-specific charging statutes"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Armenia's EAEU accession took effect on 2 January 2015, which is why TR CU 004/2011 and 020/2011 certificates — not an Armenian national mark — are the product-admission route, while no Armenian statute regulates charging stations as such.",
+        "source": "Eurasian Economic Commission, 'Armenia is now in the Eurasian Economic Union', 2 January 2015; EAEU technical-regulation list"
+      },
+      "sources": [
+        "Eurasian Economic Commission, Armenia's EAEU accession notice, 2 January 2015",
+        "Public Services Regulatory Commission of Armenia (psrc.am), tariff and licensing decisions",
+        "Electric Networks of Armenia (ena.am), technical conditions and connection procedure",
+        "Energy Charter Secretariat country material on Armenia's 220–110 kV transmission network"
+      ],
+      "sections": [
+        [
+          "Why the grid, not the charger, sets an Armenian date",
+          "<p>Armenia has no dedicated EV-charging statute, so a charging site is processed as an ordinary electricity consumer installation. That moves the critical path off the equipment. What decides the date is whether Electric Networks of Armenia (ENA), the single distribution licensee, will issue technical conditions for the load you actually need at the voltage available at the gate. A 120–240 kW DC site lands on 0.4 kV or 6/10 kV, not on the 220/110 kV transmission network operated by High Voltage Electric Networks, so HVEN is not the counterparty.</p>"
+        ],
+        [
+          "Who signs, and in what order",
+          "<p>Four signatures matter. ENA issues technical conditions, then approves the design and energises the site. PSRC, the Public Services Regulatory Commission, sets the regulated tariff and is the body to ask in writing whether reselling kWh to drivers needs a supply licence. The community or municipality issues the construction permit and controls land use. The fire service under the Ministry of Emergency Situations reviews the installation, and state expertise of the design applies to larger builds. None of these steps is EV-specific, which is exactly why they are easy to sequence wrong.</p>"
+        ],
+        [
+          "The ENA connection file",
+          "<p>The application needs a stated capacity in kW, a single-line diagram, a load calculation that shows simultaneity across dispensers, transformer and protection parameters, and the intended metering point. ENA answers with technical conditions fixing the connection point, the cable or overhead route, the protection settings and who pays for the transformer. If the local 6/10 kV transformer is already loaded, the honest answer is a substation upgrade charged to the project. Experienced developers budget 60–120 days from application to energisation; treat that as an estimate, not a service level.</p>"
+        ],
+        [
+          "Selling kWh without an Armenian EV tariff",
+          "<p>Armenia regulates electricity tariffs but publishes no EV-charging tariff, and no rule obliges operators to offer roaming, card payment or uptime reporting. The practical question is legal rather than technical: when a site buys energy at a regulated tariff and sells it by the kWh to drivers, is that a licensed supply activity? Operators should get PSRC's answer in writing before setting its tariff, and should separate the charging fee from the parking fee in the contract with the landowner. This is where projects quietly lose a season.</p>"
+        ],
+        [
+          "The file that gets a site over the line",
+          "<p>Assemble six things before the lease is signed: capacity and load profile; feeder and transformer data from ENA; the technical-conditions application; the municipality's land-use and construction position; the fire-service review for the enclosure and cable routes; and PSRC's written view if you resell energy. The common failure is ordering equipment against an assumed capacity. The second is discovering late that the winter peak, not the summer case, is what ENA will size the transformer for. Both are cheap to check at week one.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do I need a licence to operate a public charging station in Armenia?",
+          "There is no EV-charging licence in Armenian law. The open question is whether selling kWh to drivers counts as electricity supply, which PSRC regulates. Ask PSRC for a written position on your commercial model — self-consumption for a fleet, a landlord-tenant arrangement, or open public sale — because the answer changes the contract structure, not just the paperwork. Product admission is separate and follows EAEU rules."
+        ],
+        [
+          "How long does an ENA connection take?",
+          "Plan on 60–120 days from a complete application to energisation, longer if a 6/10 kV transformer or a feeder section has to be replaced. The clock only starts when the single-line diagram, load calculation and protection data are accepted, and it restarts if the requested capacity changes. Winter applications in mountain towns can slip further, because the binding constraint is the peak rather than the paperwork."
+        ],
+        [
+          "Is the EAEU certificate enough for Armenia?",
+          "For customs and for placing the equipment on the market, yes: TR CU 004/2011 for low-voltage safety and 020/2011 for electromagnetic compatibility are the route, and they are checked at the border. They do not approve a site. Grid connection, the construction permit and the fire review are national and local procedures with their own documents, so treat the certificate as one file among six."
+        ]
+      ],
+      "internal": [
+        [
+          "/regulations/",
+          "All country regulation guides"
+        ],
+        [
+          "/markets/armenia",
+          "Armenia market guide"
+        ],
+        [
+          "/journey/compliance",
+          "How we run the compliance path"
+        ],
+        [
+          "/inquiry",
+          "Talk about an Armenia project"
+        ]
+      ]
+    },
+    {
+      "slug": "uzbekistan",
+      "country": "Uzbekistan",
+      "region": "Central Asia",
+      "eyebrow": "Compliance · Central Asia",
+      "regulator": "Energy Market Agency",
+      "connection": "Regional grid (HET)",
+      "statute_status": "PQ-444/2022 + CoM 319/2024",
+      "about": {
+        "@type": "Legislation",
+        "name": "Law of the Republic of Uzbekistan No. ZRU-939 on the Electric Power Industry (2024)"
+      },
+      "title": "Uzbekistan charging approvals: PQ-444 and HET connection",
+      "meta": "Uzbekistan has no charger statute but a hard rulebook: PQ-444 forces chargers into new projects, and Cabinet Resolution 319 gates every new grid connection.",
+      "h1": "Uzbekistan EV charging approvals: technical conditions come first",
+      "lede": "Uzbekistan regulates charging through decrees and grid rules rather than a charging law. Two documents decide a project: Presidential Decision PQ-444, which pushed chargers into new buildings and fuel stations, and Cabinet Resolution 319 of 2024, which governs how a new load obtains technical conditions. This page maps the sequence from land to meter.",
+      "tldr_label": "In brief — Uzbekistan",
+      "tldr": "The gate is the texnik shartlar — technical conditions from the regional grid company — and it comes after PQ-444 has already fixed what the site must contain. Get the design obligation right first, because the Construction Ministry is directed to refuse projects without chargers. Then the meter, the supply contract and the resale position.",
+      "facts": [
+        [
+          "60 kW",
+          "minimum charger at fuel stations"
+        ],
+        [
+          "1 Jan 2024",
+          "chargers required in new projects"
+        ],
+        [
+          "319",
+          "Cabinet resolution on connection, 2024"
+        ],
+        [
+          "1 Jan 2028",
+          "tax-incentive window for chargers"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Presidential Decision PQ-444 of 19 December 2022 required every existing petrol, diesel and gas filling station to install at least one four-channel charging station of 60 kW or more by 1 December 2023, and from 1 January 2024 required chargers in the designs of new shopping centres, hotels and roadside projects.",
+        "source": "lex.uz, Presidential Decision PQ-444, 19 December 2022, paragraphs 1 and 4"
+      },
+      "sources": [
+        "Presidential Decision PQ-444, 19 December 2022 (lex.uz)",
+        "Cabinet of Ministers Resolution No. 319, 31 May 2024, Rules on the Use of Electricity, chapter 5 (lex.uz)",
+        "Law No. ZRU-939 on the Electric Power Industry, 7 August 2024 (lex.uz)",
+        "Hududiy Elektr Tarmoqlari AJ, technical conditions and connection procedure"
+      ],
+      "sections": [
+        [
+          "Two decrees and one binding constraint",
+          "<p>Uzbekistan has no single charging statute, but it is not unregulated. Presidential Decision PQ-444 set the design obligation: from 1 January 2024 new shopping and business centres, hotels, filling stations and international-roadside projects must include charging stations, and the Construction Ministry is directed to refuse designs that omit them. Cabinet Resolution No. 319 of 31 May 2024 governs the electrical side, making technical conditions from the grid company the precondition for any new or additional capacity. The design rule and the connection rule are separate files with separate readers.</p>"
+        ],
+        [
+          "Who issues what",
+          "<p>Five bodies matter. Hududiy Elektr Tarmoqlari (HET) issues technical conditions and connects distribution-level loads; O'zbekiston Milliy Elektr Tarmoqlari operates the 220–500 kV system. The Ministry of Energy sets policy, and the Energy Market Development and Regulation Agency is the regulator named in the 2024 electricity rules. Uzenergoinspeksiya inspects how electricity is used, and the hokimiyat controls land. Uzstandard governs product conformity, which belongs to the market page rather than to site approval.</p>"
+        ],
+        [
+          "The connection file at HET",
+          "<p>Chapter 5 of Resolution 319 is the operative text: it sets how technical conditions are issued for new and additional capacity, and how supply projects are agreed. Your file needs a stated capacity, a single-line diagram, a load calculation, transformer and protection data, and the intended metering point. HET then fixes the connection point and the works the developer pays for. Metering is increasingly an automated accounting system rather than a manual read, which changes the space and communications the site has to leave for it.</p>"
+        ],
+        [
+          "Selling kWh: the 2023 right and the tax window",
+          "<p>PQ-444 paragraph 3 gave businesses the right, from 1 January 2023, to sell electricity through charging stations, and let them set the charging tariff independently of the approved electricity tariff. That is unusually explicit for the region. It is paired with incentives: land and property tax relief for charging sites, profit and turnover tax relief for charging-only businesses, and customs-duty exemption for imported charging equipment, running to 1 January 2028 on current wording.</p>"
+        ],
+        [
+          "The file, and the three ways it stalls",
+          "<p>Six items: land or lease with the hokimiyat's position; the PQ-444 design obligation confirmed in writing for your building class; the HET technical-conditions application; the supply contract and metering arrangement; the imported-equipment exemption file, including the expert opinion where required; and the fire and construction sign-offs. It stalls in three places: a design approved before the charger was added, a capacity request larger than the local transformer, and equipment imported before the exemption list was checked.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do I need a permit to sell electricity from a charging station in Uzbekistan?",
+          "Since 1 January 2023 PQ-444 has allowed businesses to sell electricity through charging stations, and it lets the operator set the charging tariff independently of the approved electricity tariff. That is a right rather than a licence, and it does not remove the grid requirements: you still need technical conditions, a supply contract and metering. Confirm the tax position separately, because the incentives carry conditions and an expiry date."
+        ],
+        [
+          "What are the technical conditions (texnik shartlar) and who issues them?",
+          "They are the grid company's written statement of where you may connect, at what capacity, with what protection and metering. Under Cabinet Resolution No. 319 of 31 May 2024, technical conditions are issued by the grid that owns the network you connect to — Hududiy Elektr Tarmoqlari or its regional branch for distribution. Nothing is built without them, and a changed capacity means a new set."
+        ],
+        [
+          "Must a new building include EV chargers?",
+          "For the categories named in PQ-444 — shopping and business centres, entertainment and recreation sites, filling stations, hotels, and infrastructure along international and state roads — yes, from 1 January 2024. The Construction Ministry was directed to refuse designs that omit charging stations. If your project falls outside those categories, ask the ministry in writing rather than assuming the rule does not reach you."
+        ]
+      ],
+      "internal": [
+        [
+          "/regulations/",
+          "All country regulation guides"
+        ],
+        [
+          "/markets/uzbekistan",
+          "Uzbekistan market guide"
+        ],
+        [
+          "/journey/compliance",
+          "How we run the compliance path"
+        ],
+        [
+          "/cases/emerging-markets",
+          "Projects in fast-growing grids"
+        ],
+        [
+          "/inquiry",
+          "Talk about an Uzbekistan project"
+        ]
+      ]
+    },
+    {
+      "slug": "kyrgyzstan",
+      "country": "Kyrgyzstan",
+      "region": "Central Asia",
+      "eyebrow": "Compliance · Central Asia",
+      "regulator": "Ministry of Energy",
+      "connection": "NESK",
+      "statute_status": "No EV law; EAEU TR CU",
+      "about": {
+        "@type": "Legislation",
+        "name": "Law of the Kyrgyz Republic on Energy"
+      },
+      "title": "Kyrgyzstan charging approvals: NESK connection and permits",
+      "meta": "Kyrgyzstan has no charging statute and one connection counterparty: NESK, which absorbed the four distribution companies. Winter capacity decides the site.",
+      "h1": "Kyrgyzstan EV charging approvals: one grid company, one winter test",
+      "lede": "Kyrgyzstan consolidated its network, so a charging project now meets a single counterparty for transmission and distribution: National Electric Grid of Kyrgyzstan. The approvals themselves are ordinary construction and electrical procedures. What is not ordinary is the winter, when hydro output falls and imports cover the gap. This page maps the path.",
+      "tldr_label": "In brief — Kyrgyzstan",
+      "tldr": "Approvals are ordinary; capacity is not. NESK issues technical conditions, the construction and fire authorities sign the build, and Kyrgyzstandart handles product conformity under EAEU rules. The step that decides viability is the winter capacity conversation, so ask for a load curve before signing a lease and design for the February case, not the June one.",
+      "facts": [
+        [
+          "2022",
+          "four distribution companies merged into NESK"
+        ],
+        [
+          "~90%",
+          "hydro share of generation"
+        ],
+        [
+          "4.1 bn kWh",
+          "imports planned for winter 2026–27"
+        ],
+        [
+          "1996",
+          "Law on Energy still the base act"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "In 2022 Kyrgyzstan merged its four regional distribution companies — Severelectro, Vostokelectro, Oshelectro and Jalalabadelectro — into National Electric Grid of Kyrgyzstan, leaving one counterparty for both transmission and distribution connection.",
+        "source": "Kabar news agency report on distribution companies joining NESK, 2022; energo-cis merger report, 2022"
+      },
+      "sources": [
+        "Kabar, report on distribution companies joining NESK, 2022",
+        "Department for Regulation of the Fuel and Energy Complex under the Ministry of Energy (regultek.gov.kg)",
+        "Law of the Kyrgyz Republic on Energy (1996, as amended)",
+        "Daryo, Kyrgyzstan winter 2026–27 electricity import plan, August 2026"
+      ],
+      "sections": [
+        [
+          "Why February decides a Kyrgyz site",
+          "<p>Kyrgyzstan generates around ninety per cent of its electricity from hydro, and the Toktogul reservoir regulates most of it. Output falls in winter exactly when demand rises, so the system imports heavily — the plan for winter 2026–27 was roughly 4.1 billion kWh — and supply limits become a normal operating condition rather than an emergency. For a DC site this is a design input: a 150 kW load added to a winter-constrained feeder may be approved with a cap, a schedule, or an obligation to shift load.</p>"
+        ],
+        [
+          "Who approves what in Kyrgyzstan",
+          "<p>The Ministry of Energy sets policy, and its Department for the Regulation of the Fuel and Energy Complex handles tariffs. NESK issues technical conditions, connects and meters. The construction authority reviews the design and issues the permit, the fire service reviews the installation, and Kyrgyzstandart is the standards body for product conformity, which sits alongside EAEU certificates and is covered on the market page. Land comes from the local authority. No step here is charging-specific, because no charging statute exists.</p>"
+        ],
+        [
+          "The NESK application",
+          "<p>NESK's file is conventional: requested capacity, single-line diagram, load calculation, transformer and protection parameters, proposed metering, and a site plan showing the connection route. A low-voltage connection on a lightly loaded transformer moves in weeks; a new 6/10 kV point or a transformer replacement takes months and is paid by the developer. Because one company now owns transmission and distribution, there is no second negotiation — but also no alternative supplier if the answer is no.</p>"
+        ],
+        [
+          "Operating rules and the tariff gap",
+          "<p>Kyrgyzstan does not mandate roaming, card payment, uptime reporting or a public charger register. Pricing is the weak point: the Department regulates electricity tariffs, so an operator buying at a regulated tariff and reselling by the kWh should get written confirmation of how that sale is treated before publishing a tariff. Contracts with landlords should separate the energy charge from parking, and should say who carries the winter limitation when it arrives.</p>"
+        ],
+        [
+          "The document pack — and where Kyrgyzstan projects stall",
+          "<p>Six documents: land or lease; the requested capacity with its winter profile; NESK technical conditions; the construction permit and fire review; Kyrgyzstandart conformity for the equipment; and the written tariff position if you resell energy. The usual stall is capacity — a lease signed on a feeder that cannot carry the winter case, or a capacity request that assumed a transformer nobody checked. The second is timing: a February commissioning date on a network that is already tight.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Who do I apply to for a grid connection in Kyrgyzstan?",
+          "National Electric Grid of Kyrgyzstan, NESK. Since the 2022 merger of the four regional distribution companies into NESK, the same company issues technical conditions, connects the site and supplies the meter. Apply through the regional branch that owns the network at your site. The application is an electrical file — capacity, single-line diagram, load calculation, protection and metering — not a policy submission."
+        ],
+        [
+          "Does Kyrgyzstan have EV charging regulations?",
+          "Not a dedicated one. Charging stations are handled as electrical installations and construction works, so the applicable rules are the Law on Energy, the technical connection rules and the construction and fire codes. Product conformity runs through EAEU technical regulations, checked by Kyrgyzstandart. Expect no national roaming, payment or uptime obligation, and no register of public chargers in any ministry list."
+        ],
+        [
+          "How does the winter deficit affect a charging site?",
+          "Directly. Hydro output falls in winter and the system imports to cover the gap, so limits are an ordinary condition rather than a rare event. A site that needs firm capacity should expect conditions attached to its technical conditions, and should model revenue on a curtailed winter rather than on nameplate hours. Where the grid cannot offer firm capacity, on-site storage or a reduced winter setpoint is the practical answer."
+        ]
+      ],
+      "internal": [
+        [
+          "/regulations/",
+          "All country regulation guides"
+        ],
+        [
+          "/markets/kyrgyzstan",
+          "Kyrgyzstan market guide"
+        ],
+        [
+          "/journey/compliance",
+          "How we run the compliance path"
+        ],
+        [
+          "/depot/off-grid-charging",
+          "Charging where the grid is thin"
+        ],
+        [
+          "/inquiry",
+          "Talk about a Kyrgyzstan project"
+        ]
+      ]
+    },
+    {
+      "slug": "tajikistan",
+      "country": "Tajikistan",
+      "region": "Central Asia",
+      "eyebrow": "Compliance · Central Asia",
+      "regulator": "MEWR",
+      "connection": "Barqi Tojik",
+      "statute_status": "No EV law; winter rationing",
+      "about": {
+        "@type": "Legislation",
+        "name": "Law of the Republic of Tajikistan on Energy"
+      },
+      "title": "Tajikistan charging permits: Barqi Tojik connection",
+      "meta": "Tajikistan has no charging statute and one vertically integrated utility. Barqi Tojik issues technical conditions, and winter rationing sets the design case.",
+      "h1": "Tajikistan EV charging approvals: Barqi Tojik, permits, winter limits",
+      "lede": "Tajikistan runs on hydro and one vertically integrated utility. Barqi Tojik generates, transmits and distributes, so the technical conditions, the meter and the supply contract come from the same company. Approvals are ordinary; the constraint is seasonal. This page sets out who signs what, in order, and what a winter-limited site must prove.",
+      "tldr_label": "In brief — Tajikistan",
+      "tldr": "One counterparty and one hard season. Barqi Tojik issues technical conditions and supplies the site, while construction, fire and standards approvals stay routine. The number that decides the business case is the winter availability you are actually granted, so ask for it in writing before ordering equipment or signing a lease.",
+      "facts": [
+        [
+          "500 kV",
+          "backbone operated by Barqi Tojik"
+        ],
+        [
+          "≈3,000 MW",
+          "Nurek hydropower plant"
+        ],
+        [
+          "1",
+          "vertically integrated utility"
+        ],
+        [
+          "0",
+          "dedicated EV charging statutes"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Barqi Tojik is vertically integrated: it operates the 500 kV and 220 kV transmission backbone as well as the distribution networks, so a charging site has one counterparty for technical conditions, metering and supply.",
+        "source": "World Bank, OJSC Barqi Tojik sector review, 2025; ADB Tajikistan 500 kV transmission project documents"
+      },
+      "sources": [
+        "World Bank, OJSC Barqi Tojik sector review, 2025",
+        "ADB, Tajikistan 500 kV power transmission project documents",
+        "Ministry of Energy and Water Resources of Tajikistan (mewr.tj)",
+        "Barqi Tojik, regulatory acts and tariff decisions (barqitojik.tj)"
+      ],
+      "sections": [
+        [
+          "Winter is the design case",
+          "<p>Tajikistan's generation is overwhelmingly hydro, with Nurek providing about 3,000 MW of regulating capacity, and output collapses in the coldest months. Barqi Tojik therefore limits supply in winter across much of the country, a routine measure rather than a fault. A charging site modelled on twenty-four-hour availability will overstate revenue. Ask what winter regime the network can offer, design storage or a lower winter setpoint around it, and model the site on a curtailed profile rather than on nameplate hours.</p>"
+        ],
+        [
+          "Who approves what in Tajikistan",
+          "<p>Barqi Tojik issues technical conditions, approves the connection design, installs the meter and contracts the supply. The Ministry of Energy and Water Resources sets policy, the tariff proposal originates with the utility before government approval, and the antimonopoly authority reviews tariff practice. The committee for construction and architecture handles the permit and design expertise, the fire service signs the installation, and Tajikstandart is the standards body for product conformity. None of these is an EV-charging procedure.</p>"
+        ],
+        [
+          "The connection file at Barqi Tojik",
+          "<p>Apply to the regional network enterprise that owns the feeders at your site. The file is standard: requested capacity, single-line diagram, load calculation, transformer and protection data, metering proposal and a site plan. Expect a 6/10 kV connection for a 120–240 kW station, with the transformer question settled first — if the local unit is loaded, the upgrade is the project's cost. Because one company supplies and distributes, technical and commercial questions end up in the same conversation.</p>"
+        ],
+        [
+          "No charging-specific operating rules",
+          "<p>Tajikistan mandates no roaming, no card payment, no uptime reporting and no public charger register. Payment is usually handled by the operator, and cash still matters outside Dushanbe. Reselling electricity by the kWh sits inside a regulated tariff system, so get the utility's written position on the resale basis before publishing a tariff, and keep the parking charge separate in the landlord contract. Night-time charging aligns with the system's surplus and is the easiest load to get approved.</p>"
+        ],
+        [
+          "The document pack — and where Tajikistan projects stall",
+          "<p>Six items: land or lease; the requested capacity with a winter profile attached; Barqi Tojik technical conditions; the construction permit and fire review; Tajikstandart conformity for the equipment; and the written resale position if you sell energy. It stalls on the winter profile — a site that presents only summer demand gets a summer approval and a winter surprise — and on transformer capacity in older districts, where the local unit was sized for households, not vehicles.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is there a dedicated EV charging regulation in Tajikistan?",
+          "No. Charging stations are treated as electrical installations and construction works, so the applicable framework is the energy law, Barqi Tojik's technical connection rules, and the construction and fire codes. Product conformity runs through Tajikstandart. There is no national roaming, payment, uptime or reporting obligation, and no public register of chargers, so the approvals are predictable while the operating rules stay yours to define."
+        ],
+        [
+          "Who issues the technical conditions for a charging site?",
+          "Barqi Tojik, through the regional network enterprise that owns the local feeders. Because the company is vertically integrated — generation, the 500 kV and 220 kV backbone, and distribution — there is no separate distribution system operator to negotiate with, and no second supplier to turn to. The application is technical: capacity, single-line diagram, load calculation, protection, metering and a site plan."
+        ],
+        [
+          "How do winter limits change the business case?",
+          "They shorten the hours you can sell. Hydro output falls in the coldest months and Barqi Tojik limits supply across much of the country, so a site modelled on year-round availability will miss its numbers. Model revenue on a curtailed winter, add storage or a lower winter setpoint where the location justifies it, and put the winter regime into the landlord contract so the risk is allocated before construction starts."
+        ]
+      ],
+      "internal": [
+        [
+          "/regulations/",
+          "All country regulation guides"
+        ],
+        [
+          "/markets/tajikistan",
+          "Tajikistan market guide"
+        ],
+        [
+          "/journey/compliance",
+          "How we run the compliance path"
+        ],
+        [
+          "/depot/off-grid-charging",
+          "Charging where the grid is thin"
+        ],
+        [
+          "/inquiry",
+          "Talk about a Tajikistan project"
+        ]
+      ]
+    }
+  ]
+}

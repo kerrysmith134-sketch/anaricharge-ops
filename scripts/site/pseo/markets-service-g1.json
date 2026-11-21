@@ -1,0 +1,826 @@
+{
+  "_comment": "2026-11-10 PSEO batch — /markets/{country} service markets group 1",
+  "family": "markets-service-g1",
+  "base_path": "/markets",
+  "base_url": "https://www.anaricharge.com",
+  "date_modified": "2026-11-10",
+  "hreflang_locales": [
+    "en"
+  ],
+  "pages": [
+    {
+      "slug": "lebanon",
+      "country": "Lebanon",
+      "region": "Middle East",
+      "eyebrow": "Market · Middle East",
+      "title": "Lebanon EV Charging: Seven Grid Hours and a Generator",
+      "meta": "EDL averages about seven hours of supply a day, so a Lebanese charging site is sized around storage, PV and a generator instead of the grid.",
+      "h1": "EV charging in Lebanon: seven hours of grid, then the generator",
+      "lede": "In Lebanon the grid is a top-up, not a source. EDL delivers a few hours a day on average, and every site already runs on private generators and rooftop solar. That changes what a charging station is: an energy system with a charger attached, sized around hours of autonomy rather than around transformer capacity.",
+      "tldr_label": "In brief — Lebanon",
+      "tldr": "Size the station for the hours the grid is absent, not the hours it is present. Fix storage autonomy, source changeover and metering before you argue about charger power, because a 120 kW unit that runs four hours a day is a 20 kW asset.",
+      "facts": [
+        [
+          "~7 h/day",
+          "Average EDL supply"
+        ],
+        [
+          "230/400 V",
+          "50 Hz national grid"
+        ],
+        [
+          "38 °C+",
+          "Bekaa summer peak"
+        ],
+        [
+          "PV + BESS",
+          "Sizing logic"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "EDL supply averaged about seven hours a day in late 2025 and fell to roughly two hours during a delayed fuel cargo, according to two sources cited by L'Orient Today.",
+        "source": "L'Orient Today, 14 December 2025 — EDL output rationing report"
+      },
+      "sources": [
+        "L'Orient Today, 14 Dec 2025 — EDL supply dropped from an average of 7 hours a day to about 2 during a fuel-shipment delay",
+        "Ministry of Energy and Water (Lebanon) — EDL generation fleet and fuel procurement",
+        "LIBNOR — Lebanese standards body; no dedicated EV charging regulation in force"
+      ],
+      "sections": [
+        [
+          "Seven hours of grid is an energy design problem",
+          "<p>Lebanon's utility averaged roughly seven hours of supply a day in late 2025, and a delayed fuel cargo pushed that to about two. A public charger tied only to that supply is unavailable for most of the day, which is why the country already runs on generator subscriptions and rooftop solar. The design question is how many hours of autonomy the site needs, and what recharges the storage when the grid returns.</p><p>A site that stores energy and sells it later behaves like a small utility. Meter both the import and the delivered kilowatt-hours, because those are no longer the same number.</p>"
+        ],
+        [
+          "230/400 V, 50 Hz, and a network that stops early",
+          "<p>The national system is 230/400 V at 50 Hz, with EDL running transmission and distribution down to the substation. Beyond that point the private generator takes over, and the changeover is usually manual or semi-automatic at the building panel. Specify a charger that tolerates a source transfer without latching a fault, and give the generator an explicit input so the station does not depend on somebody being on site.</p><p>Generator power is expensive per kilowatt-hour and moves with fuel price, which sets the marginal cost of every charge delivered. That figure, not a published tariff, is what your price has to cover.</p>"
+        ],
+        [
+          "Coastal humidity, Bekaa heat, and the cabinet in between",
+          "<p>The coast sits at 30–38 °C in summer with high humidity and salt in the air, while the Bekaa runs hotter and drier in the same months. A cabinet specified for the coast will usually pass a Bekaa summer, but not the reverse, because inland dust loads the filters that coastal humidity had kept damp. Ask for the derating curve at your design ambient and for a filter service interval a two-person team can hold.</p><p>Connector wear shows up first in both regions: heat softens the housing, dust gets into the latch, and the cable takes the load of a driver pulling it out at an angle.</p>"
+        ],
+        [
+          "No charging law yet, so the CE and IEC file is the import file",
+          "<p>Lebanon has a national standards body, LIBNOR, but no dedicated regulation for EV charging equipment, so customs and the utility work from the CE declaration, the IEC 61851 test reports and the Arabic or French documentation you supply. Build that file before the container ships: declaration of conformity, test reports for the exact model, a wiring diagram and a commissioning procedure in the language the installer reads.</p><p>With no national charge-point register, the site file is also the only record of what was installed. Keep it with the as-built single-line diagram.</p>"
+        ],
+        [
+          "Five inputs to fix before the order",
+          "<ul><li>measured EDL hours per day at the actual meter, over a week rather than a national average;</li><li>generator rating, fuel source and changeover type;</li><li>roof or canopy area available for PV, and whether the landlord permits it;</li><li>required autonomy hours at design load;</li><li>how the site collects money — cash in dollars, card, or app.</li></ul><p>Those five answers set the storage size, the inverter, the charger count and the settlement model. None of them comes from a datasheet, and all of them can be settled in one site visit. Bring them to <a href=\"/inquiry\">our engineering team</a> and the quote becomes arithmetic.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can a DC fast charger run on a diesel generator in Lebanon?",
+          "Not continuously, and not cheaply. A generator can carry a 60–120 kW charger for short periods, but its fuel cost per kilowatt-hour is several times the grid tariff, and it has to be sized for the charger's peak rather than its average. The Lebanese sites that work use the generator to protect the load and to recharge storage, with a battery buffer between the two so the charger never sees a frequency dip when a compressor or a lift starts."
+        ],
+        [
+          "How much battery storage does a Lebanese charging site need?",
+          "Work from hours, not from a catalogue. If a site sells 300 kWh across ten trading hours, the average load is 30 kW, so each hour of grid absence needs roughly 30 kWh of usable storage. Add margin for the days supply falls to two hours, and derate for the temperature inside the cabinet. Then size the inverter for the charger's peak rather than the average, because two vehicles arriving together will pull it."
+        ],
+        [
+          "What documents does Lebanese customs want for a charger?",
+          "Treat the unit as electrical equipment, not as a vehicle part. The working file is the CE declaration of conformity, the LVD and EMC test reports for the exact model, the IEC 61851-1 and 61851-23 reports for the DC version, a packing list with the customs classification, and an Arabic or French installation manual. With no dedicated charging regulation, the broker's classification decision carries more weight than usual, so confirm the tariff line before you book freight."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/off-grid-charging",
+          "Off-grid and weak-grid sites"
+        ],
+        [
+          "/solutions/pv-ess-charging-solution",
+          "PV and storage with charging"
+        ],
+        [
+          "/products/bess",
+          "Liquid-cooled BESS 120–418 kWh"
+        ],
+        [
+          "/regulations/lebanon",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "israel",
+      "country": "Israel",
+      "region": "Middle East",
+      "eyebrow": "Market · Middle East",
+      "title": "Israel EV Charging: Shared Garages, 40 °C and IEC Capacity",
+      "meta": "Israel's EV share fell from 25% to 12% while charging access, not demand, became the limit. Heat and shared-building connections decide the site.",
+      "h1": "EV charging in Israel: shared garages, 40 °C summers and the connection queue",
+      "lede": "Israel electrified faster than almost anywhere, then stalled: electric cars were a quarter of new sales in 2024 and about an eighth in early 2026. The reason is not vehicle supply. It is where those cars park, in shared apartment buildings where one connection has to serve many drivers.",
+      "tldr_label": "In brief — Israel",
+      "tldr": "Treat the building, not the highway, as the site. Design load-managed AC for residents and put DC where cars genuinely stop for twenty minutes. Check IEC capacity for the block before promising power, and specify for the summer ambient rather than the nameplate.",
+      "facts": [
+        [
+          "25% to 12%",
+          "EV share, 2024 to H1 2026"
+        ],
+        [
+          "230/400 V",
+          "50 Hz supply"
+        ],
+        [
+          "40 °C+",
+          "Summer design point"
+        ],
+        [
+          "Shared garages",
+          "The binding constraint"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "EVs were 25 percent of Israeli new-car sales in 2024, 20 percent in 2025 and 12 percent in the first half of 2026, against a government target of 90 percent by 2030.",
+        "source": "Israel Ministry of Energy and Infrastructure, reported by Xinhua, 10 September 2026"
+      },
+      "sources": [
+        "Israel Ministry of Energy and Infrastructure, 10 Sep 2026 — EV share 25% (2024), 20% (2025), 12% (H1 2026)",
+        "Public Utilities Authority (Electricity) — tariffs and connection regulation",
+        "Standards Institution of Israel (SII) — national standards; CE marking widely accepted for import"
+      ],
+      "sections": [
+        [
+          "Demand peaked, then charging access became the limit",
+          "<p>Israel's electric share of new car sales ran at 25 percent in 2024, 20 percent in 2025 and 12 percent in the first half of 2026, according to the Ministry of Energy and Infrastructure. The ministry's own diagnosis is access rather than appetite: residents of apartment buildings cannot get a dedicated connection, so its plan targets charging in shared buildings, long-term tax certainty, and fleet and leasing operators.</p><p>That reframes the site. A network designed for highway stops does not serve a country where most cars sleep in a shared garage under an office or a block of flats.</p>"
+        ],
+        [
+          "A building service sized for lifts, not chargers",
+          "<p>Israel Electric Corporation runs generation, transmission and distribution, and the Public Utilities Authority sets tariffs and connection rules. For a building-level installation the practical limit is the existing service: the house connection was sized for lifts, air conditioning and lighting, not for six 22 kW chargers drawing at once. Load management turns that into a scheduling problem instead of a transformer replacement.</p><p>Where the site needs DC, the capacity request goes in early and the answer fixes the power level. Where the roof already carries PV, export limits add a second approval layer.</p>"
+        ],
+        [
+          "Forty degrees is a specification, not a forecast",
+          "<p>Summer design conditions pass 40 °C in the Jordan Valley, the Negev and the inland valleys, with coastal humidity in Tel Aviv and Haifa. A charger quoted at 25 °C tells you nothing useful; ask for sustained output at the site's design ambient and for the curve that produces it. Cabinets also face fine dust in the south and salt aerosol on the coast, which sets the filter grade and the coating specification.</p><p>We have delivered high-temperature sites in this region, and the failures we see are thermal management and connector wear before they are electronics.</p>"
+        ],
+        [
+          "SII, CE and a Hebrew site file",
+          "<p>The Standards Institution of Israel writes the national standards, and CE-marked equipment is widely accepted for import and installation. What is not optional is the documentation language: installation instructions, warning labels and the commissioning report are expected in Hebrew for the site file and for the electrical inspector. Name the exact variant in the CE declaration, because a family certificate covering a different rating is a routine hold-up at inspection.</p><p>Connection paperwork and the inspection are separate from the product file, and both need the single-line diagram before work starts.</p>"
+        ],
+        [
+          "What to settle before you commit to a power level",
+          "<ul><li>the house connection rating and the diversity the building already uses;</li><li>how many vehicles park overnight, and for how long;</li><li>the summer design ambient at the exact address;</li><li>whether the site is a shared garage, a retail forecourt or a highway stop;</li><li>who signs the connection request and who owns the meter.</li></ul><p>Once those are written down, the equipment question usually answers itself. Send us the site inputs through <a href=\"/inquiry\">the project form</a> and we will size the station against your numbers rather than against a template.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Why did Israel's EV share fall from 25% to 12%?",
+          "The Ministry of Energy and Infrastructure attributes the slide to charging access and policy uncertainty rather than to vehicle choice: 25 percent of new cars in 2024, 20 percent in 2025 and 12 percent in the first half of 2026, against a 90 percent target for 2030. Residents of apartment buildings cannot get a dedicated connection, and fleets wait on tax rules. For a developer the implication is that demand concentrates where parking is assigned, not along highways."
+        ],
+        [
+          "Can one building connection charge many cars?",
+          "Usually yes, if the chargers share instead of each reserving a fixed allowance. A load-management controller measures the building's total draw and gives the chargers only the headroom, so six 22 kW points can run on a service that could not carry them simultaneously. The trade-off is time: each car charges slower on a busy evening. That is normally acceptable overnight and unacceptable at a retail site, which is why the use case decides the design."
+        ],
+        [
+          "How much derating should I expect in Israeli summer heat?",
+          "Expect the derating curve to matter more than the headline figure. Ask for the sustained kilowatts at your site's design ambient and for the temperature at which the unit begins to reduce output, then compare those two numbers across offers instead of comparing nameplate power. Liquid-cooled units generally hold output longer than air-cooled ones, and the gap widens in a desert site where the cabinet has no shade at three in the afternoon."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cases/hot-climate",
+          "High-ambient delivery case"
+        ],
+        [
+          "/data/hot-climate-charging",
+          "Hot-climate field data"
+        ],
+        [
+          "/cost/160-kw-dc-fast-charging-station",
+          "160 kW station cost bands"
+        ],
+        [
+          "/regulations/israel",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "saudi-arabia",
+      "country": "Saudi Arabia",
+      "region": "Middle East",
+      "eyebrow": "Market · Middle East",
+      "title": "Saudi EV Charging: 5,000 Chargers, 50 °C and SABER",
+      "meta": "EVIQ has committed to more than 5,000 fast chargers by 2030. Heat, SEC capacity and the SABER certificate decide who else gets to build there.",
+      "h1": "EV charging in Saudi Arabia: a national rollout, 50 °C ambient and a certificate queue",
+      "lede": "Saudi Arabia has both the capital and a plan: a state-backed operator is building a fast-charging network along the highways. For anyone else entering, the constraints are ordinary and hard — a connection from SEC, a product that survives 50 °C, and a SABER certificate in hand before the container leaves.",
+      "tldr_label": "In brief — Saudi Arabia",
+      "tldr": "Start the SABER file before the site. Secure SEC capacity for the load you want in phase two, because the transformer sets the calendar. Heat decides which product you can use, not how many points you can install, so read the rollout map and build where it does not reach.",
+      "facts": [
+        [
+          ">5,000",
+          "EVIQ fast chargers by 2030"
+        ],
+        [
+          "45–50 °C",
+          "Summer design point"
+        ],
+        [
+          "SABER",
+          "PCoC and SCoC certificates"
+        ],
+        [
+          "CCS2",
+          "Connector basis"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "EVIQ, the charging company formed by the Public Investment Fund and Saudi Electricity Company, has committed to deploying more than 5,000 fast chargers by 2030, starting with a highway hub on the Riyadh–Qassim road in March 2025.",
+        "source": "EVIQ announcement, 23 March 2025 — first highway station at SASCO Aljazeera"
+      },
+      "sources": [
+        "EVIQ, 23 Mar 2025 — commitment to more than 5,000 fast chargers by 2030",
+        "SASO / SABER — Product Certificate of Conformity before shipment, Shipment Certificate per consignment",
+        "ECRA — electricity generation and cogeneration regulation",
+        "Saudi Electricity Company — distribution connection and reserved capacity"
+      ],
+      "sections": [
+        [
+          "A national operator sets the corridors, so build where it does not reach",
+          "<p>EVIQ, formed by the Public Investment Fund and Saudi Electricity Company, opened its first highway station in March 2025 at SASCO Aljazeera on the Riyadh–Qassim road and has committed to more than 5,000 fast chargers by 2030. That programme defines where the trunk routes will be, and by implication where a private operator should not duplicate them: depots, industrial cities, hotels, hospitals and fleet yards.</p><p>Read the rollout as a map of what is already funded, then choose the sites it does not reach. That is a different site-selection exercise from the one used in a market with no national operator.</p>"
+        ],
+        [
+          "SEC capacity is the schedule",
+          "<p>Distribution sits with the Saudi Electricity Company under ECRA's regulation. Above a few hundred kilowatts the question is not whether power exists but when the transformer and its feeder can be released, and that date is set by the utility rather than by the equipment supplier. Ask for the load application in writing with the reserved capacity in kVA, and design phase one to fit the capacity you can actually be granted this year.</p><p>Demand charges follow reserved capacity, so an oversized first phase costs money every month it stands idle waiting for vehicles that have not arrived.</p>"
+        ],
+        [
+          "Dust, sun load and a cabinet with no shade",
+          "<p>Riyadh and the interior run 45–50 °C in summer, with shamal dust events that load filters in hours and a sun load that pushes cabinet internals well above ambient. A unit rated at 25 °C will step down here. The specification you need is sustained output at your design ambient, the filter service interval, and a thermal design that does not assume shade the cabinet will not have in July.</p><p>Cable ratings and connector housings age faster than electronics in this climate, so the maintenance plan has to name them rather than treat them as consumables discovered on failure.</p>"
+        ],
+        [
+          "SABER: the certificate that decides whether the container lands",
+          "<p>Saudi Arabia requires conformity through SASO's SABER platform: a Product Certificate of Conformity before shipment and a Shipment Certificate of Conformity for each consignment. The file is technical, not commercial — test reports to the applicable IEC standards, a risk assessment, and Arabic labelling and manuals. Obtaining the product certificate after freight is booked is the most common way a Saudi project loses a month it had counted on.</p><p>Register the exact model and rating. A certificate covering a different power variant does not clear the shipment, and the correction is not a phone call.</p>"
+        ],
+        [
+          "Site inputs for a Saudi tender",
+          "<ul><li>reserved capacity in kVA, and the utility's release date;</li><li>design ambient and dust exposure at the plot, including prevailing wind;</li><li>the connector mix expected from the fleet, in practice CCS2;</li><li>SABER product certificate number and the model list it covers;</li><li>who holds the operating licence and who signs the connection.</li></ul><p>Bring those five to a tender and the technical evaluation stops being a guess about which supplier read the climate data. <a href=\"/inquiry\">Send the site inputs</a> and we will quote against them.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is 50 °C ambient covered by a standard warranty?",
+          "Ambient temperature is usually excluded or capped in a standard warranty, which is why the design ambient belongs in the specification rather than in an annex. Ask for sustained output at 50 °C, the maximum ambient the unit is rated for, and the curve between the two. A supplier who cannot answer in numbers is telling you the product was specified for a milder market. We have delivered high-temperature sites in this region and size thermal management from the site's own summer records."
+        ],
+        [
+          "How long does a SABER certificate take?",
+          "The product certificate depends on the test reports you already hold and on whether the model has been certified before; the shipment certificate is quicker once the product file exists. The mistake is sequencing — teams book freight, then discover the report covers a different rating. Start the file with the exact model, power and connector configuration you intend to ship, and keep the certificate number in the project folder from the first week so it follows the goods."
+        ],
+        [
+          "Who can operate a public charging station in Saudi Arabia?",
+          "Operation is licensed and the rules apply to the service, not only to the equipment, so the entity that sells the kilowatt-hour matters as much as the hardware. In practice most projects sit with a landlord, a fleet operator or a licensed charging company, with the equipment supplier behind them. Confirm the licensing path for your site before fixing the commercial model, because a change of operating entity late in the project usually means reopening the utility file."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cases/hot-climate",
+          "High-ambient delivery case"
+        ],
+        [
+          "/products/vulco",
+          "Vulco 60–480 kW"
+        ],
+        [
+          "/journey/compliance",
+          "Compliance path for imports"
+        ],
+        [
+          "/regulations/saudi-arabia",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "uae",
+      "country": "United Arab Emirates",
+      "region": "Middle East",
+      "eyebrow": "Market · Middle East",
+      "title": "UAE EV Charging: 1,270 Dubai Points and 45 °C Humidity",
+      "meta": "Dubai runs more than 1,270 public charge points for about 40,600 EVs. Land, a DEWA or ADDC connection and humidity decide the rest of the project.",
+      "h1": "EV charging in the UAE: three distributors, 45 °C and a public-operator map",
+      "lede": "The UAE's charging network is largely built by government-linked operators, which makes the market unusual: the vehicles are there, the utilisation is there, and the scarce inputs are land and a connection. Add 45 °C with high humidity and the engineering question becomes corrosion rather than capacity.",
+      "tldr_label": "In brief — United Arab Emirates",
+      "tldr": "Find the landlord before the equipment. Get the connection from the emirate's own distributor, because DEWA, ADDC and SEWA are separate files with separate inspections. Specify for humidity and salt, and treat the cabinet's thermal design as the main reliability item.",
+      "facts": [
+        [
+          "1,270+",
+          "Dubai public charge points"
+        ],
+        [
+          "~40,600",
+          "EVs in Dubai"
+        ],
+        [
+          "45 °C+",
+          "Summer, high humidity"
+        ],
+        [
+          "DEWA · ADDC · SEWA",
+          "Three distribution paths"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Dubai's public charging network passed 1,270 charge points serving more than 40,600 electric vehicles, operated mainly under DEWA's Green Charger programme.",
+        "source": "DEWA Green Charger network reporting, 2025"
+      },
+      "sources": [
+        "DEWA Green Charger, 2025 — more than 1,270 public charge points in Dubai serving over 40,600 EVs",
+        "ESMA — Emirates Authority for Standardization and Metrology, product standards",
+        "Ministry of Energy and Infrastructure — federal EV charging policy",
+        "ADDC and SEWA — Abu Dhabi and Sharjah distribution connections"
+      ],
+      "sections": [
+        [
+          "A network built by operators, not by startups",
+          "<p>Dubai's public charging network passed 1,270 points serving around 40,600 electric vehicles, run mainly under DEWA's Green Charger programme. Abu Dhabi and Sharjah follow their own distributors, and federal policy sits with the Ministry of Energy and Infrastructure. For a private developer the consequence is that the competitive question is not who can build a charger but who can secure land beside a connection an operator has not already taken.</p><p>That is a property problem with an electrical answer, and it is normally settled months before a purchase order is discussed.</p>"
+        ],
+        [
+          "One country, three connection files",
+          "<p>The low-voltage system is 230/400 V at 50 Hz, and the application goes to the distributor for the emirate: DEWA in Dubai, ADDC in Abu Dhabi, SEWA in Sharjah. Each has its own forms, inspection and reserved-capacity logic, so a project that moves between emirates starts again. Inside a development, the landlord's own substation and its spare capacity often answer the question faster than the utility does.</p><p>Get the reserved capacity in kVA in writing before design freeze, then design to that number instead of to the charger you would prefer.</p>"
+        ],
+        [
+          "Forty-five degrees with the sea in the air",
+          "<p>Summer ambient passes 45 °C with humidity that stays high overnight, and the coast adds salt aerosol. The failure mode is not one hot afternoon but condensation inside a cabinet that cools at night while the air is still saturated, combined with salt on terminals and connector pins. Specify ingress protection with the test standard named, coastal coating for the enclosure, and a thermal design that keeps the electronics above dew point.</p><p>Dust is the second input. Fine sand reaches filters even on city sites, and a clogged filter presents as unexplained derating in August, when nobody has time to investigate it.</p>"
+        ],
+        [
+          "ESMA, MOEI and the emirate layer",
+          "<p>Product standards come from ESMA, federal charging policy from the Ministry of Energy and Infrastructure, and the practical approvals from the emirate and the landlord. Documentation is expected in Arabic and English, and the file should name the exact model, the CE or IEC test reports behind it, and the protection ratings claimed. A file that matches the delivered unit line by line is what keeps commissioning on schedule.</p><p>Where an operator already runs the site, the equipment must also fit their back office, roaming and payment stack. That is a specification item, not an afterthought discovered at integration.</p>"
+        ],
+        [
+          "What to fix before you look for equipment",
+          "<ul><li>who owns the site, and on what terms charging is permitted;</li><li>which distributor serves the plot, and the reserved capacity available;</li><li>summer ambient, humidity and salt exposure at the exact location;</li><li>the operator's roaming and payment interface, if one exists;</li><li>who is licensed to sell the kilowatt-hour.</li></ul><p>Those five decide whether the site is a 60 kW destination charger or a 300 kW hub, and they change the business case more than the equipment brand does. <a href=\"/inquiry\">Talk to us with the answers</a> and the quote becomes a calculation.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can a private company operate public chargers in the UAE?",
+          "Yes, but the operating entity and the emirate's approval matter as much as the hardware. Charging is a licensed service in most emirates, the distributor must approve the connection, and the landlord must agree the land use. Projects that go wrong usually fail on land or licence rather than on equipment. Confirm all three before choosing a power level, because reopening any of them late in the programme usually restarts the schedule."
+        ],
+        [
+          "What does high humidity do to a DC charger?",
+          "Humidity attacks three things: the electronics, the terminals and the connector. A cabinet that cools below the dew point pulls moisture inside, salt in coastal air accelerates corrosion on busbars and pins, and connector seating degrades faster when the housing is wet. The countermeasures are a thermal design that avoids internal condensation, coastal-grade coating, sealed cable entries and a connector inspection interval in the maintenance plan. Here that plan is a product decision, not a service extra."
+        ],
+        [
+          "How many charge points does Dubai have?",
+          "Dubai's public network passed 1,270 charge points serving around 40,600 electric vehicles, operated mainly under DEWA's Green Charger programme. That ratio makes it one of the higher-utilisation environments in the region, which is good for a site owner and hard on equipment. If you are siting a station, the useful number is not the city total but how many points sit within two kilometres of your plot, and who runs them."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/data/hot-climate-charging",
+          "Hot-climate field data"
+        ],
+        [
+          "/cases/hot-climate",
+          "High-ambient delivery case"
+        ],
+        [
+          "/depot/hotel-destination-charging",
+          "Destination charging sites"
+        ],
+        [
+          "/regulations/uae",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "oman",
+      "country": "Oman",
+      "region": "Middle East",
+      "eyebrow": "Market · Middle East",
+      "title": "Oman EV Charging: APSR Rules, 45 °C and a Thin Corridor",
+      "meta": "APSR set Oman's EV charging requirements in July 2023. Nama's capacity, 45 °C heat and the 1,000 km Muscat to Salalah run decide whether a site pays.",
+      "h1": "EV charging in Oman: an early market with the rulebook already written",
+      "lede": "Oman is early: few public chargers, modest EV numbers beside its neighbours, and a long empty corridor between Muscat and Salalah. That combination is kinder than it looks, because a small market means a small connection and a site that can be phased, provided the approval file is right the first time.",
+      "tldr_label": "In brief — Oman",
+      "tldr": "Ask the licensed distributor what it will approve before you choose a power level. Then decide whether the site is a destination stop or a corridor stop, because that answer changes the storage, the payment method and the maintenance model rather than the connector.",
+      "facts": [
+        [
+          "Jul 2023",
+          "APSR charging requirements"
+        ],
+        [
+          "~1,000 km",
+          "Muscat to Salalah"
+        ],
+        [
+          "45 °C+",
+          "Summer design point"
+        ],
+        [
+          "Nama",
+          "Licensed distributor"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Oman's Authority for Public Services Regulation published national EV charging technical requirements in July 2023, so a public charger is approved through the licensed distribution company rather than through the equipment supplier.",
+        "source": "APSR EV Charging Technical Requirements, July 2023 (cited in Nama Electricity Distribution, Distribution System Capability Statement 2026–2028)"
+      },
+      "sources": [
+        "APSR — EV Charging Technical Requirements, issued July 2023",
+        "Nama Electricity Distribution Company — Distribution System Capability Statement 2026–2028",
+        "MOCIIP / DGSM — standards and conformity documentation",
+        "Muscat Municipality — public charging rollout, 2025"
+      ],
+      "sections": [
+        [
+          "The rulebook arrived before the market did",
+          "<p>Oman's Authority for Public Services Regulation published EV charging technical requirements in July 2023, which means a project here is not a greenfield argument about standards: there is an approval path, and it runs through the licensed distribution company. Bring the charger specification, the protection scheme and the metering proposal to that conversation. A project that starts with the equipment order tends to end up resubmitting the same file.</p><p>Early markets reward the second mover. The first site in a governorate pays for the learning, and the ones that follow copy it at a fraction of the cost.</p>"
+        ],
+        [
+          "Nama's network, and a connection you can actually get",
+          "<p>Distribution sits with Nama Electricity Distribution Company, part of the Nama group, on a 50 Hz system. On a highway site the nearest 11 kV feeder can be kilometres away, and the cost of extending it may exceed the equipment budget, which is the most common surprise in an early market. Get the feeder location and the available capacity in writing before the plot is fixed, and be willing to move the plot rather than pay for the line.</p><p>Demand charges follow reserved capacity, so a phased build costs less to hold while utilisation grows to meet it.</p>"
+        ],
+        [
+          "Muscat heat, Salalah monsoon, and dust between them",
+          "<p>Interior and coastal Oman pass 45 °C in summer, while Dhofar's khareef season brings weeks of drizzle and high humidity to Salalah in the middle of the hot year. A cabinet specified for Muscat is not automatically right for Dhofar, where the wet season corrodes connectors and pushes moisture through cable entries. Dust is the third input: fine sand reaches filters on interior roads and after shamal winds.</p><p>Ask for coastal coating and a stated filter service interval, then set the visit frequency from what the site actually experiences rather than from a national average.</p>"
+        ],
+        [
+          "MOCIIP, DGSM and a short import file",
+          "<p>Standards work sits with the Ministry of Commerce, Industry and Investment Promotion and the Directorate General of Specifications and Measurements, and conformity documentation is the basis for clearance. In practice the CE declaration and the IEC 61851 test reports are the file, with Arabic labelling and an English installation manual. Because the market is small, spare-part logistics weigh more than in a dense one: a single service visit should carry what the site is likely to need.</p><p>Confirm the documentation language with the importer before the shipment, not after it has cleared and the installer is on site.</p>"
+        ],
+        [
+          "What a corridor site has to answer first",
+          "<ul><li>distance to the nearest 11 kV feeder, and its spare capacity;</li><li>whether the site is a destination stop or a corridor stop;</li><li>summer ambient, and whether the site sits in Dhofar's monsoon zone;</li><li>a payment method that suits a small, card-heavy visitor base;</li><li>who signs the distributor's application and who owns the land.</li></ul><p>The run from Muscat to Salalah is roughly 1,000 km, so a charger's value depends on the distance to the next working one as much as on its own traffic. <a href=\"/inquiry\">Tell us the corridor</a> and we will size for it.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Who approves an EV charging connection in Oman?",
+          "The licensed distribution company, under requirements issued by the Authority for Public Services Regulation in July 2023. The application is electrical rather than commercial: protection, metering, earthing and the load you intend to draw. Because the requirements are recent, ask for the current version of the form when you apply instead of relying on an older project's paperwork, and fix the charger model and its protection settings before you submit."
+        ],
+        [
+          "Is Oman too early for a public charging station?",
+          "Not if the site is chosen for traffic that already exists: a hotel, a mall, a government building or a fuel station on a main road. A charger placed where no electric vehicle passes is a demonstration unit, not a business. Early stage does mean smaller connections and slower utilisation, so a phased build with room to add modules usually beats one large installation, and storage can defer a feeder upgrade that would otherwise dominate the budget."
+        ],
+        [
+          "What temperature should an Omani site be designed for?",
+          "Design for the summer ambient at the exact site, not for a national figure, and add the effect of sun load on the cabinet. Inland and coastal sites pass 45 °C, while Dhofar's monsoon season changes the problem from heat to humidity and salt. One design point across the country will either over-specify Muscat or under-specify the interior. Put the number in the specification and require sustained output at that number from every supplier."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/highway-corridor-charging",
+          "Corridor charging sites"
+        ],
+        [
+          "/products/pales",
+          "Pales 60–240 kW"
+        ],
+        [
+          "/cost/120-kw-dc-fast-charging-station",
+          "120 kW station cost bands"
+        ],
+        [
+          "/regulations/oman",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "bulgaria",
+      "country": "Bulgaria",
+      "region": "Europe",
+      "eyebrow": "Market · Europe",
+      "title": "Bulgaria EV Charging: -20 °C Winters and a Corridor Bet",
+      "meta": "Bulgaria's fleet reached about 24,500 EVs by late 2025. Winter design at -20 °C, corridor traffic and AFIR duties decide whether a site pays.",
+      "h1": "EV charging in Bulgaria: cheap energy, cold winters and a corridor bet",
+      "lede": "Bulgaria's problem is not the price of energy. Power is cheap by Union standards, the grid is interconnected with its neighbours, and the country sits on the road between Central Europe and Türkiye. What decides a charging site is winter, the connection, and whether the traffic passes your plot.",
+      "tldr_label": "In brief — Bulgaria",
+      "tldr": "Design for -20 °C and for a corridor, not for a city centre. Secure the reserved capacity before you commit to power, and put the AFIR distance logic into site selection rather than into the marketing copy.",
+      "facts": [
+        [
+          "~24,500",
+          "EVs on the road, 2025"
+        ],
+        [
+          "-20 °C",
+          "Winter design point"
+        ],
+        [
+          "150 kW / 60 km",
+          "AFIR TEN-T core rule"
+        ],
+        [
+          "KEVR",
+          "Energy regulator"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Bulgaria's electric vehicle fleet grew from about ten cars in 2010 to roughly 24,500 by late 2025, according to the Bulgarian Electric Vehicle Association.",
+        "source": "BAEPS (Bulgarian Electric Vehicle Association), 19 November 2025"
+      },
+      "sources": [
+        "BAEPS (Bulgarian Electric Vehicle Association), 19 Nov 2025 — about 24,500 EVs on the road",
+        "Regulation (EU) 2023/1804 (AFIR) — TEN-T charging requirements, Articles 3–4",
+        "KEVR — Energy and Water Regulatory Commission, network tariffs",
+        "Directives 2014/35/EU (LVD), 2014/30/EU (EMC), 2014/53/EU (RED) — CE marking basis"
+      ],
+      "sections": [
+        [
+          "Cheap kilowatt-hours, expensive connection",
+          "<p>Bulgarian power is priced at the low end of the European market, which removes the usual argument about energy cost and moves the constraint to the connection. A 240 kW site needs a transformer and a reserved capacity that the local distribution company has to grant, and the fee for that capacity is paid whether or not a car arrives. Model the site on reserved capacity and utilisation, not on the spread between wholesale and retail price.</p><p>KEVR regulates the market and the network tariffs, so the capacity charge has a published basis you can put into the business plan instead of estimating it.</p>"
+        ],
+        [
+          "Minus twenty is the design case",
+          "<p>Sofia and the interior plateau see -10 to -20 °C in a normal winter, and cold snaps go lower. At those temperatures a lithium pack accepts charge slowly until it warms, cables stiffen, and a connector dropped in the snow will not seat cleanly. Specify battery heating or a heated connector holder, a cable rated for the low end of the range, and a charger that reports reduced power honestly rather than failing a session.</p><p>Freeze-thaw cycling is the second effect. Condensation inside a cabinet in March does as much damage as frost in January, and both are addressed by the same enclosure and breather specification.</p>"
+        ],
+        [
+          "The corridor decides the business case",
+          "<p>Bulgaria's traffic case is the road rather than the city. The A1 Trakia motorway links Sofia with Plovdiv and Burgas, the A2 Hemus runs east to Varna, and the A3 Struma and A4 Maritsa carry traffic toward Greece and Türkiye. Sites on those routes serve vehicles passing through, which sets the layout: easy entry and exit, lighting, toilets, and a power level that returns a car to the road in twenty minutes rather than two hours.</p><p>Urban sites in Sofia face the opposite problem — scarce land and long dwell times — so a design copied from a motorway will be wrong in both directions.</p>"
+        ],
+        [
+          "The file that clears customs is not the one that wins the permit",
+          "<p>As a member state, Bulgaria requires CE marking under the Low Voltage, EMC and Radio Equipment Directives, and applies Regulation (EU) 2023/1804 on alternative fuels infrastructure. AFIR sets the network duties that steer where permits and public support go: DC points of at least 150 kW at most 60 km apart on the TEN-T core network, with the corridor logic that follows from it. Keep the CE technical file and the siting argument separate, because different authorities read them.</p><p>Documentation is expected in Bulgarian for the site file and the electrical inspection, including the manual the installer will actually use.</p>"
+        ],
+        [
+          "The order that saves money",
+          "<ul><li>reserved capacity in kVA, and the network tariff attached to it;</li><li>winter design temperature and snow-clearing access to the cabinet;</li><li>the direction and volume of traffic the site will actually serve;</li><li>CE technical file and the declaration covering the shipped model;</li><li>payment: card acceptance is the baseline for transit traffic.</li></ul><p>We have delivered in Bulgaria, and the projects that ran smoothly had those five written down before the equipment was chosen. <a href=\"/inquiry\">Send us yours</a> and we will turn them into a specification.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Does cheap electricity make Bulgarian charging stations profitable?",
+          "Cheap energy helps the operating margin but it is not the constraint. The costs that decide a Bulgarian site are the reserved capacity charge, the civil works and the utilisation rate, and all three are local. A site paying for 300 kVA it does not use will lose money even with cheap power. Model the capacity charge monthly, compare it with revenue from vehicles that actually arrive, and phase the build so reserved capacity tracks demand rather than ambition."
+        ],
+        [
+          "How much does cold weather reduce charging power?",
+          "It depends on the battery, not only on the charger. A cold pack accepts limited current until it warms, so the first ten to fifteen minutes of a winter session are slower whatever the equipment can deliver. Preconditioning, a heated connector holder and a charger that ramps without tripping shorten that period. Specify low-temperature behaviour explicitly, and ask what the unit does at -20 °C rather than what it does at 25 °C."
+        ],
+        [
+          "What does AFIR require in Bulgaria?",
+          "Regulation (EU) 2023/1804 sets EU-wide duties for charging infrastructure, including DC points of at least 150 kW spaced at most 60 km apart on the TEN-T core network, with related provisions on the comprehensive network. Bulgaria applies it as a member state, and the obligations feed into grid planning, permits and public support. For a developer the practical reading is that corridor sites on TEN-T routes carry a regulatory tailwind, while sites off those routes do not."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/regulations/eu-afir",
+          "AFIR charging requirements"
+        ],
+        [
+          "/cases/emerging-markets",
+          "Emerging-market delivery cases"
+        ],
+        [
+          "/depot/highway-corridor-charging",
+          "Corridor charging sites"
+        ],
+        [
+          "/regulations/bulgaria",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "czechia",
+      "country": "Czechia",
+      "region": "Europe",
+      "eyebrow": "Market · Europe",
+      "title": "Czechia EV Charging: 6,590 Public Points and 22 kV Depots",
+      "meta": "Czechia counted 6,590 public charging points at end-2025, 2,460 of them DC. Depot work at 22 kV and a -20 °C winter decide the rest of the design.",
+      "h1": "EV charging in Czechia: bus depots, a 22 kV network and a 6,590-point public map",
+      "lede": "Czechia's public network is no longer the gap: nearly 6,600 points at the end of 2025, with the fastest power bands growing quickly. The work that remains is behind the fence — depots, fleets and yards where one connection has to charge many vehicles inside a fixed overnight window.",
+      "tldr_label": "In brief — Czechia",
+      "tldr": "Treat a depot as a transformer project. Establish the 22 kV capacity, the number of vehicles that must be ready by five in the morning, and the tariff that applies to a load profile nobody else on the feeder has. Public corridor sites are a different business.",
+      "facts": [
+        [
+          "6,590",
+          "Public points, end-2025"
+        ],
+        [
+          "2,460",
+          "DC points, end-2025"
+        ],
+        [
+          "22 kV",
+          "Czech MV distribution"
+        ],
+        [
+          "-20 °C",
+          "Winter design point"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Czechia ended 2025 with 6,590 publicly accessible charging points at 1,948 stations, of which 2,460 were DC and 810 sat in the 150–350 kW band, up from 6 points in that band in 2022.",
+        "source": "Ministry of Transport of the Czech Republic, Yearbook of Transport 2025, table 3.9 (source data: Ministry of Industry and Trade)"
+      },
+      "sources": [
+        "Ministry of Transport of the Czech Republic, Yearbook of Transport 2025, table 3.9 — 6,590 public points, 2,460 DC, 810 in the 150–350 kW band",
+        "ERO (Energy Regulatory Office) — electricity market and network tariffs",
+        "Regulation (EU) 2023/1804 (AFIR) — TEN-T charging requirements",
+        "Directives 2014/35/EU, 2014/30/EU, 2014/53/EU — CE marking basis"
+      ],
+      "sections": [
+        [
+          "The public map is filling, the depots are not",
+          "<p>Czechia ended 2025 with 6,590 publicly accessible charging points across 1,948 stations, of which 2,460 were DC and 810 sat in the 150–350 kW band. The fast bands are where the growth sits, and a corridor site in the Czech Republic now competes with a network rather than filling a hole. The unserved case is the depot: a bus or van yard that needs a hundred or two hundred kilowatts at the same hour every night.</p><p>Those are different projects. The depot one is an electrical design job with a schedule attached, and it starts at the substation rather than at the charger.</p>"
+        ],
+        [
+          "Twenty-two kilovolts and one transformer",
+          "<p>Czech distribution runs at 22 kV on the medium-voltage side and steps to 400/230 V for the site, with the local distribution company holding the capacity. A depot adding eight 60 kW chargers is asking for a load the existing transformer was never sized for. The sequence is a capacity application, a transformer decision, then civil works; the chargers arrive last. Reversing it means paying for equipment that sits in a warehouse while the utility works.</p><p>We delivered a bus depot in Czechia on exactly that sequence, and the overnight window rather than the equipment set the schedule.</p>"
+        ],
+        [
+          "Salt, freeze-thaw and a cold battery",
+          "<p>Czech winters run to -10 or -20 °C, with snow, road salt and a freeze-thaw cycle that keeps surfaces wet for weeks in spring. Salt is the underrated input: it reaches the cabinet base, the connector holder and the cable tray, and it attacks exactly the parts that are hardest to replace. Specify the corrosion category for the enclosure and the fixings, keep cable entries above the splash line, and put connector cleaning into the depot routine.</p><p>Battery behaviour is the other half. A bus that arrives cold will not accept full power until it warms, so the night window has to include the ramp as well as the energy.</p>"
+        ],
+        [
+          "Permits, inspection and the Czech-language file",
+          "<p>CE marking under the Low Voltage, EMC and Radio Equipment Directives is the product basis, and Regulation (EU) 2023/1804 applies as it does across the Union. The local layer is what catches foreign suppliers: a building permit for the canopy and the transformer station, an electrical inspection before energisation, and documentation in Czech for the file and the inspector. ERO regulates the market and the network tariffs behind the capacity charge.</p><p>Budget permit time as a project phase rather than as paperwork that happens alongside construction, because it is the phase most often missing from a gantt chart.</p>"
+        ],
+        [
+          "Depot inputs, in sequence",
+          "<ul><li>number and type of vehicles, and the hour by which each must be ready;</li><li>available 22 kV capacity and the transformer's present loading;</li><li>simultaneity: how many vehicles charge at once in the worst hour;</li><li>winter design temperature and the salt exposure of the yard;</li><li>who signs the capacity application and who owns the substation.</li></ul><p>A depot designed around the worst hour is smaller, cheaper and more reliable than one designed around the vehicle count. <a href=\"/inquiry\">Send us the schedule</a> and we will size the connection with you.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "How many public charging points does Czechia have?",
+          "Czechia ended 2025 with 6,590 publicly accessible charging points at 1,948 stations, according to the Ministry of Transport's yearbook. Of those, 2,460 were DC, and 810 were in the 150–350 kW band, a segment that held 6 points in 2022. The figures are published annually, so a business case built on a two-year-old count will overstate the gap. Check the current table before arguing that a corridor has no coverage."
+        ],
+        [
+          "Why does 22 kV matter for a depot project?",
+          "Because the medium-voltage level is where the capacity decision is made. Czech distribution uses 22 kV, so a depot large enough to need its own transformer station is a 22 kV project rather than a low-voltage one. That brings a substation, protection settings and a permit, and it moves the critical path from the equipment supplier to the civil and electrical contractors. Projects that order chargers first discover this at the point where delay costs most."
+        ],
+        [
+          "Can a bus depot charge overnight in winter?",
+          "Yes, if the window includes the battery ramp and the chargers are scheduled rather than started together. Cold packs take power slowly at first, so a fleet that needs 80 percent by five in the morning has to begin earlier in winter than in summer. Depot software that sequences vehicles, plus a charger that reports available power honestly, is worth more than a higher nameplate rating. We built the Czech depot case around that schedule, and the window was the constraint."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cases/bus-depot-czechia",
+          "Czech bus depot case"
+        ],
+        [
+          "/depot/bus-depot-charging",
+          "Bus depot charging design"
+        ],
+        [
+          "/cost/240-kw-dc-fast-charging-station",
+          "240 kW station cost bands"
+        ],
+        [
+          "/regulations/czechia",
+          "Approvals and grid connection"
+        ]
+      ]
+    },
+    {
+      "slug": "finland",
+      "country": "Finland",
+      "region": "Europe",
+      "eyebrow": "Market · Europe",
+      "title": "Finland EV Charging: 20,000 Points and a Heavy-Vehicle Gap",
+      "meta": "Finland had over 20,000 public car charging points at end-2025 but only about 30 for heavy vehicles. Cold design and site capacity decide the rest.",
+      "h1": "EV charging in Finland: a dense network, a cold design point and a truck-sized gap",
+      "lede": "Finland has solved the car problem: charging within reach almost everywhere, and a fast network that nearly quadrupled in three years. It has not solved the truck problem. For anyone building now, the work is heavy vehicles, depots and the capacity those loads need in a network already carrying electric heating.",
+      "tldr_label": "In brief — Finland",
+      "tldr": "Go where the network is thin: heavy vehicles, depots and the northern corridors. Design for -30 °C and for a winter peak the local network already feels. For cars, assume you are entering a competitive market rather than an empty one.",
+      "facts": [
+        [
+          "20,000+",
+          "Public points, end-2025"
+        ],
+        [
+          "~3,000",
+          "150–350 kW points"
+        ],
+        [
+          "~30",
+          "Heavy-vehicle public points"
+        ],
+        [
+          "-30 °C",
+          "Winter design point"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Finland had more than 20,000 public charging points for cars and vans at close to 4,300 locations at the end of 2025, but only just over 30 public charging points for heavy vehicles.",
+        "source": "Traficom (Finnish Transport and Communications Agency), alternative transport fuels distribution network statistics, updated 12 May 2026"
+      },
+      "sources": [
+        "Traficom — alternative transport fuels distribution network statistics, updated 12 May 2026 (data to December 2025)",
+        "Energy Authority (Energiavirasto) — network regulation and tariffs",
+        "Regulation (EU) 2023/1804 (AFIR) — including heavy-duty vehicle charging duties",
+        "Fintraffic — national real-time charging station data"
+      ],
+      "sections": [
+        [
+          "The car network is done, the truck network is not",
+          "<p>At the end of 2025 Finland had more than 20,000 public charging points for cars and vans at close to 4,300 locations, with around 3,000 points in the 150–350 kW band alone. For heavy vehicles the same statistics count just over thirty public points nationally. That gap is the commercial opening: a haulier, a bus operator or a terminal needs charging where the vehicles sleep, and almost none of it exists yet.</p><p>Depot work is also where a supplier can differentiate, because the load profile is known and the schedule is written into a contract rather than estimated from traffic.</p>"
+        ],
+        [
+          "Capacity in a network that already carries the winter peak",
+          "<p>Finnish distribution networks are built around a winter peak driven by electric heating, and in the south the load from data centres and industry keeps growing. A 500 kW depot request therefore lands in a queue that is not empty. The Energy Authority supervises the network companies and their tariffs, and the reserved capacity you are granted has a monthly cost that continues whether or not the vehicles arrive.</p><p>Ask for the connection offer in writing, with the capacity figure and the reinforcement cost shown separately, before the site layout is frozen.</p>"
+        ],
+        [
+          "Minus thirty, and the things that stop working",
+          "<p>Lapland and the eastern interior reach -30 °C, and the south sees -20 °C in a normal winter. At those temperatures cable insulation stiffens, connectors ice up, and displays fail first. Battery packs accept limited charge until they warm, so a winter session starts slowly whatever the charger can deliver. Specify heated cable management, a connector holder that stays dry, and a unit that survives a power cycle at low temperature without a site visit.</p><p>Snow clearing is a design input too: a cabinet with no vehicle access in February is a cabinet that does not get maintained until April.</p>"
+        ],
+        [
+          "Language, open data and the truck-charging duties",
+          "<p>Finland applies CE marking under the EU directives and Regulation (EU) 2023/1804 for alternative fuels infrastructure, with national implementation split between the transport and energy authorities. Two local details are worth planning for: documentation in Finnish or Swedish for the site file, and open data. Fintraffic collects real-time charging station data, so a station that cannot publish availability is a station that drivers struggle to find.</p><p>For heavy vehicles the AFIR duties on truck charging along the TEN-T network are the relevant ones, and they are being implemented now rather than at some future date.</p>"
+        ],
+        [
+          "What the connection offer has to answer",
+          "<ul><li>vehicle types, and the hour by which the fleet must be ready;</li><li>the connection offer: reserved capacity, reinforcement cost, monthly charge;</li><li>winter design temperature at the site and snow-clearing access;</li><li>whether the load is a depot, a corridor stop or a public hub;</li><li>data and payment integration, including availability publishing.</li></ul><p>A Finnish depot is decided by the winter peak and the connection offer, not by the charger count. <a href=\"/inquiry\">Send us both</a> and we will size from there.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is Finland's public charging market saturated?",
+          "Not for coverage, but it is competitive: over 20,000 public points at close to 4,300 locations at the end of 2025, with about 3,000 in the 150–350 kW band after several years of rapid growth. A new corridor site competes with an existing network rather than filling a gap. The unserved segment is heavy vehicles, where the national count of public points is just over thirty, plus depots, which are private and largely unbuilt."
+        ],
+        [
+          "What does -30 °C do to a charging station?",
+          "It slows the battery, stiffens the cable and attacks the interfaces. A cold pack accepts limited current until it warms, so the session starts slowly regardless of the equipment; cables lose flexibility; connectors ice up if they are left exposed; displays and door seals fail first. Heated cable management, a sheltered connector holder and a low-temperature power-cycle test belong in the specification. Then add snow-clearing access, because maintenance in February depends on reaching the cabinet."
+        ],
+        [
+          "How do I get more capacity for a depot in Finland?",
+          "Apply to the local distribution network operator for the capacity you need, and ask for the connection offer with the reinforcement cost shown separately from the reserved-capacity charge. The offer states the kVA you are granted and the monthly fee that follows it. Because networks are sized around a winter heating peak and new industrial load, reinforcement may be required, and that work sets the timeline. Design phase one to fit the capacity offered without reinforcement."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we serve"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cases/cold-climate",
+          "Cold-climate delivery case"
+        ],
+        [
+          "/regulations/eu-afir",
+          "AFIR charging requirements"
+        ],
+        [
+          "/depot/fleet-depot-charging",
+          "Fleet depot charging design"
+        ],
+        [
+          "/regulations/finland",
+          "Approvals and grid connection"
+        ]
+      ]
+    }
+  ]
+}

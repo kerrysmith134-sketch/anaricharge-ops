@@ -1,0 +1,149 @@
+{
+  "slug": "es/agents",
+  "url": "/es/agents/",
+  "breadcrumb": "Plataforma e IA",
+  "title": "ANARI OS y el ecosistema de agentes IA | Anari",
+  "meta": "ANARI OS opera sitios de carga reales. Alrededor, 18 agentes en cuatro capas, etiquetados como en producción, piloto o plan. Entrega llave en mano: estudio de e",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Plataforma e IA",
+      "h1": "Una operación, no un vendedor de hardware.",
+      "lede": "El hardware es lo que se puede fotografiar. Lo que mantiene un sitio generando ingresos es la capa que está por encima: monitorización, triaje de fallos, despacho de mantenimiento y el trabajo comercial posterior.",
+      "image": "/assets/img/v2/hero-agents-1920.webp",
+      "credit": "Unidad en servicio · clima frío, Finlandia",
+      "actions": [
+        {
+          "label": "Qué funciona hoy",
+          "href": "#status"
+        },
+        {
+          "label": "Hablar con nosotros",
+          "href": "/es/inquiry"
+        }
+      ],
+      "facts": [
+        {
+          "value": "18",
+          "label": "agentes en el ecosistema"
+        },
+        {
+          "value": "4 h → 90 s",
+          "label": "respuesta de soporte, N-Tech"
+        },
+        {
+          "value": "5×",
+          "label": "eficiencia de filtrado, N-SDR"
+        },
+        {
+          "value": "desde Q4 2025",
+          "label": "N-Tech en producción"
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "eyebrow": "Estado antes que promesas",
+      "h2": "Lo que realmente funciona hoy",
+      "lede": "Casi todas las webs describen su ecosistema como si todo estuviera activo. Aquí el reparto honesto: en producción, en piloto y en plan.",
+      "items": [
+        {
+          "status": "Live",
+          "title": "Monitorización y soporte remoto",
+          "text": "Telemetría de flota, triaje de alarmas e intervención remota; respuesta medida en segundos, no en horas."
+        },
+        {
+          "status": "Live",
+          "title": "Mantenimiento N-Tech",
+          "text": "Diagnóstico y despacho en producción desde Q4 2025 — respuesta de soporte 4 hours to 90 seconds."
+        },
+        {
+          "status": "Live",
+          "title": "N-SDR generación de demanda",
+          "text": "Filtrado de salientes para operadores tras la puesta en marcha: 5x lead-screening efficiency."
+        },
+        {
+          "status": "Pilot",
+          "title": "Agentes de diseño",
+          "text": "Apoyo al estudio de sitio y al diseño, con firma humana de la especificación final."
+        },
+        {
+          "status": "Pilot",
+          "title": "Formación y conocimiento",
+          "text": "Formación de operadores y generación de documentación, en prueba con nuevos traspasos."
+        },
+        {
+          "status": "Planned",
+          "title": "Comercio autónomo de energía",
+          "text": "Arbitraje tarifario y respuesta a la demanda. Diseñado, no desplegado: hoy no lo vendemos como función."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Cómo encajan las cuatro capas",
+      "h2": "Captar → entregar → operar → crecer",
+      "lede": "Los agentes se agrupan por función de negocio, no por tecnología. Una capa solo sirve si la anterior produjo algo real.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Captar",
+          "text": "Análisis de mercado, filtrado de oportunidades y estudio comercial."
+        },
+        {
+          "no": "02",
+          "title": "Entregar",
+          "text": "Estudio de sitio, apoyo al diseño y seguimiento de permisos."
+        },
+        {
+          "no": "03",
+          "title": "Operar",
+          "text": "Monitorización, triaje, despacho y formación de operadores."
+        },
+        {
+          "no": "04",
+          "title": "Crecer",
+          "text": "Generación de demanda y aumento de utilización."
+        },
+        {
+          "no": "05",
+          "title": "Orquestar",
+          "text": "Planificación entre agentes con aprobación humana en todo lo irreversible."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Vea la capa de operación contra su propio sitio.",
+      "lede": "Si ya opera cargadores, la comparación útil no es una lista de funciones, sino el tiempo de fallo a reparación.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/agents/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/agents/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/agents/"
+    }
+  ]
+}

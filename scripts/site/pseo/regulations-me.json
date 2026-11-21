@@ -1,0 +1,240 @@
+{
+  "_comment": "2026-11-10 PSEO F5 regulations — Middle East (lebanon, israel, saudi-arabia, uae, oman). All five are delivered markets: no coverage field.",
+  "family": "regulations-me",
+  "base_path": "/regulations",
+  "base_url": "https://www.anaricharge.com",
+  "date_modified": "2026-11-10",
+  "hreflang_locales": ["en"],
+  "pages": [
+    {
+      "slug": "lebanon",
+      "country": "Lebanon",
+      "region": "Middle East",
+      "eyebrow": "Compliance · Middle East",
+      "regulator": "MoEW + EDL",
+      "connection": "EDL distribution",
+      "statute_status": "No EV-specific charging law",
+      "about": {"@type": "Legislation", "name": "Lebanese electricity sector framework — no dedicated EV charging statute in force (2026)"},
+      "title": "Lebanon EV Charging Approvals: EDL Supply Before Permits",
+      "meta": "Lebanon has no EV charging statute. Approvals mean a firm EDL capacity commitment, a municipal permit and a Civil Defense fire sign-off, in that order.",
+      "h1": "Lebanon EV charging approvals: the EDL supply path runs ahead of the permits",
+      "lede": "There is no charging licence to apply for in Lebanon, which makes the work harder, not easier: the whole approval file rests on proving where the electricity comes from. This page maps the sequence from supply study to Civil Defense sign-off, and the points where Lebanese projects usually stop.",
+      "tldr_label": "In brief — Lebanon",
+      "tldr": "Sequence is supply first, permits second: get EDL to commit a capacity at the site, then build the municipal and fire file around a hybrid grid-plus-generator design. The step that stalls projects is the capacity answer — EDL feeders are frequently unable to carry a 120 kW block, and no permit substitutes for that commitment.",
+      "facts": [["0", "EV charging statutes in force"], ["EDL", "State transmission and supply"], ["230/400 V", "LV distribution basis"], ["Civil Defense", "Fire sign-off step"]],
+      "anchor_fact": {
+        "fact": "Lebanon still runs on the electricity sector law passed in 2002 (Law No. 462/2002), whose independent regulatory authority was never constituted, so connection terms and supply questions are settled with the Ministry of Energy and Water and EDL directly rather than through a regulator.",
+        "source": "Lebanese Law No. 462/2002 on the organisation of the electricity sector; sector reporting on the unconstituted regulatory authority, 2021–2026"
+      },
+      "sources": [
+        "Lebanese Law No. 462/2002 on the organisation of the electricity sector — regulatory authority provided for but never constituted",
+        "Ministry of Energy and Water (Lebanon) — EDL supply, tariffs and fuel procurement statements, 2025–2026",
+        "LIBNOR — Lebanese standards institution; no dedicated EV charging standard or regulation published as of 2026",
+        "Directorate General of Civil Defense (Lebanon) — fire safety review for commercial and industrial premises"
+      ],
+      "sections": [
+        ["In Lebanon the power source is the permit", "<p>No Lebanese statute treats EV charging as its own activity, so there is no charging licence to apply for. What decides the project is whether EDL will commit a firm capacity at the site, and what energises the charger when it will not. A 120 kW site on a feeder delivering seven hours a day is a 120 kW site for part of the day and a battery site for the rest, so equipment sizing follows the supply study rather than preceding it.</p>"],
+        ["Four offices, and none of them is an EV authority", "<p>The Ministry of Energy and Water sets policy and oversees EDL, and it is the office that answers whether you may sell electricity, so any resale position belongs in writing from them. EDL issues the connection offer and technical terms. The municipality issues the building and occupancy permit and controls pavement works and signage. Civil Defense reviews fire safety, and LIBNOR holds the equipment standards. Allow four to eight weeks for a municipal permit, two to four for fire review, eight to sixteen for the EDL capacity answer.</p>"],
+        ["The EDL connection application", "<p>Expect a paper file to the EDL regional directorate for the governorate, not a portal. It needs a single-line diagram to the point of supply, a load calculation with a stated diversity factor, the transformer rating you are asking for, protection settings graded against the upstream device, the meter position and the earthing arrangement. Two points decide the answer: an MV substation or transformer upgrade is at your cost, and the changeover from EDL to a generator or battery must be interlocked so the two sources never parallel.</p>"],
+        ["Running a public charger with no charging-specific rule", "<p>Lebanon imposes no ad-hoc payment duty, no uptime obligation and no station-data reporting, so what binds you is the site agreement and the cost of the kWh you resell. Diesel for a standby generator and the round-trip losses of a battery bank decide whether a Lebanese DC site earns, and neither appears in any statute. The convention is to price charging as a service rather than a resale of EDL kilowatt-hours, and to keep that framing on the signage and in the customer terms.</p>"],
+        ["Document pack and where Lebanese projects stall", "<p>Assemble the file in this order and the project keeps moving:</p><ul><li>a site supply study naming the feeder and its spare capacity, signed by the electrical designer;</li><li>the EDL application with single-line diagram, load calculation and protection settings;</li><li>the interlock and changeover scheme for the second source;</li><li>the municipal permit set including pavement and signage;</li><li>the Civil Defense submittal with the fire drawing for the enclosure and any battery room;</li><li>a site-host agreement that states who owns the transformer.</li></ul><p>The recurring failures are all in that list: a lease signed before the capacity answer, an undocumented generator rating, protection settings copied from another site, and a meter room the utility will not accept. This page is engineering and approval experience, not legal advice. Send the supply study and single-line diagram to our team and we will map the sequence against your site.</p>"]
+      ],
+      "faq": [
+        ["Do I need a licence to sell EV charging in Lebanon?", "There is no EV-specific charging licence in Lebanon, so the question becomes whether selling electricity to drivers is a regulated supply activity. The electricity sector law frames supply around EDL and no independent regulator has been constituted to rule on the edge cases, which leaves the Ministry of Energy and Water as the office that can answer. In practice operators price charging as a service rather than a resale of kilowatt-hours, and get that framing confirmed in writing before publishing prices."],
+        ["How long does an EDL connection take for a DC fast site?", "For a low-voltage connection on a feeder with headroom, allow eight to twelve weeks from a complete application to energisation, with one round of questions on protection settings. For a new or upgraded MV transformer, plan on sixteen to twenty-four weeks, because the equipment lead time sits on top of the utility review. These are experience ranges, not published service standards, and a feeder with no spare capacity has no timeline at all until reinforcement is scheduled."],
+        ["What does the EDL application actually require?", "A single-line diagram to the point of supply, a load calculation with a stated diversity factor, the transformer rating requested, protection settings with their grading against the upstream device, the meter position and the earthing arrangement. Add the changeover and interlock scheme for any second source, because a file showing a generator without an interlock is returned more often than any other. Submit through the EDL regional directorate for the governorate and keep a stamped copy of everything you hand over."]
+      ],
+      "internal": [
+        ["/regulations/", "All country approval maps"],
+        ["/markets/lebanon", "Lebanon market guide"],
+        ["/inquiry", "Send us your site file"],
+        ["/journey/compliance", "How approvals fit the project timeline"],
+        ["/cases/emerging-markets", "Sites built on weak-grid conditions"]
+      ]
+    },
+    {
+      "slug": "israel",
+      "country": "Israel",
+      "region": "Middle East",
+      "eyebrow": "Compliance · Middle East",
+      "regulator": "PUA (Electricity)",
+      "connection": "IEC distribution",
+      "statute_status": "Electricity Sector Law 5756-1996",
+      "about": {"@type": "Legislation", "name": "Electricity Sector Law, 5756-1996 (Israel) and PUA supply-licence rules for charging"},
+      "title": "Israel EV Charging Approvals: PUA, IEC and Fire Review",
+      "meta": "Israel routes a charging site through a PUA supply licence, an IEC connection agreement, a local committee permit and a fire review of the shared garage.",
+      "h1": "Israel EV charging approvals: PUA licensing, IEC capacity and the garage fire file",
+      "lede": "Israel is a dense, high-EV-share market where a fast charger usually lands in a shared building or a small urban plot, and the constraint is the existing electrical room rather than the site. This page lays out the licensing, connection and fire sequence, and the point at which Israeli projects lose months.",
+      "tldr_label": "In brief — Israel",
+      "tldr": "Three approvals run in parallel and one gates the rest: an IEC connection agreement for the load, a PUA supply-licence position for selling electricity through chargers, and a local committee permit with a fire review where the site is in or under a building. The step that stalls projects is the electrical room — an existing shared garage rarely has the spare capacity, and the upgrade is a committee matter, not a utility formality.",
+      "facts": [["2 Apr 2024", "EV-ready new buildings"], ["PUA", "Supply and tariff rules"], ["SII", "Product standards"], ["Shared garage", "The recurring constraint"]],
+      "anchor_fact": {
+        "fact": "Since 2 April 2024 every new building in Israel must be constructed with preparation for EV charging infrastructure, a requirement led by the Ministry of Energy and Infrastructure, which means charging readiness now sits inside the building permit rather than in a later electrical upgrade.",
+        "source": "Israel Ministry of Energy and Infrastructure / gov.il announcement on mandatory EV charging preparation in new buildings, 2 April 2024"
+      },
+      "sources": [
+        "Israel Ministry of Energy and Infrastructure — requirement for EV charging preparation in every new building, announced 2 April 2024",
+        "Public Utilities Authority (Electricity) — supply licensing and tariff rules; public consultation on licence content for supply through charging stations, 2025",
+        "Israel Electric Corporation (IEC) — connection terms and capacity for MV and LV customers",
+        "Standards Institution of Israel (SII) — national standards for charging equipment; Fire and Rescue Authority review for shared and underground garages"
+      ],
+      "sections": [
+        ["The garage, the feeder and the fire file decide the date", "<p>Israeli EV penetration is high enough that charging demand is now a standard building question, which changes the shape of a project: most city DC sites are retrofits into an existing electrical room, and the first question is how much capacity that room has left after the building has taken its share. A 120 kW block added to a garage designed for lighting and lifts is a transformer replacement, not a new circuit. Underground garages add a fire question about cable routes, enclosure rating and ventilation.</p>"],
+        ["PUA, IEC, the local committee and the fire authority", "<p>The Public Utilities Authority (Electricity) sets licensing and tariff rules and has been drafting what a supply licence for electricity delivered through charging stations should contain, with a consultation in 2025. IEC issues the connection terms and the capacity. The local planning and building committee issues the permit, and the Fire and Rescue Authority reviews fire safety. Ranges: six to ten weeks for an IEC capacity answer on an existing service, eight to twelve for a committee decision, with the fire review inside that window.</p>"],
+        ["The IEC connection application", "<p>The IEC file needs a single-line diagram from charger to point of supply, a load calculation separating charging load from building load, the requested capacity, protection settings and their grading, the metering arrangement, and a clear boundary of who builds the customer substation. On shared property add the owner consent and the electrical room allocation. Declare diversified load rather than nameplate: IEC sizes the service on what you declare, and an overstated figure buys an upgrade you did not need.</p>"],
+        ["What selling electricity from a charger requires", "<p>Supplying electricity to consumers is a licensed activity under the electricity sector law, and the Authority has been working through the licence conditions for supply through charging stations. Until that settles, a site selling kilowatt-hours needs either its own licence position confirmed in writing or a documented arrangement with a licensed supplier. There is no AFIR-style ad-hoc payment mandate, but the market expects card or app payment and a published price per kilowatt-hour, so the licence question decides the commercial model.</p>"],
+        ["Document pack and where Israeli projects stall", "<p>Build the file in this order:</p><ul><li>the electrical room survey, stating the building load and the spare capacity;</li><li>the IEC application with single-line diagram, load calculation and protection settings;</li><li>the property owner consent and the allocation of the electrical room;</li><li>the committee submission with charger layout, cable route and bay markings;</li><li>the fire consultant report for the garage;</li><li>the licence position for selling electricity, in writing.</li></ul><p>The failures repeat: a lease signed on a garage with no spare capacity, a fire report produced after the committee has set a hearing date, protection settings that grade against the building main device on paper only, and a resale model built without a licence answer. This page is approval experience, not legal advice. Send the electrical room survey and your single-line diagram and we will lay the sequence out against your site.</p>"]
+      ],
+      "faq": [
+        ["Does an EV charging station in Israel need a licence?", "Supplying electricity to consumers is a licensed activity under Israel's electricity sector law, and the Public Utilities Authority has been drafting what the licence conditions for supply through charging stations should contain, with a public consultation in 2025. The answer therefore depends on your commercial model: a site selling kilowatt-hours needs either its own licence position or a documented arrangement with a licensed supplier. Do not infer it from a neighbouring operator, and get the reply in the project file before you price sessions."],
+        ["How long does an IEC connection take in Israel?", "On an existing service with spare capacity, allow six to ten weeks for the connection terms and the metering arrangement. If the site needs a new or larger transformer, add the equipment lead time, which in practice puts the whole electrical path at four to six months. A shared building adds a committee step and a property owner consent, both outside IEC control. These are experience ranges; the number that governs your opening date is the capacity answer, so request it before committing to a lease."],
+        ["What fire approvals apply to chargers in a shared garage?", "Underground and shared garages are treated as fire-risk spaces, so the installation is reviewed for the cable route, the enclosure rating, ventilation and the separation from parked vehicles. Commission a fire consultant report early and submit it with the committee file, because a hearing is often set before the fire question is answered. Retrofits in older buildings also need existing detection and suppression checked against the added load. Producing the report after the hearing date is how Israeli garage projects lose a quarter."]
+      ],
+      "internal": [
+        ["/regulations/", "All country approval maps"],
+        ["/markets/israel", "Israel market guide"],
+        ["/inquiry", "Send us your site file"],
+        ["/journey/market-site", "Site selection and the electrical room"],
+        ["/cases/hot-climate", "Chargers in 40 °C plus summers"]
+      ]
+    },
+    {
+      "slug": "saudi-arabia",
+      "country": "Saudi Arabia",
+      "region": "Middle East",
+      "eyebrow": "Compliance · Middle East",
+      "regulator": "SERA (ex-ECRA)",
+      "connection": "SEC distribution",
+      "statute_status": "Saudi Distribution Code (SERA)",
+      "about": {"@type": "Legislation", "name": "Saudi Distribution Code and Electricity Law; EV charging connection through SEC"},
+      "title": "Saudi EV Charging Approvals: SERA, SEC and SABER",
+      "meta": "Saudi charging sites need a SEC distribution connection to its own EVCS guideline, a Baladiya permit, SABER conformity and Civil Defense sign-off.",
+      "h1": "Saudi EV charging approvals: SERA licensing, SEC connection and the Baladiya file",
+      "lede": "Saudi Arabia has moved from policy ambition to a published connection route: the distribution company issues its own guidelines for connecting charging systems to its network. This page sets out who approves what, in what order, and why the substation rather than the site usually decides the layout.",
+      "tldr_label": "In brief — Saudi Arabia",
+      "tldr": "Sequence is connection offer, then permits, then conformity: SEC issues the connection under its EVCS guidelines, the Baladiya issues the building and occupancy permit, and SABER handles product conformity before shipment. The step that stalls projects is medium-voltage capacity — a site chosen for traffic before the 13.8 kV or 33 kV feeder is checked will be redesigned or abandoned.",
+      "facts": [["13.8 / 33 kV", "SEC medium voltage"], ["SERA", "Electricity regulator"], ["SABER", "PCoC plus SCoC"], ["400/230 V", "LV four-wire"]],
+      "anchor_fact": {
+        "fact": "Saudi Electricity Company publishes its own guideline for connecting EV charging systems to its distribution networks, and the EVCS technical standard issued for the SEC network is unidirectional, so vehicle-to-grid export is not available on a standard connection; SEC distributes at 13.8 kV and 33 kV medium voltage and 400/230 V low voltage.",
+        "source": "Saudi Electricity Company — Guidelines to Connect EVCS to SEC Distribution Networks, and EVCS Technical Standard (unidirectional), 2023–2026"
+      },
+      "sources": [
+        "Saudi Electricity Company — Guidelines to Connect EVCS to SEC Distribution Networks",
+        "Saudi Electricity Company — EV Charging Systems technical standard (unidirectional) for the SEC network",
+        "Saudi Electricity Regulatory Authority (SERA, formerly ECRA) — Saudi Distribution Code and electricity activity licensing",
+        "SASO / SABER — Product Certificate of Conformity before shipment and Shipment Certificate of Conformity per consignment"
+      ],
+      "sections": [
+        ["In Saudi Arabia the substation picks the site", "<p>A charging site is only viable if the medium-voltage feeder can carry it. SEC distributes at 13.8 kV and 33 kV, with 400/230 V four-wire low voltage for smaller loads, and low voltage in practice carries a modest cluster rather than a 240 kW station. A 360 kW corridor site needs its own MV connection and a customer substation, so the room for that substation has to exist on the plot before anything is drawn. Heat and dust enter the submittal as derating and ingress ratings.</p>"],
+        ["SERA licenses, SEC connects, the Baladiya permits", "<p>The Saudi Electricity Regulatory Authority, which succeeded ECRA, licenses electricity activities and issues the Distribution Code the connection must satisfy. SEC issues the offer, technical terms and metering under its own EVCS guideline. The Baladiya issues the building permit and the commercial licence. SASO conformity runs through SABER before shipment, and Civil Defense reviews fire safety. Ranges: eight to twelve weeks for a low-voltage connection, sixteen to twenty-six for MV with a substation, four to ten for a Baladiya permit.</p>"],
+        ["The SEC connection application", "<p>The request goes to SEC as a new or upgraded service and is assessed against the EVCS guideline. The file needs a single-line diagram, a load schedule separating charging load from auxiliary load, the requested capacity in kVA, transformer and switchgear ratings, protection settings with grading, the metering scheme, and the substation room layout on an MV supply. Missing substation dimensions is the most common first-pass rejection. Settle substation ownership and sub-metering in the agreement, not after energisation.</p>"],
+        ["Charging as a commercial service, not a licensed activity yet", "<p>Saudi Arabia has no charging-specific licence or ad-hoc payment mandate. Electricity activities are licensed by SERA, charging is delivered commercially on top of a regulated supply tariff, and network build-out is driven by the national charging company rather than by a queue for private operators. Your operating envelope is set by the commercial registration and the site agreement. What is not optional is conformity and metering honesty: equipment reaches site with a SABER shipment certificate or it does not clear at all.</p>"],
+        ["Document pack and where Saudi projects stall", "<p>Sequence the file like this:</p><ul><li>a feeder and capacity enquiry to SEC before the land is committed;</li><li>the load schedule and single-line diagram, with the MV substation room dimensioned;</li><li>the connection agreement stating substation ownership and the metering scheme;</li><li>the Baladiya building permit and the commercial registration;</li><li>the SABER product certificate before shipment, and the shipment certificate per consignment;</li><li>the Civil Defense submittal for the enclosure and the site.</li></ul><p>The failures are predictable: land committed before the MV answer, a low-voltage request for a load that needs its own transformer, a substation room that exists on the drawing but not on the plot, and equipment ordered before the product certificate is in hand. This page is approval experience, not legal advice. Send the feeder enquiry and your load schedule and we will check the sequence against the connection route.</p>"]
+      ],
+      "faq": [
+        ["Does EV charging need a licence in Saudi Arabia?", "Electricity activities in Saudi Arabia are licensed by the Saudi Electricity Regulatory Authority, which succeeded ECRA and publishes the Distribution Code. Charging has not been established as a standalone licensed activity, so a site operates on its commercial registration and site agreement while buying electricity at the regulated tariff. The open question is how charging revenue is treated for tariff purposes, and that is a question for SERA, not for your site host. Ask before publishing prices and keep the answer with the connection agreement."],
+        ["How long does a SEC connection take for a fast charging site?", "A low-voltage connection on a feeder with spare capacity commonly runs eight to twelve weeks from a complete application. A medium-voltage connection with a customer substation is sixteen to twenty-six weeks, because the transformer and switchgear lead time sits on top of the utility review. Municipal permits run in parallel on a four to ten week range depending on the governorate. These are experience ranges; the item that moves the date most is the substation room, which must be dimensioned on the plot before the application goes in."],
+        ["What is the difference between PCoC and SCoC for chargers?", "Both are SABER certificates and both are required, at different moments. The Product Certificate of Conformity registers the product type against the applicable SASO standard and must be in place before the goods ship, so it belongs in the procurement plan rather than the site file. The Shipment Certificate of Conformity is issued per consignment and is what the shipment clears against at the border. Equipment ordered before the product certificate exists sits in a warehouse, so check both against the exact variant you are buying."]
+      ],
+      "internal": [
+        ["/regulations/", "All country approval maps"],
+        ["/markets/saudi-arabia", "Saudi Arabia market guide"],
+        ["/inquiry", "Send us your site file"],
+        ["/cost/360-kw-dc-fast-charging-station", "Sizing a corridor site"],
+        ["/depot/highway-corridor-charging", "Corridor site design"]
+      ]
+    },
+    {
+      "slug": "uae",
+      "country": "United Arab Emirates",
+      "region": "Middle East",
+      "eyebrow": "Compliance · Middle East",
+      "regulator": "DEWA / DoE / SEWA",
+      "connection": "DEWA · ADDC · SEWA",
+      "statute_status": "DEWA EV charging regulation 2025",
+      "about": {"@type": "Legislation", "name": "Electric Vehicles Charging Infrastructure Regulation for the Emirate of Dubai (DEWA)"},
+      "title": "UAE EV Charging Approvals: DEWA Licence and Grid Connection",
+      "meta": "In Dubai a paid public charger needs a DEWA charge point operator licence plus a municipality permit; Abu Dhabi and Sharjah run separate routes.",
+      "h1": "UAE EV charging approvals: which emirate, which licence, which connection",
+      "lede": "The United Arab Emirates has no single approval path for charging, because electricity and licensing are emirate-level matters. Choosing the emirate is therefore the first approval decision, not the site. This page sets out the Dubai route in detail and the differences that matter in Abu Dhabi and Sharjah.",
+      "tldr_label": "In brief — United Arab Emirates",
+      "tldr": "The emirate decides everything: Dubai requires a DEWA licence to charge for charging, plus a municipality permit and a DEWA connection; Abu Dhabi runs through its Department of Energy and ADDC; Sharjah through SEWA. The step that stalls projects is the licence, not the connection — operators commonly order equipment and sign a site before discovering that paid public charging needs a separate instrument from the utility.",
+      "facts": [["1 licence", "Per emirate, not federal"], ["3 networks", "DEWA · ADDC · SEWA"], ["ESMA", "Product conformity"], ["Municipality", "Bay and signage permit"]],
+      "anchor_fact": {
+        "fact": "Paid public charging in Dubai requires an Independent Charge Point Operator Licence from DEWA, a standalone instrument whose published form is dated 19 December 2024 and which sits under DEWA's EV Charging Infrastructure Regulation for the Emirate of Dubai, revised to version 1.3 on 27 November 2025.",
+        "source": "DEWA — Independent Charge Point Operator Licence for Paid Provision of EV Charging Services in the Emirate of Dubai (form dated 19 Dec 2024); EV Charging Infrastructure Regulation for the Emirate of Dubai, v1.3, 27 Nov 2025"
+      },
+      "sources": [
+        "DEWA — Independent Charge Point Operator Licence for Paid Provision of EV Charging Services in the Emirate of Dubai, form dated 19 December 2024",
+        "DEWA — Electric Vehicles Charging Infrastructure Regulation for the Emirate of Dubai, version 1.3 dated 27 November 2025",
+        "Abu Dhabi Department of Energy and ADDC — emirate licensing and distribution connection",
+        "ESMA — Emirates Authority for Standardization and Metrology, product conformity for charging equipment"
+      ],
+      "sections": [
+        ["The emirate decides the path before the site does", "<p>Electricity is distributed by three companies on three regulatory footings: DEWA in Dubai, ADDC under the Abu Dhabi Department of Energy, and SEWA in Sharjah. Each sets its own connection process, metering and position on who may charge money for a kilowatt-hour, and the licence instruments do not transfer between them. A portfolio spanning the country is three approval programmes, not one programme with three addresses, so the emirate belongs in the land shortlist rather than in the paperwork after it.</p>"],
+        ["DEWA licence, municipality permit, ESMA conformity, Civil Defence", "<p>In Dubai, DEWA issues the charge point operator licence where charging is paid and public, and separately issues the connection and metering; Dubai Municipality permits the building, the bays and the signage; ESMA covers equipment conformity; Civil Defence reviews fire safety. Ranges: six to twelve weeks for the licence review, four to eight for a municipality permit, eight to fourteen for a low-voltage connection, sixteen to twenty-six for MV with a substation room. Add the landowner No Objection Certificate, often the longest single item.</p>"],
+        ["The connection application in Dubai and Abu Dhabi", "<p>For DEWA the file needs a single-line diagram, a load schedule separating charger from auxiliary load, the requested capacity, transformer and protection settings, the metering arrangement and, above roughly 100 kW, an electrical room meeting DEWA requirements for dimensions, access and ventilation. Correcting room dimensions later costs parking bays. For ADDC the same file goes through the Abu Dhabi process with the Department of Energy licence position settled first, and the two items to settle in writing are room ownership and sub-metering.</p>"],
+        ["Operating under the DEWA charging regulation", "<p>The Dubai regulation is a living document revised through 2025 and it obliges a licensed operator beyond the connection: metering and records, published prices, station data, complaint handling, safety inspection and a standard of service to drivers. It also frames the relationship between operator and site host, which is why the licence file and the commercial agreement have to describe the same arrangement. Work to the version current at submission and diarise the revision, because a file prepared against an older version is returned without discussion.</p>"],
+        ["Document pack and where UAE projects stall", "<p>In order:</p><ul><li>the emirate decision recorded with the site agreement;</li><li>the charge point operator licence file with the utility;</li><li>the connection application with single-line diagram, load schedule and the electrical room dimensioned;</li><li>the municipality permit with bay allocation and signage;</li><li>the ESMA conformity documents for the exact equipment;</li><li>the Civil Defence submittal.</li></ul><p>Put the landowner No Objection Certificate at the top, because it gates everything else. The failures are consistent across the three emirates: equipment ordered before the licence instrument is identified, a site agreement that names no permitting authority, an electrical room drawn to the equipment size rather than the utility size, and a resale model built without sub-metering. This page is approval experience, not legal advice. Send your single-line diagram and the site agreement and we will map the sequence for your emirate.</p>"]
+      ],
+      "faq": [
+        ["Do I need a licence to charge money for EV charging in Dubai?", "Yes. Paid public charging in Dubai requires an Independent Charge Point Operator Licence from DEWA, separate from the connection application and from the municipality permit. The published form of the licence is dated 19 December 2024 and sits under DEWA's EV Charging Infrastructure Regulation for the Emirate of Dubai, revised to version 1.3 on 27 November 2025. Operators frequently learn this after ordering equipment. Check the licence route before the site agreement, and confirm with DEWA which version your file will be assessed against."],
+        ["Is the approval path the same in Abu Dhabi and Sharjah?", "No, and the licence does not transfer. Abu Dhabi's electricity sector is regulated by the Abu Dhabi Department of Energy, with ADDC as the distributor, and Sharjah runs through SEWA. Each has its own connection process, metering arrangements and position on paid public charging, and each municipality permits its own bays and signage. A UAE-wide rollout is therefore three approval programmes run in parallel, not one programme with three addresses. Budget separate licence and permit files per emirate."],
+        ["How long does a DEWA or ADDC connection take for a DC site?", "On a low-voltage supply with headroom, allow eight to fourteen weeks from a complete application to energisation, including the metering appointment. A medium-voltage connection with an electrical room or substation typically runs sixteen to twenty-six weeks, because the room is approved on drawing and the equipment has a lead time. Municipal permits and the landowner No Objection Certificate sit alongside on four to eight weeks each. These are experience ranges; the room dimensions are the item most likely to send a file back."]
+      ],
+      "internal": [
+        ["/regulations/", "All country approval maps"],
+        ["/markets/uae", "UAE market guide"],
+        ["/inquiry", "Send us your site file"],
+        ["/journey/compliance", "How approvals fit the project timeline"],
+        ["/products/pales", "Hardware for constrained urban sites"]
+      ]
+    },
+    {
+      "slug": "oman",
+      "country": "Oman",
+      "region": "Middle East",
+      "eyebrow": "Compliance · Middle East",
+      "regulator": "APSR",
+      "connection": "Nama Distribution",
+      "statute_status": "APSR EV charging rules, Jul 2023",
+      "about": {"@type": "Legislation", "name": "APSR EV Charging Technical Requirements (Oman, July 2023)"},
+      "title": "Oman EV Charging Approvals: APSR Rules and Nama Connection",
+      "meta": "Oman approves chargers through APSR technical requirements and a Nama Electricity Distribution connection, with municipal and MOCIIP steps around them.",
+      "h1": "Oman EV charging approvals: APSR technical rules and the Nama connection",
+      "lede": "Oman was early among Gulf markets to publish national technical requirements for EV charging, which makes the technical file unusually well defined. What remains open is capacity: distances are long and feeders are thin. This page maps the approval sequence and the capacity question underneath it.",
+      "tldr_label": "In brief — Oman",
+      "tldr": "Sequence is technical compliance, then connection, then permits: APSR's requirements define what the charger must be, Nama Electricity Distribution decides whether the network can carry it, and the municipality and MOCIIP handle land and equipment. The step that stalls projects is capacity on a long feeder, which is why the capacity enquiry has to precede the site agreement on any corridor site.",
+      "facts": [["Jul 2023", "APSR charging rules"], ["Mode 4", "DC charging class"], ["Nama", "Licensed distributor"], ["MOCIIP", "Equipment conformity"]],
+      "anchor_fact": {
+        "fact": "Oman's Authority for Public Services Regulation issued national EV charging technical requirements in July 2023, guidelines version 1.0, which classify charge points by IEC 61851 mode (Mode 3 for AC, Mode 4 for DC) and allow a group of charging stations to be supplied from a single low-voltage or medium-voltage connection through one or more feeders.",
+        "source": "APSR — EV Charging Technical Requirements Guidelines, version 1.0, issued July 2023 (apsr.om)"
+      },
+      "sources": [
+        "APSR (Authority for Public Services Regulation, Oman) — EV Charging Technical Requirements Guidelines v1.0, July 2023",
+        "Nama Electricity Distribution Company — distribution connection process and EV charging connection guidance",
+        "MOCIIP / DGSM — Directorate General of Specifications and Measurements, equipment conformity",
+        "Muscat Municipality — public charging permits and parking bay allocation"
+      ],
+      "sections": [
+        ["APSR classified the charger; Nama decides whether it can run", "<p>The Omani framework treats a charge point as a network load with a defined class rather than as a separately licensed business. The technical file is unusually clear because APSR published its requirements in July 2023, and the guidelines let a group of chargers share one low-voltage or medium-voltage connection, which is what makes a small site viable without its own transformer. What the framework cannot tell you is whether the feeder has room, and on the Muscat to Salalah corridor that is the binding question.</p>"],
+        ["APSR, Nama, the municipality and MOCIIP", "<p>APSR sets the technical requirements and the framework the licensed distributor operates under, including the tariff basis. Nama Electricity Distribution issues the connection offer, the metering and the energisation inspection. The municipality permits land use, bays and signage, MOCIIP covers equipment conformity, and Civil Defence reviews the enclosure. Ranges: six to twelve weeks for a low-voltage connection, sixteen to twenty-four for MV with a transformer, four to eight for a municipal permit, with survey and access approvals the item most often left out.</p>"],
+        ["The Nama connection application", "<p>The application goes to Nama as a new service or capacity increase, with charging guidance published alongside its standard connection process. It needs a single-line diagram, a load schedule separating charging from auxiliary load, the requested capacity in kVA, protection settings graded against the upstream device, the metering scheme and the earthing. Where chargers share a connection, show the feeder arrangement and the diversity assumed. Declare diversified load: oversized declarations buy reinforcement you do not need, and undersized ones are found at inspection.</p>"],
+        ["Public charging under the APSR tariff framework", "<p>Oman has no ad-hoc payment mandate or station-data duty of the European kind, so the operating obligations are lighter. What remains is the tariff question: electricity is sold under a regulated framework, and a public charger billing drivers by the kilowatt-hour sits between a service and a resale, so confirm the position with APSR before publishing prices. Operationally, design for 45 °C ambient with derating stated in the submittal, specify ingress protection for the dust regime, and plan spares around a technician several hundred kilometres away.</p>"],
+        ["Document pack and where Omani projects stall", "<p>Assemble the file in this order:</p><ul><li>the capacity enquiry to Nama naming the feeder;</li><li>the APSR-conformant technical submittal with the charger mode, ratings and protection settings;</li><li>the connection application with single-line diagram, load schedule and metering scheme;</li><li>the municipal permit with bay allocation and access;</li><li>the MOCIIP conformity documents for the exact equipment;</li><li>the Civil Defence submittal for the enclosure.</li></ul><p>The failures repeat across the region: a lease signed before the capacity answer, a charger specified without reference to the APSR mode classification, protection settings that grade against the upstream device on paper only, and a spares plan that assumes a depot within an hour. This page is approval experience, not legal advice. Send the capacity enquiry and your technical submittal and we will check the sequence against the Nama route.</p>"]
+      ],
+      "faq": [
+        ["What do Oman's EV charging technical requirements actually cover?", "APSR issued national EV charging technical requirements in July 2023, guidelines version 1.0. They classify charge points by IEC 61851 mode, Mode 3 for AC and Mode 4 for DC, set the electrical and protection expectations for the installation, and permit a group of charging stations to be supplied from a single low-voltage or medium-voltage connection through one or more feeders. They do not by themselves grant a connection, so read them as the specification your submittal must satisfy rather than as an approval."],
+        ["Who approves an EV charger in Oman, APSR or Nama?", "Both, for different things. APSR, the Authority for Public Services Regulation, sets the technical requirements and the framework the licensed distributor operates under. Nama Electricity Distribution issues the connection offer, the metering and the energisation inspection. Your municipal permit and the equipment conformity documents come from the municipality and MOCIIP, and Civil Defence reviews the enclosure. Practically, the technical file answers to APSR requirements while your schedule answers to Nama capacity, which is a separate decision."],
+        ["How long does a Nama connection take for a DC fast charger?", "On a low-voltage connection where the feeder has spare capacity, allow six to twelve weeks from a complete application to energisation, including the inspection. A medium-voltage connection with a transformer or a capacity increase commonly runs sixteen to twenty-four weeks, and reinforcement of a long feeder can run past a year because it is a scheduled capital item rather than a service. These are experience ranges; on corridor sites the capacity answer, not the paperwork, sets the opening date."]
+      ],
+      "internal": [
+        ["/regulations/", "All country approval maps"],
+        ["/markets/oman", "Oman market guide"],
+        ["/inquiry", "Send us your site file"],
+        ["/depot/off-grid-charging", "Sites beyond the feeder"],
+        ["/data/findings-2026", "What our field data shows"]
+      ]
+    }
+  ]
+}

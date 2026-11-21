@@ -1,0 +1,115 @@
+{
+  "slug": "es/cases/jordan-160kw",
+  "url": "/es/cases/jordan-160kw.html",
+  "breadcrumb": "Carga de corredor en Jordania: ingeniería de uti",
+  "locale": "es",
+  "title": "Carga de corredor en Jordania: ingeniería de utilización | A",
+  "meta": "Un CPO líder de Oriente Medio construyó con nosotros carga rápida de autopista: estaciones Vulco DC de 160 kW en configuraciones de dos y tr Detalles y especifi",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/jordan-160kw"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/jordan-160kw"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/jordan-160kw"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Caso",
+      "h1": "Carga de corredor en Jordania: ingeniería de utilización que aguanta a 45 °C",
+      "lede": "Un CPO líder de Oriente Medio construyó con nosotros carga rápida de autopista: estaciones Vulco DC de 160 kW en configuraciones de dos y tres pistolas, diseñadas para mantener la potencia nominal con verano por encima de 45 °C. El sitio quedó entre los mayores de Jordania.",
+      "image": "/assets/img/v2/case-jordan-640.webp",
+      "credit": "La versión completa del análisis está en inglés",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Todos los proyectos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/jordan-160kw"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Análisis",
+      "h2": "Restricción → solución → resultado",
+      "lede": "El análisis técnico completo, con fórmulas y tablas, está en la página en inglés.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Restricción",
+          "text": "Calor por encima de 45 °C: la potencia cae por la tarde si no hay margen térmico."
+        },
+        {
+          "no": "02",
+          "title": "Qué hicimos",
+          "text": "Margen térmico + reparto inteligente de potencia entre pistolas."
+        },
+        {
+          "no": "03",
+          "title": "Resultado",
+          "text": "Potencia nominal estable en el pico de verano; uno de los mayores sitios del país."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Parámetros del sitio",
+      "h2": "Carga de corredor en Jordania: ing — parámetros",
+      "rows": [
+        {
+          "k": "Producto",
+          "v": "Vulco DC Series integrated floor-mounted fast charger"
+        },
+        {
+          "k": "Potencia",
+          "v": "160 kW DC"
+        },
+        {
+          "k": "Configuraciones",
+          "v": "Dual-gun and three-gun (2 × DC + 1 × AC Type 2)"
+        },
+        {
+          "k": "Tipo de sitio",
+          "v": "Highway corridor charging station"
+        },
+        {
+          "k": "Punto de diseño climático",
+          "v": "Sustained operation above 45°C ambient"
+        },
+        {
+          "k": "Operador",
+          "v": "Leading Middle East CPO"
+        }
+      ],
+      "caption": "Carga de corredor en Jordania: ingeniería de utili"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Un sitio parecido? Envíe los datos.",
+      "lede": "Basta con el país, la potencia disponible y cómo operará el sitio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/jordan-160kw"
+        }
+      ]
+    }
+  ]
+}

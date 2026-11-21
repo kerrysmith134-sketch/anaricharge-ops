@@ -1,0 +1,572 @@
+{
+ "cases": {
+  "hot-climate": {
+   "slug": "hot-climate",
+   "title": "EV Charging Past 45°C: Hot-Climate DC Deployments | Anari",
+   "meta": "How Anari 120-180kW DC chargers hold rated output past 45C in Israel and Saudi Arabia: thermal design, three-gun layouts and multi-standard outputs.",
+   "og_title": "Hot-climate EV charging that holds rated power past 45°C",
+   "og_desc": "120–180 kW DC deployments in Israel and Saudi Arabia: thermal management, intelligent power distribution and three-gun layouts built for sustained heat.",
+   "eyebrow": "Case study · Middle East · Hot-climate DC",
+   "h1": "Hot-climate DC charging that holds rated power past 45°C",
+   "lede": "120–180 kW DC fast chargers running public networks in Israel and Saudi Arabia — engineered so the hottest hours of the year are not the slowest.",
+   "hero_image": "/assets/img/cases/israel-hot-climate.webp",
+   "hero_size": [
+    1000,
+    667
+   ],
+   "og_image": "/assets/img/og/cases-hot-climate.jpg",
+   "hero_alt": "Anari DC fast charger in service at a hot-climate site in Israel, with a driver charging an electric vehicle",
+   "stats": [
+    [
+     "120–180 kW",
+     "DC output range deployed"
+    ],
+    [
+     "45°C+",
+     "sustained ambient operation"
+    ],
+    [
+     "3 countries",
+     "hot-climate deployments in service"
+    ],
+    [
+     "Multi-standard",
+     "CCS2 / GB-T configurations"
+    ]
+   ],
+   "tldr_label": "In brief — What do these hot-climate deployments show?",
+   "tldr_html": "Public charging networks in the Middle East fail on the same point: peak summer. Our <strong>120–180 kW DC fast chargers</strong> were deployed across a leading Israeli partner's network from 2025 onward, and in Saudi Arabia in a <strong>three-gun configuration</strong>. Both use thermal management and intelligent power distribution designed to hold rated output instead of derating when ambient temperature passes <strong>45°C</strong>. These are part of the 100+ customers in 22 countries.",
+   "cards": [
+    {
+     "kicker": "Challenge",
+     "html": "Extreme heat, dust and direct sun on public sites. Conventional DC chargers derate exactly when demand peaks, so the station earns less on the days it is busiest."
+    },
+    {
+     "kicker": "Solution",
+     "html": "Thermal management plus intelligent power distribution across guns, with industrial-grade components and multi-standard outputs (120–180 kW)."
+    },
+    {
+     "kicker": "Outcome",
+     "html": "Chargers that keep ultra-high power output through prolonged heat, sustaining availability and utilization across the network."
+    }
+   ],
+   "sections": [
+    {
+     "h2": "Deployment configuration",
+     "html": "<div class=\"table-wrap\">\n      <table class=\"data\">\n        <caption>Hot-climate deployments, configuration summary. Source: Anari Energy delivery records.</caption>\n        <thead><tr><th scope=\"col\">Site</th><th scope=\"col\">Configuration</th><th scope=\"col\">Design point</th></tr></thead>\n        <tbody>\n          <tr><td>Israel · public network</td><td class=\"num\">120–180 kW DC, multi-standard, multiple batches</td><td>Sustained heat, public charging duty cycles</td></tr>\n          <tr><td>Saudi Arabia · public site</td><td class=\"num\">120 kW DC, three-gun</td><td>Summer ambient frequently above 45°C</td></tr>\n          <tr><td>Jordan · highway corridor</td><td class=\"num\">160 kW DC, dual/three-gun</td><td>45°C+ summers, corridor traffic</td></tr>\n        </tbody>\n      </table>\n    </div>"
+    },
+    {
+     "h2": "Why heat is an engineering problem, not a climate note",
+     "html": "<p>Every charger has a derating curve. The question a buyer should ask is not \"what is the operating range\" but <em>at which ambient temperature does output start to fall, and by how much</em>. A datasheet that gives a range without that breakpoint is a marketing document.</p>\n    <p>In the Middle East the breakpoint arrives during the busiest commercial hours. A unit that reduces output above 45°C has a different commercial profile from one that holds rated power — because utilization and revenue both peak in the afternoon, not at 03:00.</p>\n    <figure class=\"card\">\n      <img class=\"card-img\" srcset=\"/assets/img/cases/saudi-heat-640.webp 640w, /assets/img/cases/saudi-heat.webp 1000w\" sizes=\"(min-width: 900px) 620px, 92vw\" src=\"/assets/img/cases/saudi-heat.webp\" alt=\"Anari 120 kW DC charging station deployed at a site in Saudi Arabia for extreme heat operation\" width=\"1000\" height=\"667\" loading=\"lazy\" decoding=\"async\">\n      <figcaption><p class=\"card-kicker\">Saudi Arabia · Three-gun 120 kW</p><p>Three-gun layout lets one cabinet serve different vehicle types at once, absorbing burst arrivals without a second grid connection.</p></figcaption>\n    </figure>"
+    },
+    {
+     "h2": "What the Israeli network runs on",
+     "html": "<p>Our largest DC charging station partner in Israel began deploying our equipment in 2025 and has since taken multiple batches of 120–180 kW multi-standard DC fast chargers. That is a repeat-procurement signal, not a one-off pilot: the units sit in public networks serving both private drivers and commercial fleets.</p>\n    <p>Multi-standard output matters in that market because the vehicle parc is mixed. A site that covers only one connector standard halves its addressable traffic — and in a hot climate, hardware that runs at part load for lack of compatible vehicles still pays the full thermal penalty.</p>"
+    }
+   ],
+   "deep_dives": [
+    {
+     "summary": "Deep dive: the thermal choices behind the numbers",
+     "html": "<p>Three design decisions carry most of the hot-climate performance:</p>\n      <ul>\n        <li><strong>Thermal headroom above 45°C.</strong> Components and cooling paths are selected so the cabinet dissipates heat into already-hot ambient air without throttling the power stage.</li>\n        <li><strong>Intelligent power distribution.</strong> Output moves between guns as sessions taper, so station-level utilization stays high rather than one cable idling at full allocation.</li>\n        <li><strong>Industrial-grade components.</strong> Capacitors, fans and connectors rated for sustained high ambient rather than headline peak temperature.</li>\n      </ul>\n      <p>The commercial consequence is straightforward: availability through July and August, when a hot-climate public network earns the bulk of its margin.</p>"
+    }
+   ],
+   "faq": [
+    {
+     "q": "Do DC fast chargers derate in extreme heat?",
+     "a": "Conventional units often do. Ours are designed with thermal headroom so rated output is held through prolonged ambient above 45°C, instead of reducing power during the hottest commercial hours."
+    },
+    {
+     "q": "Which models were deployed in Israel and Saudi Arabia?",
+     "a": "Israel: 120–180 kW multi-standard DC fast chargers across multiple batches from 2025 onward. Saudi Arabia: 120 kW integrated floor-mounted DC fast chargers in a three-gun configuration."
+    },
+    {
+     "q": "Why does a three-gun configuration matter in a hot climate?",
+     "a": "It serves more vehicles per grid connection. That raises revenue per available kilowatt and reduces the number of separate cabinets that each need thermal management in the same heat."
+    }
+   ],
+   "cta_h3": "Building public charging where summer is the stress test?",
+   "cta_p": "Tell us your site's design ambient temperature and duty cycle, and we will come back with a configuration drawn from deployments that already run in that climate.",
+   "breadcrumb_name": "Hot-Climate DC Charging Past 45°C",
+   "case_name": "Hot-climate DC fast charging — Israel and Saudi Arabia",
+   "case_description": "120–180 kW DC fast charging deployments engineered to hold rated output above 45°C ambient",
+   "place": "Israel and Saudi Arabia",
+   "article_about": "Hot-climate EV fast charging deployments in the Middle East",
+   "article_description": "Anari Energy 120–180 kW DC fast chargers deployed in Israel and Saudi Arabia, engineered to hold rated output through sustained ambient temperatures above 45°C.",
+   "hero_basename": "israel-hot-climate"
+  },
+  "cold-climate": {
+   "slug": "cold-climate",
+   "title": "EV Charging at Minus 30°C: Cold-Climate Deployments | Anari",
+   "meta": "How Anari 120-180kW DC chargers keep rated output at minus 30C: heater interface, sealed forced-air cooling and IP54/IK08 builds in Georgia and Kazakhstan.",
+   "og_title": "Cold-climate EV charging that starts at minus 30°C",
+   "og_desc": "Georgian and Kazakh deployments: heater interface for ultra-low temperature, forced-air cooling sealed against snow, IP54 and IK08 enclosures.",
+   "eyebrow": "Case study · Caucasus & Central Asia · Cold-climate DC",
+   "h1": "Cold-climate DC charging that starts at minus 30°C",
+   "lede": "120–180 kW DC chargers running through Caucasus and Central Asian winters — where the failure modes are thermal and electrical, not mechanical.",
+   "hero_image": "/assets/img/cases/kazakhstan-120kw.webp",
+   "hero_size": [
+    1100,
+    619
+   ],
+   "og_image": "/assets/img/og/cases-cold-climate.jpg",
+   "hero_alt": "Anari 120 kW dual-gun DC fast charger installed at a commercial parking site in Kazakhstan",
+   "stats": [
+    [
+     "−30 to +70°C",
+     "operating range"
+    ],
+    [
+     "12 connectors",
+     "Kazakhstan parking site"
+    ],
+    [
+     "1 month",
+     "purchase order to energisation"
+    ],
+    [
+     "2 countries",
+     "cold-climate deployments in service"
+    ]
+   ],
+   "tldr_label": "In brief — What do these cold-climate deployments show?",
+   "tldr_html": "Northern and central Kazakhstan hold <strong>minus 30°C for weeks</strong>. We put <strong>six dual-gun 120 kW DC chargers</strong> into service at a commercial parking site there in August 2026, ordered in July. In Georgia, the country's <strong>second charging network operator</strong> took 120 kW and 180 kW dual-gun DC stations with our <strong>heater interface</strong> for ultra-low-temperature operation. Both sit inside the 100+ customers in 22 countries.",
+   "cards": [
+    {
+     "kicker": "Challenge",
+     "html": "Minus 30°C for weeks: stiff cable jackets, enclosure snow load, and electronics that must dissipate heat into air already at the bottom of their design range."
+    },
+    {
+     "kicker": "Solution",
+     "html": "Vulco platform rated −30 to +70°C with output reducing above 50°C, sealed forced-air cooling, IP54/IK08 enclosure, and an optional heater module that warms the power stage before charging starts."
+    },
+    {
+     "kicker": "Outcome",
+     "html": "Charging that holds rated output at the cold end instead of derating — and a winter uptime the operator can publish to its own customers."
+    }
+   ],
+   "sections": [
+    {
+     "h2": "Deployment configuration",
+     "html": "<div class=\"table-wrap\">\n      <table class=\"data\">\n        <caption>Cold-climate deployments, configuration summary. Source: Anari Energy delivery records.</caption>\n        <thead><tr><th scope=\"col\">Site</th><th scope=\"col\">Configuration</th><th scope=\"col\">Design point</th></tr></thead>\n        <tbody>\n          <tr><td>Kazakhstan · commercial parking</td><td class=\"num\">6 × 120 kW dual-gun DC → 12 connectors</td><td>−30°C ambient; one existing supply, no utility upgrade</td></tr>\n          <tr><td>Georgia · charging network CPO</td><td class=\"num\">120 kW and 180 kW dual-gun DC</td><td>Prolonged sub-zero winters; heater interface</td></tr>\n        </tbody>\n      </table>\n    </div>"
+    },
+    {
+     "h2": "The cabinet decides winter uptime, not the cable",
+     "html": "<p>Operators tend to specify the vehicle side first — connector type, cable length, gun count. In a cold market that is the wrong order. The failure modes that matter happen inside the cabinet, and they are thermal and electrical.</p>\n    <ul>\n      <li><strong>Cold-start output.</strong> A charger rated to −30°C tells you nothing unless it states where output starts to fall. The requirement is: starts at −30°C and holds rated output through the cold end.</li>\n      <li><strong>Cooling that still works.</strong> Forced air with sealed electronics avoids the fluid, pumps and seals a liquid loop introduces — maintenance items a parking operator does not want in a freezing climate.</li>\n      <li><strong>Enclosure durability.</strong> <strong>IP54 with IK08</strong> rating, because in parking structures vehicle contact is normal, not exceptional.</li>\n      <li><strong>Input tolerance.</strong> Distribution networks dimensioned for buildings, not for 120 kW loads appearing unpredictably. Voltage-dip tripping in a parking business is pure cost with no revenue offset.</li>\n    </ul>"
+    },
+    {
+     "h2": "What the heater interface actually does",
+     "html": "<p>Our DC platform supports an optional heating module built for ultra-low-temperature sites. When activated, it rapidly raises the operating temperature of the critical power components so the charger reaches optimal output quickly instead of limping through a cold start.</p>\n    <p>The Georgian deployment uses 120 kW and 180 kW dual-gun integrated floor-mounted stations with that interface. The customer is the second charging network operator in Georgia to partner with us — relevant because a second operator buys after watching the first one's winter.</p>\n    <figure class=\"card\">\n      <img class=\"card-img\" srcset=\"/assets/img/cases/georgia-cold-640.webp 640w, /assets/img/cases/georgia-cold.webp 885w\" sizes=\"(min-width: 900px) 620px, 92vw\" src=\"/assets/img/cases/georgia-cold.webp\" alt=\"Anari 120 kW and 180 kW DC charging stations with heater interface installed in a high-cold region of Georgia\" width=\"885\" height=\"590\" loading=\"lazy\" decoding=\"async\">\n      <figcaption><p class=\"card-kicker\">Georgia · Heater-interface DC</p><p>120 kW and 180 kW dual-gun stations for a CPO operating through prolonged sub-zero winters.</p></figcaption>\n    </figure>"
+    }
+   ],
+   "deep_dives": [
+    {
+     "summary": "Deep dive: the Kazakhstan arithmetic — twelve bays from one supply",
+     "html": "<p>The operator's real question was not which charger to buy, but how much charging capacity could be added <em>without a utility upgrade</em>. That question has one answer in most Kazakh commercial locations, and it is not a large number.</p>\n      <p>Six dual-gun cabinets answer it: twelve service points from six supplies, with output allocated between bays by the cabinet rather than fixed per cable. Ordered in July 2026, in service in August 2026 — one month from purchase order to energisation.</p>\n      <p>The platform is rated −30 to +70°C with output reducing above 50°C, so the same hardware also covers July. That is the bonus the cold-climate buyer is really paying for: a charger specified for January that is not embarrassed in the summer.</p>"
+    }
+   ],
+   "faq": [
+    {
+     "q": "At what temperature does an EV charger start losing power?",
+     "a": "It depends on design. The Vulco platform is rated from −30 to +70°C with output reducing above 50°C, so rated output is held across the cold end rather than tapering in winter."
+    },
+    {
+     "q": "Do electric buses and cars charge normally at minus 30°C?",
+     "a": "With the right cabinet, yes. The constraint is inside the charger: battery and electronics need to reach their operating window. Our optional heater module raises the temperature of critical power components so full output is available quickly after a cold start."
+    },
+    {
+     "q": "Why forced-air cooling instead of liquid cooling in a freezing climate?",
+     "a": "A liquid loop handles sustained high ambient better, but in freezing conditions it adds fluid, pumps and seals that need trained maintenance. For a 120 kW parking application in Kazakhstan, sealed forced air is the lower-risk design."
+    }
+   ],
+   "cta_h3": "Specifying charging for a site that freezes hard?",
+   "cta_p": "Send us your design winter temperature, grid capacity and dwell patterns — we will size the cabinet count and connector mix the way we did for these sites.",
+   "breadcrumb_name": "Cold-Climate DC Charging at −30°C",
+   "case_name": "Cold-climate DC fast charging — Georgia and Kazakhstan",
+   "case_description": "120–180 kW DC fast charging with heater interface and sealed forced-air cooling, rated −30 to +70°C",
+   "place": "Georgia and Kazakhstan",
+   "article_about": "Cold-climate EV fast charging deployments in the Caucasus and Central Asia",
+   "article_description": "Anari Energy cold-climate DC fast charging deployments in Georgia and Kazakhstan: heater interface for ultra-low temperature, sealed forced-air cooling, IP54/IK08, rated −30 to +70°C.",
+   "hero_basename": "kazakhstan-120kw"
+  },
+  "bus-depot-czechia": {
+   "slug": "bus-depot-czechia",
+   "title": "Bus Depot Charging: 12 Cabinets, 24 Bays in Czechia | Anari",
+   "meta": "A Czech bus depot runs 12 dual-gun 120kW DC chargers across 24 bays, energised in 10 weeks, sized for timetable peaks without a peak-sized grid connection.",
+   "og_title": "Bus depot charging: 12 cabinets, 24 bays, one timetable",
+   "og_desc": "A Czech commercial bus station: twelve dual-gun 120 kW DC chargers, 24 service points from 12 supplies, ordered May 2026 and energised July 2026.",
+   "eyebrow": "Case study · Czechia · Bus depot charging",
+   "h1": "A bus depot is judged on 06:40, not on kWh per day",
+   "lede": "Twelve dual-gun 120 kW DC chargers feeding 24 bays at a Czech commercial bus station — sized for the timetable peak without a peak-sized grid connection.",
+   "hero_image": "/assets/img/cases/czechia-bus-depot.webp",
+   "hero_size": [
+    1100,
+    619
+   ],
+   "og_image": "/assets/img/og/cases-bus-depot.jpg",
+   "hero_alt": "Electric buses at an Anari charging installation at a bus depot in Czechia",
+   "stats": [
+    [
+     "12 cabinets",
+     "Vulco 120 kW dual-gun"
+    ],
+    [
+     "24 DC bays",
+     "service points per day"
+    ],
+    [
+     "10 weeks",
+     "order to energisation"
+    ],
+    [
+     "−30 to +70°C",
+     "operating range"
+    ]
+   ],
+   "tldr_label": "In brief — What was built at the Czech bus depot?",
+   "tldr_html": "A commercial operator running scheduled bus services ordered <strong>twelve dual-gun 120 kW DC chargers</strong> in May 2026 for a Czech bus station; they were energised in July 2026. That is <strong>24 DC connectors from 12 supplies</strong> — enough to clear the timetable peak without paying for a grid connection sized to a demand spike that lasts two hours a day.",
+   "cards": [
+    {
+     "kicker": "Challenge",
+     "html": "A depot's load is spiky by design: most of the day a handful of buses charge, but before the morning and afternoon peaks a dozen need energy inside a narrow window, each with a published departure time."
+    },
+    {
+     "kicker": "Solution",
+     "html": "Twelve dual-gun cabinets sharing output between bays, rather than 24 dedicated high-power bays that would require an unjustifiable grid connection."
+    },
+    {
+     "kicker": "Outcome",
+     "html": "Twenty-four service points from twelve supplies, energised in ten weeks, with a winter specification the timetable can rely on."
+    }
+   ],
+   "sections": [
+    {
+     "h2": "Three ways to handle a depot peak, and the two that fail",
+     "html": "<p>A bus depot is a factory with a timetable. Most charging projects are judged on energy delivered per day; a depot is judged on whether the vehicle scheduled to leave at 06:40 left at 06:40 with enough charge to complete its block.</p>\n    <div class=\"table-wrap\">\n      <table class=\"data\">\n        <caption>Depot sizing approaches and what each produces. Source: Anari Energy delivery records.</caption>\n        <thead><tr><th scope=\"col\">Approach</th><th scope=\"col\">What happens</th></tr></thead>\n        <tbody>\n          <tr><td>Size for the average</td><td>Cheapest on paper. Produces a site that fails precisely when it is needed, because average demand is not what a depot presents at 05:30.</td></tr>\n          <tr><td>Size for the peak without sharing</td><td>Technically correct, commercially difficult. Two dozen dedicated high-power bays means a grid connection the operator cannot justify for the other twenty hours of the day.</td></tr>\n          <tr><td><strong>Size for the peak with sharing</strong></td><td><strong>What was built:</strong> fewer cabinets, more connectors, output allocated by the cabinet rather than fixed by the cable.</td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p>There is a fourth constraint that never appears in a tender document but always appears in the operating budget: at a bus depot a failed charge is not a lost fuel margin, it is a cancelled service and a passenger complaint. Depot downtime costs an order of magnitude more than downtime at a retail charger.</p>"
+    },
+    {
+     "h2": "Why dual-gun rather than single",
+     "html": "<p>Each cabinet serves two vehicles and allocates output between them. Where one bus needs the full rate it takes all 120 kW; where two dwell together the cabinet splits. <strong>Twenty-four service points from twelve supplies</strong> is the arithmetic that makes the site viable, and allocation follows the schedule rather than a fixed bay assignment.</p>\n    <p>Higher power would have bought speed the timetable cannot use, at a connection cost the site would have to fund. A bus that returns at 30% state of charge and departs four hours later does not need the fastest possible charge — it needs enough energy inside its dwell window at a price the timetable can carry.</p>"
+    },
+    {
+     "h2": "Why the specification matters in February",
+     "html": "<p>The Vulco platform is rated from <strong>−30 to +70°C</strong>, with output reducing above 50°C. A depot that cannot charge in February does not have a slow site; it has a schedule failure. Cold-end rated output is therefore a timetable requirement rather than a comfort spec.</p>\n    <figure class=\"card\">\n      <img class=\"card-img\" srcset=\"/assets/img/cases/czechia-bus-depot-640.webp 640w, /assets/img/cases/czechia-bus-depot.webp 1100w\" sizes=\"(min-width: 900px) 620px, 92vw\" src=\"/assets/img/cases/czechia-bus-depot.webp\" alt=\"Electric buses under a canopy at an Anari bus depot charging installation in Czechia\" width=\"1100\" height=\"619\" loading=\"lazy\" decoding=\"async\">\n      <figcaption><p class=\"card-kicker\">Czechia · Bus station</p><p>Twelve dual-gun 120 kW cabinets behind a depot schedule, with photovoltaic canopy on the site.</p></figcaption>\n    </figure>"
+    }
+   ],
+   "deep_dives": [
+    {
+     "summary": "Deep dive: the ten weeks between order and power-on",
+     "html": "<p>Ordered in May 2026, energised in July 2026. For a 24-bay depot that timeline is a product of what does <em>not</em> have to happen: no new substation, no enlarged connection, no civil work to lay out two dozen dedicated high-power feeds.</p>\n      <p>What has to earn its keep afterwards is utilization. A shared-output depot charges at a lower per-bay peak and a higher per-site duty cycle — which is the profile a fixed timetable actually presents. The site is a bus station serving scheduled services, run by a commercial operator, and it sits inside the <strong>100+ customers in 22 countries</strong> we have delivered to since 2021.</p>"
+    }
+   ],
+   "faq": [
+    {
+     "q": "How many chargers does a bus depot need?",
+     "a": "Start from the departure timetable, not from a nameplate target. This depot needed 24 service points but only 12 grid supplies: twelve dual-gun 120 kW cabinets, with output shared between bays to clear the peak."
+    },
+    {
+     "q": "Can a depot avoid a utility upgrade?",
+     "a": "Usually yes, by sharing output across more connectors instead of installing one dedicated high-power bay per vehicle. That trades a marginal charging speed for a connection the operator can actually obtain."
+    },
+    {
+     "q": "What happens to charging in winter at a bus depot?",
+     "a": "Depot winter performance is a schedule requirement. The platform is rated −30 to +70°C, so rated output is available at the cold end — a failed charge in February is a cancelled service, not a lost margin."
+    }
+   ],
+   "cta_h3": "Planning depot charging around a timetable?",
+   "cta_p": "Send us your departure schedule and available grid capacity. We will size cabinet count and connector mix from the schedule backwards, the way this depot was built.",
+   "breadcrumb_name": "Bus Depot Charging — 12 Cabinets, 24 Bays",
+   "case_name": "Bus depot charging — Czechia, 12 × 120 kW",
+   "case_description": "Twelve dual-gun 120 kW DC chargers giving 24 service points at a Czech commercial bus station, energised in ten weeks",
+   "place": "Czechia",
+   "article_about": "Bus depot DC fast charging deployment in Czechia",
+   "article_description": "A Czech commercial bus station runs twelve dual-gun 120 kW DC chargers across 24 bays — sized for the timetable peak without a peak-sized grid connection.",
+   "hero_basename": "czechia-bus-depot"
+  },
+  "ac-wallbox-deployments": {
+   "slug": "ac-wallbox-deployments",
+   "hero_basename": "oman-ac-wallbox",
+   "title": "22 kW AC Wallbox Deployments in Five Countries | Anari",
+   "meta": "22kW Type 2 floor-mounted AC charging deployed in Oman, Cyprus, Italy, Peru and Turkiye - highway corridors, public parking and a police station.",
+   "og_title": "22 kW AC wallbox charging across five markets",
+   "og_desc": "Type 2 floor-mounted AC charging on Oman highway corridors, in Cypriot and Peruvian car parks, at an Italian police station and through a Turkish localisation centre.",
+   "eyebrow": "Case study · Five markets · 22 kW AC",
+   "h1": "22 kW AC charging: from Oman highway corridors to a police station in Italy",
+   "lede": "The same 22 kW Type 2 floor-mounted unit, deployed in five countries against five different local constraints — highways, car parks, a police station, and a localisation centre.",
+   "hero_image": "/assets/img/cases/oman-ac-wallbox.webp",
+   "hero_size": [
+    1000,
+    667
+   ],
+   "og_image": "/assets/img/og/cases-ac-wallbox.jpg",
+   "hero_alt": "Anari 22 kW Type 2 floor-mounted AC charging station deployed along an Oman highway corridor",
+   "stats": [
+    [
+     "22 kW",
+     "Type 2 floor-mounted AC"
+    ],
+    [
+     "5 countries",
+     "Oman · Cyprus · Italy · Peru · Türkiye"
+    ],
+    [
+     "Type 2",
+     "standard AC connector"
+    ],
+    [
+     "Public",
+     "unattended access"
+    ]
+   ],
+   "tldr_label": "In brief — What do these AC deployments show?",
+   "tldr_html": "One product, five markets. Our <strong>22 kW Type 2 floor-mounted public charging station</strong> was deployed along <strong>Oman's highway corridors</strong>, in car parks in <strong>Cyprus</strong> and <strong>Peru</strong>, at an <strong>Italian police station</strong>, and in <strong>Türkiye</strong> alongside a localisation centre. Same hardware, five different answers to the question of what a site actually needs. These sit inside the 100+ customers in 22 countries.",
+   "cards": [
+    {
+     "kicker": "Challenge",
+     "html": "AC charging is not one use case. A highway corridor, a retail car park and a police station differ in dwell time, tariff and who is accountable when a unit fails."
+    },
+    {
+     "kicker": "Solution",
+     "html": "22 kW Type 2 floor-mounted public units — the same platform, mounted and configured per site, with localisation and service presence where the market needs it."
+    },
+    {
+     "kicker": "Outcome",
+     "html": "Plug-in AC charging in five markets, from first-time corridors in Oman to a mature European site where the operator simply wanted a unit that does not need attention."
+    }
+   ],
+   "sections": [
+    {
+     "h2": "Deployment summary",
+     "html": "<div class=\"table-wrap\">\n      <table class=\"data\">\n        <caption>22 kW Type 2 AC deployments by site type. Source: Anari Energy delivery records.</caption>\n        <thead><tr><th scope=\"col\">Market</th><th scope=\"col\">Site type</th><th scope=\"col\">What the site needed</th></tr></thead>\n        <tbody>\n          <tr><td>Oman</td><td>Highway corridors</td><td>Coverage where DC was not yet justified; charging while the driver stops</td></tr>\n          <tr><td>Cyprus</td><td>Public parking</td><td>Reliable overnight and dwell-time charging in a small market</td></tr>\n          <tr><td>Italy</td><td>Police station</td><td>Unattended operation where the site owner will not maintain hardware</td></tr>\n          <tr><td>Peru</td><td>Public parking lot</td><td>First AC coverage in a market entered before the fleet arrived</td></tr>\n          <tr><td>Türkiye</td><td>Public site + localisation centre</td><td>Local presence: spares, service and market-specific configuration</td></tr>\n        </tbody>\n      </table>\n    </div>"
+    },
+    {
+     "h2": "Why 22 kW AC is not a downgrade where DC is overkill",
+     "html": "<p>DC wins headlines; AC wins sites. Where a vehicle is parked for one to four hours, 22 kW delivers more energy per euro of installed capacity than a 120 kW cabinet the driver cannot use, because the car is leaving before the session finishes anyway.</p>\n    <p>The commercial logic is the grid connection. A fleet of 22 kW units can be added to an existing supply in stages; a single high-power DC cabinet often cannot be added at all without a distribution upgrade. That is why these deployments look small individually and are viable collectively.</p>\n    <figure class=\"card\">\n      <img class=\"card-img\" srcset=\"/assets/img/cases/turkiye-ac-wallbox-640.webp 640w, /assets/img/cases/turkiye-ac-wallbox.webp 1000w\" sizes=\"(min-width: 900px) 620px, 92vw\" src=\"/assets/img/cases/turkiye-ac-wallbox.webp\" alt=\"Anari 22 kW Type 2 AC wallbox charging station installed with a localisation centre in Turkiye\" width=\"1000\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n      <figcaption><p class=\"card-kicker\">Türkiye · Localisation centre</p><p>A localisation centre is what turns a shipment into a market: spares, service and market-specific configuration held in country.</p></figcaption>\n    </figure>"
+    },
+    {
+     "h2": "The pattern behind the five sites",
+     "html": "<p>None of these sites was won on peak power. Each was won on a constraint the operator could not solve with a bigger cabinet:</p>\n    <ul>\n      <li><strong>Oman</strong> — corridors needed coverage across distance; AC units let the operator place chargers where DC load could not be justified yet.</li>\n      <li><strong>Cyprus and Peru</strong> — small markets where a reliable unit with a service path behind it beats a powerful unit with no spares.</li>\n      <li><strong>Italy</strong> — a police station where the requirement was install-and-forget, not maximum throughput.</li>\n      <li><strong>Türkiye</strong> — the differentiator was the localisation centre. In any market, the second question after cost is who fixes it.</li>\n    </ul>"
+    }
+   ],
+   "deep_dives": [
+    {
+     "summary": "Deep dive: what the 22 kW platform actually is",
+     "html": "<p>The unit shipped to these five markets is a <strong>22 kW Type 2 floor-mounted public charging station</strong> — a pedestal-mounted AC charger using the Type 2 connector standard used across the Middle East, Europe, Türkiye and Latin America. Floor-mounted rather than wall-mounted matters at public sites: it does not depend on a building owner agreeing to put fixings into their wall, and it survives car-park traffic that a wall box does not.</p>\n      <p>All five deployments sit under Anari Energy's delivery to <strong>100+ customers in 22 countries</strong> since 2021, with local support from offices in Shenzhen, Xi'an, Istanbul and Dubai.</p>"
+    }
+   ],
+   "faq": [
+    {
+     "q": "Where has Anari deployed 22 kW AC charging?",
+     "a": "Five markets so far: Oman (highway corridors), Cyprus (public parking), Italy (a police station), Peru (a public parking lot) and Türkiye (public site alongside a localisation centre). All use the 22 kW Type 2 floor-mounted public charging station."
+    },
+    {
+     "q": "Is 22 kW AC enough compared with DC fast charging?",
+     "a": "It depends on dwell time. Where a vehicle parks for one to four hours, 22 kW delivers more usable energy per euro of installed capacity, and it can often be added to an existing supply without a distribution upgrade."
+    },
+    {
+     "q": "Why does a localisation centre matter for a charging project?",
+     "a": "Because the second question a buyer asks after price is who fixes it. A localisation centre holds spares, delivers service and configures product for the local market — which is what turns a one-off shipment into a supported installation."
+    }
+   ],
+   "cta_h3": "Need AC charging at sites that are not highways?",
+   "cta_p": "Tell us dwell patterns, connector standard and what supply you already have. We will size AC versus DC per site rather than selling one cabinet for every problem.",
+   "breadcrumb_name": "22 kW AC Wallbox Deployments",
+   "case_name": "22 kW AC deployments — Oman, Cyprus, Italy, Peru and Türkiye",
+   "case_description": "22 kW Type 2 floor-mounted AC public charging deployed across five markets and five site types",
+   "place": "Oman, Cyprus, Italy, Peru and Türkiye",
+   "article_about": "22 kW Type 2 AC public charging deployments across five markets",
+   "article_description": "Anari Energy 22 kW Type 2 floor-mounted AC charging deployed in Oman, Cyprus, Italy, Peru and Türkiye across highway, parking, public-sector and localisation-centre sites."
+  },
+  "off-grid-pv-ess": {
+   "slug": "off-grid-pv-ess",
+   "hero_basename": "china-pvess-park",
+   "title": "Off-Grid PV + BESS + EV Charging: China Park Case | Anari",
+   "meta": "An industrial park in China runs off-grid PV, battery storage, 22kW AC and 80/120kW DC charging as one system - solar canopies over the parking area included.",
+   "og_title": "Off-grid PV + storage + charging at an industrial park",
+   "og_desc": "Solar canopies over the parking area, battery storage and 22 kW AC plus 80/120 kW DC charging combined into one self-sustaining energy ecosystem.",
+   "eyebrow": "Case study · China · Off-grid PV + ESS",
+   "h1": "Off-grid PV, storage and charging as one system, not three purchases",
+   "lede": "An industrial park in China runs solar canopies, battery storage and 22 kW AC plus 80/120 kW DC charging as a single self-sustaining ecosystem — generation, storage and consumption designed together.",
+   "hero_image": "/assets/img/cases/china-pvess-park.webp",
+   "hero_size": [
+    1000,
+    667
+   ],
+   "og_image": "/assets/img/og/cases-off-grid-pv-ess.jpg",
+   "hero_alt": "Solar canopy and Anari EV charging infrastructure at an off-grid PV-ESS-Charging ecosystem in an industrial park in China",
+   "stats": [
+    [
+     "Off-grid",
+     "self-sustaining generation"
+    ],
+    [
+     "PV canopy",
+     "generation above the parking area"
+    ],
+    [
+     "22 kW AC + 80/120 kW DC",
+     "mixed charging output"
+    ],
+    [
+     "One system",
+     "generation · storage · consumption"
+    ]
+   ],
+   "tldr_label": "In brief — What was built in the China industrial park?",
+   "tldr_html": "An industrial park in China now runs a <strong>PV-ESS-Charging ecosystem</strong>: photovoltaic panels installed above the parking area, a battery energy storage system, and <strong>22 kW AC plus 80/120 kW DC charging</strong> — designed as one <strong>off-grid power generation system</strong> rather than three separate purchases. The goal was energy independence and on-site renewable use, and it sits inside the 100+ customers in 22 countries.",
+   "cards": [
+    {
+     "kicker": "Challenge",
+     "html": "Three systems bought separately produce three control systems, three failure modes and a site that cannot decide whether to store solar or put it in a car."
+    },
+    {
+     "kicker": "Solution",
+     "html": "PV above the parking area, battery storage, and AC plus DC charging designed together into one off-grid generation-and-consumption system."
+    },
+    {
+     "kicker": "Outcome",
+     "html": "A self-sustaining site: daylight generation serves charging or storage, grid dependence drops — with shaded parking as a side effect."
+    }
+   ],
+   "sections": [
+    {
+     "h2": "System configuration",
+     "html": "<div class=\"table-wrap\">\n      <table class=\"data\">\n        <caption>Off-grid PV-ESS-Charging configuration, China industrial park. Source: Anari Energy delivery records.</caption>\n        <thead><tr><th scope=\"col\">Subsystem</th><th scope=\"col\">What it does</th></tr></thead>\n        <tbody>\n          <tr><td>Photovoltaic array</td><td>Mounted above the parking area — generation and vehicle shading in one structure</td></tr>\n          <tr><td>Battery energy storage</td><td>Stores surplus daylight generation; discharges when solar drops or demand rises</td></tr>\n          <tr><td>AC charging</td><td class=\"num\">22 kW</td></tr>\n          <tr><td>DC charging</td><td class=\"num\">80 kW / 120 kW</td></tr>\n          <tr><td>System architecture</td><td>Off-grid: generate, store and charge on site</td></tr>\n        </tbody>\n      </table>\n    </div>"
+    },
+    {
+     "h2": "Why the parking area is the right place for the panels",
+     "html": "<p>A car park is a large, flat, unshaded surface that already carries structure — which makes it the cheapest place on most industrial sites to put PV. Panels above the bays turn one asset into two: generation and shade. Vehicles park under it, the site generates under the same footprint, and no additional land is consumed.</p>\n    <p>The alternative most sites take is a PV field elsewhere on the site plus charging equipment near the building. That works, but generation and load end up coupled through a longer electrical path and two separate control philosophies.</p>"
+    },
+    {
+     "h2": "The design decision that makes or breaks off-grid",
+     "html": "<p>Off-grid is not a hardware choice; it is an energy-balance choice. The system has to be sized against a consumption profile it cannot fully predict: how many vehicles, how much sun, how much storage, and what happens in a low-irradiance week.</p>\n    <ul>\n      <li><strong>Sizing the array against charging demand</strong>, not against the roof area available.</li>\n      <li><strong>Sizing storage against the evening peak</strong>, when solar is gone but vehicles are still there.</li>\n      <li><strong>Deciding which load is deferred</strong> when generation lags — EV charging is a flexible load, which is exactly why it pairs well with on-site generation.</li>\n    </ul>\n    <p>That is why the deployment was designed as one system. Bought separately, each supplier optimises its own component and the site inherits the seams.</p>"
+    }
+   ],
+   "deep_dives": [
+    {
+     "summary": "Deep dive: what energy independence means commercially",
+     "html": "<p>An industrial park that generates, stores and consumes on the same site is not only reducing carbon. It is converting an operating cost into a capital asset and reducing exposure to a grid connection it may not be able to expand.</p>\n      <p>For the park operator the visible benefit is charging availability; the structural benefit is that added charging capacity does not automatically mean an added utility application. The same logic applies where a grid upgrade is slow, expensive or simply not granted — often the binding constraint in emerging markets.</p>\n      <p>See the related <a href=\"/solutions/pv-ess-charging-solution\">PV + ESS + charging solution</a> for how the three subsystems are scoped together.</p>"
+    }
+   ],
+   "faq": [
+    {
+     "q": "What does PV-ESS-Charging mean?",
+     "a": "Photovoltaic generation, battery energy storage and EV charging designed as one system: the array generates, storage buffers, and charging consumes — with the goal of using on-site renewable energy instead of grid power."
+    },
+    {
+     "q": "Can EV charging run off-grid?",
+     "a": "Yes, if array, storage and charging are sized together against the site's consumption profile. EV charging is a flexible load, which makes it a good match for on-site generation and storage."
+    },
+    {
+     "q": "Why put solar panels above a parking area?",
+     "a": "A car park is large, flat and already has structure. Panels above the bays generate electricity and shade vehicles in the same footprint, without consuming additional land."
+    }
+   ],
+   "cta_h3": "Want charging without waiting for a grid upgrade?",
+   "cta_p": "Send us your electricity bill, parking footprint and vehicle mix. We will scope generation, storage and charging as one system instead of quoting three components.",
+   "breadcrumb_name": "Off-Grid PV + BESS + Charging",
+   "case_name": "Off-grid PV-ESS-Charging ecosystem — China industrial park",
+   "case_description": "Photovoltaic canopies, battery storage and 22 kW AC plus 80/120 kW DC charging combined into one off-grid system",
+   "place": "China",
+   "article_about": "Off-grid PV + BESS + EV charging ecosystem at an industrial park",
+   "article_description": "An industrial park in China runs photovoltaic canopies over its parking area, battery energy storage and 22 kW AC plus 80/120 kW DC charging as a single off-grid energy ecosystem."
+  },
+  "emerging-markets": {
+   "slug": "emerging-markets",
+   "hero_basename": "ethiopia-180kw",
+   "title": "EV Charging Where Policy Arrives First: 3 Markets | Anari",
+   "meta": "Ethiopia restricted petrol car imports before its charging network existed. How 540kW, a Bulgarian car park and an El Salvador factory answered it.",
+   "og_title": "When the policy arrives before the charging network",
+   "og_desc": "Ethiopia, Bulgaria and El Salvador: three markets where the constraint is not competition for share but the absence of anywhere to charge.",
+   "eyebrow": "Case study · Ethiopia · Bulgaria · El Salvador",
+   "h1": "When the policy arrives before the charging network",
+   "lede": "Ethiopia restricted petrol and diesel vehicle imports before it had anywhere to charge them. Bulgaria is building corridors while car parks build habits. El Salvador needed one site to cover both a delivery van and a truck.",
+   "hero_image": "/assets/img/cases/ethiopia-180kw.webp",
+   "hero_size": [
+    1102,
+    619
+   ],
+   "og_image": "/assets/img/og/cases-emerging-markets.jpg",
+   "hero_alt": "Engineers commissioning an Anari 180 kW DC fast charger at a commercial site in Ethiopia",
+   "stats": [
+    [
+     "540 kW",
+     "Ethiopia · 3 dual-gun 180 kW"
+    ],
+    [
+     "6 DC connectors",
+     "from three cabinets, one site"
+    ],
+    [
+     "4 cabinets · 120 kW",
+     "Bulgaria · 6 DC connectors"
+    ],
+    [
+     "40 + 180 kW",
+     "El Salvador · one industrial site"
+    ]
+   ],
+   "tldr_label": "In brief — What do these three markets have in common?",
+   "tldr_html": "Not competition for share — the absence of infrastructure. <strong>Ethiopia</strong> restricted imports of petrol and diesel vehicles before the charging network existed; we commissioned <strong>3 dual-gun 180 kW</strong> chargers (6 connectors, <strong>540 kW</strong>) at one commercial site. <strong>Bulgaria</strong>: 4 Castor cabinets, 120 kW total, 6 connectors, right-sized to an existing supply. <strong>El Salvador</strong>: a 40 kW dual-gun wallbox DC plus a 180 kW three-gun unit at one industrial facility. All inside the 100+ customers in 22 countries.",
+   "cards": [
+    {
+     "kicker": "Challenge",
+     "html": "In a mature market you compete for share. Here the question is different: where does the first fast-charging capacity come from, and who can operate it."
+    },
+    {
+     "kicker": "Solution",
+     "html": "Deployment shaped by the binding constraint at each site: maximum output where there is no network, right-sized distribution where the grid is the limit, mixed power where one site serves mixed vehicles."
+    },
+    {
+     "kicker": "Outcome",
+     "html": "Three sites that work with the constraint instead of against it — and a repeatable answer for markets where infrastructure arrives before demand."
+    }
+   ],
+   "sections": [
+    {
+     "h2": "Three markets, three binding constraints",
+     "html": "<div class=\"table-wrap\">\n      <table class=\"data\">\n        <caption>Deployment summary by market. Source: Anari Energy delivery records.</caption>\n        <thead><tr><th scope=\"col\">Market</th><th scope=\"col\">Configuration</th><th scope=\"col\">Binding constraint</th></tr></thead>\n        <tbody>\n          <tr><td>Ethiopia</td><td class=\"num\">3 × dual-gun 180 kW DC → 6 connectors, 540 kW</td><td>Almost no fast-charging capacity existed; output per site mattered most</td></tr>\n          <tr><td>Bulgaria</td><td class=\"num\">4 Castor cabinets (2 × 20 kW single-gun + 2 × 30–40 kW dual-gun) → 6 connectors, 120 kW</td><td>Existing commercial supply that could not carry one 120 kW cabinet</td></tr>\n          <tr><td>El Salvador</td><td class=\"num\">40 kW dual-gun wallbox DC + 180 kW three-gun DC</td><td>One industrial site serving both small vehicles and heavy loads</td></tr>\n        </tbody>\n      </table>\n    </div>"
+    },
+    {
+     "h2": "Ethiopia: a policy that closed the door on combustion imports",
+     "html": "<p>Ethiopia's import restriction on internal combustion vehicles is the most aggressive electrification policy any government has enacted — introduced in 2024 and extended in 2025. The logic is energy economics: the country generates the overwhelming majority of its electricity from hydro and spends scarce foreign currency on imported fuel.</p>\n    <p>That reasoning is sound at the level of a ministry. At the level of a driver it creates an immediate problem: vehicles are arriving and the places to charge them are not. As of April 2025, Addis Ababa had <strong>two operational ultra-fast charging stations</strong> serving a national fleet being forced to electrify by policy.</p>\n    <p>For an operator, that map is the entire commercial thesis. In a mature market you compete for share against a dozen networks. Here you build the only place a vehicle can charge at speed on a given corridor. The site we commissioned runs <strong>3 dual-gun 180 kW chargers — 6 connectors, 540 kW installed</strong>.</p>\n    <figure class=\"card\">\n      <img class=\"card-img\" srcset=\"/assets/img/cases/ethiopia-180kw-640.webp 640w, /assets/img/cases/ethiopia-180kw.webp 1102w\" sizes=\"(min-width: 900px) 620px, 92vw\" src=\"/assets/img/cases/ethiopia-180kw.webp\" alt=\"Engineers commissioning Anari 180 kW DC fast chargers in Ethiopia\" width=\"1102\" height=\"619\" loading=\"lazy\" decoding=\"async\">\n      <figcaption><p class=\"card-kicker\">Ethiopia · Commissioning</p><p>Two ultra-fast stations existed in the capital before this project. Three dual-gun cabinets at one commercial site changed the count.</p></figcaption>\n    </figure>"
+    },
+    {
+     "h2": "Bulgaria: right-sizing beats headline power",
+     "html": "<p>The obvious configuration for a commercial car park is one large cabinet. A Bulgarian parking operator ordered <strong>four Castor cabinets instead — two single-gun 20 kW and two dual-gun 30–40 kW — for six DC connectors at 120 kW total</strong>. Ordered September 2026, commissioned October 2026.</p>\n    <p>One 120 kW dual-gun cabinet would have carried the same headline number and delivered two connectors. The distributed layout won on three points:</p>\n    <ul>\n      <li><strong>Existing capacity.</strong> A city car park's supply is sized for lighting, lifts and HVAC. Four smaller feeds fit; one 120 kW load may trigger a distribution upgrade with a fee and a timeline the operator does not control.</li>\n      <li><strong>Redundancy.</strong> A single cabinet is a single point of failure for the whole site. Four cabinets mean a fault removes one or two connectors and leaves the car park earning.</li>\n      <li><strong>Habit, not throughput.</strong> Corridor charging is built by regulation and serves drivers passing through. A car park serves the driver already parked, where the goal is a charging habit among repeat visitors.</li>\n    </ul>"
+    },
+    {
+     "h2": "El Salvador: one site, two very different vehicles",
+     "html": "<p>The industrial facility needed charging for a delivery van and for something much larger at the same address. The answer was mixed power: a <strong>40 kW dual-gun wallbox DC</strong> for the light end and a <strong>180 kW three-gun integrated floor-mounted</strong> unit for heavy loads — both installed, commissioned and performance-tested before handover.</p>\n    <p>The deployment follows our entry into the Peruvian market and is part of a pattern across Latin America: sites that need a small amount of charging capability now, and a credible path to more later.</p>"
+    }
+   ],
+   "deep_dives": [
+    {
+     "summary": "Deep dive: what to buy when there is no market yet",
+     "html": "<p>In a market without infrastructure the usual procurement logic inverts. Buyers are not optimising utilisation against a known fleet; they are placing a first asset on a corridor that will only become busy later.</p>\n      <p>Three rules fall out of the deployments on this page:</p>\n      <ul>\n        <li><strong>Where there is no network, output per site matters most</strong> — one 180 kW cabinet serving six vehicles does more for a market than four 22 kW units nobody drives to.</li>\n        <li><strong>Where the grid is the limit, connectors beat kilowatts</strong> — distributed smaller cabinets on existing capacity open this year.</li>\n        <li><strong>Where one site serves mixed vehicles, mixed power is cheaper than over-specifying everything</strong> — a 40 kW unit plus a 180 kW unit instead of two 180 kW units.</li>\n      </ul>\n      <p>All of these sit inside the <strong>100+ customers in 22 countries</strong> we have delivered to since 2021.</p>"
+    }
+   ],
+   "faq": [
+    {
+     "q": "What is the biggest constraint on EV charging in emerging markets?",
+     "a": "Grid capacity and service support, not charger technology. In Bulgaria the limit was the existing car-park supply; in Ethiopia it was the near-total absence of fast charging; in El Salvador it was one site serving vehicles of very different sizes."
+    },
+    {
+     "q": "How much fast charging did Ethiopia have before this project?",
+     "a": "As of April 2025 the capital, Addis Ababa, had two operational ultra-fast charging stations capable of charging up to 32 vehicles simultaneously, for a national fleet being forced to electrify by an import restriction."
+    },
+    {
+     "q": "Why install four smaller DC cabinets instead of one large one?",
+     "a": "Four smaller feeds can use an existing supply while a single large cabinet may require a distribution upgrade. A fault also takes out one or two connectors instead of the whole site."
+    }
+   ],
+   "cta_h3": "Building the first charging site in a market?",
+   "cta_p": "Tell us what grid capacity you can actually obtain and which vehicles will arrive first. We will size output and connector count to the constraint, not to a brochure.",
+   "breadcrumb_name": "EV Charging Where Policy Arrives First",
+   "case_name": "Emerging-market EV charging — Ethiopia, Bulgaria, El Salvador",
+   "case_description": "540 kW of fast charging in Ethiopia, right-sized distributed DC in Bulgaria and mixed-power industrial charging in El Salvador",
+   "place": "Ethiopia, Bulgaria and El Salvador",
+   "article_about": "EV charging deployments where infrastructure arrives before demand",
+   "article_description": "How Ethiopia, Bulgaria and El Salvador each answered a different binding constraint on EV charging: absent fast-charging capacity, an existing car-park supply, and mixed-vehicle industrial demand."
+  }
+ }
+}

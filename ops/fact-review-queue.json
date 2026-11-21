@@ -1,0 +1,79 @@
+{
+ "generated_at": "2026-11-10",
+ "why": "2026-11-10 审计 P1：法规/市场页 Last verified 陈旧于 2026-09-19，需回一手源核对后再改日期（不伪造）",
+ "count": 6,
+ "items": [
+  {
+   "page": "/markets/nepal",
+   "last_verified": "2026-09-19"
+  },
+  {
+   "page": "/markets/kazakhstan",
+   "last_verified": "2026-09-19"
+  },
+  {
+   "page": "/markets/kenya",
+   "last_verified": "2026-09-19"
+  },
+  {
+   "page": "/markets/georgia",
+   "last_verified": "2026-09-19"
+  },
+  {
+   "page": "/regulations/index",
+   "last_verified": "2026-09-19"
+  },
+  {
+   "page": "/regulations/us-nevi",
+   "last_verified": "2026-09-19"
+  }
+ ],
+ "last_attempt": "2026-11-10",
+ "attempt_log": [
+  {
+   "at": "2026-11-10",
+   "page": "/regulations/eu-afir",
+   "result": "✅ 已核验并更新",
+   "method": "browser render of EUR-Lex CELEX:32023R1804",
+   "note": "400 kW 池 + 单枪 ≥150 kW + 60 km 与原文一致；**新增发现 2027-12-31 起每池 ≥600 kW**，已补进页面；Last verified → 2026-11-10"
+  },
+  {
+   "at": "2026-11-10",
+   "page": "/regulations/us-nevi",
+   "result": "⛔ 无法核验",
+   "method": "federalregister.gov 被 unblock 反爬拦截（cross-origin redirect）；FHWA AFC 页可达但不含 NEVI 最低标准条文",
+   "note": "保持 2026-09-19，不伪造日期。下一次用浏览器渲染 federalregister 原文再核"
+  },
+  {
+   "at": "2026-11-10",
+   "page": "/regulations/index",
+   "result": "⏸ 依赖上面两条",
+   "note": "当 AFIR/NEVI 都核完再动"
+  },
+  {
+   "at": "2026-11-10",
+   "page": "/markets/nepal",
+   "result": "⛔ 无法核验",
+   "method": "本地监管源需人工/浏览器；reg_watch 仅覆盖 EU/CZ",
+   "note": "列入 A04 周三档的人工清单"
+  },
+  {
+   "at": "2026-11-10",
+   "page": "/markets/kazakhstan",
+   "result": "⛔ 无法核验",
+   "note": "同上"
+  },
+  {
+   "at": "2026-11-10",
+   "page": "/markets/kenya",
+   "result": "⛔ 无法核验",
+   "note": "同上（EPRA 站点超时）"
+  },
+  {
+   "at": "2026-11-10",
+   "page": "/markets/georgia",
+   "result": "⛔ 无法核验",
+   "note": "同上"
+  }
+ ]
+}

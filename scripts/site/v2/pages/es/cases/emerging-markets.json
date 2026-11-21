@@ -1,0 +1,103 @@
+{
+  "slug": "es/cases/emerging-markets",
+  "url": "/es/cases/emerging-markets.html",
+  "breadcrumb": "Cuando la política llega antes que la red de car",
+  "locale": "es",
+  "title": "Cuando la política llega antes que la red de carga | Anari",
+  "meta": "Lo que comparten estos mercados no es competencia por cuota, sino ausencia de infraestructura. Etiopía restringió la importación de vehículo Detalles y especifi",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/emerging-markets"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/emerging-markets"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/emerging-markets"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Caso",
+      "h1": "Cuando la política llega antes que la red de carga",
+      "lede": "Lo que comparten estos mercados no es competencia por cuota, sino ausencia de infraestructura. Etiopía restringió la importación de vehículos diésel y gasolina antes de que existiera la red: pusimos en servicio 3 cargadores DC de 180 kW de dos pistolas (6 conectores, 540 kW) en un sitio comercial. Bulgaria: 4 armarios Castor.",
+      "image": "/assets/img/v2/scene-commercial-640.webp",
+      "credit": "La versión completa del análisis está en inglés",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Todos los proyectos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/emerging-markets"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Análisis",
+      "h2": "Restricción → solución → resultado",
+      "lede": "El análisis técnico completo, con fórmulas y tablas, está en la página en inglés.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Restricción",
+          "text": "La demanda la creó la política; la infraestructura aún no existe."
+        },
+        {
+          "no": "02",
+          "title": "Qué hicimos",
+          "text": "Puesta en servicio rápida donde otros esperan a que el mercado madure."
+        },
+        {
+          "no": "03",
+          "title": "Resultado",
+          "text": "3 × 180 kW DC (540 kW) en Etiopía; 4 × Castor en Bulgaria; El Salvador."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Parámetros del sitio",
+      "h2": "Cuando la política llega antes que — parámetros",
+      "rows": [
+        {
+          "k": "Ethiopia",
+          "v": "3 × dual-gun 180 kW DC → 6 connectors, 540 kW"
+        },
+        {
+          "k": "Bulgaria",
+          "v": "4 Castor cabinets (2 × 20 kW single-gun + 2 × 30–40 kW dual-gun) → 6 connectors, 120 kW"
+        },
+        {
+          "k": "El Salvador",
+          "v": "40 kW dual-gun wallbox DC + 180 kW three-gun DC"
+        }
+      ],
+      "caption": "Cuando la política llega antes que la red de carga"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Un sitio parecido? Envíe los datos.",
+      "lede": "Basta con el país, la potencia disponible y cómo operará el sitio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/emerging-markets"
+        }
+      ]
+    }
+  ]
+}

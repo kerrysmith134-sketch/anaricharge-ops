@@ -1,0 +1,152 @@
+{
+  "slug": "es/products/vulco",
+  "url": "/es/products/vulco.html",
+  "breadcrumb": "Vulco",
+  "locale": "es",
+  "title": "Vulco — cargador DC modular | Anari",
+  "meta": "Vulco: cargador DC modular, 60–480 kW. Ciclo completo: diseño, suministro, puesta en marcha y operación. Anari. Anari. Anari. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/vulco"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/vulco"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/vulco"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Producto · Vulco",
+      "h1": "Vulco — cargador DC modular, 60–480 kW",
+      "lede": "Sitios con crecimiento previsto: empezar con la potencia disponible y añadir módulos cuando la utilización justifique ampliar la red.",
+      "image": "/assets/img/products/v2/vulco-60-480kw.webp",
+      "image1024": "/assets/img/products/v2/vulco-60-480kw-1024.webp",
+      "imageAlt": "Vulco — fotografía del producto",
+      "note": "Valores en la notación original del fabricante; la variante la decide la restricción de su sitio.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ficha completa",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Especificaciones",
+      "h2": "Vulco — especificaciones",
+      "lede": "Configuración publicada.",
+      "rows": [
+        {
+          "k": "Rango de potencia",
+          "v": "60–480 kW (modular; 120 → 480 kW upgrade path)"
+        },
+        {
+          "k": "Conectores DC",
+          "v": "2 × CCS2 (200 A) or GB/T (250 A)"
+        },
+        {
+          "k": "Conector AC opcional",
+          "v": "Type 2, 7 kW or 22 kW"
+        },
+        {
+          "k": "Rendimiento pico",
+          "v": "96%"
+        },
+        {
+          "k": "Interfaz",
+          "v": "10″ HD touchscreen"
+        },
+        {
+          "k": "Protocolo de red",
+          "v": "OCPP 1.6J native, OCPP 2.0.1 compatible"
+        },
+        {
+          "k": "Certificados y ensayos",
+          "v": "CE · TÜV · 48-hour salt spray · semi-potted electronics"
+        },
+        {
+          "k": "Opciones climáticas",
+          "v": "Reserved heater interface for sub-zero regions"
+        }
+      ],
+      "caption": "Vulco"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Dónde encaja",
+      "h2": "La restricción que responde esta familia",
+      "lede": "Sitios con crecimiento previsto: empezar con la potencia disponible y añadir módulos cuando la utilización justifique ampliar la red.",
+      "items": [
+        {
+          "title": "Despliegue típico",
+          "text": "Se elige cuando la restricción del sitio coincide con la familia."
+        },
+        {
+          "title": "Qué decide la variante",
+          "text": "Capacidad de red, ciclo, clima y estándar de conector."
+        },
+        {
+          "title": "Qué enviarnos",
+          "text": "kVA disponibles, vehículos al día, estancia y temperatura."
+        },
+        {
+          "title": "Cómo se entrega",
+          "text": "Dentro del alcance llave en mano: diseño, permisos, supervisión y puesta en marcha."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Familias relacionadas",
+      "h2": "A menudo se especifican juntas",
+      "items": [
+        {
+          "href": "/es/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/es/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · CCS2 + GB/T"
+        },
+        {
+          "href": "/es/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Almacenamiento · 120 / 261 / 418 kWh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Envíe los parámetros del sitio y devolvemos una configuración Vulco.",
+      "lede": "Con potencia disponible, ciclo y clima es suficiente.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver instalaciones",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ]
+}

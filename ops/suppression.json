@@ -1,0 +1,34 @@
+{
+ "_note": "统一抑制台账（ANARI-0094 的轻量实现）。所有对外发送前必须查这里：邮箱、域名、机构名任一命中即 HOLD。source 记录命中来源（退订/退信/明确拒绝/内部测试/法务要求）。",
+ "updated_at": "2026-11-13",
+ "entries": [
+  {
+   "value": "editorial@smart-energy.com",
+   "type": "email",
+   "reason": "hard bounce: policy blocked 5.7.0 (Instantly WAVE1, 2026-11-09)",
+   "source": "manual",
+   "added_at": "2026-11-12"
+  },
+  {
+   "value": "info@energy-storage.news",
+   "type": "email",
+   "reason": "hard bounce: policy blocked 5.7.0 (Instantly WAVE3, 2026-11-12)",
+   "source": "manual",
+   "added_at": "2026-11-13"
+  },
+  {
+   "value": "mattg@powermag.com",
+   "type": "email",
+   "reason": "hard bounce (Instantly WAVE3, lead status=-1, 2026-11-13)",
+   "source": "manual",
+   "added_at": "2026-11-13"
+  },
+  {
+   "value": "info@cleanenergywire.org",
+   "type": "email",
+   "reason": "hard bounce (Instantly WAVE3, lead status=-1, 2026-11-13)",
+   "source": "manual",
+   "added_at": "2026-11-13"
+  }
+ ]
+}

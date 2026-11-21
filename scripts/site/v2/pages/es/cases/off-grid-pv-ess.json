@@ -1,0 +1,111 @@
+{
+  "slug": "es/cases/off-grid-pv-ess",
+  "url": "/es/cases/off-grid-pv-ess.html",
+  "breadcrumb": "FV aislada, almacenamiento y carga como un siste",
+  "locale": "es",
+  "title": "FV aislada, almacenamiento y carga como un sistema, no t | A",
+  "meta": "Un parque industrial en China opera un conjunto FV-almacenamiento-carga: paneles sobre el aparcamiento, un sistema de baterías y carga AC de Detalles y especifi",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/off-grid-pv-ess"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/off-grid-pv-ess"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/off-grid-pv-ess"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Caso",
+      "h1": "FV aislada, almacenamiento y carga como un sistema, no tres compras",
+      "lede": "Un parque industrial en China opera un conjunto FV-almacenamiento-carga: paneles sobre el aparcamiento, un sistema de baterías y carga AC de 22 kW más DC de 80/120 kW, diseñados como una sola instalación de generación aislada.",
+      "image": "/assets/img/v2/scene-offgrid-640.webp",
+      "credit": "La versión completa del análisis está en inglés",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Todos los proyectos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/off-grid-pv-ess"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Análisis",
+      "h2": "Restricción → solución → resultado",
+      "lede": "El análisis técnico completo, con fórmulas y tablas, está en la página en inglés.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Restricción",
+          "text": "No hay conexión de red utilizable para la potencia requerida."
+        },
+        {
+          "no": "02",
+          "title": "Qué hicimos",
+          "text": "Generación, almacenamiento y carga se dimensionan juntos, no por partes."
+        },
+        {
+          "no": "03",
+          "title": "Resultado",
+          "text": "El sitio opera aislado; el almacenamiento decide cuántos puestos se pueden encender."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Parámetros del sitio",
+      "h2": "FV aislada, almacenamiento y carga — parámetros",
+      "rows": [
+        {
+          "k": "Campo fotovoltaico",
+          "v": "Mounted above the parking area — generation and vehicle shading in one structure"
+        },
+        {
+          "k": "Almacenamiento de energía",
+          "v": "Stores surplus daylight generation; discharges when solar drops or demand rises"
+        },
+        {
+          "k": "Carga AC",
+          "v": "22 kW"
+        },
+        {
+          "k": "Carga DC",
+          "v": "80 kW / 120 kW"
+        },
+        {
+          "k": "Arquitectura del sistema",
+          "v": "Off-grid: generate, store and charge on site"
+        }
+      ],
+      "caption": "FV aislada, almacenamiento y carga como un sistema"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Un sitio parecido? Envíe los datos.",
+      "lede": "Basta con el país, la potencia disponible y cómo operará el sitio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/off-grid-pv-ess"
+        }
+      ]
+    }
+  ]
+}

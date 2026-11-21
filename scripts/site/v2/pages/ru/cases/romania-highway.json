@@ -1,0 +1,115 @@
+{
+  "slug": "ru/cases/romania-highway",
+  "url": "/ru/cases/romania-highway.html",
+  "breadcrumb": "Первая поставка в Румынию: пуск 180 кВт в эпоху ",
+  "locale": "ru",
+  "title": "Первая поставка в Румынию: пуск 180 кВт в эпоху AFIR | Anari",
+  "meta": "Румынский CPO выбрал нас для расширения сети на трассах. Мы поставили зарядки Vulco DC 180 кВт в двух- и трёхпостовом исполнении на площадка Подробности и парам",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/romania-highway"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/romania-highway"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/romania-highway"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Кейс",
+      "h1": "Первая поставка в Румынию: пуск 180 кВт в эпоху AFIR",
+      "lede": "Румынский CPO выбрал нас для расширения сети на трассах. Мы поставили зарядки Vulco DC 180 кВт в двух- и трёхпостовом исполнении на площадках сервиса и провели весь пуск с собственными инженерами на месте.",
+      "image": "/assets/img/v2/case-romania-640.webp",
+      "credit": "Полная версия анализа — на английском",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Все проекты",
+          "href": "/ru/cases/"
+        },
+        {
+          "label": "Полный разбор (EN)",
+          "href": "/cases/romania-highway"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Разбор",
+      "h2": "Ограничение → решение → результат",
+      "lede": "Полный технический разбор с формулами и таблицами — на английской странице.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Ограничение",
+          "text": "Требования AFIR и сроки согласований — до того как оборудование вообще включат."
+        },
+        {
+          "no": "02",
+          "title": "Что сделали",
+          "text": "Инженеры Anari на месте в ходе пуска, а не дистанционные консультации."
+        },
+        {
+          "no": "03",
+          "title": "Результат",
+          "text": "Первая поставка в стране стала для нас шаблоном пуска в регионе ЕС."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Параметры площадки",
+      "h2": "Первая поставка в Румынию: пуск 18 — параметры",
+      "rows": [
+        {
+          "k": "Изделие",
+          "v": "Vulco DC Series integrated floor-mounted fast charger"
+        },
+        {
+          "k": "Мощность",
+          "v": "180 kW DC"
+        },
+        {
+          "k": "Конфигурации",
+          "v": "Dual-gun and three-gun (2 × DC + 1 × AC Type 2)"
+        },
+        {
+          "k": "Тип площадки",
+          "v": "Highway service areas"
+        },
+        {
+          "k": "Модель поддержки",
+          "v": "Embedded Anari commissioning engineers until acceptance sign-off"
+        },
+        {
+          "k": "Оператор",
+          "v": "Leading Romanian CPO (first cooperation)"
+        }
+      ],
+      "caption": "Первая поставка в Румынию: пуск 180 кВт в эпоху AF"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Следующий шаг",
+      "h2": "Похожая площадка? Пришлите вводные.",
+      "lede": "Достаточно страны, доступной мощности и того, как площадка будет работать.",
+      "actions": [
+        {
+          "label": "Обсудить проект",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Полный разбор (EN)",
+          "href": "/cases/romania-highway"
+        }
+      ]
+    }
+  ]
+}

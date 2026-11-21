@@ -1,0 +1,99 @@
+{
+  "slug": "es/cases/cold-climate",
+  "url": "/es/cases/cold-climate.html",
+  "breadcrumb": "Carga DC en frío: arranca a menos 30 °C",
+  "locale": "es",
+  "title": "Carga DC en frío: arranca a menos 30 °C | Anari",
+  "meta": "El norte y el centro de Kazajistán mantienen −30 °C durante semanas. Pusimos en servicio seis cargadores DC de 120 kW de dos pistolas en un  Detalles y especifi",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/cold-climate"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/cold-climate"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/cold-climate"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Caso",
+      "h1": "Carga DC en frío: arranca a menos 30 °C",
+      "lede": "El norte y el centro de Kazajistán mantienen −30 °C durante semanas. Pusimos en servicio seis cargadores DC de 120 kW de dos pistolas en un aparcamiento comercial en agosto de 2026; en Georgia, el segundo operador de red del país tomó DC de 120 y 180 kW.",
+      "image": "/assets/img/v2/case-cold-640.webp",
+      "credit": "La versión completa del análisis está en inglés",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Todos los proyectos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/cold-climate"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Análisis",
+      "h2": "Restricción → solución → resultado",
+      "lede": "El análisis técnico completo, con fórmulas y tablas, está en la página en inglés.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Restricción",
+          "text": "−30 °C durante semanas: un armario convencional no arranca."
+        },
+        {
+          "no": "02",
+          "title": "Qué hicimos",
+          "text": "Calefacción de envolvente y margen de arranque para frío prolongado."
+        },
+        {
+          "no": "03",
+          "title": "Resultado",
+          "text": "6 × 120 kW (12 conectores) en Kazajistán + red en Georgia."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Parámetros del sitio",
+      "h2": "Carga DC en frío: arranca a menos  — parámetros",
+      "rows": [
+        {
+          "k": "Kazakhstan · commercial parking",
+          "v": "6 × 120 kW dual-gun DC → 12 connectors"
+        },
+        {
+          "k": "Georgia · charging network CPO",
+          "v": "120 kW and 180 kW dual-gun DC"
+        }
+      ],
+      "caption": "Carga DC en frío: arranca a menos 30 °C"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Un sitio parecido? Envíe los datos.",
+      "lede": "Basta con el país, la potencia disponible y cómo operará el sitio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/cold-climate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "slug": "cases",
+  "url": "/cases/",
+  "breadcrumb": "Projects",
+  "title": "EV Charging Project Evidence and Cases | Anari Energy",
+  "meta": "Deployed charging projects with site context, configuration and outcome: bus depots, highway corridors, hot-climate and cold-climate sites across 22 countries.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Projects",
+      "h1": "Every claim on this site should be checkable against a site.",
+      "lede": "These are 9 documented case studies, not concepts: the site context, the configuration that was installed, and what happened after commissioning — including the conditions the equipment had to survive.",
+      "image": "/assets/img/v2/hero-cases-1920.webp",
+      "credit": "Dual-gun 120 kW corridor deployment, Central Asia",
+      "actions": [
+        {
+          "label": "Browse cases",
+          "href": "#cases"
+        },
+        {
+          "label": "Talk about a similar site",
+          "href": "/inquiry"
+        }
+      ],
+      "facts": [
+        {
+          "value": "22",
+          "label": "countries served"
+        },
+        {
+          "value": "100+",
+          "label": "customers since 2021"
+        },
+        {
+          "value": "45 °C+",
+          "label": "harshest ambient in service"
+        },
+        {
+          "value": "−30 °C",
+          "label": "coldest site in operation"
+        }
+      ]
+    },
+    {
+      "type": "sceneGrid",
+      "eyebrow": "Filter by the constraint that drove the design",
+      "h2": "What was hard about each project",
+      "lede": "Cases are grouped by the problem they had to solve, because that is what makes them comparable to your site.",
+      "items": [
+        {
+          "href": "/cases/bus-depot-czechia",
+          "image": "/assets/img/v2/scene-fleet-640.webp",
+          "title": "Twelve-unit bus depot",
+          "text": "Czechia · overnight duty cycle, 12 DC units, canopy layout.",
+          "tags": {
+            "region": "europe",
+            "constraint": "duty-cycle",
+            "power": "dc-120"
+          }
+        },
+        {
+          "href": "/cases/jordan-160kw",
+          "image": "/assets/img/v2/case-jordan-640.webp",
+          "title": "160 kW corridor, 45 °C+",
+          "text": "Jordan · sustained rated output in extreme ambient heat.",
+          "tags": {
+            "region": "mena",
+            "constraint": "heat",
+            "power": "dc-160"
+          }
+        },
+        {
+          "href": "/cases/cambodia-240kw",
+          "image": "/assets/img/v2/case-cambodia-640.webp",
+          "title": "240 kW in monsoon season",
+          "text": "Cambodia · water ingress control and grid-limited sizing.",
+          "tags": {
+            "region": "asia",
+            "constraint": "monsoon",
+            "power": "dc-240"
+          }
+        },
+        {
+          "href": "/cases/hot-climate",
+          "image": "/assets/img/v2/scene-hotclimate-640.webp",
+          "title": "Hot, humid continuous duty",
+          "text": "Hot-climate continuous duty · monsoon-season water ingress control.",
+          "tags": {
+            "region": "mena",
+            "constraint": "heat",
+            "power": "dc-120"
+          }
+        },
+        {
+          "href": "/cases/romania-highway",
+          "image": "/assets/img/v2/case-romania-640.webp",
+          "title": "Highway service area",
+          "text": "Romania · first Anari delivery, commissioning supported on site.",
+          "tags": {
+            "region": "europe",
+            "constraint": "grid",
+            "power": "dc-180"
+          }
+        },
+        {
+          "href": "/cases/cold-climate",
+          "image": "/assets/img/v2/case-cold-640.webp",
+          "title": "Cold-climate operation",
+          "text": "Down to −30 °C · charging behaviour and enclosure heating.",
+          "tags": {
+            "region": "cis",
+            "constraint": "cold",
+            "power": "dc-120"
+          }
+        },
+        {
+          "href": "/cases/off-grid-pv-ess",
+          "image": "/assets/img/v2/scene-offgrid-640.webp",
+          "title": "Off-grid PV + storage",
+          "text": "No usable grid connection · storage sized before the charger.",
+          "tags": {
+            "region": "asia",
+            "constraint": "no-grid",
+            "power": "bess"
+          }
+        },
+        {
+          "href": "/cases/emerging-markets",
+          "image": "/assets/img/v2/scene-commercial-640.webp",
+          "title": "Emerging-market corridors",
+          "text": "Central Asia · dual-gun DC where service access is the constraint.",
+          "tags": {
+            "region": "africa",
+            "constraint": "policy",
+            "power": "dc-180"
+          }
+        }
+      ],
+      "filters": {
+        "key": "cases",
+        "reset": "/cases/",
+        "groups": [
+          {
+            "label": "Region",
+            "options": [
+              {
+                "value": "europe",
+                "label": "Europe"
+              },
+              {
+                "value": "mena",
+                "label": "Middle East"
+              },
+              {
+                "value": "asia",
+                "label": "Asia"
+              },
+              {
+                "value": "africa",
+                "label": "Africa"
+              },
+              {
+                "value": "cis",
+                "label": "Caucasus & Central Asia"
+              }
+            ]
+          },
+          {
+            "label": "Binding constraint",
+            "options": [
+              {
+                "value": "heat",
+                "label": "Heat"
+              },
+              {
+                "value": "cold",
+                "label": "Cold"
+              },
+              {
+                "value": "monsoon",
+                "label": "Monsoon"
+              },
+              {
+                "value": "grid",
+                "label": "Weak grid"
+              },
+              {
+                "value": "no-grid",
+                "label": "No grid"
+              },
+              {
+                "value": "duty-cycle",
+                "label": "Duty cycle"
+              },
+              {
+                "value": "policy",
+                "label": "Policy-first"
+              }
+            ]
+          },
+          {
+            "label": "Scale",
+            "options": [
+              {
+                "value": "dc-120",
+                "label": "~120 kW"
+              },
+              {
+                "value": "dc-160",
+                "label": "160 kW"
+              },
+              {
+                "value": "dc-180",
+                "label": "180 kW"
+              },
+              {
+                "value": "dc-240",
+                "label": "240 kW"
+              },
+              {
+                "value": "bess",
+                "label": "PV + storage"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "evidence",
+      "alt": true,
+      "eyebrow": "How to read a case page",
+      "h2": "Same four facts on every project",
+      "lede": "A case page is only useful if it states the conditions. Each one carries: what the site needed, what was installed, the constraint that shaped the decision, and the measured outcome.",
+      "image": "/assets/img/v2/proof-factory-1024.webp",
+      "imageAlt": "ANARI chargers staged on the production floor before shipment",
+      "caption": "Units staged before shipment — the same hardware that appears in the case pages.",
+      "kv": [
+        {
+          "k": "Site context",
+          "v": "Country, site type, available grid capacity"
+        },
+        {
+          "k": "Configuration",
+          "v": "Families, ratings, connector standard, storage if any"
+        },
+        {
+          "k": "Binding constraint",
+          "v": "The one factor that decided the design"
+        },
+        {
+          "k": "Outcome",
+          "v": "What happened after commissioning, including limits"
+        }
+      ],
+      "action": {
+        "label": "Browse all cases",
+        "href": "/cases/bus-depot-czechia"
+      }
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Markets",
+      "h2": "Where these deployments are",
+      "lede": "Country briefs cover the local constraint that decides projects there — grid capacity, tariffs, certification or climate.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Jordan",
+          "text": "Extreme ambient heat and transformer-limited sites."
+        },
+        {
+          "no": "02",
+          "title": "Cambodia",
+          "text": "Monsoon season, water ingress and grid reliability."
+        },
+        {
+          "no": "03",
+          "title": "Romania",
+          "text": "EU procurement, highway service areas and AFIR timing."
+        },
+        {
+          "no": "04",
+          "title": "Central Asia",
+          "text": "Corridor distances and service access."
+        }
+      ],
+      "action": {
+        "label": "Open market briefs",
+        "href": "/markets/"
+      }
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Next step",
+      "h2": "Have a site like one of these?",
+      "lede": "Send the country, available capacity and how the site will be operated. We will answer with the closest comparable deployment first.",
+      "actions": [
+        {
+          "label": "Start a project",
+          "href": "/inquiry"
+        },
+        {
+          "label": "Read the measured data",
+          "href": "/data/findings-2026"
+        }
+      ]
+    }
+  ]
+}

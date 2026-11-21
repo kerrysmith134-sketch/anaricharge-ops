@@ -1,0 +1,142 @@
+{
+  "slug": "products/aquila",
+  "url": "/products/aquila.html",
+  "breadcrumb": "Aquila",
+  "title": "Aquila — DC charger with integrated advertising screen | Ana",
+  "meta": "Aquila: A 60–240 kW DC charger with a 32-inch display on the same enclosure. The screen does not change the charging performance; it changes the site's revenu",
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Product · Aquila",
+      "h1": "Aquila — DC charger with integrated advertising screen",
+      "lede": "A 60–240 kW DC charger with a 32-inch display on the same enclosure. The screen does not change the charging performance; it changes the site's revenue model.",
+      "image": "/assets/img/products/v2/aquila-ads-60-240kw.webp",
+      "image1024": "/assets/img/products/v2/aquila-ads-60-240kw-1024.webp",
+      "imageAlt": "Aquila product photograph",
+      "note": "Specifications below are the published configuration; the binding constraint on your site decides the variant.",
+      "actions": [
+        {
+          "label": "Request a configuration",
+          "href": "/inquiry"
+        },
+        {
+          "label": "Full datasheet",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Specifications",
+      "h2": "Aquila specifications",
+      "lede": "Power steps, display specification and monetisation options.",
+      "rows": [
+        {
+          "k": "DC output power",
+          "v": "60 / 120 / 160 / 180 / 200 / 240 kW"
+        },
+        {
+          "k": "Connectors",
+          "v": "2 × DC guns: CCS2 (200 A) and GB/T (250 A)"
+        },
+        {
+          "k": "Advertising display",
+          "v": "32-inch HD true-color anti-glare LCD"
+        },
+        {
+          "k": "Ad formats",
+          "v": "Image ads standard; video ads on custom order"
+        },
+        {
+          "k": "Monetization model",
+          "v": "Charging fees + ad sales / merchant conversion commissions"
+        },
+        {
+          "k": "Network protocol",
+          "v": "OCPP 1.6J"
+        },
+        {
+          "k": "Certification",
+          "v": "CE · CB"
+        },
+        {
+          "k": "Dimensions (W×D×H)",
+          "v": "800 × 500 × 1,880 mm · 230–330 kg"
+        }
+      ],
+      "caption": "Aquila — published specifications",
+      "alt": false
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Where it fits",
+      "h2": "The constraint this family answers",
+      "lede": "High-footfall commercial sites where advertising or merchant revenue can carry part of the business case.",
+      "items": [
+        {
+          "title": "Typical deployment",
+          "text": "Chosen when the site constraint matches the family, not because it is the cheapest unit."
+        },
+        {
+          "title": "What decides the variant",
+          "text": "Grid capacity, duty cycle, climate envelope and connector standard."
+        },
+        {
+          "title": "What to send us",
+          "text": "Available kVA, vehicles served per day, dwell time and ambient temperature range."
+        },
+        {
+          "title": "How it is delivered",
+          "text": "Within the turnkey scope: design, permits, installation supervision, commissioning and handover."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Related families",
+      "h2": "Often specified together",
+      "items": [
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · dual standard"
+        },
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Storage · 120 / 261 / 418 kWh"
+        }
+      ],
+      "action": {
+        "label": "Compare all families",
+        "href": "/products/"
+      }
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Next step",
+      "h2": "Send the site parameters and we will return a Aquila configuration.",
+      "lede": "Available capacity, duty cycle and climate are enough to narrow the variant in one exchange.",
+      "actions": [
+        {
+          "label": "Request a configuration",
+          "href": "/inquiry"
+        },
+        {
+          "label": "See deployed sites",
+          "href": "/cases/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "_note": "ANARI-0093 的轻量实现：按法域给出『冷外联/培育』的可做性与必要门。这是运营口径，不是法律意见；任何超过『单封个性化媒体 pitch』的批量动作都必须先人工复核。",
+  "version": "2026-11-08",
+  "principles": [
+    "只联系公开可查的职业邮箱（编辑/投稿/企业业务邮箱），不买名单、不猜个人邮箱",
+    "每封信必须能被回答『为什么发给这个人』（有公开选题/栏目/招标等依据）",
+    "首封即给退订与不再联系口径；命中抑制台账立即 HOLD",
+    "批量发送前过 A13 送达率门（退信>3%/投诉>0.1% 暂停）",
+    "不在同一法域同时用两种口径（如 EU 说 legitimate interest、同一封又说 consent）"
+  ],
+  "markets": [
+    {"region": "EU", "countries": ["Romania", "Czechia", "Bulgaria", "Italy"],
+     "basis": "GDPR 6(1)(f) 正当利益（B2B 职业邮箱、内容高度相关、单封个性化）",
+     "requirements": ["首封含身份与目的", "清晰退订/反对机制", "保留依据记录"],
+     "risk": "medium", "approval": "batch>20 封需人工复核"},
+    {"region": "UK", "countries": ["United Kingdom"],
+     "basis": "UK GDPR + PECR（B2B corporate subscriber 例外）",
+     "requirements": ["身份与目的", "退订"], "risk": "medium", "approval": "同上"},
+    {"region": "Gulf", "countries": ["Jordan", "Lebanon", "Israel", "Saudi Arabia", "UAE", "Oman"],
+     "basis": "各国数据保护法（UAE PDPL / Saudi PDPL 等）+ 反垃圾通信规定",
+     "requirements": ["先确认是否有当地 B2B 例外", "避免群发措辞", "优先走公开投稿入口而非冷邮件"],
+     "risk": "medium-high", "approval": "每批需人工确认一次"},
+    {"region": "Asia", "countries": ["Cambodia", "China"],
+     "basis": "中国《个人信息保护法》对营销有单独同意要求；柬埔寨规则较宽但需身份披露",
+     "requirements": ["中国境内收件人：不做冷邮件营销，只走公开合作/展会/既有关系",
+                      "柬埔寨：身份与退订"],
+     "risk": "high", "approval": "中国境内一律人工决策"},
+    {"region": "Africa", "countries": ["Ethiopia", "Kenya", "El Salvador"],
+     "basis": "Kenya DPA 2019（正当利益可用但需透明）；埃塞/萨尔瓦多规则较弱",
+     "requirements": ["身份与退订", "保留联系依据"], "risk": "low-medium", "approval": "批量>20 复核"},
+    {"region": "LatAm", "countries": ["Peru"],
+     "basis": "Peru Ley 29733（对营销邮件要求同意，例外窄）",
+     "requirements": ["严格：只联系公开业务邮箱且内容为合作提案", "首封即给不再联系口径"],
+     "risk": "medium-high", "approval": "批量>10 复核"}
+  ],
+  "hard_blocks": [
+    "已退订/明确拒绝/投诉过的人（查 ops/suppression.json）",
+    "个人邮箱（gmail/qq/163 等）用于营销",
+    "购买或抓取的名单",
+    "未成年人相关场景"
+  ]
+}

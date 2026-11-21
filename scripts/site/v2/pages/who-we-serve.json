@@ -1,0 +1,119 @@
+{
+  "slug": "who-we-serve",
+  "url": "/who-we-serve/",
+  "breadcrumb": "Who we serve",
+  "title": "Who We Serve: Contractors, Fleets, Energy, CPOs | Anari",
+  "meta": "Four customer types we serve in emerging EV markets: engineering contractors, fleet operators, energy and real estate firms, independent CPO entrepreneurs.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Who we serve",
+      "h1": "You bring the site, the fleet, the capital or the plan.",
+      "lede": "Four starting points, one destination: a charging business you own and operate. The delivery scope is the same; what changes is which asset you already have and what you are missing.",
+      "image": "/assets/img/v2/hero-serving-1920.webp",
+      "credit": "Corridor deployment · dual-gun 120 kW, Central Asia",
+      "actions": [
+        {
+          "label": "Find your profile",
+          "href": "#profiles"
+        },
+        {
+          "label": "Talk to us",
+          "href": "/inquiry"
+        }
+      ],
+      "facts": [
+        {
+          "value": "35–40%",
+          "label": "of demand · engineering contractors"
+        },
+        {
+          "value": "25–30%",
+          "label": "of demand · fleet operators"
+        },
+        {
+          "value": "15–20%",
+          "label": "of demand · energy & real estate"
+        },
+        {
+          "value": "10–15%",
+          "label": "of demand · independent CPOs"
+        }
+      ]
+    },
+    {
+      "type": "sceneGrid",
+      "eyebrow": "The four profiles",
+      "h2": "Same destination, different starting line",
+      "lede": "Shares above are the demand mix across our turnkey program in emerging markets — not a ranking of who matters more.",
+      "items": [
+        {
+          "href": "/who-we-serve/engineering-contractors",
+          "image": "/assets/img/v2/scene-offgrid-640.webp",
+          "title": "Engineering contractors",
+          "text": "You build the site and can deliver the works — you need a charging product line, permits and an operations layer."
+        },
+        {
+          "href": "/who-we-serve/fleet-operators",
+          "image": "/assets/img/v2/scene-fleet-640.webp",
+          "title": "Fleet operators",
+          "text": "You control the vehicles and the yard — you need the charging design that survives your worst operating night."
+        },
+        {
+          "href": "/who-we-serve/energy-real-estate",
+          "image": "/assets/img/v2/scene-destination-640.webp",
+          "title": "Energy & real estate",
+          "text": "You own the land, the power or the tenants — you need the commercial model that makes the site worth building."
+        },
+        {
+          "href": "/who-we-serve/cpo-entrepreneurs",
+          "image": "/assets/img/v2/scene-commercial-640.webp",
+          "title": "Independent CPO entrepreneurs",
+          "text": "You have the plan and the market — you need everything between a site decision and a running business."
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "What changes per profile",
+      "h2": "The gap is different, the scope is not",
+      "lede": "All seven workstreams stay in scope. What shifts is where the project is most likely to fail first — and therefore which stage gets the most attention.",
+      "items": [
+        {
+          "title": "Contractors",
+          "text": "Strengths: civil and electrical works. Usual gap: product specification, compliance paperwork and post-handover operations."
+        },
+        {
+          "title": "Fleets",
+          "text": "Strengths: the vehicles and the operating pattern. Usual gap: grid capacity for the peak duty cycle, and the migration path when the fleet changes."
+        },
+        {
+          "title": "Energy & real estate",
+          "text": "Strengths: land, power and tenants. Usual gap: utilisation assumptions and the commercial model, which decide whether the site ever pays back."
+        },
+        {
+          "title": "CPO entrepreneurs",
+          "text": "Strengths: market insight and local relationships. Usual gap: every technical stage at once — which is why the turnkey scope exists."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Next step",
+      "h2": "Tell us which of the four you are, and what you already have.",
+      "lede": "The fastest useful conversation starts with the asset you control: site, fleet, capital or plan.",
+      "actions": [
+        {
+          "label": "Start a project",
+          "href": "/inquiry"
+        },
+        {
+          "label": "See the delivery scope",
+          "href": "/turnkey/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+ "_source": "anari-growth-os v6.1.0 packages/policy-engine/src/action-catalog.ts",
+ "_note": "服务端持有的 Action 目录：客户端/Agent 不能自选风险等级或能力。enabled=false 表示该动作在 v6 中尚未接真实 provider（我们需要自己判断是否已具备替代路径）。",
+ "risk_tiers": {
+  "R0": "只读、无外部副作用（本地计算/读取自有数据）",
+  "R1": "对外部系统的只读调用（搜索、读报表）",
+  "R2": "创建草稿类对象（草稿邮件、草稿内容）",
+  "R3": "对外可见或对外发送（发布内容、发单封邮件、暂停投放）→ 需审批",
+  "R4": "影响资金/范围/部署（批量发送、改预算、上线部署）→ 需审批 + 回滚方案",
+  "R5": "禁止由 Agent 执行（永久删除客户数据、提权、改策略）"
+ },
+ "actions": [
+  {
+   "action_key": "apollo.people.search",
+   "provider": "apollo",
+   "tool": "search_people",
+   "capability": "connector.apollo.people.search",
+   "risk_tier": "R1",
+   "requires_marketing_consent": false,
+   "enabled": true,
+   "description": "Read-only Apollo people search; provider documents zero credits and no email/phone return."
+  },
+  {
+   "action_key": "apollo.organizations.search",
+   "provider": "apollo",
+   "tool": "search_organizations",
+   "capability": "connector.apollo.organizations.search",
+   "risk_tier": "R2",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Disabled until a durable credit grant and spend ledger is integrated."
+  },
+  {
+   "action_key": "hubspot.crm.record.read",
+   "provider": "hubspot",
+   "tool": "read_record",
+   "capability": "connector.hubspot.crm.read",
+   "risk_tier": "R1",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Read CRM record after field-level and tenant policy checks."
+  },
+  {
+   "action_key": "hubspot.crm.record.upsert",
+   "provider": "hubspot",
+   "tool": "upsert_record",
+   "capability": "connector.hubspot.crm.write",
+   "risk_tier": "R3",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Create or update CRM records; requires approval."
+  },
+  {
+   "action_key": "brevo.email.draft",
+   "provider": "brevo",
+   "tool": "create_draft",
+   "capability": "connector.brevo.email.draft",
+   "risk_tier": "R2",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Create a draft only; no delivery."
+  },
+  {
+   "action_key": "brevo.email.send",
+   "provider": "brevo",
+   "tool": "send_email",
+   "capability": "connector.brevo.email.send",
+   "risk_tier": "R3",
+   "requires_marketing_consent": true,
+   "enabled": false,
+   "description": "Send a consent-eligible one-to-one marketing message; requires approval."
+  },
+  {
+   "action_key": "brevo.email.bulk_send",
+   "provider": "brevo",
+   "tool": "bulk_send",
+   "capability": "connector.brevo.email.bulk_send",
+   "risk_tier": "R4",
+   "requires_marketing_consent": true,
+   "enabled": false,
+   "description": "Bulk campaign send; requires R4 approval and suppression recheck."
+  },
+  {
+   "action_key": "cms.content.draft",
+   "provider": "cms",
+   "tool": "save_draft",
+   "capability": "content.draft.create",
+   "risk_tier": "R2",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Save content draft only."
+  },
+  {
+   "action_key": "cms.content.publish",
+   "provider": "cms",
+   "tool": "publish_content",
+   "capability": "content.publish",
+   "risk_tier": "R3",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Publish approved content; requires approval and evidence validation."
+  },
+  {
+   "action_key": "google_ads.campaign.read",
+   "provider": "google_ads",
+   "tool": "read_campaign",
+   "capability": "connector.google_ads.read",
+   "risk_tier": "R1",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Read campaign performance."
+  },
+  {
+   "action_key": "google_ads.campaign.pause",
+   "provider": "google_ads",
+   "tool": "pause_campaign",
+   "capability": "connector.google_ads.write",
+   "risk_tier": "R3",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Pause an existing campaign; requires approval."
+  },
+  {
+   "action_key": "google_ads.budget.change",
+   "provider": "google_ads",
+   "tool": "change_budget",
+   "capability": "connector.google_ads.budget.write",
+   "risk_tier": "R4",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Change spend limits; requires R4 approval."
+  },
+  {
+   "action_key": "linkedin.organization.publish",
+   "provider": "linkedin",
+   "tool": "publish_organization_post",
+   "capability": "connector.linkedin.publish",
+   "risk_tier": "R3",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Publish a LinkedIn organization post; requires approval."
+  },
+  {
+   "action_key": "cloudflare.site.deploy",
+   "provider": "cloudflare",
+   "tool": "deploy_site",
+   "capability": "connector.cloudflare.deploy",
+   "risk_tier": "R4",
+   "requires_marketing_consent": false,
+   "enabled": false,
+   "description": "Deploy website changes; requires R4 approval and rollback plan."
+  }
+ ],
+ "local_extensions": [
+  {
+   "action_key": "instantly.outreach.send",
+   "provider": "instantly",
+   "tool": "activate_campaign",
+   "capability": "connector.instantly.send",
+   "risk_tier": "R4",
+   "requires_marketing_consent": true,
+   "enabled": true,
+   "description": "营销外联实际发信（Instantly 活动激活/发送）。v6 目录未收录 Instantly，本工作区自建，按 R4 处理（批量对外发信）。"
+  },
+  {
+   "action_key": "instantly.lead.import",
+   "provider": "instantly",
+   "tool": "add_leads",
+   "capability": "connector.instantly.write",
+   "risk_tier": "R2",
+   "requires_marketing_consent": true,
+   "enabled": true,
+   "description": "把目标导入外联活动（不发信）。R2 草稿类，但需过抑制与同意检查。"
+  },
+  {
+   "action_key": "quora.answer.publish",
+   "provider": "quora",
+   "tool": "post_answer",
+   "capability": "channel.quora.publish",
+   "risk_tier": "R3",
+   "requires_marketing_consent": false,
+   "enabled": true,
+   "description": "在 Quora 发布回答（对外可见）。R3，需审批。"
+  },
+  {
+   "action_key": "site.content.publish",
+   "provider": "cloudflare",
+   "tool": "git_push_main",
+   "capability": "content.publish",
+   "risk_tier": "R3",
+   "requires_marketing_consent": false,
+   "enabled": true,
+   "description": "推送内容到线上站点（走 Gatekeeper Tier A/B/C）。R3。"
+  },
+  {
+   "action_key": "d1.inquiry.read",
+   "provider": "cloudflare_d1",
+   "tool": "select_submissions",
+   "capability": "connector.d1.read",
+   "risk_tier": "R0",
+   "requires_marketing_consent": false,
+   "enabled": true,
+   "description": "读取询盘（自有数据，只读）。R0。"
+  }
+ ]
+}

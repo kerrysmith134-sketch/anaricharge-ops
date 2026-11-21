@@ -1,0 +1,155 @@
+{
+  "slug": "es/products",
+  "url": "/es/products/",
+  "breadcrumb": "Productos",
+  "title": "Equipos de carga DC, AC y BESS | Anari Energy",
+  "meta": "Carga rápida DC de 20 a 960 kW, cargadores AC de 3,5 a 22 kW y almacenamiento refrigerado por líquido de 120 a 418 kWh. Entrega llave en mano: estudio de emplaz",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Equipos",
+      "h1": "Equipos para cada parte de la red de carga.",
+      "lede": "Nueve familias de DC, AC y almacenamiento. La familia se elige por la restricción del sitio — margen de crecimiento, ciclo, clima o potencia disponible — no por la cifra de kW.",
+      "image": "/assets/img/v2/hero-products-1920.webp",
+      "credit": "Línea de producción ANARI antes de embarque",
+      "actions": [
+        {
+          "label": "Comparar familias",
+          "href": "#families"
+        },
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        }
+      ],
+      "facts": [
+        {
+          "value": "20–960 kW",
+          "label": "rango DC"
+        },
+        {
+          "value": "3,5–22 kW",
+          "label": "rango AC"
+        },
+        {
+          "value": "120–418 kWh",
+          "label": "BESS líquido"
+        },
+        {
+          "value": "≥96%",
+          "label": "rendimiento pico DC modular"
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Familias",
+      "h2": "Primero la restricción, después la familia",
+      "lede": "Los rangos se solapan a propósito: cuatro familias cubren 60–240 kW porque la decisión entre ellas es margen, estándar de conector y envolvente.",
+      "items": [
+        {
+          "href": "/es/products/fora",
+          "image": "/assets/img/products/v2/fora-split-960kw-640.webp",
+          "name": "Fora",
+          "spec": "DC · 360–960 kW · ultracarga"
+        },
+        {
+          "href": "/es/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/es/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · CCS2 y GB/T"
+        },
+        {
+          "href": "/es/products/castor",
+          "image": "/assets/img/products/v2/castor-20-40kw-640.webp",
+          "name": "Castor",
+          "spec": "DC de pared · 20–40 kW"
+        },
+        {
+          "href": "/es/products/aquila",
+          "image": "/assets/img/products/v2/aquila-ads-60-240kw-640.webp",
+          "name": "Aquila",
+          "spec": "DC + pantalla publicitaria · 60–240 kW"
+        }
+      ],
+      "action": {
+        "label": "Ver catálogo",
+        "href": "/es/products/vulco"
+      }
+    },
+    {
+      "type": "steps",
+      "eyebrow": "Lógica de selección",
+      "h2": "Cómo se elige la familia",
+      "lede": "Es el orden que usamos en proyectos y el que modela la calculadora de ROI.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Margen de crecimiento",
+          "text": "Si la flota crecerá, una plataforma modular supera a un armario fijo."
+        },
+        {
+          "no": "02",
+          "title": "Estándar de conector",
+          "text": "CCS2, GB/T o ambos: las flotas mixtas reducen la elección rápido."
+        },
+        {
+          "no": "03",
+          "title": "Envolvente y clima",
+          "text": "Calor, polvo y monzón definen refrigeración y sellado."
+        },
+        {
+          "no": "04",
+          "title": "Capacidad de red",
+          "text": "Si el transformador no crece, el almacenamiento entra antes que el cargador."
+        },
+        {
+          "no": "05",
+          "title": "Modelo operativo",
+          "text": "Los sitios remotos necesitan módulos reparables, no armarios sellados."
+        }
+      ],
+      "action": {
+        "label": "Calculadora de ROI",
+        "href": "/tools/charging-station-roi"
+      }
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Envíe los parámetros del sitio y devolvemos una configuración.",
+      "lede": "Con la potencia disponible, el ciclo y el clima se reduce la familia en un solo intercambio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/"
+    }
+  ]
+}

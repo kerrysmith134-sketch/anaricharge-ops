@@ -1,0 +1,804 @@
+{
+  "_comment": "2026-11-10 PSEO batch — /markets/{country} target markets group 1 (market intelligence, coverage=target)",
+  "family": "markets-target-g1",
+  "base_path": "/markets",
+  "base_url": "https://www.anaricharge.com",
+  "date_modified": "2026-11-10",
+  "hreflang_locales": [
+    "en"
+  ],
+  "pages": [
+    {
+      "slug": "egypt",
+      "country": "Egypt",
+      "region": "North Africa",
+      "coverage": "target",
+      "eyebrow": "Market · North Africa",
+      "title": "Egypt EV Charging: Regulated Tariffs, 45 °C and Dust",
+      "meta": "Egypt fixes the resale margin by decree: 0.45 on AC, 0.80 on DC over the supply tariff. What to secure before specifying a 45 °C site on a DisCo feeder.",
+      "h1": "EV charging in Egypt: a regulated margin and a 45 °C design point",
+      "lede": "Egypt is not short of charging demand or of chargers; it is short of margin and capacity. The resale price is set by ministerial decision, so the first decisions are the connection offer, the design ambient temperature and the dust maintenance plan, not the nameplate output.",
+      "tldr_label": "In brief — Egypt",
+      "tldr": "Egypt regulates the margin before it regulates the site: resale is the supply tariff plus 0.45 on AC and 0.80 on DC. Secure the connection offer first, then specify for 45 °C and dust. This page is market intelligence, not a record of delivered projects in Egypt.",
+      "facts": [
+        [
+          "Decision 101/2025",
+          "Regulated resale margin"
+        ],
+        [
+          "0.45 / 0.80",
+          "AC / DC markup"
+        ],
+        [
+          "45 °C",
+          "Upper Egypt design point"
+        ],
+        [
+          "GOEIC",
+          "Import conformity gate"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Decision 101/2025 prices public charging at the station's supply tariff plus a 0.45 markup on AC charging up to 22 kW and 0.80 on DC, which makes the resale margin a regulated number rather than a commercial one.",
+        "source": "Egypt Ministry of Electricity, Ministerial Decision 101/2025 (EgyptERA board session 122, 22 July 2025)"
+      },
+      "sources": [
+        "Egypt Ministry of Electricity — Ministerial Decision 101/2025 on EV charging tariffs, September 2025",
+        "Egypt Electricity Law 87/2015 and its executive regulations — licensing of charging activity",
+        "EgyptERA — regulated charging tariff decisions, 2025",
+        "GOEIC — import conformity inspection requirements"
+      ],
+      "sections": [
+        [
+          "Your margin is a ministerial decision, not a pricing strategy",
+          "<p>Egypt prices public charging by decree. Decision 101/2025 lets a licensed company resell at the station's supply tariff plus a 0.45 markup on AC charging up to 22 kW and 0.80 on DC. The supply tariff itself follows the voltage level the station is connected at. Revenue per kWh is therefore a fixed multiple of a regulated number, and the return on a site is decided by utilisation, demand charges and the connection you are granted.</p>"
+        ],
+        [
+          "Start with the connection offer, not the charger order",
+          "<p>Distribution sits with the EEHC companies, and the document that matters is the connection offer: voltage level, firm capacity, transformer ownership and the metering arrangement. A 200 kW hub on a 380 V supply and a 200 kW hub on a medium-voltage connection are different projects with different costs. Ask for the offer in writing before a supplier quotes, because capacity lead time, not hardware, moves the opening date.</p>\n<p>Two costs hide behind the offer. The transformer, if the site needs one, usually lands on you as capex rather than on the utility, and it is sized before the charger count is final. The demand component of the tariff is the other: it is billed on your maximum draw, so a station that tests all its guns at once sets a monthly charge it then pays for a year.</p>"
+        ],
+        [
+          "Dust, 45 °C afternoons and a filter nobody can reach",
+          "<p>Cairo runs past 40 °C in summer and Upper Egypt runs hotter. Dust is the second half of the problem: fine airborne sand loads heat-exchanger fins, and a unit that derates at 45 °C will derate sooner with a blocked filter. Specify sustained output at 45 °C ambient, a published derating curve, front-accessible filters and a maintenance interval the operator can actually keep. An IP rating alone tells you nothing about thermal headroom.</p>\n<p>Canopy design belongs to the same question. Shade over the vehicle does not cool the cabinet, and a cabinet in direct sun on a Cairo roof runs well above ambient. Ask where the power modules sit relative to the sun path and whether the unit is rated for that surface temperature.</p>"
+        ],
+        [
+          "GOEIC inspection and the file that clears customs",
+          "<p>Chargers enter through GOEIC conformity inspection. The file that clears is predictable: a CE declaration and IEC 61851 test reports for the exact model, a bill of materials that matches the model number, and an importer registration that matches the consignee. Prepare Arabic labelling and the technical file before shipment rather than at the port. Where a tender adds its own specification, read it against the test report instead of the datasheet.</p>"
+        ],
+        [
+          "The brief that makes two quotes comparable",
+          "<p>Fix these and a quote becomes comparable: (1) the connection offer — voltage, capacity, transformer; (2) the tariff category and demand charge that will apply; (3) the metering arrangement the resale price requires; (4) the design ambient and the sustained output you need at it; (5) who holds spares and who services filters. Add the site's access hours and the payment method and you have a brief. <a href=\"/inquiry\">Send it to us</a> and we will quote against it.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Who sets the price an Egyptian charging station can charge?",
+          "The Ministry of Electricity, through the tariff decisions administered by EgyptERA. Decision 101/2025 prices resale at the station's supply tariff plus 0.45 for AC up to 22 kW and 0.80 for DC. Gross margin per kWh is therefore fixed by the regulator, and the return depends on utilisation, the demand charge and the capacity granted. Model a low-utilisation month before committing capital, not an average one."
+        ],
+        [
+          "Will a 160 kW charger deliver 160 kW in Cairo in August?",
+          "Only if the thermal design allows it. Ask for the derating curve and the sustained output at 45 °C ambient, then ask what happens with a partly blocked filter. Dust is what separates a lab figure from a site figure in Egypt. Liquid-cooled power modules and front-access filters reduce the risk, and a modular platform lets you add capacity later instead of oversizing the first phase."
+        ],
+        [
+          "What documents does charging equipment need to enter Egypt?",
+          "GOEIC conformity inspection is the gate. In practice you need a CE declaration, IEC 61851 test reports for the exact model, a bill of materials consistent with the model number, and an importer of record registered with the authorities. Prepare Arabic labelling and the technical file before shipment rather than at the port, and check any tender specification against the test report instead of the marketing sheet."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market pages"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/160-kw-dc-fast-charging-station",
+          "160 kW station cost bands"
+        ],
+        [
+          "/data/hot-climate-charging",
+          "Hot-climate field observations"
+        ],
+        [
+          "/journey/compliance",
+          "Compliance file walkthrough"
+        ]
+      ]
+    },
+    {
+      "slug": "nigeria",
+      "country": "Nigeria",
+      "region": "West Africa",
+      "coverage": "target",
+      "eyebrow": "Market · West Africa",
+      "title": "Nigeria EV Charging: Grid Collapse, Band A and SONCAP",
+      "meta": "Nigeria's grid collapsed 12 times in 2024. That decides the design: what sits behind the meter, your tariff class, and SONCAP before the container ships.",
+      "h1": "EV charging in Nigeria: the grid is one input, not the supply",
+      "lede": "A Nigerian charging site is designed around interruption, not around peak power. Two questions decide the project: what the DisCo will actually deliver on your feeder, and what carries the load when it stops. Everything else — connector, enclosure, payment — follows from those two answers.",
+      "tldr_label": "In brief — Nigeria",
+      "tldr": "Build the site around interruption: fix the feeder capacity and tariff class, then decide what carries the load when the grid stops. SONCAP is a pre-shipment task, not a port task. This page is market intelligence, not a record of delivered projects in Nigeria.",
+      "facts": [
+        [
+          "12",
+          "Grid collapses in 2024"
+        ],
+        [
+          "Band A",
+          "20 h supply class"
+        ],
+        [
+          "SONCAP",
+          "Import conformity scheme"
+        ],
+        [
+          "230/400 V",
+          "50 Hz nominal"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "The national grid collapsed 12 times in 2024, so a charging site's reliability is a function of what sits behind the meter rather than of the supply contract.",
+        "source": "The Guardian Nigeria — timeline of the 12 national grid collapses in 2024 (2025)"
+      },
+      "sources": [
+        "The Guardian Nigeria — timeline of 12 national grid collapses in 2024",
+        "Electricity Act 2023 (Nigeria) — NERC transfer of regulatory oversight to state commissions",
+        "NERC — service-based tariff classes including Band A, 2024",
+        "SON — SONCAP conformity assessment programme"
+      ],
+      "sections": [
+        [
+          "Design for the interruption, then for the load",
+          "<p>Nigeria's constraint is continuity. Twelve national grid collapses in 2024 is the headline, but the daily experience is feeder outages lasting minutes to days. A 120 kW charger that restarts cleanly after a transfer is worth more than a 180 kW unit that leaves a session open and a driver unpaid. Write the transfer behaviour into the specification: restart logic, session close, payment reconciliation, and what the site does on a thirty-second dip.</p>\n<p>That behaviour costs hardware: a pre-charge circuit, a contactor that can cycle, and a DC bus that stays up long enough for the session to close cleanly. It is cheaper than a site drivers stop trusting, and it is invisible on a datasheet.</p>"
+        ],
+        [
+          "Whose network, whose tariff class",
+          "<p>The Electricity Act 2023 moved intrastate regulation toward state commissions, and NERC has been transferring oversight state by state. In practice you deal with the area DisCo, its feeder and its tariff class. Band A promises the shortest interruption window and carries the highest tariff, so a site modelled on Band A pricing with Band C supply is a broken model. Get the class, the feeder name and the transformer rating in writing.</p>"
+        ],
+        [
+          "Humidity in Lagos, dust in Kano",
+          "<p>Lagos is hot but rarely extreme: 33 °C with 85% relative humidity is the design point, and salt-laden air near the coast attacks enclosures and connectors faster than heat does. Kano and the north bring Harmattan dust and a wider daily swing. Ask for the corrosion class, the connector plating and a filter plan a local technician can execute without a torque specification nobody reads.</p>\n<p>Two service kits follow from that split — a dust kit for the north and a corrosion kit for the coast. Sending the wrong one is the most common maintenance failure in a country with two climates.</p>"
+        ],
+        [
+          "SONCAP is a pre-shipment problem",
+          "<p>Chargers are regulated goods, so conformity is cleared before the container leaves, not at Apapa. The route is a SONCAP product certificate plus a per-shipment certificate, built on test reports for the exact model. Mismatched model numbers and missing IEC 61851 reports are the two most common causes of delay. Put the certificate work in the project plan and keep the numbers in the asset register, because the same file is asked for again at renewal.</p>"
+        ],
+        [
+          "Decide six things and the layout draws itself",
+          "<p>Six inputs: feeder capacity and tariff class; the interruption profile you are designing for; whether storage, diesel or both sit behind the meter; the connector mix, with CCS2 for imported cars and GB/T where Chinese vehicles dominate the fleet; the payment route that works without a stable card terminal; and who holds spares in-country. Decide these and the electrical layout follows. <a href=\"/inquiry\">Tell us the site</a> and we will price against it.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "What happens to a charging session when the grid fails in Lagos?",
+          "It depends on what sits behind the meter. On a battery-buffered site the session continues and the transfer is invisible; on a bare grid connection the session closes and the driver restarts. Specify the behaviour explicitly: restart logic, whether the session is billed for the partial charge, how the payment authorisation is reconciled, and what the charger reports over OCPP when the link drops. That list is the difference between a usable and an abandoned site."
+        ],
+        [
+          "Do EV chargers need SONCAP in Nigeria?",
+          "Yes. Charging equipment falls under regulated goods, so you clear conformity before shipment through a SONCAP product certificate and a per-shipment certificate, built on test reports for the specific model. Shipping first and inspecting at the port shifts the delay and the cost onto you. Keep the product certificate valid across shipments and make sure the model number on the certificate matches the nameplate exactly."
+        ],
+        [
+          "Is 22 kW AC enough for a Nigerian fleet depot?",
+          "For overnight dwell it usually is. A van that parks for eight hours takes roughly 150 kWh at 22 kW, which covers a typical urban duty cycle. The problem is the daytime top-up and the corridor run, which need DC. A common answer is a depot with AC and one DC unit for the vehicles that come back late and leave early, rather than DC everywhere."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market pages"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/fleet-depot-charging",
+          "Fleet depot charging design"
+        ],
+        [
+          "/depot/off-grid-charging",
+          "Off-grid and weak-grid sites"
+        ],
+        [
+          "/cost/120-kw-dc-fast-charging-station",
+          "120 kW station cost bands"
+        ]
+      ]
+    },
+    {
+      "slug": "south-africa",
+      "country": "South Africa",
+      "region": "Southern Africa",
+      "coverage": "target",
+      "eyebrow": "Market · Southern Africa",
+      "title": "South Africa EV Charging: Storage, TOU Tariffs and NRCS",
+      "meta": "South Africa rewards a battery twice: riding through load shedding and shifting load off the winter peak. Fix the tariff and demand charge before the size.",
+      "h1": "EV charging in South Africa: island the site, then rejoin the grid",
+      "lede": "South African charging economics are a time-of-use and demand-charge problem before they are a hardware problem. The site that survives is one designed to island during shedding, rejoin cleanly, and keep its maximum demand below the number that sets the monthly bill.",
+      "tldr_label": "In brief — South Africa",
+      "tldr": "Size the battery to your charging peak, not to the nameplate, and check it against the demand charge as well as against shedding. Confirm the NRCS letter and the installation certificate early. This page is market intelligence, not a record of delivered projects in South Africa.",
+      "facts": [
+        [
+          "100 MW",
+          "Licence-free generation cap"
+        ],
+        [
+          "TOU",
+          "Peak and off-peak blocks"
+        ],
+        [
+          "NRCS LOA",
+          "Product approval letter"
+        ],
+        [
+          "1,700 m",
+          "Highveld site altitude"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Since the 2022 amendment of Schedule 2 of the Electricity Regulation Act, embedded generation up to 100 MW needs NERSA registration rather than a licence, which is what lets a charging site put a battery and PV behind the meter as a paperwork step.",
+        "source": "Electricity Regulation Act 2006 (South Africa), Schedule 2 as amended 2022; NERSA registration guidance"
+      },
+      "sources": [
+        "Electricity Regulation Act 2006 (South Africa) — Schedule 2 as amended 2022, 100 MW licensing threshold",
+        "NERSA — registration and licensing of embedded generation",
+        "NRCS — compulsory specifications and Letters of Authority",
+        "Eskom — time-of-use tariff structures and load-shedding stages"
+      ],
+      "sections": [
+        [
+          "A site that can island and rejoin without a truck roll",
+          "<p>Load shedding shaped the last five years of South African site design, and the habit is worth keeping in quieter stretches. A charging hub needs a defined island: what stays live, for how long, and how the site returns to the grid. Stage-based shedding means the design case is hours, not seconds. Specify battery duration at your peak charging load rather than at nameplate, and write down the transfer sequence before the switchgear is ordered.</p>\n<p>Duration is a commercial choice, not an engineering one. Two hours of bridging covers a typical stage; four hours doubles the battery and the footprint. Write the number into the brief and let the supplier size to it, rather than accepting whatever duration the standard cabinet happens to offer.</p>"
+        ],
+        [
+          "Time of use is the second battery",
+          "<p>Eskom's time-of-use structure separates peak, standard and off-peak, and winter peak rates are the highest of the year. A battery that shifts evening charging load does more for the bill than one that only covers outages. Then add the demand charge: a 240 kW hub can be billed on maximum demand rather than energy, so the peak you create in the first ten minutes of operation sets the monthly cost.</p>\n<p>That is also why the meter matters. A site that cannot separate charging load from the rest of the building cannot prove which tariff it should be on, and the utility will apply its own view of the load.</p>"
+        ],
+        [
+          "Highveld winter, Karoo heat, coastal salt",
+          "<p>Johannesburg sits around 1,700 m, with winter nights below freezing and thinner air that reduces cooling margin. The Karoo and Northern Cape run dry and hot in summer, and Durban adds coastal humidity. One enclosure cannot be optimal for all three, so the specification should name the site's climate rather than the country's average, and ask for the derating curve at that altitude and ambient.</p>"
+        ],
+        [
+          "NRCS Letter of Authority, SANS and the CoC",
+          "<p>Regulated electrical products need a Letter of Authority from the NRCS, and the evidence base is the SANS adoption of the IEC charging standards. Separately, the installation needs a Certificate of Compliance issued by a registered person. That certificate is a property document as much as an electrical one, and it is often the item that delays energisation. Keep the letter, the test reports and the certificate in one file for the operator.</p>\n<p>Allow time for it. The letter is issued against a test report and a factory inspection, and neither can be produced after the container has sailed.</p>"
+        ],
+        [
+          "Five decisions, in the order they cost money",
+          "<p>Five: the distributor and tariff structure, municipal or Eskom direct; the maximum demand you will create and the charge that applies; the shedding duration the site must ride through; the altitude and climate at the site; and the NRCS and compliance document set. With those, a 120 kW and a 240 kW layout can be compared on the same basis. <a href=\"/inquiry\">Start with the site details</a>.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do I still need a battery if load shedding has eased?",
+          "Yes, if the site is billed on time-of-use and maximum demand. A battery shifts evening charging into off-peak energy and clips the demand peak that sets the monthly charge, which is a return that does not depend on outages. What changes is the size: resilience sizing is driven by outage hours, arbitrage sizing by the tariff spread. Model both and keep the larger, rather than buying for the last crisis."
+        ],
+        [
+          "What certification does charging equipment need in South Africa?",
+          "Regulated electrical products need an NRCS Letter of Authority before sale, and the technical basis is the SANS adoption of the IEC charging standards. The installation itself needs a Certificate of Compliance from a registered person, which is what the property file and the insurer will ask for. Importers should hold the letter and the test reports together, because the authority can ask for both."
+        ],
+        [
+          "Which tariff should the financial model use?",
+          "The time-of-use structure with the demand charge attached, run at winter peak rather than at an annual average. South African peak rates are seasonal, so an average-rate model overstates the return on a site that charges mostly in the evening. If the site has solar, model the midday and evening separately, because the battery is doing two different jobs at those two times."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market pages"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/fleet-depot-charging",
+          "Fleet depot charging design"
+        ],
+        [
+          "/tools/charging-station-roi",
+          "Charging station ROI model"
+        ],
+        [
+          "/cost/240-kw-dc-fast-charging-station",
+          "240 kW station cost bands"
+        ]
+      ]
+    },
+    {
+      "slug": "morocco",
+      "country": "Morocco",
+      "region": "North Africa",
+      "coverage": "target",
+      "eyebrow": "Market · North Africa",
+      "title": "Morocco EV Charging: Self-Production, Chergui and ONEE",
+      "meta": "Morocco's law 82-21 lets a site generate for itself and inject the surplus. On the Tangier–Kenitra corridor that changes the first decision, not the last one.",
+      "h1": "EV charging in Morocco: self-produce first, connect second",
+      "lede": "Morocco has one national utility, a legal route to self-production, and a charging market being pulled by industrial fleets rather than retail drivers. The design question is how much of the site's energy you make yourself, and how much capacity ONEE will give you for the rest.",
+      "tldr_label": "In brief — Morocco",
+      "tldr": "Decide the self-production share before the connection request, because it changes both the transformer size and the metering. Then specify for Chergui dust and coastal humidity. This page is market intelligence, not a record of delivered projects in Morocco.",
+      "facts": [
+        [
+          "Law 82-21",
+          "Self-production route"
+        ],
+        [
+          "ONEE",
+          "Single national utility"
+        ],
+        [
+          "Tangier–Kenitra",
+          "Automotive corridor"
+        ],
+        [
+          "Chergui",
+          "Hot dry desert wind"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Law 82-21 on self-production of electrical energy, promulgated by Dahir 1-23-21 of 10 February 2023, gives a site a legal route to generate for its own consumption and to inject surplus into the grid.",
+        "source": "Dahir n° 1-23-21 of 10 February 2023 — law 82-21 on self-production of electrical energy"
+      },
+      "sources": [
+        "Dahir n° 1-23-21 (10 February 2023) — law 82-21 on self-production of electrical energy",
+        "ANRE — national electricity regulator, access and tariff publications",
+        "IMANOR — Moroccan standards institute; CE recognition in practice",
+        "ONEE — grid connection terms for medium-voltage customers"
+      ],
+      "sections": [
+        [
+          "Self-production changes who you ask first",
+          "<p>Law 82-21 gave Moroccan sites a legal route to generate for their own consumption and to inject surplus into the grid. For a charging site that means the sequence inverts: size the array and the battery against the daytime charging profile first, then ask ONEE for the residual capacity. If you request the connection first, you will size a transformer for a load you no longer have, and pay the standing charge on it.</p>\n<p>The corollary is metering. Self-consumed energy, imported energy and injected surplus are three different flows, and one meter cannot separate them. Settle the metering scheme with ONEE before the array is sized, because the scheme constrains the inverter and the protection settings.</p>"
+        ],
+        [
+          "Demand sits on two corridors",
+          "<p>The first is the automotive belt around Tangier and Kenitra, where plants and their logistics fleets run fixed duty cycles and charge on a schedule. The second is the Casablanca–Rabat axis plus the Marrakech and Agadir tourism routes, where dwell time is longer and the site is a destination rather than a depot. The two need different power levels and different payment behaviour, and a plan that averages them will be wrong at both ends.</p>\n<p>Payment behaviour differs too. A depot charges on account and reconciles monthly; a tourism site takes a card from a driver who will never come back. Choose the terminal and the back office for the second case unless the first is certain.</p>"
+        ],
+        [
+          "Chergui, dust and a humidity split",
+          "<p>The interior runs past 40 °C in summer, and the Chergui — the hot dry wind off the Sahara — arrives with dust that settles on fins and connector faces. The coast is milder but humid, and Tangier's air is salt-laden. Specify the derating curve at 45 °C, the corrosion class for a coastal site, and a filter service interval. Inland sites also need to plan for cleaning after a Chergui event, not on a calendar.</p>\n<p>Coastal and inland sites need different service contracts as well. A Tangier cabinet needs a corrosion inspection; a Marrakech cabinet needs filter cleaning after dust events. One national contract with one interval will under-serve one of them.</p>"
+        ],
+        [
+          "CE is accepted; the file is in French",
+          "<p>CE marking is accepted in practice and IMANOR standards follow the European and IEC texts, so equipment built for the EU usually clears the technical question. The administrative one is separate: the ONEE connection file, the metering arrangement and the site documentation are in French, and an incomplete file restarts the clock. Prepare the French technical file and the meter conformity evidence alongside the CE declaration rather than after it.</p>"
+        ],
+        [
+          "The five lines that fix the transformer",
+          "<p>Five: the self-production share and whether surplus injection is part of the plan; the residual capacity you will ask ONEE for; the corridor and dwell pattern that set the power level; the design ambient and dust exposure; and the French-language document set for the connection. Those five decide the transformer, the meter and the number of guns. <a href=\"/inquiry\">Send the site brief</a> and we will respond against it.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is a CE certificate enough to sell a charger in Morocco?",
+          "For the equipment, CE is accepted in practice and IMANOR standards follow the European and IEC texts, so the technical file rarely blocks a sale. It is not enough for the site. The ONEE connection file, the metering arrangement and the installation documentation are separate and in French, and the meter has to satisfy the utility's own requirements. Budget for the French file, not just the certificate."
+        ],
+        [
+          "Can a Moroccan charging site use its own solar production?",
+          "Law 82-21, promulgated in February 2023, created the self-production route, including injection of surplus into the grid. In practice the site needs a metering arrangement that separates self-consumed energy from imported energy, and the connection still comes from ONEE. The design consequence is that the array and the battery should be sized against the charging profile before the connection request is filed."
+        ],
+        [
+          "What is the binding constraint at Tangier?",
+          "Medium-voltage capacity and the time to get it, not the charger. The industrial belt has strong demand and a queue for connection, so the site's opening date is usually set by the ONEE process and the transformer, with the equipment arriving earlier than either. Heat and coastal salt are real but secondary; they change the specification, not the schedule."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market pages"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/solutions/pv-ess-charging-solution",
+          "PV + storage + charging"
+        ],
+        [
+          "/depot/fleet-depot-charging",
+          "Fleet depot charging design"
+        ],
+        [
+          "/cost/120-kw-dc-fast-charging-station",
+          "120 kW station cost bands"
+        ]
+      ]
+    },
+    {
+      "slug": "turkey",
+      "country": "Turkey",
+      "region": "Middle East",
+      "coverage": "target",
+      "eyebrow": "Market · Türkiye",
+      "title": "Turkey EV Charging: EPDK Licences and Card Payment Rules",
+      "meta": "From 1 July 2026 a motorway DC unit of 50 kW or more in Turkey must take card payment with no surcharge, and public prices stay within 25% of the best rate.",
+      "h1": "EV charging in Turkey: a licensed network, a station file and a card reader",
+      "lede": "Turkey regulates charging through the network operator, not the individual site, and it has just made payment hardware a licence condition on motorways. The procedural sequence, not the equipment, is what decides when a Turkish station opens.",
+      "tldr_label": "In brief — Turkey",
+      "tldr": "Attach to a licensed charging network, use the connection opinion while it is valid, and build card payment into any motorway DC unit. Price freely inside the 25% band. This page is market intelligence, not a record of delivered projects in Turkey.",
+      "facts": [
+        [
+          "50 kW DC",
+          "Card payment threshold"
+        ],
+        [
+          "1 July 2026",
+          "Motorway rule in force"
+        ],
+        [
+          "25%",
+          "Cap above best rate"
+        ],
+        [
+          "EPDK",
+          "Licensing authority"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "The amended Charging Service Regulation (Resmî Gazete 33202, 23 March 2026) requires at least one DC unit of 50 kW or more at new motorway stations to accept bank card or contactless payment with no surcharge from 1 July 2026, and caps public prices at 25% above the lowest subscriber rate.",
+        "source": "EPDK — Şarj Hizmeti Yönetmeliğinde Değişiklik, Resmî Gazete 33202, 23 March 2026"
+      },
+      "sources": [
+        "EPDK — Şarj Hizmeti Yönetmeliğinde Değişiklik, Resmî Gazete 33202, 23 March 2026",
+        "Resmî Gazete 31797, 2 April 2022 — original Charging Service Regulation",
+        "EPDK — charging network operator licence (şarj ağı işletmecisi lisansı) applications",
+        "Elektrik Piyasası Ölçüm Sistemleri Yönetmeliği, Resmî Gazete 32413, 28 December 2023"
+      ],
+      "sections": [
+        [
+          "Licensed at network level, approved station by station",
+          "<p>Turkey does not license a charging station on its own. A charging network operator holds the licence, and each station joins that network through an application the Authority decides within ten working days; the station is then numbered and published on the free-access platform. The grid has its own clock: the network operator's connection opinion takes five working days and the document expires after three months. Run both processes before the equipment order.</p>"
+        ],
+        [
+          "Prices are free, then bounded",
+          "<p>Charging is priced in lira per kWh, and the regulation forbids separate connection, start-up or equipment fees on top. There is a ceiling: the public price may not exceed the lowest price given to a subscriber under a loyalty contract by more than 25%. Prices and real-time availability have to be published on the operator's site and app, and the software stack is expected to meet TS ISO/IEC 27001 within a year of the March 2026 amendment.</p>\n<p>Discounts by location or time of day are allowed, and the discounted price has to be published the same way. That gives a site a legal route to fill off-peak hours without touching the ceiling.</p>"
+        ],
+        [
+          "Card payment is now a hardware requirement",
+          "<p>From 1 July 2026, at least one DC unit of 50 kW or more at new motorway stations under the General Directorate of Highways must accept bank cards or contactless payment directly, with no surcharge to the driver. That is a bill-of-materials decision rather than a software switch: it changes the fascia, the terminal, the certification and the settlement flow. Sites designed before that date should plan the retrofit now, not after commissioning.</p>"
+        ],
+        [
+          "Two climates, one product line",
+          "<p>The Aegean and Mediterranean coast runs above 40 °C in summer, eastern Anatolia drops to −20 °C in winter, and the southeast adds dust. A single enclosure specification will be wrong somewhere. Ask for sustained output at both ends of the range, heated cable and connector options, and a filter service interval the operator can meet. Customs union membership means CE-marked equipment circulates freely, but metering follows the electricity market measurement rules.</p>\n<p>Metering is the item that surprises importers: the meter type is set by the electricity market rather than by the charger vendor, and a unit shipped with the wrong one is a commissioning problem, not a paperwork problem.</p>"
+        ],
+        [
+          "The file that clears EPDK in one pass",
+          "<p>Four: the network operator you will attach to and its station numbering process; the grid connection opinion and its three-month validity; the payment terminal route if the site is on a motorway; and the design ambient, which in Turkey is a choice between 45 °C and −20 °C. Put those on one page and the licence file writes itself. <a href=\"/inquiry\">Send the site and we will respond against it</a>.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do I need my own licence to run a charging station in Turkey?",
+          "Not a station licence. Turkey licenses the charging network operator, and every public station has to belong to a licensed network and be approved into it station by station. A site owner either holds the network licence or contracts with a licence holder. The station application is decided within ten working days, and the grid connection opinion behind it expires after three months, so the order of the two applications matters."
+        ],
+        [
+          "Can I price charging however I want in Turkey?",
+          "Not quite. Charging is priced in lira per kWh, and no separate connection, start-up or equipment fee can be added, so the whole margin has to sit in the energy price. Public prices may not exceed the lowest subscriber price by more than 25%, and prices and live availability must be published. Location-based and time-of-day discounts are allowed, and the discounted price has to be published as well."
+        ],
+        [
+          "What changes for a motorway station from July 2026?",
+          "At least one DC unit of 50 kW or more must accept bank card or contactless payment directly, with no surcharge to the driver, on motorway stations under the highways directorate. If your site is already built, that means a payment terminal retrofit, a fascia change and a settlement integration. If it is not built, put the terminal in the base specification now, because retrofitting after commissioning costs more than the terminal itself."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market pages"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/highway-corridor-charging",
+          "Highway corridor charging"
+        ],
+        [
+          "/regulations/",
+          "Regulatory guides"
+        ],
+        [
+          "/cost/180-kw-dc-fast-charging-station",
+          "180 kW station cost bands"
+        ]
+      ]
+    },
+    {
+      "slug": "india",
+      "country": "India",
+      "region": "South Asia",
+      "coverage": "target",
+      "eyebrow": "Market · South Asia",
+      "title": "India EV Charging: BIS, DISCOM Capacity and 45 °C Sites",
+      "meta": "India's ₹10,900 crore PM E-DRIVE scheme ties charging support to state files, while DISCOM capacity and 45 °C summers set the real limits on a site.",
+      "h1": "EV charging in India: three approval tracks and one hot design point",
+      "lede": "An Indian charging project runs on three tracks — standard conformity, DISCOM connection and the state subsidy file — that do not share a calendar. The sites that open on time are the ones where all three were drawn on one page before the equipment was ordered.",
+      "tldr_label": "In brief — India",
+      "tldr": "Get the sanctioned load and tariff category before the layout, and check the metering condition attached to any subsidy claim. Then specify for 45 °C and monsoon. This page is market intelligence, not a record of delivered projects in India.",
+      "facts": [
+        [
+          "₹10,900 cr",
+          "PM E-DRIVE outlay"
+        ],
+        [
+          "IS 17017",
+          "Charger standard series"
+        ],
+        [
+          "Bharat DC-001",
+          "Legacy public DC plug"
+        ],
+        [
+          "45 °C+",
+          "Pre-monsoon design point"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "PM E-DRIVE, approved in September 2024 with an outlay of ₹10,900 crore, funds public charging infrastructure alongside vehicle incentives, which is why a charging project usually runs in parallel with a state subsidy file.",
+        "source": "PIB (Press Information Bureau), Government of India — PM E-DRIVE scheme, September 2024"
+      },
+      "sources": [
+        "PIB — PM E-DRIVE scheme approval, September 2024 (₹10,900 crore)",
+        "Ministry of Power — Guidelines for Installation and Operation of EV Charging Infrastructure, 2024",
+        "BIS — IS 17017 series, conductive charging system for electric vehicles",
+        "State electricity regulatory commissions — EV charging tariff orders, 2023–2025"
+      ],
+      "sections": [
+        [
+          "Three approval tracks that do not share a calendar",
+          "<p>An Indian public charging site needs the standard conformity file, the DISCOM connection and, where subsidy applies, a state claim. They move at different speeds. The subsidy file usually wants a commissioning certificate and a meter, so a site energised without the right metering can lose the claim it was built for. Draw the three tracks on one page at the start, with the document each one needs and who signs it.</p>\n<p>Subsidy money also arrives after commissioning, not before, so the cash flow has to carry the gap. A project financed on the assumption that the incentive lands in the same quarter as the invoice is a project that runs out of working capital.</p>"
+        ],
+        [
+          "The DISCOM grants capacity, the state regulator prices it",
+          "<p>Capacity comes from the distribution company: a sanctioned load, a transformer and a tariff category. Several states have carved out a dedicated EV-charging category, often with a demand charge on kVA rather than a flat energy rate. That structure decides whether a 60 kW or a 120 kW first phase is sensible and whether the site should cap simultaneous sessions to stay under a demand slab.</p>\n<p>Ask for the kVA slab structure in writing. A site that stays just under a slab is cheaper to run than one that crosses it for twenty minutes a day, and that is a scheduling decision rather than a hardware one.</p>"
+        ],
+        [
+          "45 °C, monsoon and coastal salt",
+          "<p>Delhi and Rajasthan run past 45 °C before the monsoon, then drop into weeks of humidity and standing water. Mumbai and Chennai add salt. The design consequences differ: heat needs thermal headroom and filter access, monsoon needs plinth height, drainage and surge protection, salt needs enclosure finish and connector plating. Specify the site rather than the country, because India contains all three cases.</p>\n<p>Monsoon changes the service model as well. Water ingress into a connector is a same-week failure, so the spares plan should assume one connector set per site per season rather than a single national pool.</p>"
+        ],
+        [
+          "IS 17017, BIS and two plug families",
+          "<p>Public charging equipment is specified against the IS 17017 series, which follows the IEC 61851 structure, and BIS certification is the evidence buyers and tenders ask for. The connector mix is the second decision: CCS2 for cars, Bharat DC-001 where the commercial fleet and older vehicles are the customer. A dual-standard unit costs more, but it removes a reason for a driver to leave and charge elsewhere.</p>"
+        ],
+        [
+          "The documents that set the opening date",
+          "<p>Five inputs: the sanctioned load and tariff category; the state scheme you intend to claim and its metering condition; the connector mix by vehicle segment; the design ambient and monsoon exposure; and the service arrangement, because a 300 km spares distance is a real operating cost. With those, a 60 kW and a 160 kW layout can be compared honestly. <a href=\"/inquiry\">Send the site details</a>.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is BIS certification required for imported DC chargers in India?",
+          "The reference standard for public charging equipment is the IS 17017 series, and BIS certification is the evidence that utilities, tenders and many buyers ask for. Confirm the exact part and revision with the buyer before you order, because a certificate against an older revision is not a substitute. Test reports for the specific model, a bill of materials matching it, and a local importer are part of the same file."
+        ],
+        [
+          "Which connector should an Indian public station offer?",
+          "CCS2 covers the car market, and Bharat DC-001 still matters where the commercial fleet and older vehicles are the customers. A single-standard site is cheaper and simpler, and it will lose sessions in a mixed fleet. Decide from the vehicle registrations at the site, not from a preference, and price the second cable into the first phase rather than treating it as an upgrade."
+        ],
+        [
+          "How much power will a charger deliver at 45 °C in Rajasthan?",
+          "Less than the nameplate unless the thermal design allows otherwise. Require a derating curve and a stated output at 50 °C ambient, then ask what the site looks like with a dust-loaded filter at the end of a dry season. Liquid-cooled modules and front-access filters are the practical answer, and a modular platform lets the first phase be smaller without closing off the second."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market pages"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/60-kw-dc-fast-charging-station",
+          "60 kW station cost bands"
+        ],
+        [
+          "/products/pales",
+          "Pales 60–240 kW"
+        ],
+        [
+          "/data/hot-climate-charging",
+          "Hot-climate field observations"
+        ]
+      ]
+    },
+    {
+      "slug": "indonesia",
+      "country": "Indonesia",
+      "region": "Southeast Asia",
+      "coverage": "target",
+      "eyebrow": "Market · Southeast Asia",
+      "title": "Indonesia EV Charging: SPKLU Fee Caps and Constant Humidity",
+      "meta": "Indonesia caps the SPKLU fee at Rp 25,000 per fast session, with energy billed at PLN's tariff. Utilisation decides the site; humidity decides the enclosure.",
+      "h1": "EV charging in Indonesia: a capped fee, a PLN connection and 80% humidity",
+      "lede": "Indonesian public charging is unusual: the service fee is capped per session while the energy is billed at the utility tariff, so revenue cannot be lifted by marking up a kilowatt-hour. The design question is turnover, and the second question is what constant humidity does to the enclosure.",
+      "tldr_label": "In brief — Indonesia",
+      "tldr": "Model the site on sessions and turnover, not on a price premium, because the fee is capped. Get PLN's daya and transformer responsibility in writing, then specify for condensation. This page is market intelligence, not a record of delivered projects in Indonesia.",
+      "facts": [
+        [
+          "Rp 25,000",
+          "Fast-charge fee cap"
+        ],
+        [
+          "Rp 57,000",
+          "Ultrafast fee cap"
+        ],
+        [
+          "Rp 1,650–2,475",
+          "Energy tariff per kWh"
+        ],
+        [
+          "PLN",
+          "Distribution utility"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Kepmen ESDM 182.K/TL.04/MEM.S/2023 caps the SPKLU service fee at Rp 25,000 per fast-charging session and Rp 57,000 per ultrafast session, with the energy itself charged separately under the applicable PLN tariff.",
+        "source": "Keputusan Menteri ESDM 182.K/TL.04/MEM.S/2023 — SPKLU service fees (2023)"
+      },
+      "sources": [
+        "Kepmen ESDM 182.K/TL.04/MEM.S/2023 — SPKLU service fees",
+        "ESDM — KBLBB charging infrastructure programme and SPKLU map",
+        "BSN — SNI standards for electric vehicle charging equipment",
+        "PLN — connection, daya and tariff arrangements for SPKLU operators"
+      ],
+      "sections": [
+        [
+          "The fee cap, not the energy price, sets the ceiling",
+          "<p>Indonesian public charging economics invert the usual logic. The service fee is capped per session, and the energy is billed at the applicable PLN tariff, so a station cannot lift revenue by marking up a kilowatt-hour. The levers are utilisation, session turnover and the size of any battery on site. A hub that holds a car for ninety minutes earns the same fee as one that turns it around in thirty.</p>\n<p>That makes the site a throughput business. Two bays turning four cars an hour beat one bay that holds a car all afternoon, at identical power. Layout, not nameplate, sets revenue.</p>"
+        ],
+        [
+          "Daya, the medium-voltage backbone and who owns the plug",
+          "<p>Capacity is requested from PLN as an increase in daya at the connection point, and a DC hub usually needs a medium-voltage supply and its own transformer. PLN also operates public charging itself, so a private site's relationship with the utility is part supply, part coordination on the public map. Get the connection capacity, the transformer responsibility and the metering arrangement in writing before the layout is fixed.</p>\n<p>Above roughly 200 kW the transformer, not the charger, is the schedule risk, and the utility study is what the opening date hangs on.</p>"
+        ],
+        [
+          "Thirty-three degrees all year and 80% humidity",
+          "<p>Indonesia does not have a heat season; it has a constant. The design point is roughly 35 °C with humidity near saturation and two metres of rain a year. That combination attacks enclosures from two directions: condensation inside and corrosion outside. Ask for the corrosion class, an anti-condensation heater, a drainage path around the plinth and a lightning protection design, because the equatorial thunderstorm is a design load, not weather.</p>\n<p>Earthing deserves its own line. High lightning activity and a wet surface mean earth resistance has to be measured rather than assumed, and the surge path has to cover the DC side as well as the AC feed.</p>"
+        ],
+        [
+          "Two wheels first, four wheels second",
+          "<p>The volume electrification story in Indonesia is motorcycles and three-wheelers, much of it through battery swap rather than DC charging. A site design that ignores this builds the wrong asset. The practical answer is often mixed: a swap cabinet bank with modest power demand plus one or two DC units for cars and taxis. SNI conformity applies to the equipment, so confirm the current scope with the importer before the order.</p>"
+        ],
+        [
+          "Five answers PLN will ask for anyway",
+          "<p>Five: the daya you need and the transformer responsibility; the session-mix assumption behind the fee revenue; whether swap is part of the site; the ambient and rain design case; and the local entity that holds the SNI file and the service contract. Those five decide whether the first phase is 60 kW or 200 kW. <a href=\"/inquiry\">Send us the site brief</a> and we will price against it.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "How much can an Indonesian charging station charge per kWh?",
+          "The service fee is capped separately from the energy. Kepmen ESDM 182.K/TL.04/MEM.S/2023 sets a maximum of Rp 25,000 per fast-charging session and Rp 57,000 per ultrafast session, while the electricity itself is billed at the applicable PLN tariff, which commonly lands between Rp 1,650 and Rp 2,475 per kWh depending on the supply. Model utilisation and session turnover, not a price premium."
+        ],
+        [
+          "Is DC fast charging viable for motorcycles in Indonesia?",
+          "Mostly not, and that is why battery swap dominates the two-wheeler segment. A swap cabinet needs far less connected power per vehicle than a DC bay and serves a rider in under two minutes. The commercial case for DC comes from cars, taxis and light commercial fleets. A site that serves both usually separates the swap bank from the DC bays rather than mixing them in one footprint."
+        ],
+        [
+          "Does imported charging equipment need SNI in Indonesia?",
+          "SNI applies to a defined scope of electrical equipment, and charging equipment has been moving into it, so confirm the current scope with BSN and your importer before the order. A test report against the relevant IEC standard is the usual evidence base, and the local entity holding the SNI file is part of the application. Shipping first and confirming scope afterwards is the expensive order."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market pages"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/60-kw-dc-fast-charging-station",
+          "60 kW station cost bands"
+        ],
+        [
+          "/depot/hotel-destination-charging",
+          "Destination charging design"
+        ],
+        [
+          "/products/castor",
+          "Castor 20–40 kW"
+        ]
+      ]
+    },
+    {
+      "slug": "vietnam",
+      "country": "Vietnam",
+      "region": "Southeast Asia",
+      "coverage": "target",
+      "eyebrow": "Market · Southeast Asia",
+      "title": "Vietnam EV Charging: Circular 60 Metering and Monsoon Sites",
+      "meta": "Vietnam's Circular 60/2025 makes commercial EV charging separately metered, priced from VNĐ1,565 to VNĐ4,298/kWh. The meter, not the charger, decides the case.",
+      "h1": "EV charging in Vietnam: the meter comes before the charger",
+      "lede": "Vietnam has just made metering a commercial decision. A commercial charging station must sit on its own meter and be priced by purpose, and the spread between the lowest and highest band is wider than most equipment choices. The site design should start there.",
+      "tldr_label": "In brief — Vietnam",
+      "tldr": "Put the charger on its own meter in the single-line diagram, then confirm the tariff band with EVN before the financial model is signed off. Flood level and humidity decide the enclosure. This page is market intelligence, not a record of delivered projects in Vietnam.",
+      "facts": [
+        [
+          "Circular 60",
+          "Charging tariff rule 2025"
+        ],
+        [
+          "VNĐ 1,565",
+          "Lowest charging band"
+        ],
+        [
+          "VNĐ 4,298",
+          "Highest charging band"
+        ],
+        [
+          "EVN",
+          "Distribution utility"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Circular 60/2025/TT-BCT requires commercial EV charging stations and battery-swap cabinets to be separately metered, with charging electricity priced between VNĐ1,564.89 and VNĐ4,297.94 per kWh depending on voltage level and time-of-use category.",
+        "source": "MoIT Circular 60/2025/TT-BCT on retail electricity prices (December 2025), reported by Việt Nam News, 12 December 2025"
+      },
+      "sources": [
+        "MoIT — Circular 60/2025/TT-BCT on retail electricity prices, including EV charging, December 2025",
+        "Decision 14/2025/QĐ-TTg — retail electricity tariff structure",
+        "EVN — connection, metering and tariff application for charging customers",
+        "STAMEQ — TCVN standards adopted from IEC for charging equipment"
+      ],
+      "sections": [
+        [
+          "The meter decides the business case",
+          "<p>Circular 60/2025 turns metering into the first design decision. Commercial charging must sit on its own meter, with the price applied by purpose; where a single meter serves mixed uses, buyer and seller agree a percentage split, and a wrong declaration can be recovered for up to twelve months. Retrofitting a separate meter into a finished switchroom is expensive, so put it in the single-line diagram at concept stage and confirm it with the EVN company.</p>\n<p>Retrofit cost is the reason. A separate meter means a separate feeder, protection and metering cabinet, and in an occupied building that work happens at night at premium rates. In a new build it is a line on the drawing.</p>"
+        ],
+        [
+          "EVN's connection and where the 200 kW sits",
+          "<p>EVN's distribution companies set the connection terms, and the question is whether the load lands on a 22 kV feeder with a dedicated transformer or on an existing low-voltage supply. Hanoi and Ho Chi Minh City have both the density and the constraint. Hanoi's low-emission zone pilot from 1 July 2026 also pulls bus and depot charging into a defined geography, which is where a corridor plan usually starts.</p>\n<p>Corridor sites follow the same logic. The useful question is not where the highway runs, but where a fleet already stops for forty minutes, because that stop is the demand.</p>"
+        ],
+        [
+          "Heat, humidity and a city that floods",
+          "<p>Thirty-five degrees with 80% humidity and 1,500 to 2,000 mm of rain is the operating case, and in Hanoi and Ho Chi Minh City the water arrives at ground level. Plinth height, cable entry, drainage and the corrosion class matter more than the nameplate. Ask for the anti-condensation design and the enclosure finish specification, then check the service plan against the flood season rather than against a quarterly calendar.</p>\n<p>Coastal and inland sites age differently too. Salt air around Haiphong and the central coast attacks the finish, while inland humidity attacks the electronics from the inside.</p>"
+        ],
+        [
+          "TCVN, and CCS2 alongside GB/T",
+          "<p>Vietnamese standards follow TCVN, largely adopted from IEC, so the equipment file looks familiar to a European supplier. The connector question is less settled: CCS2 for cars sold through the domestic ecosystem and European imports, GB/T where Chinese vehicles make up the fleet. A mixed fleet should decide the split from vehicle registrations rather than preference, and the second cable should be priced into the first phase.</p>"
+        ],
+        [
+          "One page for the EVN file",
+          "<p>Five: the metering arrangement and who owns the meter; the connection voltage and transformer responsibility; the tariff band the site will fall into under Circular 60; the connector split by fleet; and the flood level at the site. The tariff band alone can move payback further than the equipment choice. <a href=\"/inquiry\">Send the site and the fleet mix</a> and we will price against them.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "How is electricity for an EV charging station priced in Vietnam?",
+          "Circular 60/2025/TT-BCT applies the retail tariff by purpose and requires commercial charging stations and swap cabinets to be separately metered. Charging electricity falls between VNĐ1,564.89 and VNĐ4,297.94 per kWh depending on the voltage level and the time-of-use category. The band, not the charger, is the largest single variable in the model, so confirm it with the EVN company before signing off a payback."
+        ],
+        [
+          "Can a charging station share a meter with the rest of the building?",
+          "It can, but the pricing becomes an agreement rather than a measurement. Where one meter serves household and non-household use, the household price applies to the whole meter unless a separate meter is installed, and where separate metering is impossible the parties agree a percentage split and notify the seller fifteen days before any change. Misdeclaration can be recovered for up to twelve months, which is the risk to price in."
+        ],
+        [
+          "Will a DC charger survive a Hanoi monsoon?",
+          "With the right enclosure and the right plinth. Hanoi and Ho Chi Minh City combine high humidity with intense seasonal rain and street flooding, so the specification should name the corrosion class, the anti-condensation design, the plinth height and the cable entry direction. Add a service plan that assumes water at ground level once a year, and check that spares are held locally, because a flooded connector is a same-week problem."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market pages"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/bus-depot-charging",
+          "Bus depot charging design"
+        ],
+        [
+          "/cost/180-kw-dc-fast-charging-station",
+          "180 kW station cost bands"
+        ],
+        [
+          "/regulations/",
+          "Regulatory guides"
+        ]
+      ]
+    }
+  ]
+}

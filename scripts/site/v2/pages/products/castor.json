@@ -1,0 +1,142 @@
+{
+  "slug": "products/castor",
+  "url": "/products/castor.html",
+  "breadcrumb": "Castor",
+  "title": "Castor — DC wallbox, 20–40 kW | Anari Energy",
+  "meta": "Castor: Wall-mounted DC for small yards, workshops and depots. No foundations and no separate power cabinet: useful where the civil works would otherwise cost",
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Product · Castor",
+      "h1": "Castor — DC wallbox, 20–40 kW",
+      "lede": "Wall-mounted DC for small yards, workshops and depots. No foundations and no separate power cabinet: useful where the civil works would otherwise cost more than the charger.",
+      "image": "/assets/img/products/v2/castor-20-40kw.webp",
+      "image1024": "/assets/img/products/v2/castor-20-40kw-1024.webp",
+      "imageAlt": "Castor product photograph",
+      "note": "Specifications below are the published configuration; the binding constraint on your site decides the variant.",
+      "actions": [
+        {
+          "label": "Request a configuration",
+          "href": "/inquiry"
+        },
+        {
+          "label": "Full datasheet",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Specifications",
+      "h2": "Castor specifications",
+      "lede": "Ratings, protection rating and authentication.",
+      "rows": [
+        {
+          "k": "DC output power",
+          "v": "20 kW (single gun) · 30/40 kW (dual gun)"
+        },
+        {
+          "k": "Connectors",
+          "v": "CCS2 or GB/T, 5 m cable"
+        },
+        {
+          "k": "Output voltage",
+          "v": "DC 200–1000 V"
+        },
+        {
+          "k": "Authentication",
+          "v": "Plug and charge / RFID / app"
+        },
+        {
+          "k": "Protection rating",
+          "v": "IP54 · IK08"
+        },
+        {
+          "k": "Operating temperature",
+          "v": "−30 °C to +70 °C"
+        },
+        {
+          "k": "Mounting",
+          "v": "Wall-mounted or floor pedestal"
+        },
+        {
+          "k": "Certification",
+          "v": "CE; IEC 61851, IEC 62196, ISO 15118-3, CHAdeMO 1.2"
+        }
+      ],
+      "caption": "Castor — published specifications",
+      "alt": false
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Where it fits",
+      "h2": "The constraint this family answers",
+      "lede": "Depots, workshops and back-of-house sites where vehicles dwell for hours rather than minutes.",
+      "items": [
+        {
+          "title": "Typical deployment",
+          "text": "Chosen when the site constraint matches the family, not because it is the cheapest unit."
+        },
+        {
+          "title": "What decides the variant",
+          "text": "Grid capacity, duty cycle, climate envelope and connector standard."
+        },
+        {
+          "title": "What to send us",
+          "text": "Available kVA, vehicles served per day, dwell time and ambient temperature range."
+        },
+        {
+          "title": "How it is delivered",
+          "text": "Within the turnkey scope: design, permits, installation supervision, commissioning and handover."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Related families",
+      "h2": "Often specified together",
+      "items": [
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · dual standard"
+        },
+        {
+          "href": "/products/",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Storage · 120 / 261 / 418 kWh"
+        }
+      ],
+      "action": {
+        "label": "Compare all families",
+        "href": "/products/"
+      }
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Next step",
+      "h2": "Send the site parameters and we will return a Castor configuration.",
+      "lede": "Available capacity, duty cycle and climate are enough to narrow the variant in one exchange.",
+      "actions": [
+        {
+          "label": "Request a configuration",
+          "href": "/inquiry"
+        },
+        {
+          "label": "See deployed sites",
+          "href": "/cases/"
+        }
+      ]
+    }
+  ]
+}

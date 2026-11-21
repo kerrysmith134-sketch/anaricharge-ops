@@ -1,0 +1,384 @@
+{
+  "_comment": "2026-11-10 PSEO F5 regulations — Europe (EU) + Africa. Approval/connection/permitting paths only; product certification lives on /markets/{slug}.",
+  "family": "regulations-eu-af",
+  "base_path": "/regulations",
+  "base_url": "https://www.anaricharge.com",
+  "date_modified": "2026-11-10",
+  "hreflang_locales": ["en"],
+  "pages": [
+    {
+      "slug": "bulgaria",
+      "country": "Bulgaria",
+      "region": "Europe",
+      "eyebrow": "Compliance · Europe",
+      "regulator": "KEVR (EWRC)",
+      "connection": "ESO + regional DSO",
+      "statute_status": "EU AFIR + Energy Act",
+      "about": {"@type": "Legislation", "name": "Energy Act of the Republic of Bulgaria and EWRC Regulation No. 6 on the connection of energy facilities to the electricity networks"},
+      "title": "Bulgaria EV Charging: Connection, Permits and KEVR Sign-Off",
+      "meta": "Bulgaria's connection file runs on EWRC Regulation No. 6, yet the reserved capacity, the municipal permit and the fire opinion still set the date.",
+      "h1": "EV charging in Bulgaria: the approval path from capacity request to energisation",
+      "lede": "A Bulgarian charging site is decided by a document most developers read late: the connection conditions study. Before a single cabinet is specified, the local distribution company has to reserve capacity in kVA, and that reservation is priced whether or not a car ever arrives. This page maps the order, the offices and the files.",
+      "tldr_label": "In brief — Bulgaria",
+      "tldr": "Capacity first, permit second, equipment last. EWRC Regulation No. 6 shortened the connection file in 2024 but did not shorten the queue for reserved capacity at the substation, and that queue is the critical path. This is permitting experience, not legal advice: before signature, rely on the written position of KEVR and the network operator.",
+      "facts": [
+        ["Reg. No. 6", "EWRC connection rule, 2024"],
+        ["10.8 kW", "Preferential procedure ceiling"],
+        ["SSED", "Mandatory filing channel"],
+        ["KEVR", "Tariff and licence authority"]
+      ],
+      "anchor_fact": {
+        "fact": "EWRC (KEVR) adopted a completely new Regulation No. 6 on the connection of energy facilities to the electricity networks on 28 March 2024, which reduced the connection file to a right-in-rem document plus technical coordination, required filing through the Secure Electronic Delivery System, and created a preferential connection procedure for installations up to and including 10.8 kW.",
+        "source": "EWRC decision of 28 March 2024, reported by the Bulgarian Photovoltaic Association, 29 March 2024"
+      },
+      "sources": [
+        "EWRC (KEVR) — Regulation No. 6 on the connection of energy facilities to the electricity networks, adopted 28 March 2024",
+        "Energy Act of the Republic of Bulgaria — licensing of generation, transmission, distribution and trade in electricity; network tariffs approved by EWRC",
+        "Regulation (EU) 2023/1804 (AFIR) — directly applicable in Bulgaria to publicly accessible recharging"
+      ],
+      "sections": [
+        [
+          "The document that decides the project is a capacity reservation",
+          "<p>A Bulgarian charging project is rarely limited by the charger. It is limited by the kVA the local distribution company will reserve at the feeding substation, and by the network tariff attached to that reservation, which KEVR approves and which is billed whether the site is busy or empty. Two 120 kW cabinets on one site ask for roughly 250 kVA of reserved capacity once losses and simultaneity are counted, and that figure is what the business plan has to carry.</p>"
+        ],
+        [
+          "Who signs what, and in which order",
+          "<p>Four offices sit in the chain. The distribution company runs the conditions study and then signs the connection contract. The municipality, through the chief architect, issues the construction permit for the canopy, the transformer station and the civil works. The fire safety directorate signs the layout, the access and any battery room. The electrical inspection and the metering point close the sequence before energisation. In our experience the study runs thirty to ninety days and the permit two to four months, while the inspection takes days rather than weeks, so the first two set the date.</p>"
+        ],
+        [
+          "What the connection application actually contains",
+          "<p>Regulation No. 6 trimmed this file: the study now needs a document proving the right to build on the property, and the design visa and enacted detailed development plan requirements were dropped. Paperwork goes through the Secure Electronic Delivery System. The technical core has not changed — a single-line diagram, the load calculation with simultaneity, transformer rating, protection settings and the proposed metering. If the existing transformer cannot carry the load, the connection contract becomes a reinforcement project with a price and a schedule owned by the network operator, not by you.</p>"
+        ],
+        [
+          "Public charging: AFIR applies directly, energy is priced by the regulator",
+          "<p>Regulation (EU) 2023/1804 applies directly in Bulgaria, so a public point carries the Union duties on ad-hoc payment, price transparency and availability data; the detail sits on our AFIR page rather than here. The national layer is pricing. KEVR approves network tariffs and the components behind the end price, and the Energy Act licenses generation, transmission, distribution and trade in electricity. Charging infrastructure is not a separate licensed activity, so the licence question lands on your commercial model rather than on the hardware. Get that position in writing before the supply contract is signed.</p>"
+        ],
+        [
+          "The file, and the three ways a Bulgarian project loses a season",
+          "<p>Assemble the right-in-rem document, the single-line diagram with the load calculation, the connection conditions study, the connection contract, the municipal construction permit, the fire safety opinion, the inspection protocol and the metering agreement. Projects lose time in three places: capacity requested before the load is fixed, a transformer upgrade discovered after the equipment order, and a fire opinion sought after the canopy is built. None of those is technical. Send the site and the load and we will build the sequence backwards from energisation.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do you need a KEVR licence to operate a charging station in Bulgaria?",
+          "Not for the charging itself. The Energy Act licenses generation, transmission, distribution, supply and trade in electricity, and a charging station is not a separate licensed activity. The question is commercial: if your model buys energy and resells it to drivers at a margin, you are closer to a supply or trading activity and should ask KEVR's licensing directorate for a written view, usually reached together with a licensed supplier. If you host chargers on an existing supply contract, the supplier's licence covers the energy and your obligations are the connection and the permit."
+        ],
+        [
+          "How long does a 240 kW connection take in Bulgaria?",
+          "Plan on the study taking thirty to ninety days, with construction and energisation adding two to five months — ranges from our own projects, not a statutory deadline. Regulation No. 6 shortened the administrative steps in 2024 and removed the design-visa requirement, but it cannot shorten a transformer upgrade. If the feeding substation has no headroom, the reinforcement is designed, priced and scheduled by the network operator, and that work sits outside any deadline you control. Ask for the available capacity at the transformer before you commit to a power level."
+        ],
+        [
+          "What changes for a public charger under AFIR in Bulgaria?",
+          "AFIR applies directly, so a public recharging point has to accept ad-hoc payment without a contract, show the price per kWh and per minute before the session starts, and publish availability data in the required format. Those duties fall on the operator rather than on the equipment supplier, though the hardware has to support them. AFIR also sets corridor expectations along the TEN-T core network, which is where site selection and public support tend to line up. We keep the Union-level detail on the AFIR page so this one stays about the Bulgarian approval chain."
+        ]
+      ],
+      "internal": [
+        ["/regulations/", "All country regulations"],
+        ["/regulations/eu-afir", "EU AFIR requirements"],
+        ["/markets/bulgaria", "Bulgaria market guide"],
+        ["/journey/compliance", "Compliance journey"],
+        ["/inquiry", "Talk about a project"]
+      ]
+    },
+    {
+      "slug": "czechia",
+      "country": "Czechia",
+      "region": "Europe",
+      "eyebrow": "Compliance · Europe",
+      "regulator": "ERÚ (ERO)",
+      "connection": "ČEZ / EG.D / PRE",
+      "statute_status": "AFIR + Energy Act 458/2000",
+      "about": {"@type": "Legislation", "name": "Act No. 458/2000 Sb., the Czech Energy Act"},
+      "title": "Czechia EV Charging: Permits, 22 kV Connection, ERÚ Rules",
+      "meta": "Czechia exempts charging from ERÚ licensing but not from a trade licence, a 22 kV capacity contract or the 30 June renewable declaration to SEI.",
+      "h1": "EV charging in Czechia: permits, the 22 kV connection and what ERÚ does not license",
+      "lede": "Czechia is one of the few member states where the Energy Act says outright that running a charging station needs no energy licence. That removes one approval and leaves the harder ones: reserved capacity on a 22 kV network, a building permit for the canopy and the transformer station, and an operator filing that few foreign suppliers have seen.",
+      "tldr_label": "In brief — Czechia",
+      "tldr": "The licence you expect to need is the one you do not. What bite are the trade licence, the building permit and the contracted medium-voltage capacity, in that order of difficulty, plus an annual declaration to the State Energy Inspection. This page is permitting experience, not legal advice.",
+      "facts": [
+        ["458/2000", "Czech Energy Act"],
+        ["30 June", "Annual SEI reporting date"],
+        ["22 kV", "Czech MV distribution"],
+        ["No ERÚ licence", "Charging not licensed"]
+      ],
+      "anchor_fact": {
+        "fact": "Czechia's Energy Act No. 458/2000 Sb. states that electricity used in operating a charging station does not require a licence from ERÚ, while operating one commercially does require a trade licence (živnostenské oprávnění), and the operator declares its renewable-electricity share for charging to the State Energy Inspection by 30 June each year.",
+        "source": "Energy Act No. 458/2000 Sb.; State Energy Inspection (SEI) reporting guidance, 2025"
+      },
+      "sources": [
+        "Act No. 458/2000 Sb. (Czech Energy Act) — charging-station operation excluded from ERÚ licensing; trade-licence route",
+        "State Energy Inspection (SEI) — annual declaration of the renewable share in electricity supplied for charging, due 30 June",
+        "ČEZ Distribuce, EG.D and PREdistribuce — the three Czech distribution system operators",
+        "Regulation (EU) 2023/1804 (AFIR) — directly applicable to publicly accessible recharging"
+      ],
+      "sections": [
+        [
+          "The approval that catches foreign suppliers is not the energy licence",
+          "<p>The Czech Energy Act, No. 458/2000 Sb., says electricity used to operate a charging station does not require a licence from ERÚ, the energy regulator — including where the operator bills that energy on to a third party. That is unusual in the Union and it removes a step developers budget for elsewhere. What remains is the ordinary commercial layer: running charging points is a business, so it needs a trade licence registered in the Czech trade register, plus a data box for official delivery. The mismatch is that a supplier's compliance folder answers the licence question and says nothing about the trade licence.</p>"
+        ],
+        [
+          "Capacity at 22 kV, and a building permit on its own clock",
+          "<p>Czech medium-voltage distribution runs at 22 kV, and the connection contract with the local distributor — ČEZ Distribuce, EG.D or PREdistribuce depending on territory — fixes the reserved capacity and the recurring fee for it. Separately, the building authority handles the canopy, the transformer station and any battery container: a full permit for new structures, a notification for smaller works. The two processes do not wait for each other, which is how a site ends up electrically ready and legally unbuildable in the same month. Run them in parallel, with one owner for both.</p>"
+        ],
+        [
+          "What has to be in the connection request",
+          "<p>The distributor wants the load in kVA with a stated simultaneity assumption, a single-line diagram, the proposed protection and metering arrangement, and proof of the right to use the land or building. For a depot adding eight 60 kW units the honest figure is not 480 kW but the peak the overnight window produces, and the distributor prices reinforcement against the higher number. Ask for the existing transformer loading and the feeder headroom in writing. Metering normally lands on the medium-voltage side at this size, which quietly makes you responsible for transformer losses.</p>"
+        ],
+        [
+          "Registration, reporting and the annual renewable declaration",
+          "<p>Two operator duties sit outside the building file. The first is the trade licence, which has to exist before the first paid session. The second is the annual declaration to the State Energy Inspection of the renewable share in the electricity supplied for charging, filed by 30 June each year. Neither is onerous and both are routinely missed by an operator who assumed the energy licence was the only registration. Add the Union layer: AFIR applies directly, so public points need ad-hoc payment, price transparency and availability data, which we keep on the AFIR page.</p>"
+        ],
+        [
+          "The file, and where Czech projects lose months",
+          "<p>Assemble the trade licence extract, the connection contract with the reserved capacity, the building permit or notification, the electrical inspection report, the metering agreement, and a diary entry for the 30 June declaration. Three failures recur: treating the building permit as something that happens during construction, ordering cabinets against a capacity figure that was never contracted, and discovering the SEI declaration after the first year of operation. Send the site, the load profile and the land status and we will put the whole sequence on one page.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Does operating a charging station in Czechia need an ERÚ licence?",
+          "No. The Energy Act, No. 458/2000 Sb., states that using electricity to operate a charging station does not require a licence from ERÚ, and that includes billing the energy to a third party. The activity is still a business, so it needs a trade licence registered in the Czech trade register, and the operator carries its own tax and consumer obligations. Keep the distinction visible in the project file: no energy licence, but a trade licence, a data box for official delivery and the annual declaration to the State Energy Inspection."
+        ],
+        [
+          "How long does a 22 kV connection take in Czechia?",
+          "The contract is usually a matter of weeks; the work behind it is not. On our Czech depot projects it has run two to four months from a complete request to a live connection where the existing transformer had headroom, and six to twelve months where reinforcement or a new transformer station was needed. The permit for that station runs in parallel and can outlast the electrical work. Ask the distributor for transformer loading and feeder headroom before the equipment order, and put both dates into the supply contract."
+        ],
+        [
+          "What must a public charging operator report in Czechia?",
+          "Two things, one annual and one continuous. Annually, by 30 June, the operator declares to the State Energy Inspection the renewable share in the electricity supplied for charging. Continuously, the AFIR duties apply as they do across the Union: ad-hoc payment without a contract, price per kWh and per minute shown before the session, and availability data in the required format. The declaration is small but dated, and a missed filing is a finding rather than a warning. Keep it in the operations calendar, not in the project folder."
+        ]
+      ],
+      "internal": [
+        ["/regulations/", "All country regulations"],
+        ["/regulations/eu-afir", "EU AFIR requirements"],
+        ["/markets/czechia", "Czechia market guide"],
+        ["/cases/bus-depot-czechia", "Bus depot delivered in Czechia"],
+        ["/inquiry", "Talk about a project"]
+      ]
+    },
+    {
+      "slug": "finland",
+      "country": "Finland",
+      "region": "Europe",
+      "eyebrow": "Compliance · Europe",
+      "regulator": "Energiavirasto",
+      "connection": "DSO / Fingrid TSO",
+      "statute_status": "AFIR + Electricity Market Act",
+      "about": {"@type": "Legislation", "name": "Electricity Market Act (588/2013) and the Act on the Distribution of Alternative Fuels for Transport"},
+      "title": "Finland EV Charging: DSO Connection, Permits and AFIR ID",
+      "meta": "In Finland the connection offer comes first and the AFIR ID almost last: Traficom issues the identifier and Fintraffic takes the availability data.",
+      "h1": "EV charging in Finland: the DSO connection, the permits and the AFIR ID",
+      "lede": "Finland has one of the densest car-charging networks in Europe and a very thin one for trucks, so most new projects are depots and corridor sites. Both begin the same way: a connection offer from the local distribution system operator, with a capacity figure and a recurring charge attached, before the layout is fixed.",
+      "tldr_label": "In brief — Finland",
+      "tldr": "The connection offer is the first real approval and the AFIR ID is the last. Between them sit the municipal permit, the electrical inspection and the data onboarding with Fintraffic. Nothing in that chain is charging-specific, which is why it is easy to plan around and easy to underestimate. Permitting experience, not legal advice.",
+      "facts": [
+        ["588/2013", "Electricity Market Act"],
+        ["AFIR ID", "Issued by Traficom"],
+        ["Datex II", "Fintraffic data route"],
+        ["20 kV", "Finnish MV distribution"]
+      ],
+      "anchor_fact": {
+        "fact": "Finland's Electricity Market Act (588/2013) places the connection obligation on the distribution system operator, while Traficom acts as the national Identification Registration Organisation issuing unique AFIR IDs to charge point operators, and publication through Fintraffic's national database is accepted as the Datex II compliance route.",
+        "source": "Electricity Market Act 588/2013; Traficom AFIR ID guidance; Fintraffic AFIR pages, 2026"
+      },
+      "sources": [
+        "Electricity Market Act (588/2013, Finland) — distribution connection obligation and network tariffs supervised by Energiavirasto",
+        "Traficom — national Identification Registration Organisation; AFIR ID applications for charge point operators and mobility service providers",
+        "Fintraffic — national database; publication there fulfils the Datex II data duty",
+        "Act on the Distribution of Alternative Fuels for Transport (Finland) — national AFIR implementation with supervisory authority and sanctions"
+      ],
+      "sections": [
+        [
+          "A Finnish site starts with a connection offer, not a permit",
+          "<p>Finland's distribution networks are dimensioned around a winter peak that electric heating already sets, and in the south the load from data centres and industry keeps adding to it. A depot asking for 500 kW therefore joins a queue, and the document that matters is the connection offer: the capacity the network company will grant, the reinforcement cost if any, and the recurring charge attached to the reservation. Ask for those three numbers separately and in writing before the layout is frozen, because together they decide whether this is a charger purchase or a substation project.</p>"
+        ],
+        [
+          "Who approves what: Energiavirasto, the DSO, the municipality, Traficom",
+          "<p>Energiavirasto supervises the network companies, their tariffs and their connection terms; it does not approve individual sites. The distribution system operator signs the connection contract and the metering arrangement. The municipality grants the building or action permit and checks the detailed plan, where canopy height, parking layout and access are settled. Traficom is the national body for the AFIR identifier, and the rescue authority takes an interest in any battery container. Four offices, one sequence — and the municipal permit is the one that most often outlasts the electrical work.</p>"
+        ],
+        [
+          "What the connection request has to contain",
+          "<p>The network company needs the load in kVA rather than in charger kilowatts, with the simultaneity assumption stated, a single-line diagram, protection settings and the proposed metering point. Finnish medium-voltage distribution commonly runs at 20 kV, so a site of any size connects at medium voltage with its own transformer, and the transformer losses then belong to you. Winter adds a physical constraint: a depot must be ready before the morning block, so the design case is the coldest week rather than the annual average, and the offer should be tested against exactly that week.</p>"
+        ],
+        [
+          "The AFIR ID and the data feed are the operator's own approvals",
+          "<p>AFIR applies directly in Finland, and the Act on the Distribution of Alternative Fuels for Transport adds the supervisory authority and the sanctions behind it. The practical step is the identifier: Traficom is Finland's Identification Registration Organisation and issues the unique AFIR ID that a charge point operator or mobility service provider needs in order to be identifiable in the Union register. The data duty has a national route too — publication through Fintraffic's national database is accepted as fulfilling the Datex II obligation, which is a lighter path than running your own feed.</p>"
+        ],
+        [
+          "The file, and where Finnish projects lose a winter",
+          "<p>Collect the connection offer and contract, the municipal permit, the electrical inspection record, the AFIR ID from Traficom, the Fintraffic data onboarding and a maintenance access plan that survives February. Projects lose a season in three ways: a capacity figure assumed rather than offered, a permit that runs past the delivery date, and a cabinet with no cleared access once the snow arrives. Send the load profile and the site plan and we will work the sequence back from the hour the vehicles have to be ready.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do you need a permit to build a charging station in Finland?",
+          "There is no charging-specific permit. The approvals are the ones any electrical installation attracts: a building or action permit from the municipality where structures, canopies or a transformer station are involved, plus the detailed plan check; a connection contract with the distribution system operator; and an electrical inspection before energisation. On top of those, a public charge point operator needs an AFIR ID from Traficom and a data route to Fintraffic. Energiavirasto supervises the network companies rather than individual sites, so it is not in that approval chain."
+        ],
+        [
+          "How is connection capacity priced in Finland?",
+          "The network company grants a reserved capacity and charges for it, usually as a fixed annual or monthly component that continues whether the site is busy or idle, plus a separate connection or reinforcement charge when the network has to be strengthened. Ask for the three items separately: granted kVA, reinforcement cost, recurring charge. A single figure hides which part is one-off and which is permanent, and the permanent part is what decides the business case for a depot with one overnight window and no daytime revenue."
+        ],
+        [
+          "What is an AFIR ID and who issues it in Finland?",
+          "It is the unique identification code AFIR requires for operators of publicly available recharging points and for mobility service providers, so that a point can be identified consistently across the Union. In Finland the application goes to Traficom, which acts as the national Identification Registration Organisation. Without the identifier a public point cannot be properly registered or published. The application is administrative and does not depend on the hardware, so it can start while the connection is still being built rather than after commissioning."
+        ]
+      ],
+      "internal": [
+        ["/regulations/", "All country regulations"],
+        ["/regulations/eu-afir", "EU AFIR requirements"],
+        ["/markets/finland", "Finland market guide"],
+        ["/cases/cold-climate", "Cold-climate deployments"],
+        ["/inquiry", "Talk about a project"]
+      ]
+    },
+    {
+      "slug": "ethiopia",
+      "country": "Ethiopia",
+      "region": "Africa",
+      "eyebrow": "Compliance · Africa",
+      "regulator": "PEA (ex-EEA)",
+      "connection": "EEU distribution",
+      "statute_status": "Energy Proclamation 810/2013",
+      "about": {"@type": "Legislation", "name": "Energy Proclamation No. 810/2013 (Ethiopia)"},
+      "title": "Ethiopia EV Charging: EEU Connection and Energy Licensing",
+      "meta": "Ethiopia has no charging act, so the licence question under the Energy Proclamation comes before the EEU feeder and before the equipment file.",
+      "h1": "EV charging in Ethiopia: the EEU connection and the licensing question",
+      "lede": "Ethiopia stopped issuing import permits for petrol and diesel cars in January 2024, so demand is no longer the open question. What is open is who may sell the kilowatt-hour and where the capacity comes from: the distribution utility holds the feeder, the energy regulator holds the licence categories, and neither has a charging-specific rulebook yet.",
+      "tldr_label": "In brief — Ethiopia",
+      "tldr": "The licence question comes before the equipment. If you resell metered energy you are inside the sale-of-electricity category the Proclamation defines; a host model sits outside it. Then comes the EEU feeder and the import file. Permitting experience, not legal advice — confirm the model with the regulator in writing.",
+      "facts": [
+        ["810/2013", "Energy Proclamation"],
+        ["EEU", "Distribution and supply"],
+        ["2,300 m", "Addis Ababa altitude"],
+        ["Jan 2024", "EV-only import rule"]
+      ],
+      "anchor_fact": {
+        "fact": "Ethiopia's Energy Proclamation No. 810/2013, published in Federal Negarit Gazeta No. 12 of 27 January 2014, repealed the 1997 electricity proclamation and set the licensing rules for the generation, transmission, distribution and sale of electricity; the Ethiopian Energy Authority it provided for was established by Council of Ministers Regulation No. 308/2014.",
+        "source": "UNEP-LEAP / FAOLEX record for Energy Proclamation No. 810/2013; Council of Ministers Regulation No. 308/2014"
+      },
+      "sources": [
+        "Energy Proclamation No. 810/2013 (Ethiopia), Federal Negarit Gazeta No. 12, 27 January 2014 — licensing of generation, transmission, distribution and sale",
+        "Council of Ministers Regulation No. 308/2014 — establishment of the Ethiopian Energy Authority",
+        "Council of Ministers Regulation No. 521/2022 — organisation, powers and duties of the Petroleum and Energy Authority",
+        "FAOLEX / UNEP-LEAP legislative record for Ethiopia's energy sector"
+      ],
+      "sections": [
+        [
+          "The binding constraint is the feeder, and before that the licence",
+          "<p>Ethiopian generation is overwhelmingly hydro and national supply is not the national limit; the substation that feeds your plot is. Addis Ababa's network carries voltage excursions and unplanned interruptions, and a DC site without a buffer inherits both. Before that, though, comes a question answered late: under the Energy Proclamation the sale of electricity is a licensed activity. Whether a charging business is selling electricity or supplying a service on its own premises decides which file opens first, and it is far cheaper to settle in writing than after the lease.</p>"
+        ],
+        [
+          "Who holds what: the regulator, EEP, EEU and the city",
+          "<p>The energy regulator — the Ethiopian Energy Authority until its functions were reorganised into the Petroleum and Energy Authority — licenses generation, transmission, distribution and sale. Ethiopian Electric Power generates and transmits; Ethiopian Electric Utility distributes and sells to customers, which makes it your counterparty for both the connection and the tariff. The city administration grants the building and land-use approvals, and larger sites add an environmental assessment. None of these offices has a charging procedure, so each answers from its general rules, and written questions beat assumptions.</p>"
+        ],
+        [
+          "The connection application, and the case for a buffer",
+          "<p>Apply to EEU with the load in kVA, a single-line diagram, the protection and metering proposal and proof of the right to the land. Customer supply is 220/380 V, so a 120 kW site asks for a dedicated transformer and a medium-voltage connection rather than a service upgrade, and the transformer may be yours to buy. Give the design the interruption pattern: ask for the feeder's outage record in hours, then decide whether a battery buffer, a clean shutdown or a generator interlock is in scope. That decision changes the switchgear, not only the price.</p>"
+        ],
+        [
+          "Operating: no charging act, so the general rules carry",
+          "<p>Ethiopia has no dedicated charging law, which cuts both ways. There is no payment-terminal mandate, no availability-data duty and no interoperability rule to design against — but also no safe harbour, so the tariff you charge, the metering you install and the way you invoice are judged against general electricity and consumer rules. The regulator's EEU tariff decisions give a reference for what energy costs; your price has to cover that plus any buffer losses. Document the metering, because a disputed kilowatt-hour has no dedicated forum.</p>"
+        ],
+        [
+          "The file, and the two ways an Ethiopian site stalls",
+          "<p>Assemble the land title or lease, the investment permit, the environmental decision if triggered, the connection application with the load study, the transformer specification, the metering proposal and the import documentation for the equipment. Sites stall in two places: a feeder that cannot carry the load with no upgrade budget behind it, and foreign-currency allocation for the capital import, which can hold a container longer than the technical work takes. Start both before the production slot. Send the site and the load and we will map the sequence.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do you need a licence to run a charging station in Ethiopia?",
+          "There is no charging-specific licence, so the answer depends on the model. Energy Proclamation No. 810/2013 licenses the generation, transmission, distribution and sale of electricity, and a business that buys energy and resells it metered to drivers sits close to that sale category. A host supplying its own premises and charging for a service is further away from it. The regulator decides on the facts, so write the model down and ask before signing the lease. Assume the licensing question exists even though no charging regulation does."
+        ],
+        [
+          "How do you get a grid connection for a charging site in Ethiopia?",
+          "Apply to Ethiopian Electric Utility, which distributes and sells in the area, with the load in kVA, a single-line diagram and the proposed metering. Customer supply is 220/380 V, so anything beyond a small AC site needs a dedicated transformer and a medium-voltage connection, and the transformer is often a cost the developer carries. Ask for the feeder's outage record in hours and the available capacity at the nearest substation before fixing the power level, and plan the buffer or generator interlock at the same time as the switchgear."
+        ],
+        [
+          "Does the 2024 import ban change what a site needs?",
+          "It changes the demand case rather than the paperwork. Since January 2024 Ethiopia has not issued import permits for petrol and diesel cars, so the fleet grows without a comparable charging network and demand is not the risk. The practical consequences are a connector mix that follows the imported fleet — CCS2 on most models, GB/T on Chinese ones — and pressure on the substation rather than on the sales argument. It also raises the cost of being wrong about capacity, because the queue behind your application is longer than it was."
+        ]
+      ],
+      "internal": [
+        ["/regulations/", "All country regulations"],
+        ["/markets/ethiopia", "Ethiopia market guide"],
+        ["/cases/emerging-markets", "Emerging-market deployments"],
+        ["/journey/compliance", "Compliance journey"],
+        ["/inquiry", "Talk about a project"]
+      ]
+    },
+    {
+      "slug": "ghana",
+      "country": "Ghana",
+      "region": "Africa",
+      "eyebrow": "Compliance · Africa",
+      "regulator": "Energy Commission",
+      "connection": "ECG / NEDCo, GRIDCo",
+      "statute_status": "No charging-specific statute",
+      "about": {"@type": "Legislation", "name": "Energy Commission Act, 1997 and Public Utilities Act, 1997 (Ghana)"},
+      "title": "Ghana EV Charging: ECG Connection, Permits and Licensing",
+      "meta": "Ghana has no charging statute, so the licence boundary — host or seller of electricity — decides the ECG capacity request and the tariff file.",
+      "h1": "EV charging in Ghana: the ECG connection and where the licence line falls",
+      "lede": "Ghana has no charging-specific regulation, which means the approvals are the ordinary ones and the real risk sits in the licensing boundary: a host supplying its own premises and a retailer selling metered energy to drivers are not the same activity. The connection, the tariff and the interruption pattern are the other three inputs.",
+      "tldr_label": "In brief — Ghana",
+      "tldr": "Decide first whether you are a host or a seller of electricity; that answer fixes whether you need a licence and a tariff approval. Then request capacity from ECG or NEDCo, then design for interruption. Not legal advice — get the Commission's view in writing before the lease.",
+      "facts": [
+        ["161 kV", "GRIDCo transmission backbone"],
+        ["ECG / NEDCo", "Distribution utilities"],
+        ["PURC", "Tariff and consumer regulator"],
+        ["GSA", "Import conformity route"]
+      ],
+      "anchor_fact": {
+        "fact": "Ghana's transmission backbone operates at 161 kV, a level the country adopted with its first 161 kV line in 1963 and has kept since, with GRIDCo as system operator and ECG and NEDCo distributing at 33 kV and 11 kV down to 230/400 V at the meter.",
+        "source": "GRIDCo system data; historical record of Ghana's 161 kV transmission system (1963)"
+      },
+      "sources": [
+        "Energy Commission of Ghana — licensing of commercial electricity activities, equipment standards",
+        "Public Utilities Regulatory Commission (PURC) — tariff approval and consumer protection",
+        "GRIDCo — national transmission system operator; ECG and NEDCo — distribution utilities",
+        "Ghana Standards Authority — import conformity assessment"
+      ],
+      "sections": [
+        [
+          "The licensing boundary is the first decision, not the charger",
+          "<p>Ghana regulates electricity through the Energy Commission, which licenses commercial activity across generation, transmission, distribution and supply, while PURC approves tariffs and handles consumer protection. No instrument names electric-vehicle charging, so an operator's obligations follow from what the business actually does. A hotel or depot supplying its own premises and charging a fee for the service is one case; a forecourt buying energy in bulk and selling it metered to any driver is another, much closer to a licensed supply activity. Settle which one you are in writing before the lease.</p>"
+        ],
+        [
+          "Who signs what: Commission, PURC, GRIDCo, ECG, the assembly",
+          "<p>Four to six offices appear, depending on size. The Energy Commission answers the licensing question and sets the equipment requirements. PURC enters if you sell at a regulated tariff. GRIDCo operates the transmission system and matters only for very large loads. ECG connects and distributes in the south, NEDCo in the north, and one of them is your counterparty for capacity and metering. The district assembly grants the building permit and the business operating permit, while the Ghana Standards Authority assesses the imported equipment and the EPA is added for large sites.</p>"
+        ],
+        [
+          "The connection request, and why 161 kV matters",
+          "<p>Ghana's transmission backbone runs at 161 kV — a level adopted in 1963 and kept — with distribution stepping down through 33 kV and 11 kV to 230/400 V at the meter. That tells you where your load sits: a 120 kW station is a low-voltage or 11 kV customer, while a depot of several megawatts becomes a substation project with its own protection. Apply to ECG with the load in kVA, the simultaneity assumption, a single-line diagram and the metering proposal, and ask for the feeder's existing loading. In dense Accra and Tema districts the answer is often a transformer upgrade.</p>"
+        ],
+        [
+          "Operating without a charging act: reliability replaces compliance",
+          "<p>With no dedicated charging regulation there is no payment-terminal mandate, no availability-data duty and no interoperability rule — and equally no guidance on a fair price. Reliability takes the place of compliance as the design constraint: the dumsor years left feeders that can still interrupt at short notice, so decide whether the site rides through on a buffer, shuts down cleanly, or hands over to a generator with an interlock. Choosing later means rebuilding the switchgear. Coastal humidity and harmattan dust then decide the enclosure, and the service interval follows from both.</p>"
+        ],
+        [
+          "The file, and the three ways a Ghanaian site slips",
+          "<p>Collect the land title or lease, the assembly building permit and business operating permit, the Energy Commission position on your model, the ECG or NEDCo connection contract with the reserved capacity, the metering agreement, the standards conformity file for the equipment and any environmental decision. Sites slip in three places: the licence question left open until after the equipment order, a capacity request made without the feeder's loading, and a tariff set before the energy cost and buffer losses were known. Send the site and the load and we will order the sequence.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Does a charging station need a licence in Ghana?",
+          "It depends on the model, because no instrument names charging specifically. The Energy Commission licenses commercial electricity activity, including supply, and PURC approves tariffs. A business that buys energy and resells it metered to drivers is much closer to a licensed supply activity than a hotel or depot that supplies its own premises and charges for a service. Ask the Commission for a written view on your model before committing to a site, and treat that letter as a project document rather than a formality."
+        ],
+        [
+          "How long does an ECG connection take in Ghana?",
+          "Allow three to six months as a working range for a low-voltage commercial connection where capacity exists at the transformer, and longer where a transformer upgrade or a new substation is needed, because civil works and outage windows come first. The variables you control are the completeness of the load study and the accuracy of the simultaneity assumption; the ones you do not are feeder loading and the utility's works programme. Get the available capacity at the meter in writing before the equipment order is placed."
+        ],
+        [
+          "What should a Ghanaian site be designed for beyond the grid?",
+          "Coastal humidity and salt in Accra and Tema, harmattan dust from December, and an interruption pattern that national averages hide. Those three attack different parts: salt drives corrosion on enclosures, fixings and connector pins, dust loads filters and coats heat exchangers, and interruptions decide the switchgear. Specify the corrosion class, the IP rating and the filter service interval as three separate items, and ask for the outage record at your own feeder rather than a national figure. It changes the specification and the maintenance contract together."
+        ]
+      ],
+      "internal": [
+        ["/regulations/", "All country regulations"],
+        ["/markets/ghana", "Ghana market guide"],
+        ["/journey/market-site", "Market site journey"],
+        ["/cases/emerging-markets", "Emerging-market deployments"],
+        ["/inquiry", "Talk about a project"]
+      ]
+    }
+  ]
+}

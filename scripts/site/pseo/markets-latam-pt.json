@@ -1,0 +1,95 @@
+{
+ "family": "markets-latam-pt",
+ "base_path": "/markets",
+ "base_url": "https://www.anaricharge.com",
+ "date_modified": "2026-11-09",
+ "_comment": "F1 国别页 · 葡语（巴西）。2026-11-09 用户指令：巴西用葡语，不用西语。pt 语系目前仅此一页，面包屑的 Mercados 指回 EN /markets/（避免死链）。",
+ "pages": [
+  {
+   "slug": "brazil",
+   "country": "Brasil",
+   "region": "América do Sul",
+   "eyebrow": "Mercado · América do Sul",
+   "title": "Carga de VE no Brasil: rede hídrica, calor e português",
+   "meta": "O Brasil combina rede predominantemente hídrica, calor tropical e subtropical, distâncias continentais e um mercado que compra em português.",
+   "h1": "Carga de veículos elétricos no Brasil: energia hídrica, calor e um mercado em português",
+   "lede": "O Brasil é um mercado de escala continental, com matriz predominantemente hídrica, climas tropical e subtropical, e o português como língua de trabalho. Distância e idioma mudam o plano tanto quanto o clima.",
+   "tldr_label": "Em resumo — Brasil",
+   "tldr": "A hidreletricidade dá oferta de baixo carbono; distância e calor definem a especificação. Conteúdo e atendimento precisam ser em português: material em espanhol soa estrangeiro para o comprador brasileiro.",
+   "facts": [
+    [
+     "Hidrelétrica",
+     "Matriz de geração"
+    ],
+    [
+     "Português",
+     "Idioma do mercado"
+    ],
+    [
+     "Tropical + subtropical",
+     "Duas faixas de projeto"
+    ],
+    [
+     "Continental",
+     "Distância de serviço"
+    ]
+   ],
+   "markets_href": "/markets/",
+   "sections": [
+    [
+     "Oferta hídrica e a pergunta da conexão",
+     "<p>A eletricidade brasileira é majoritariamente hídrica, o que dá uma base de baixo carbono para a eletrificação e uma oferta geralmente adequada em nível nacional. Como no resto da região, a conexão de distribuição do próprio site é a restrição que decide o projeto.</p><p>Levante a capacidade disponível e o custo da ampliação antes de definir a quantidade de carregadores.</p>"
+    ],
+    [
+     "Dois climas, um país",
+     "<p>O Norte e o Nordeste são quentes e úmidos o ano inteiro; o Sul é subtropical, com inverno frio de verdade. Uma especificação escrita para São Paulo não serve bem para nenhum dos dois. Calor e umidade atacam a vedação e desgastam conectores; o inverno do Sul exige partida a frio confiável.</p><p>Especifique por região e verifique tanto a curva de derating quanto a partida a frio.</p>"
+    ],
+    [
+     "Português não é detalhe de tradução",
+     "<p>O comprador brasileiro lê português, e uma página em espanhol soa estrangeira. Isso é uma decisão de conteúdo e de atendimento, não um requinte de localização: a busca, a conversa comercial e o suporte acontecem em português.</p><p>Tratamos o português como um idioma separado do espanhol, e não como uma variante dele, incluindo URLs e sinais de idioma próprios.</p>"
+    ],
+    [
+     "Contexto regulatório e variação por estado",
+     "<p>A regulação elétrica é nacional, mas a experiência prática de um site de recarga varia por estado e por distribuidora. O tratamento tarifário da instalação deve ser confirmado com a distribuidora local, não presumido a partir de uma regra nacional.</p><p>O tamanho do Brasil também significa que um lançamento nacional é, na prática, vários projetos regionais. Comece pelo estado onde o cliente âncora e a relação com a distribuidora já existem, e depois reuse esse modelo.</p>"
+    ],
+    [
+     "Dados de site a levantar antes do pedido",
+     "<p>Levante seis itens: estado e distribuidora, tratamento tarifário da instalação, ponto de projeto regional, capacidade disponível, mix de conectores e distância até a base de serviço.</p><p>Resolva também a questão do idioma cedo. Documentação, etiquetas e suporte em português fazem parte do entregável no Brasil, e não são uma tradução acrescentada depois.</p><p>Um site bem levantado e dimensionado com modéstia rende mais do que uma instalação maior que nunca foi conferida contra a conexão disponível.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Por que o português importa se já existem páginas em espanhol?",
+     "São mercados e comportamentos de busca diferentes. Um comprador brasileiro pesquisando em português não aproveita conteúdo em espanhol, e tratar os dois como um único idioma prejudica ambos."
+    ],
+    [
+     "Quais são os dois pontos de projeto climático no Brasil?",
+     "Quente e úmido no Norte e Nordeste; subtropical com inverno frio real no Sul. Eles exigem proteção e curvas de derating diferentes."
+    ],
+    [
+     "A geração hídrica é uma vantagem?",
+     "Sim, para a intensidade de carbono. Não elimina a restrição de conexão local de um site específico."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/brazil",
+     "Versão em inglês desta página"
+    ],
+    [
+     "/inquiry",
+     "Falar do projeto"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "Faixas de custo de 160 kW"
+    ],
+    [
+     "/tools/charging-station-roi",
+     "Calculadora de ROI"
+    ]
+   ],
+   "inquiry_href": "/inquiry"
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "ru/products/bess",
+  "url": "/ru/products/bess.html",
+  "breadcrumb": "BESS",
+  "locale": "ru",
+  "title": "BESS — жидкостное охлаждение | Anari",
+  "meta": "BESS: жидкостное охлаждение, 120 / 261 / 418 кВт·ч. Полный цикл: проект, поставка, пуск, эксплуатация. Anari. Anari. Anari. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/bess"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/bess"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/bess"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Продукт · BESS",
+      "h1": "BESS — жидкостное охлаждение, 120 / 261 / 418 кВт·ч",
+      "lede": "Площадки с ограниченной сетью, срезание пиковой нагрузки и автономные объекты, где накопитель считают раньше зарядки.",
+      "image": "/assets/img/products/v2/bess-261kwh.webp",
+      "image1024": "/assets/img/products/v2/bess-261kwh-1024.webp",
+      "imageAlt": "BESS — фото продукта",
+      "note": "Параметры приведены в оригинальной нотации изготовителя; вариант определяется ограничением вашей площадки.",
+      "actions": [
+        {
+          "label": "Запросить конфигурацию",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Полные характеристики",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Характеристики",
+      "h2": "BESS — характеристики",
+      "lede": "Опубликованная конфигурация.",
+      "rows": [
+        {
+          "k": "Ёмкости / мощность AC",
+          "v": "120 kWh · 50 kW | 261 kWh · 131 kW | 418 kWh · 209 kW"
+        },
+        {
+          "k": "Ячейки",
+          "v": "LFP 3.2 V / 314 Ah · full liquid cooling"
+        },
+        {
+          "k": "Глубина разряда",
+          "v": "100%"
+        },
+        {
+          "k": "Ресурс циклов",
+          "v": "7,000–10,000 cycles (by model)"
+        },
+        {
+          "k": "КПД системы",
+          "v": "≥90% round-trip (PCS ≥98% on 418 kWh)"
+        },
+        {
+          "k": "Рабочий диапазон",
+          "v": "−35 °C to +55 °C · IP55 outdoor"
+        },
+        {
+          "k": "Функции СЭС / сети",
+          "v": "120 kWh: PV input up to 100 kWp · 261 kWh: on/off-grid &lt;50 ms · 418 kWh: 1,500 V platform, AC-side parallel to GWh scale"
+        },
+        {
+          "k": "Безопасность и сетевые нормы",
+          "v": "UL 9540A tested · perfluorohexanone suppression · VDE 4105/4110 · EN 50549 · CEI 0-21/0-16"
+        }
+      ],
+      "caption": "BESS"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Где применяется",
+      "h2": "Ограничение, на которое отвечает семейство",
+      "lede": "Площадки с ограниченной сетью, срезание пиковой нагрузки и автономные объекты, где накопитель считают раньше зарядки.",
+      "items": [
+        {
+          "title": "Типовое развёртывание",
+          "text": "Выбирается, когда ограничение площадки совпадает с семейством."
+        },
+        {
+          "title": "Что определяет вариант",
+          "text": "Мощность сети, график, климат и стандарт разъёма."
+        },
+        {
+          "title": "Что нам пришлёте",
+          "text": "Доступные кВА, число машин в день, время стоянки, температура."
+        },
+        {
+          "title": "Как поставляется",
+          "text": "В объёме под ключ: проект, разрешения, надзор, пуск, передача."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Смежные семейства",
+      "h2": "Часто заказывают вместе",
+      "items": [
+        {
+          "href": "/ru/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 кВт · модульная"
+        },
+        {
+          "href": "/ru/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 кВт · CCS2 + GB/T"
+        },
+        {
+          "href": "/ru/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Накопитель · 120 / 261 / 418 кВт·ч"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Следующий шаг",
+      "h2": "Пришлите параметры площадки — вернём конфигурацию BESS.",
+      "lede": "Доступной мощности, графика и климата достаточно.",
+      "actions": [
+        {
+          "label": "Запросить конфигурацию",
+          "href": "/ru/inquiry"
+        },
+        {
+          "label": "Смотреть объекты",
+          "href": "/ru/cases/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "es/cases/cambodia-240kw",
+  "url": "/es/cases/cambodia-240kw.html",
+  "breadcrumb": "2 × 180 kW + 1 × 240 kW en la carretera nacional",
+  "locale": "es",
+  "title": "2 × 180 kW + 1 × 240 kW en la carretera nacional de Camb | A",
+  "meta": "Un operador de Phnom Penh que ya usaba nuestros Vulco tras un primer despliegue volvió con un presupuesto más ajustado y tolerancia cero a p Detalles y especifi",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/cases/cambodia-240kw"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/cases/cambodia-240kw"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/cases/cambodia-240kw"
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Caso",
+      "h1": "2 × 180 kW + 1 × 240 kW en la carretera nacional de Camboya",
+      "lede": "Un operador de Phnom Penh que ya usaba nuestros Vulco tras un primer despliegue volvió con un presupuesto más ajustado y tolerancia cero a paradas. Instalamos tres cargadores Pales DC en la carretera nacional: 2 × 180 kW y 1 × 240 kW, de dos pistolas GB/T.",
+      "image": "/assets/img/v2/case-cambodia-640.webp",
+      "credit": "La versión completa del análisis está en inglés",
+      "facts": null,
+      "actions": [
+        {
+          "label": "Todos los proyectos",
+          "href": "/es/cases/"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/cambodia-240kw"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "alt": true,
+      "eyebrow": "Análisis",
+      "h2": "Restricción → solución → resultado",
+      "lede": "El análisis técnico completo, con fórmulas y tablas, está en la página en inglés.",
+      "items": [
+        {
+          "no": "01",
+          "title": "Restricción",
+          "text": "Monzón, red limitada y exigencia de cero tiempo de parada."
+        },
+        {
+          "no": "02",
+          "title": "Qué hicimos",
+          "text": "Tres monobloques Pales con dos GB/T cada uno, sin armario de potencia separado."
+        },
+        {
+          "no": "03",
+          "title": "Resultado",
+          "text": "Pedido repetido: el cliente volvió después del primer sitio."
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Parámetros del sitio",
+      "h2": "2 × 180 kW + 1 × 240 kW en la carr — parámetros",
+      "rows": [
+        {
+          "k": "2 × Pales 180 kW",
+          "v": "GB/T dual-gun"
+        },
+        {
+          "k": "1 × Pales 240 kW",
+          "v": "GB/T dual-gun"
+        }
+      ],
+      "caption": "2 × 180 kW + 1 × 240 kW en la carretera nacional d"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "¿Un sitio parecido? Envíe los datos.",
+      "lede": "Basta con el país, la potencia disponible y cómo operará el sitio.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Análisis completo (EN)",
+          "href": "/cases/cambodia-240kw"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "es/who-we-serve",
+  "url": "/es/who-we-serve/",
+  "breadcrumb": "A quién servimos",
+  "title": "A quién servimos: contratistas, flotas y CPO | Anari",
+  "meta": "Cuatro tipos de cliente en mercados emergentes: contratistas de ingeniería, operadores de flota, energía e inmobiliario y CPO independientes.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "A quién servimos",
+      "h1": "Usted aporta el sitio, la flota, el capital o el plan.",
+      "lede": "Cuatro puntos de partida y un destino: un negocio de carga propio y operado. El alcance es el mismo; cambia el activo que ya tiene.",
+      "image": "/assets/img/v2/hero-serving-1920.webp",
+      "credit": "Corredor · DC de dos pistolas, Asia Central",
+      "actions": [
+        {
+          "label": "Encontrar su perfil",
+          "href": "#profiles"
+        },
+        {
+          "label": "Hablar con nosotros",
+          "href": "/es/inquiry"
+        }
+      ],
+      "facts": [
+        {
+          "value": "35–40%",
+          "label": "de demanda · ingeniería"
+        },
+        {
+          "value": "25–30%",
+          "label": "de demanda · flotas"
+        },
+        {
+          "value": "15–20%",
+          "label": "de demanda · energía"
+        },
+        {
+          "value": "10–15%",
+          "label": "de demanda · CPO independientes"
+        }
+      ]
+    },
+    {
+      "type": "sceneGrid",
+      "eyebrow": "Los cuatro perfiles",
+      "h2": "Un destino, distintas líneas de salida",
+      "lede": "Los porcentajes son la mezcla de demanda del programa llave en mano en mercados emergentes, no un ranking de importancia.",
+      "items": [
+        {
+          "href": "/who-we-serve/engineering-contractors",
+          "image": "/assets/img/v2/scene-offgrid-640.webp",
+          "title": "Contratistas de ingeniería",
+          "text": "Usted construye y sabe ejecutar obra: necesita línea de producto, permisos y capa de operación."
+        },
+        {
+          "href": "/who-we-serve/fleet-operators",
+          "image": "/assets/img/v2/scene-fleet-640.webp",
+          "title": "Operadores de flota",
+          "text": "Usted controla vehículos y patio: necesita el diseño que aguante su peor noche."
+        },
+        {
+          "href": "/who-we-serve/energy-real-estate",
+          "image": "/assets/img/v2/scene-destination-640.webp",
+          "title": "Energía e inmobiliario",
+          "text": "Usted tiene suelo, potencia o inquilinos: necesita el modelo que haga rentable construir."
+        },
+        {
+          "href": "/who-we-serve/cpo-entrepreneurs",
+          "image": "/assets/img/v2/scene-commercial-640.webp",
+          "title": "CPO independientes",
+          "text": "Usted tiene el plan y el mercado: necesita todo lo que hay entre decidir el sitio y operar."
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Qué cambia por perfil",
+      "h2": "La brecha es distinta, el alcance no",
+      "lede": "Las siete líneas de trabajo siguen en alcance. Cambia dónde fallará primero el proyecto y, por tanto, qué etapa recibe más atención.",
+      "items": [
+        {
+          "title": "Contratistas",
+          "text": "Fuerte en obra civil y eléctrica. Brecha habitual: especificación de producto, permisos y operación tras el traspaso."
+        },
+        {
+          "title": "Flotas",
+          "text": "Fuerte en vehículos y patrón operativo. Brecha: capacidad de red para el pico y ruta de migración cuando cambia la flota."
+        },
+        {
+          "title": "Energía e inmobiliario",
+          "text": "Fuerte en suelo, potencia e inquilinos. Brecha: supuestos de utilización y modelo comercial, que deciden el retorno."
+        },
+        {
+          "title": "CPO independientes",
+          "text": "Fuerte en conocimiento de mercado y relaciones. Brecha: todas las etapas técnicas a la vez — para eso existe el alcance llave en mano."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Díganos cuál de los cuatro es y qué tiene ya.",
+      "lede": "La conversación útil empieza por el activo que controla: sitio, flota, capital o plan.",
+      "actions": [
+        {
+          "label": "Hablar del proyecto",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver proyectos",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ],
+  "locale": "es",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/who-we-serve/"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/who-we-serve/"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/who-we-serve/"
+    }
+  ]
+}

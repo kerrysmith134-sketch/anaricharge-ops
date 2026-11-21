@@ -1,0 +1,877 @@
+{
+ "_comment": "F2 功率段成本页数据源。每页必须有自己的独有事实（产品参数 + 部署证据），禁止跨页复制 30 字以上句子。所有数字必须能在 ops/fact-library.json 查到。",
+ "family": "cost-bands",
+ "base_path": "/cost",
+ "base_url": "https://www.anaricharge.com",
+ "date_modified": "2026-11-07",
+ "pages": [
+  {
+   "slug": "20-kw-dc-fast-charging-station",
+   "power": "20 kW",
+   "product": "Castor",
+   "product_path": "/products/castor",
+   "title": "20 kW DC Fast Charging Station: Wallbox Cost and Fit",
+   "meta": "A 20 kW DC wallbox covering 200–1000 V, for sites where three-phase AC is not enough but a full DC bay is too much. What it costs and where it fits.",
+   "h1": "What does a 20 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 20 kW band",
+   "lede": "20 kW DC is the smallest true DC step. It exists for one reason: sites where AC is too slow and a 60 kW bay is too much civil work, money, or supply.",
+   "tldr_label": "In brief",
+   "tldr": "Castor is a 20–40 kW wall-mounted DC unit covering 200–1000 V, certified to IEC 61851, IEC 62196, ISO 15118-3 and CHAdeMO 1.2. It is the cheapest way to offer real DC where the supply cannot support a 60 kW bay.",
+   "facts": [
+    [
+     "20 kW",
+     "Band covered"
+    ],
+    [
+     "200–1000 V",
+     "Castor output range"
+    ],
+    [
+     "Wall-mounted",
+     "No new pad or canopy"
+    ],
+    [
+     "4 standards",
+     "IEC 61851/62196, ISO 15118-3, CHAdeMO 1.2"
+    ]
+   ],
+   "sections": [
+    [
+     "What 20 kW DC is actually for",
+     "<p>Twenty kilowatts is slow by public-charging standards and fast by AC standards. That makes it a fit for staff car parks, small depots, hotel back lots, and sites where a 60 kW bay would trigger a supply upgrade the project cannot fund.</p><p>Because Castor is wall-mounted and spans 20–40 kW, the same unit family covers single-gun and dual-gun layouts without a separate concrete pad.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>In this band the charger is a larger share of the total than in any other band, because the site work is small: a wall, a supply that already exists, and protection. The saving versus a 60 kW bay is mostly the civil works and the supply upgrade you avoid.</p>"
+    ],
+    [
+     "When 20 kW is the wrong answer",
+     "<p>If vehicles arrive in groups, or if the site is a highway stop, 20 kW produces queues that no amount of brand goodwill survives. Look at <a href=\"/cost/60-kw-dc-fast-charging-station\">the 60 kW band</a> first.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 20 kW DC fast charging station cost?",
+     "Usually the lowest total of any DC band, because the site work is minimal: a wall mount rather than a pad, and often an existing supply. We quote after a free survey."
+    ],
+    [
+     "Does a 20 kW DC unit need a concrete pad?",
+     "No. Castor is wall-mounted, which is the main reason this band avoids the civil cost that dominates 60 kW and above."
+    ],
+    [
+     "What voltages does a 20 kW DC charger support?",
+     "Castor covers 200–1000 V and is certified to IEC 61851, IEC 62196, ISO 15118-3 and CHAdeMO 1.2."
+    ]
+   ],
+   "internal": [
+    [
+     "/products/castor",
+     "Castor 20–40 kW"
+    ],
+    [
+     "/cost/60-kw-dc-fast-charging-station",
+     "the 60 kW band"
+    ]
+   ]
+  },
+  {
+   "slug": "30-kw-dc-fast-charging-station",
+   "power": "30 kW",
+   "product": "Castor",
+   "product_path": "/products/castor",
+   "title": "30 kW DC Charging Station: Dual-Gun Wallbox Cost",
+   "meta": "A 30 kW dual-gun DC wallbox over 200–1000 V. What it costs, when two guns beat one unit, and why the supply — not the unit — sets the ceiling.",
+   "h1": "What does a 30 kW DC charging station cost?",
+   "eyebrow": "Cost guide · 30 kW band",
+   "lede": "Thirty kilowatts is the first band where two vehicles can share one unit sensibly. That changes the economics: one supply, one mount, two sessions.",
+   "tldr_label": "In brief",
+   "tldr": "Castor covers 20–40 kW as a wall-mounted DC unit, with 30 kW as the dual-gun configuration. Covering 200–1000 V and certified to IEC 61851, IEC 62196, ISO 15118-3 and CHAdeMO 1.2, it delivers two simultaneous sessions from one supply point.",
+   "facts": [
+    [
+     "30 kW",
+     "Dual-gun band"
+    ],
+    [
+     "2 guns",
+     "Share one supply point"
+    ],
+    [
+     "200–1000 V",
+     "Output range"
+    ],
+    [
+     "Wall-mounted",
+     "No pad, no canopy"
+    ]
+   ],
+   "sections": [
+    [
+     "Why two guns at 30 kW changes the case",
+     "<p>At 20 kW a second vehicle means a second unit. At 30 kW the same wallbox serves two bays through load sharing, so the marginal cost of the second bay drops to cable, protection and a connector — not another charger and another supply point.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>The unit is the largest single line in this band. Site work stays small because Castor mounts on a wall and does not need a pad or canopy, so the budget conversation is mostly about the supply margin: whether the existing feed can carry a second simultaneous session.</p>"
+    ],
+    [
+     "When to step up",
+     "<p>If the site needs sessions shorter than an hour for a turnover business, 30 kW will frustrate. The <a href=\"/cost/60-kw-dc-fast-charging-station\">60 kW band</a> is one step up; the <a href=\"/cost/120-kw-dc-fast-charging-station\">120 kW band</a> is where public sites usually start.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 30 kW DC charging station cost?",
+     "The unit dominates this band because site work is small: wall mount, existing feed, protection. We confirm the supply margin during a free survey before quoting."
+    ],
+    [
+     "Can a 30 kW unit charge two cars at once?",
+     "Yes. In the 30 kW configuration Castor is dual-gun and shares one supply point across both connectors."
+    ],
+    [
+     "Which connector standards does it support?",
+     "Castor is certified to IEC 61851, IEC 62196, ISO 15118-3 and CHAdeMO 1.2, over a 200–1000 V output range."
+    ]
+   ],
+   "internal": [
+    [
+     "/products/castor",
+     "Castor 20–40 kW"
+    ],
+    [
+     "/cost/20-kw-dc-fast-charging-station",
+     "the 20 kW band"
+    ],
+    [
+     "/cost/60-kw-dc-fast-charging-station",
+     "the 60 kW band"
+    ]
+   ]
+  },
+  {
+   "slug": "40-kw-dc-fast-charging-station",
+   "power": "40 kW",
+   "product": "Castor",
+   "product_path": "/products/castor",
+   "title": "40 kW DC Fast Charging Station: Top of the Wallbox Band",
+   "meta": "40 kW is the ceiling of the wall-mounted DC band: dual-gun, 200–1000 V, no pad needed. Where it stops being enough, and what the next step really costs.",
+   "h1": "What does a 40 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 40 kW band",
+   "lede": "Forty kilowatts is where the wallbox band ends. Above it the project changes shape: pad, canopy, likely a supply upgrade. That boundary is worth understanding before you buy.",
+   "tldr_label": "In brief",
+   "tldr": "Castor tops out at 40 kW in a dual-gun wall-mounted form, 200–1000 V, certified to IEC 61851, IEC 62196, ISO 15118-3 and CHAdeMO 1.2. It is the last band before site work starts dominating the budget.",
+   "facts": [
+    [
+     "40 kW",
+     "Ceiling of wallbox band"
+    ],
+    [
+     "2 guns",
+     "Dual-gun configuration"
+    ],
+    [
+     "No pad",
+     "Wall-mounted form factor"
+    ],
+    [
+     "~60 kW",
+     "Where site work takes over"
+    ]
+   ],
+   "sections": [
+    [
+     "Why 40 kW is a boundary, not just a number",
+     "<p>The jump from 40 to 60 kW is not a 50% hardware increase — it is a change of project type. A 40 kW wallbox mounts on an existing wall; a 60 kW bay needs a foundation, cable trenching and, usually, a conversation with the network operator about capacity.</p><p>That is why this band is often the right answer for a pilot: it proves demand without committing to civil works.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Unit first, protection second, cable third. Supply work is minimal if the existing feed has margin, which is exactly what the survey establishes.</p>"
+    ],
+    [
+     "What comes next",
+     "<p>If the pilot shows utilisation above roughly a third, the <a href=\"/cost/60-kw-dc-fast-charging-station\">60 kW band</a> or <a href=\"/cost/120-kw-dc-fast-charging-station\">120 kW band</a> is the next step — and at that point Vulco's module-swap path matters, because 120→480 kW costs about 70% less than replacing the unit.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 40 kW DC fast charging station cost?",
+     "The unit dominates, and site work stays low because Castor is wall-mounted. The survey mainly checks whether the existing supply has margin for two simultaneous sessions."
+    ],
+    [
+     "Is 40 kW enough for a public site?",
+     "For a pilot or a low-turnover site, yes. For a highway stop or a depot with grouped arrivals, the 60 kW band and above is the realistic floor."
+    ],
+    [
+     "What is the step up from 40 kW?",
+     "60 kW changes the project type — pad, trenching and usually a capacity conversation. Plan that step deliberately rather than as a hardware upgrade."
+    ]
+   ],
+   "internal": [
+    [
+     "/products/castor",
+     "Castor 20–40 kW"
+    ],
+    [
+     "/cost/60-kw-dc-fast-charging-station",
+     "the 60 kW band"
+    ],
+    [
+     "/cost/120-kw-dc-fast-charging-station",
+     "the 120 kW band"
+    ]
+   ]
+  },
+  {
+   "slug": "60-kw-dc-fast-charging-station",
+   "power": "60 kW",
+   "product": "Pales",
+   "product_path": "/products/pales",
+   "title": "60 kW DC Fast Charging Station: Cost and Where It Fits",
+   "meta": "A 60 kW DC fast charger with CCS2 and GB/T dual guns, ≥96% peak efficiency. What drives the price, what it covers per hour, and when to size up instead.",
+   "h1": "What does a 60 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 60 kW band",
+   "lede": "60 kW is the entry point for public DC charging. It is also the band where sizing mistakes are cheapest to avoid and most expensive to keep: a 60 kW unit that is really a 120 kW site in waiting will cost you a second civil works round.",
+   "tldr_label": "In brief",
+   "tldr": "In the 60 kW band the dominant cost is not the charger but the grid connection and civil works. Our Pales line covers 60–240 kW with CCS2 (250 A) and GB/T (250 A) dual guns at ≥96% peak efficiency, so the same platform scales to 120 or 240 kW later without changing the site design.",
+   "facts": [
+    [
+     "60 kW",
+     "Band covered"
+    ],
+    [
+     "≥96%",
+     "Pales peak efficiency"
+    ],
+    [
+     "CCS2 + GB/T",
+     "Dual guns, 250 A each"
+    ],
+    [
+     "60–240 kW",
+     "Same platform scales up"
+    ]
+   ],
+   "sections": [
+    [
+     "What the 60 kW band actually buys",
+     "<p>At 60 kW a single vehicle takes roughly 40–60 minutes for a meaningful top-up, which suits depot top-ups, destination sites with lunch-stop dwell, and fleets that charge overnight on AC but need one DC unit for exceptions.</p><p>The Pales platform covers 60–240 kW with CCS2 (250 A) and GB/T (250 A) dual guns. Choosing 60 kW does not lock the site to 60 kW: the same line is available up to 240 kW.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Three cost lines dominate, in this order: the grid connection or transformer upgrade, the civil and civil-adjacent work (foundation, cable trench, protection), and only then the charger itself.</p><p>This is why we publish a separate guide on <a href=\"/blog/transformer-upgrade-ev-charging\">transformer upgrades for EV charging</a>: in this band the upgrade often exceeds the hardware cost.</p>"
+    ],
+    [
+     "When to size up instead",
+     "<p>If the site is a highway corridor or a fleet depot with more than three vehicles arriving together, 60 kW will queue. Look at <a href=\"/cost/120-kw-dc-fast-charging-station\">the 120 kW band</a> before committing to civil works, because redoing the foundation and cabling costs more than the difference in hardware.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 60 kW DC fast charging station cost?",
+     "The charger is usually the smallest of three cost lines. The grid connection or transformer upgrade and the civil works typically dominate, so a band-level price without a site survey would be misleading. We quote after the site survey, and the survey is free."
+    ],
+    [
+     "Can a 60 kW site be upgraded to 120 kW later?",
+     "On the Pales line, yes — the platform covers 60–240 kW, so the same product family scales upward. Confirm the grid capacity and cable sizing during the survey so the later step does not require a second civil works round."
+    ],
+    [
+     "Does a 60 kW charger support CCS2 and GB/T?",
+     "Pales ships with CCS2 (250 A) and GB/T (250 A) dual guns, at ≥96% peak efficiency. That dual-standard configuration matters in markets where both connector types are in service."
+    ]
+   ],
+   "internal": [
+    [
+     "/blog/transformer-upgrade-ev-charging",
+     "transformer upgrades for EV charging"
+    ],
+    [
+     "/cost/120-kw-dc-fast-charging-station",
+     "the 120 kW band"
+    ],
+    [
+     "/products/pales",
+     "Pales 60–240 kW"
+    ]
+   ]
+  },
+  {
+   "slug": "90-kw-dc-fast-charging-station",
+   "power": "90 kW",
+   "product": "Pales",
+   "product_path": "/products/pales",
+   "title": "90 kW DC Fast Charging Station Cost and Sizing",
+   "meta": "A 90 kW Pales unit at ≥96% peak efficiency with CCS2 and GB/T dual 250 A guns. What the band costs and where it sits between 60 and 120 kW exactly.",
+   "h1": "What does a 90 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 90 kW band",
+   "lede": "Ninety kilowatts is the awkward middle: more site work than 60 kW, less headroom than 120 kW. It exists for sites that need two bays today and cannot fund the supply for a full 120.",
+   "tldr_label": "In brief",
+   "tldr": "Pales covers 60–240 kW with CCS2 (250 A) and GB/T (250 A) dual guns at ≥96% peak efficiency. At 90 kW the unit gives two bays a real session without pushing the supply into the upgrade zone.",
+   "facts": [
+    [
+     "90 kW",
+     "Band covered"
+    ],
+    [
+     "≥96%",
+     "Pales peak efficiency"
+    ],
+    [
+     "2 × 250 A",
+     "CCS2 + GB/T guns"
+    ],
+    [
+     "60–240 kW",
+     "Same platform either side"
+    ]
+   ],
+   "sections": [
+    [
+     "What 90 kW buys versus 60 and 120",
+     "<p>At 60 kW two cars sharing output get 30 kW each — slow enough that drivers notice. At 90 kW the shared split is 45 kW, which is the point where a dwell-site session converts. At 120 kW the split reaches 60 kW, but the supply conversation changes.</p><p>Ninety is where you land when the supply can carry it but a full 120 kW design cannot be funded this year.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Supply and civil works still lead, as in the <a href=\"/cost/60-kw-dc-fast-charging-station\">60 kW band</a>, but the margin is thinner: many sites can take 90 kW on the existing feed where 120 kW needs work. That is the whole reason this band exists.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 90 kW DC fast charging station cost?",
+     "Supply and civil work usually lead the budget, but 90 kW often fits an existing feed where 120 kW does not — which is the practical difference. We confirm that during a free survey."
+    ],
+    [
+     "Why pick 90 kW instead of 120 kW?",
+     "Because the supply can carry 90 kW on the existing connection while 120 kW would trigger an upgrade. That trade-off is worth more than the hardware difference."
+    ],
+    [
+     "What connector configuration does it use?",
+     "Pales ships CCS2 (250 A) and GB/T (250 A) dual guns at ≥96% peak efficiency."
+    ]
+   ],
+   "internal": [
+    [
+     "/products/pales",
+     "Pales 60–240 kW"
+    ],
+    [
+     "/cost/60-kw-dc-fast-charging-station",
+     "the 60 kW band"
+    ],
+    [
+     "/cost/120-kw-dc-fast-charging-station",
+     "the 120 kW band"
+    ]
+   ]
+  },
+  {
+   "slug": "120-kw-dc-fast-charging-station",
+   "power": "120 kW",
+   "product": "Pales",
+   "product_path": "/products/pales",
+   "title": "120 kW DC Fast Charging Station: Cost Bands and Sizing Logic",
+   "meta": "120 kW is the most common public DC band. What drives cost, how many cars it serves per hour, and why the upgrade path matters more than the nameplate.",
+   "h1": "What does a 120 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 120 kW band",
+   "lede": "120 kW is the workhorse band for public charging: fast enough that drivers wait, small enough that the grid connection is often already sufficient. The sizing question is rarely 120 versus 60 — it is whether the site survives 240.",
+   "tldr_label": "In brief",
+   "tldr": "In the 120 kW band the grid connection usually becomes the binding constraint. Pales covers 60–240 kW at ≥96% peak efficiency with CCS2 and GB/T dual 250 A guns, and Vulco adds a module-swap upgrade path where 120→480 kW costs about 70% less than replacing the unit.",
+   "facts": [
+    [
+     "120 kW",
+     "Band covered"
+    ],
+    [
+     "≥96%",
+     "Peak efficiency"
+    ],
+    [
+     "2 × 250 A",
+     "CCS2 + GB/T guns"
+    ],
+    [
+     "~70% less",
+     "Vulco 120→480 kW module swap"
+    ]
+   ],
+   "sections": [
+    [
+     "What 120 kW serves",
+     "<p>Two vehicles charging together typically split the output, so a 120 kW unit with two guns behaves like a pair of 60 kW sessions under load sharing. That is the right shape for a two-bay public site and the wrong shape for a depot where four buses arrive at once.</p>"
+    ],
+    [
+     "The upgrade path is the real cost decision",
+     "<p>Most 120 kW sites that fail commercially do not fail on day one — they fail in year two when demand doubles and the only option is a new unit. Vulco covers 60–480 kW, and going from 120 to 480 kW is a <strong>module swap</strong> that costs roughly 70% less than replacing the whole charger.</p><p>That single property changes the business case more than any per-kW price difference in this band.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Grid connection or transformer upgrade first, civil works second, hardware third — same order as the <a href=\"/cost/60-kw-dc-fast-charging-station\">60 kW band</a>, but the transformer question bites harder because 120 kW is where supply capacity stops being a formality.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 120 kW DC fast charging station cost?",
+     "Hardware is one of three lines. The grid connection or transformer upgrade and the civil works usually dominate at this power level, which is why we quote after a site survey rather than publishing a single figure."
+    ],
+    [
+     "What is the upgrade path from 120 kW?",
+     "Vulco spans 60–480 kW, and moving from 120 to 480 kW is a module swap that costs about 70% less than replacing the whole unit. That is the cheapest documented path we know of for doubling or quadrupling site power."
+    ],
+    [
+     "How many cars can a 120 kW charger serve per hour?",
+     "With two guns sharing output, plan for two sessions per hour as a working figure, more if vehicles accept partial charge. If four or more vehicles arrive together — a depot pattern — size up rather than queue."
+    ]
+   ],
+   "internal": [
+    [
+     "/cost/60-kw-dc-fast-charging-station",
+     "the 60 kW band"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "the 160 kW band"
+    ],
+    [
+     "/products/vulco",
+     "Vulco 60–480 kW"
+    ]
+   ]
+  },
+  {
+   "slug": "160-kw-dc-fast-charging-station",
+   "power": "160 kW",
+   "product": "Vulco",
+   "product_path": "/products/vulco",
+   "title": "160 kW DC Fast Charging Station: Cost, Heat and Uptime",
+   "meta": "A 160 kW Vulco site holds rated output past 45 °C in Jordan. What the band costs, why thermal design decides year-two uptime, and how to avoid a rebuild.",
+   "h1": "What does a 160 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 160 kW band",
+   "lede": "160 kW is where hot-climate sites start to separate: a unit that quotes 160 kW at 25 °C and derates at 45 °C is a 120 kW charger with a bigger label. This is the band we have the most deployment evidence for.",
+   "tldr_label": "In brief",
+   "tldr": "Our Jordan deployment runs 160 kW Vulco units at sustained full power past 45 °C. The 160 kW band pairs that thermal headroom with a module-swap upgrade path: 120→480 kW costs about 70% less than replacing the unit, so the site can grow without a second civil works round.",
+   "facts": [
+    [
+     "160 kW",
+     "Band covered"
+    ],
+    [
+     "45 °C+",
+     "Sustained full power in Jordan"
+    ],
+    [
+     "96%",
+     "Vulco peak efficiency"
+    ],
+    [
+     "~70% less",
+     "120→480 kW module swap"
+    ]
+   ],
+   "sections": [
+    [
+     "Thermal headroom is the real spec in this band",
+     "<p>A charger that holds rated output at 45 °C is not the same product as one that derates. In our <a href=\"/cases/jordan-160kw\">Jordan deployment</a> the 160 kW Vulco units hold full power through sustained summer heat above 45 °C, in both two-gun and three-gun (2 DC + 1 AC Type 2) configurations.</p><p>For a buyer, that difference shows up in year two as either a stable power bill or a queue of complaints.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Same three lines as lower bands — grid, civil, hardware — but at 160 kW the transformer decision is usually already made before you choose a charger. Budget the transformer first, then pick the power band that fits what it can feed.</p>"
+    ],
+    [
+     "Why the upgrade path matters here",
+     "<p>Vulco spans 60–480 kW. A site installed at 160 kW can reach 480 kW by swapping power modules at roughly 70% less cost than replacing the unit, which means the decision you are making today is not final.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 160 kW DC fast charging station cost?",
+     "The grid connection and civil works usually outweigh the hardware at this band, so the honest answer needs a site survey. We quote after the survey, and the survey is free."
+    ],
+    [
+     "Does a 160 kW charger hold full power in hot climates?",
+     "In our Jordan deployment the 160 kW Vulco units hold rated output at sustained ambient temperatures above 45 °C, configured with either two guns or three (2 DC + 1 AC Type 2). Thermal design, not the datasheet peak, is what decides this."
+    ],
+    [
+     "Can a 160 kW site be upgraded to 480 kW?",
+     "Yes on the Vulco line: moving from 120 to 480 kW is a power-module swap that costs about 70% less than replacing the whole charger. Size the grid connection and cable runs for the target power during the survey."
+    ]
+   ],
+   "internal": [
+    [
+     "/cases/jordan-160kw",
+     "Jordan deployment"
+    ],
+    [
+     "/cost/240-kw-dc-fast-charging-station",
+     "the 240 kW band"
+    ],
+    [
+     "/products/vulco",
+     "Vulco 60–480 kW"
+    ]
+   ]
+  },
+  {
+   "slug": "180-kw-dc-fast-charging-station",
+   "power": "180 kW",
+   "product": "Vulco",
+   "product_path": "/products/vulco",
+   "title": "180 kW DC Fast Charging Station Cost: Highway and Corridor",
+   "meta": "Our Romanian highway corridor runs 180 kW Vulco units, commissioned by an on-site engineer. What the band costs and why commissioning support matters.",
+   "h1": "What does a 180 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 180 kW band",
+   "lede": "One hundred eighty kilowatts is a highway-corridor number: fast enough for a driver who is passing through, and the point where commissioning support stops being optional.",
+   "tldr_label": "In brief",
+   "tldr": "Vulco spans 60–480 kW at 96% peak efficiency. Our first Romanian delivery used 180 kW Vulco units in two-gun and three-gun configurations, with an Anari engineer on site for commissioning — the pattern that matters most at corridor sites where nobody is local.",
+   "facts": [
+    [
+     "180 kW",
+     "Band covered"
+    ],
+    [
+     "96%",
+     "Vulco peak efficiency"
+    ],
+    [
+     "On-site",
+     "Engineer commissioning, Romania"
+    ],
+    [
+     "~70% less",
+     "120→480 kW module swap"
+    ]
+   ],
+   "sections": [
+    [
+     "Why corridor sites are a different project",
+     "<p>A corridor site has no local operator to walk over when something is misconfigured. Our <a href=\"/cases/romania-highway\">Romanian highway deployment</a> was our first delivery in the country, and the reason it went in cleanly is that an Anari engineer was on site for commissioning rather than guiding it remotely.</p><p>At 180 kW the supply and protection design is complex enough that a remote handover adds weeks.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Supply, civil works and hardware, plus a line most budgets forget: commissioning and first-response support. On a corridor site that line is insurance, not overhead.</p>"
+    ],
+    [
+     "The upgrade path",
+     "<p>Vulco reaches 480 kW by power-module swap at roughly 70% less than replacing the unit, so a 180 kW corridor site is not stranded when traffic grows.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 180 kW DC fast charging station cost?",
+     "Supply, civil works, hardware, and commissioning support. On corridor sites the last line is not optional, because there is no local operator to absorb a misconfigured start-up."
+    ],
+    [
+     "Do you send an engineer for commissioning?",
+     "For our Romanian highway delivery — the first in the country — an Anari engineer was on site for commissioning. That is the model we use where nobody local can pick up the pieces."
+    ],
+    [
+     "Can a 180 kW site be upgraded later?",
+     "Yes. Vulco spans 60–480 kW and the upgrade is a power-module swap costing about 70% less than replacing the charger."
+    ]
+   ],
+   "internal": [
+    [
+     "/cases/romania-highway",
+     "Romanian highway deployment"
+    ],
+    [
+     "/products/vulco",
+     "Vulco 60–480 kW"
+    ],
+    [
+     "/cost/240-kw-dc-fast-charging-station",
+     "the 240 kW band"
+    ]
+   ]
+  },
+  {
+   "slug": "200-kw-dc-fast-charging-station",
+   "power": "200 kW",
+   "product": "Aquila",
+   "product_path": "/products/aquila",
+   "title": "200 kW DC Fast Charging Station With Advertising Screen",
+   "meta": "Aquila pairs 200 kW DC output with a 32-inch anti-glare display. What the band costs, and how screen revenue changes the payback on high-traffic sites.",
+   "h1": "What does a 200 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 200 kW band",
+   "lede": "At 200 kW the site is a destination in itself, which is exactly when a screen starts earning instead of decorating. Aquila is the only line where the display is part of the product.",
+   "tldr_label": "In brief",
+   "tldr": "Aquila covers 60–240 kW with a 32-inch HD anti-glare LCD advertising display built in. At 200 kW it turns a high-traffic charging site into a media surface, which changes payback more than a per-kW price comparison does.",
+   "facts": [
+    [
+     "200 kW",
+     "Band covered"
+    ],
+    [
+     "32-inch",
+     "Anti-glare LCD display"
+    ],
+    [
+     "60–240 kW",
+     "Aquila range"
+    ],
+    [
+     "2 revenue lines",
+     "Charging plus media"
+    ]
+   ],
+   "sections": [
+    [
+     "When a screen pays for itself",
+     "<p>A display only earns where dwell time and footfall exist: retail forecourts, urban hubs, transport interchanges. On a rural corridor it is dead weight. The decision is therefore about the site, not the charger.</p><p>Aquila carries a 32-inch HD anti-glare panel across its 60–240 kW range, so the media option is available at any power within the band.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Supply and civil works lead as at any band above 120 kW. The screen adds hardware cost and, more importantly, a second commercial process — selling the inventory. Budget for that or the screen stays blank.</p>"
+    ],
+    [
+     "Choosing between Aquila and the alternatives",
+     "<p>If the site has no audience, <a href=\"/cost/160-kw-dc-fast-charging-station\">the 160 kW Vulco</a> is the simpler buy. If it has audience but no upgrade path requirement, Aquila at 200 kW is the better fit than a plain unit.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 200 kW DC fast charging station cost?",
+     "Supply and civil works lead, then hardware, then the screen and its commercial setup. Expect the media side to need its own budget line for selling inventory."
+    ],
+    [
+     "Does the advertising screen come as standard?",
+     "Aquila includes a 32-inch HD anti-glare LCD panel across its 60–240 kW range; it is not an add-on."
+    ],
+    [
+     "Is a screen worth it on every site?",
+     "No. It earns where dwell time and footfall exist — retail forecourts, urban hubs, interchanges. On low-traffic sites the simpler unit is the better buy."
+    ]
+   ],
+   "internal": [
+    [
+     "/products/aquila",
+     "Aquila with advertising display"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "the 160 kW band"
+    ],
+    [
+     "/cost/240-kw-dc-fast-charging-station",
+     "the 240 kW band"
+    ]
+   ]
+  },
+  {
+   "slug": "240-kw-dc-fast-charging-station",
+   "power": "240 kW",
+   "product": "Pales",
+   "product_path": "/products/pales",
+   "title": "240 kW DC Fast Charging Station: Cost, Site Load and Options",
+   "meta": "240 kW is where a site starts needing its own transformer. What that costs, which platform fits, and why advertising or upgrade paths can pay for it.",
+   "h1": "What does a 240 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 240 kW band",
+   "lede": "240 kW is the top of the mid-power band, and the point where the electrical supply usually stops being an afterthought. Three platforms reach it, which means the choice is about constraints, not about kilowatts.",
+   "tldr_label": "In brief",
+   "tldr": "At 240 kW three of our platforms qualify: Pales (60–240 kW, CCS2 and GB/T dual 250 A guns), Aquila (same band plus a 32-inch advertising display) and Vulco, which extends to 480 kW by module swap at roughly 70% less than replacing the unit.",
+   "facts": [
+    [
+     "240 kW",
+     "Band covered"
+    ],
+    [
+     "3 platforms",
+     "Pales · Aquila · Vulco"
+    ],
+    [
+     "~70% less",
+     "Vulco upgrade to 480 kW"
+    ],
+    [
+     "32-inch",
+     "Aquila advertising display"
+    ]
+   ],
+   "sections": [
+    [
+     "Why 240 kW forces a supply decision",
+     "<p>At 240 kW the site load is large enough that the transformer and protection design, not the charger, decide the schedule. Our guide on <a href=\"/blog/transformer-upgrade-ev-charging\">transformer upgrades for EV charging</a> covers what triggers the upgrade and how to avoid it.</p><p>Where an upgrade is unavoidable, a liquid-cooled storage unit at 120 / 261 / 418 kWh can shave the peak instead of raising the supply — the trade-off is floor space and cost per kWh.</p>"
+    ],
+    [
+     "Three platforms reach 240 kW, so choose by constraint",
+     "<p><strong>Pales</strong> is the straightforward answer when dual-standard guns matter: CCS2 (250 A) and GB/T (250 A), ≥96% peak efficiency.</p><p><strong>Aquila</strong> adds a 32-inch HD anti-glare advertising display, which changes the business case on high-traffic sites where the screen earns its own revenue.</p><p><strong>Vulco</strong> is the choice when 240 kW is a waypoint rather than the destination: it spans 60–480 kW, and the module swap from 120 to 480 kW costs about 70% less than replacing the charger.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Same three lines as lower bands — supply, civil works, hardware — but the order flips in importance: the supply decision sets the ceiling on everything else, so it should be settled before choosing between the three platforms.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 240 kW DC fast charging station cost?",
+     "At this band the transformer and protection work usually dominates, and the hardware is a minority of the budget. We quote after a site survey, which is free."
+    ],
+    [
+     "Which charger do you use at 240 kW?",
+     "Three of ours reach it: Pales and Aquila both span 60–240 kW with CCS2 and GB/T dual 250 A guns at ≥96% peak efficiency, and Vulco covers 60–480 kW with a module-swap upgrade path."
+    ],
+    [
+     "Can a 240 kW site add storage instead of a bigger supply?",
+     "Yes. Liquid-cooled storage units at 120, 261 or 418 kWh can shave the peak rather than raise the connection capacity. It trades floor space and cost per kWh for a faster energisation date."
+    ]
+   ],
+   "internal": [
+    [
+     "/blog/transformer-upgrade-ev-charging",
+     "transformer upgrades for EV charging"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "the 160 kW band"
+    ],
+    [
+     "/products/aquila",
+     "Aquila with advertising display"
+    ]
+   ]
+  },
+  {
+   "slug": "360-kw-dc-fast-charging-station",
+   "power": "360 kW",
+   "product": "Fora",
+   "product_path": "/products/fora",
+   "title": "360 kW DC Fast Charging Station: Split-System Hub Cost",
+   "meta": "360 kW is the entry point of our split-system Fora line: up to 16 dispensers, OCPP 1.6J native. What a hub of this size costs and how it scales to 960 kW.",
+   "h1": "What does a 360 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 360 kW band",
+   "lede": "Three hundred sixty kilowatts is where the project stops being a charger and becomes a hub: multiple dispensers, load distribution, and a supply design that has to be right the first time.",
+   "tldr_label": "In brief",
+   "tldr": "Fora is our split system, spanning 360–960 kW with up to 16 dispensers and OCPP 1.6J native (OCPP 2.0.1 compatible). At 360 kW it is the entry point to hub-scale delivery, where the cabinet-to-dispenser split keeps the high-power electronics off the forecourt.",
+   "facts": [
+    [
+     "360–960 kW",
+     "Fora range"
+    ],
+    [
+     "Up to 16",
+     "Dispensers per system"
+    ],
+    [
+     "0–600 A",
+     "Fora L output"
+    ],
+    [
+     "OCPP 1.6J",
+     "Native, 2.0.1 compatible"
+    ]
+   ],
+   "sections": [
+    [
+     "Why a split system at this size",
+     "<p>At 360 kW the power electronics no longer fit sensibly in the dispenser. Fora separates the cabinet from the dispensers, which keeps the heavy units out of the customer-facing area and lets one cabinet feed up to 16 dispensers through load distribution.</p><p>That architecture is also why this band scales to 960 kW without a redesign.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Supply design first — 360 kW is a serious connection and usually a dedicated transformer. Then civil works for cabinet and dispenser pads, then hardware. At this scale the electrical study is a real line item, not a formality.</p>"
+    ],
+    [
+     "What to get right the first time",
+     "<p>Cable routing and dispenser positions. A hub that later wants to add bays discovers the cable trench is the expensive part, not the additional dispenser.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 360 kW DC charging hub cost?",
+     "The electrical supply design leads, then civil works for cabinet and dispensers, then hardware. At this scale a dedicated transformer is usually part of the scope."
+    ],
+    [
+     "How many dispensers can one system feed?",
+     "Fora supports up to 16 dispensers from the split cabinet, with 0–600 A output on the Fora L configuration."
+    ],
+    [
+     "Which protocol does it use?",
+     "OCPP 1.6J native, with OCPP 2.0.1 compatibility."
+    ]
+   ],
+   "internal": [
+    [
+     "/products/fora",
+     "Fora 360–960 kW"
+    ],
+    [
+     "/cost/480-kw-dc-fast-charging-station",
+     "the 480 kW band"
+    ],
+    [
+     "/cases/",
+     "documented deployments"
+    ]
+   ]
+  },
+  {
+   "slug": "480-kw-dc-fast-charging-station",
+   "power": "480 kW",
+   "product": "Vulco",
+   "product_path": "/products/vulco",
+   "title": "480 kW DC Fast Charging Station: Top of Vulco, Entry to Hub",
+   "meta": "480 kW is both the ceiling of Vulco and a step below full hub scale. Choose module-based Vulco to grow in place, or split-system Fora to grow by dispenser.",
+   "h1": "What does a 480 kW DC fast charging station cost?",
+   "eyebrow": "Cost guide · 480 kW band",
+   "lede": "At 480 kW two of our lines overlap, and the choice between them decides how the site grows: Vulco scales by swapping modules, Fora by adding dispensers.",
+   "tldr_label": "In brief",
+   "tldr": "480 kW is the top of Vulco and the low end of Fora. Vulco reaches it from 120 kW by power-module swap at roughly 70% less than replacing the unit; Fora reaches it as a split system with up to 16 dispensers and OCPP 1.6J native.",
+   "facts": [
+    [
+     "480 kW",
+     "Vulco ceiling"
+    ],
+    [
+     "~70% less",
+     "Vulco module-swap upgrade"
+    ],
+    [
+     "Fora 360–960",
+     "Split-system alternative"
+    ],
+    [
+     "16",
+     "Fora dispensers maximum"
+    ]
+   ],
+   "sections": [
+    [
+     "Two ways to be at 480 kW",
+     "<p><strong>Vulco</strong> gets there by module swap from as low as 120 kW, at about 70% less than replacing the unit. That is the cheapest documented path to this power level we know of, and it suits sites that already exist and need more output.</p><p><strong>Fora</strong> reaches 480 kW as the low end of a 360–960 kW split system with up to 16 dispensers. That is the right choice when the shape of the site — many bays, distributed charging — is the point, not just the total power.</p>"
+    ],
+    [
+     "Where the money goes",
+     "<p>Supply design dominates. A dedicated transformer and switchgear are the norm, and the electrical study is a genuine cost line. Civil works depend on whether you are retrofitting (Vulco) or building a hub layout (Fora).</p>"
+    ],
+    [
+     "How to decide",
+     "<p>Existing site that needs more power: Vulco. New site designed around many bays: Fora. The answer rarely flips later, so decide before the supply study.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How much does a 480 kW DC fast charging station cost?",
+     "Supply design leads at this power level, including a dedicated transformer in most cases. Whether you retrofit (Vulco) or build a hub (Fora) changes the civil scope substantially."
+    ],
+    [
+     "Should I use Vulco or Fora at 480 kW?",
+     "Vulco if you are adding power to an existing site — the module swap from 120 to 480 kW costs about 70% less than replacing the unit. Fora if the site is designed around many bays and you want up to 16 dispensers."
+    ],
+    [
+     "What is the maximum Fora output?",
+     "Fora spans 360–960 kW with up to 16 dispensers, so 480 kW sits near the low end of that system."
+    ]
+   ],
+   "internal": [
+    [
+     "/products/vulco",
+     "Vulco 60–480 kW"
+    ],
+    [
+     "/products/fora",
+     "Fora 360–960 kW"
+    ],
+    [
+     "/cost/360-kw-dc-fast-charging-station",
+     "the 360 kW band"
+    ]
+   ]
+  }
+ ]
+}

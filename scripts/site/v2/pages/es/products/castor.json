@@ -1,0 +1,152 @@
+{
+  "slug": "es/products/castor",
+  "url": "/es/products/castor.html",
+  "breadcrumb": "Castor",
+  "locale": "es",
+  "title": "Castor — DC de pared, 20–40 kW, 20–40 kW | Anari",
+  "meta": "Castor: DC de pared, 20–40 kW. Ciclo completo: diseño, suministro, puesta en marcha y operación. Anari. Anari. Anari. Anari. Anari. Anari. Anari.",
+  "hreflangs": [
+    {
+      "lang": "en",
+      "href": "https://www.anaricharge.com/products/castor"
+    },
+    {
+      "lang": "ru",
+      "href": "https://www.anaricharge.com/ru/products/castor"
+    },
+    {
+      "lang": "es",
+      "href": "https://www.anaricharge.com/es/products/castor"
+    }
+  ],
+  "sections": [
+    {
+      "type": "productHero",
+      "eyebrow": "Producto · Castor",
+      "h1": "Castor — DC de pared, 20–40 kW",
+      "lede": "Cocheras, talleres y zonas de servicio donde los vehículos paran horas, no minutos.",
+      "image": "/assets/img/products/v2/castor-20-40kw.webp",
+      "image1024": "/assets/img/products/v2/castor-20-40kw-1024.webp",
+      "imageAlt": "Castor — fotografía del producto",
+      "note": "Valores en la notación original del fabricante; la variante la decide la restricción de su sitio.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ficha completa",
+          "href": "https://www.anariev.com/"
+        }
+      ]
+    },
+    {
+      "type": "specTable",
+      "eyebrow": "Especificaciones",
+      "h2": "Castor — especificaciones",
+      "lede": "Configuración publicada.",
+      "rows": [
+        {
+          "k": "Potencia de salida DC",
+          "v": "20 kW (single gun) · 30/40 kW (dual gun)"
+        },
+        {
+          "k": "Conectores",
+          "v": "CCS2 or GB/T, 5 m cable"
+        },
+        {
+          "k": "Tensión de salida",
+          "v": "DC 200–1000 V"
+        },
+        {
+          "k": "Autenticación",
+          "v": "Plug and charge / RFID / app"
+        },
+        {
+          "k": "Grado de protección",
+          "v": "IP54 · IK08"
+        },
+        {
+          "k": "Temperatura de operación",
+          "v": "−30 °C to +70 °C"
+        },
+        {
+          "k": "Montaje",
+          "v": "Wall-mounted or floor pedestal"
+        },
+        {
+          "k": "Certificación",
+          "v": "CE; IEC 61851, IEC 62196, ISO 15118-3, CHAdeMO 1.2"
+        }
+      ],
+      "caption": "Castor"
+    },
+    {
+      "type": "cardGrid",
+      "cols": 2,
+      "alt": true,
+      "eyebrow": "Dónde encaja",
+      "h2": "La restricción que responde esta familia",
+      "lede": "Cocheras, talleres y zonas de servicio donde los vehículos paran horas, no minutos.",
+      "items": [
+        {
+          "title": "Despliegue típico",
+          "text": "Se elige cuando la restricción del sitio coincide con la familia."
+        },
+        {
+          "title": "Qué decide la variante",
+          "text": "Capacidad de red, ciclo, clima y estándar de conector."
+        },
+        {
+          "title": "Qué enviarnos",
+          "text": "kVA disponibles, vehículos al día, estancia y temperatura."
+        },
+        {
+          "title": "Cómo se entrega",
+          "text": "Dentro del alcance llave en mano: diseño, permisos, supervisión y puesta en marcha."
+        }
+      ]
+    },
+    {
+      "type": "productGrid",
+      "eyebrow": "Familias relacionadas",
+      "h2": "A menudo se especifican juntas",
+      "items": [
+        {
+          "href": "/es/products/vulco",
+          "image": "/assets/img/products/v2/vulco-60-480kw-640.webp",
+          "name": "Vulco",
+          "spec": "DC · 60–480 kW · modular"
+        },
+        {
+          "href": "/es/products/pales",
+          "image": "/assets/img/products/v2/pales-60-240kw-640.webp",
+          "name": "Pales",
+          "spec": "DC · 60–240 kW · CCS2 + GB/T"
+        },
+        {
+          "href": "/es/products/bess",
+          "image": "/assets/img/products/v2/bess-261kwh-640.webp",
+          "name": "BESS",
+          "spec": "Almacenamiento · 120 / 261 / 418 kWh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Siguiente paso",
+      "h2": "Envíe los parámetros del sitio y devolvemos una configuración Castor.",
+      "lede": "Con potencia disponible, ciclo y clima es suficiente.",
+      "actions": [
+        {
+          "label": "Pedir configuración",
+          "href": "/es/inquiry"
+        },
+        {
+          "label": "Ver instalaciones",
+          "href": "/es/cases/"
+        }
+      ]
+    }
+  ]
+}

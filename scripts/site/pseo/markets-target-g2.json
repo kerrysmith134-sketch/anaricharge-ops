@@ -1,0 +1,798 @@
+{
+  "_comment": "2026-11-10 PSEO batch — /markets/{country} target markets group 2 (market intelligence, coverage=target).",
+  "family": "markets-target-g2",
+  "base_path": "/markets",
+  "base_url": "https://www.anaricharge.com",
+  "date_modified": "2026-11-10",
+  "hreflang_locales": [
+    "en"
+  ],
+  "pages": [
+    {
+      "slug": "pakistan",
+      "country": "Pakistan",
+      "region": "South Asia",
+      "coverage": "target",
+      "eyebrow": "Market · South Asia",
+      "title": "Pakistan EV Charging: NEPRA Tariff and Load Shedding",
+      "meta": "Pakistan bills charging stations under NEPRA's A-2(d) category at Rs 23.57/kWh plus margin. Feeder outages and Sindh heat decide the site, not the charger.",
+      "h1": "EV charging in Pakistan: a tariff class, a feeder and Jacobabad heat",
+      "lede": "Pakistan gives charging stations their own regulated tariff and still cannot promise the feeder will stay on. Two constraints, one design: size the site to the load the DISCO will sanction and to what it can survive without.",
+      "tldr_label": "In brief — Pakistan",
+      "tldr": "Start with the NEPRA tariff class and the sanctioned load, not the charger. Then decide whether the site rides through an outage on storage or shuts down. Rooftop solar is already on many Pakistani roofs; design the connection so it can use it.",
+      "facts": [
+        [
+          "Rs 23.57/kWh",
+          "NEPRA EVCS base tariff"
+        ],
+        [
+          "A-2(d)",
+          "DISCO billing category"
+        ],
+        [
+          "Jacobabad",
+          "Among the hottest sites"
+        ],
+        [
+          "Net metering",
+          "Rooftop PV on site"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "NEPRA set the EV charging station tariff at Rs 23.57/kWh plus a market-determined margin, billed by DISCOs under the A-2(d) category with no fuel cost adjustment, in a decision of 15 April 2025 revised on 25 May 2025.",
+        "source": "NEPRA EVCS tariff determination, April 2025, revised May 2025 (No. NEPRA/RJADG(TRF)-100/EV/5469-72)"
+      },
+      "sources": [
+        "NEPRA — EV charging station tariff determination, 15 April 2025, revised 25 May 2025 (Rs 23.57/kWh, A-2(d) billing, no FCA)",
+        "Regulation of Generation, Transmission and Distribution of Electric Power Act, 1997, Section 31(7) — tariff notification",
+        "PSQCA — Pakistan Standards and Quality Control Authority, mandatory conformity scope"
+      ],
+      "sections": [
+        [
+          "A tariff class of its own, and what it changes",
+          "<p>Pakistan is unusual in giving charging stations a separate regulated tariff instead of letting them buy at a commercial rate. NEPRA's 2025 decision puts the base at Rs 23.57/kWh plus a market-determined margin, with DISCOs billing the site under the A-2(d) category and no fuel cost adjustment applied in either direction.</p><p>For a site owner that is a predictable energy cost and an unpredictable revenue line: the margin is yours to set, and the regulator has said so. Build the model on the base tariff plus your margin, and stress it against the annual revisions.</p>"
+        ],
+        [
+          "Load shedding, sanctioned load and a rooftop array",
+          "<p>Feeder-level outages are routine and uneven. A site on a good urban feeder may lose a few hours a week; a rural feeder can lose most of a day. Ask the DISCO for the feeder's outage record before signing a lease, and ask the landlord which feeder the premises is actually on.</p><p>Rooftop solar changes the arithmetic. Pakistan has absorbed rooftop PV faster than most markets at its income level, so a charging site attached to an existing array has daytime supply the DISCO cannot interrupt. Decide whether the array and the charger share an inverter or a bus; sharing is cheaper and couples the two failure modes.</p>"
+        ],
+        [
+          "Jacobabad heat, Karachi humidity, one enclosure",
+          "<p>Summer design points diverge sharply inside one country. Jacobabad and the Sindh interior run among the highest ambient temperatures recorded in the region, while Karachi is cooler but far more humid and salt-laden. A single enclosure specification will be wrong at one of the two.</p><p>Ask for sustained output at the site's design ambient, not the nameplate figure, and for the derating curve in writing. Coastal Sindh needs salt-spray and humidity in the corrosion specification; inland needs dust filtration and a filter service interval a local technician can actually meet.</p>"
+        ],
+        [
+          "PSQCA, the import file and the local certificate",
+          "<p>PSQCA is the statutory standards body and conformity is assessed through it rather than by self-declaration. Charger-specific coverage remains thin, so confirm with the importer which standard applies to the exact unit. In practice the file is an IEC 61851 test report set, a CE declaration and type-test evidence from an accredited laboratory.</p><p>Add the grid-side paperwork: transformer rating, protection settings and the earthing arrangement. Those are the documents an inspector asks for once the equipment is already bolted to the plinth.</p>"
+        ],
+        [
+          "Five inputs to settle before the order",
+          "<p>Settle these first: the sanctioned load and its approval letter; the feeder identity and its outage pattern; the roof area available for PV and whether the array shares a bus with the charger; the connector mix of the cars and converted three-wheelers you expect; and who meters and collects payment.</p><p>None of the five comes from a datasheet, and all five change the bill of materials. Bring them to a site survey and the quote stops being a guess.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can a charging station in Pakistan buy power at the industrial tariff?",
+          "Not as a rule. NEPRA's 2025 determination keeps charging stations on a dedicated EVCS tariff and has DISCOs bill them under the A-2(d) category, with no fuel cost adjustment. The margin over the base tariff is the operator's revenue, and it is the part you negotiate with your customers rather than with the regulator. Confirm the applicable category with the DISCO serving the site before modelling revenue, because the connection application states the category, and changing it later means starting a new application."
+        ],
+        [
+          "How should I design a site around load shedding?",
+          "Decide the ride-through policy before the equipment: storage for a defined autonomy, a diesel generator, or a controlled shutdown. Each changes the connector behaviour, the payment terminal and the service level you can offer. Then check the feeder. A site with a two-hour autonomy promise on a feeder that loses six hours will break that promise every summer, and the site owner will hear about it from drivers rather than from the utility."
+        ],
+        [
+          "What certification does an imported DC charger need for Pakistan?",
+          "Start with PSQCA, the statutory standards body, and confirm with your importer whether a product standard applies to the specific unit and power rating. Charger-specific coverage is still thin, so the working file is normally an IEC 61851 test report from an accredited laboratory, a CE declaration of conformity and the manufacturer's type-test evidence, plus the grid-side documents covering protection settings and earthing."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we cover"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/160-kw-dc-fast-charging-station",
+          "160 kW station cost bands"
+        ],
+        [
+          "/solutions/pv-ess-charging-solution",
+          "PV and storage at the site"
+        ],
+        [
+          "/data/hot-climate-charging",
+          "Hot-climate field notes"
+        ]
+      ]
+    },
+    {
+      "slug": "bangladesh",
+      "country": "Bangladesh",
+      "region": "South Asia",
+      "coverage": "target",
+      "eyebrow": "Market · South Asia",
+      "title": "Bangladesh EV Charging: 6 Million Easy Bikes, Thin Grid",
+      "meta": "Six million electric three-wheelers draw about 750 MW, roughly 5% of daily generation, through 48,000 informal charging points. What a DC site must fix first.",
+      "h1": "EV charging in Bangladesh: six million easy bikes and 750 MW of demand",
+      "lede": "Bangladesh did not wait for electric cars. Roughly six million battery three-wheelers already charge every night, most of them through informal points. A public DC site here is a grid and safety project before it is a charging project.",
+      "tldr_label": "In brief — Bangladesh",
+      "tldr": "Fix the sanctioned load and the load profile before the charger model. The three-wheeler fleet sets the demand curve, BERC sets the tariff, and the monsoon sets the plinth height. This page is market intelligence, not a claim of delivered operations.",
+      "facts": [
+        [
+          "6 million",
+          "Battery three-wheelers"
+        ],
+        [
+          "~750 MW",
+          "About 5% of generation"
+        ],
+        [
+          "48,000",
+          "Informal Dhaka charge points"
+        ],
+        [
+          "BREB co-ops",
+          "Rural distribution"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "BRTA data cited in a December 2025 CPD study puts about six million electric three-wheelers on the road, roughly two million of them in Dhaka, drawing close to 750 MW — about 5% of daily generation — through more than 48,000 informal charging points against only about 3,300 approved stations.",
+        "source": "Centre for Policy Dialogue (CPD) study on electric three-wheelers, December 2025, using BRTA data"
+      },
+      "sources": [
+        "Centre for Policy Dialogue (CPD) — electric three-wheeler study, December 2025 (BRTA data, ~750 MW, 48,000 informal points)",
+        "Bangladesh Energy Regulatory Commission (BERC) — retail tariff and net-metering regulation",
+        "BSTI — Bangladesh Standards and Testing Institution, BDS certification scope"
+      ],
+      "sections": [
+        [
+          "The demand already exists; the wiring does not",
+          "<p>Most charging in Bangladesh is not a car park with a DC unit. It is a three-wheeler driver charging overnight from a socket, a spliced extension or a roadside point. The CPD work counts more than 48,000 informal charge points in Dhaka against roughly 3,300 approved stations, which tells you where the load is and why the distribution company treats charging as a loss and fire risk rather than a service.</p><p>That gap is the commercial opening. It is also the reason a new site will be judged on metering and safety long before anyone asks how fast it charges.</p>"
+        ],
+        [
+          "Sanctioned load, BERC tariff and the evening peak",
+          "<p>DPDC and DESCO serve the capital, BREB co-operatives serve much of the countryside, and each grants a sanctioned load. That number is what the site may draw; exceeding it is not a billing argument but an outage. Size the first phase to the sanction you can hold in writing, then grow by adding capacity rather than by overrunning it.</p><p>Three-wheeler charging lands in the evening, in the same window as household peak. A site that adds daytime load is easier to serve than one that thickens the peak, and that is the argument which gets a capacity request approved.</p>"
+        ],
+        [
+          "Monsoon, humidity and a flood line",
+          "<p>Design ambient is moderate by regional standards. The humidity is not. Enclosures that pass in dry heat fail here on condensation and on ingress during the monsoon, so specify the IP rating with the installation orientation in mind and treat cable glands as a scheduled service item.</p><p>Flooding is the harder constraint. Across much of Dhaka and the river districts, plinth height decides whether a site survives a bad July. Put the charger, the meter and the payment terminal above the local flood line, and check that the cable trench actually drains away from the cabinet.</p>"
+        ],
+        [
+          "BSTI, BDS and the file an importer needs",
+          "<p>BSTI administers the BDS standards and the certification route for regulated products. Charger-specific coverage is still forming, so build the import dossier around a type-test report to IEC 61851, a CE declaration of conformity and accredited-laboratory evidence for the exact ratings you bring in — then attach the BDS reference your importer confirms.</p><p>Add the electrical file: single-line diagram, protection coordination and earthing. Earthing practice differs between urban and rural premises here, and it is the first thing an inspector will ask about after a fault.</p>"
+        ],
+        [
+          "Five inputs that decide a Dhaka or Chattogram site",
+          "<p>Before the order, pin down: the sanctioned load and its approval letter; the feeder and its outage pattern; the plinth height against the local flood line; the connector mix of the three-wheelers and cars you expect; and who meters and collects payment.</p><p>Every one of those changes the bill of materials, and none of them comes from a product page. A site survey that answers all five is worth more than a discount on the hardware.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Why is DC fast charging so rare in Bangladesh?",
+          "Because the fleet that needs charging is three-wheelers with small lead-acid or lithium packs that charge overnight, and because distribution companies have treated charging as unapproved load rather than a service. The economics shift when a site can meter properly, buy on a commercial tariff and take load off the evening peak. That is a metering and policy problem before it is a power-electronics problem, which is why the first credible DC sites tend to be attached to fleets rather than to retail."
+        ],
+        [
+          "How much load does the three-wheeler fleet put on the grid?",
+          "A CPD study published in December 2025 put it near 750 MW, about 5% of daily generation, for roughly six million vehicles including about two million in Dhaka. The concentration matters more than the total: the load lands in the evening and it lands on a handful of feeders. A site that shifts part of it to daytime, or buffers it with storage, is solving the utility's problem as well as its own."
+        ],
+        [
+          "What should I check before importing a charger into Bangladesh?",
+          "Confirm the applicable BDS reference and the certification route with BSTI through your importer, and check whether the exact model and power rating are covered. Prepare IEC 61851 test reports from an accredited laboratory, a CE declaration and type-test evidence before the shipment, and add the grid documents: protection coordination, earthing and the single-line diagram. Then verify the plinth and cable entry against the monsoon flood level at the site."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we cover"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/60-kw-dc-fast-charging-station",
+          "60 kW station cost bands"
+        ],
+        [
+          "/products/castor",
+          "Castor 20–40 kW wall units"
+        ],
+        [
+          "/blog/transformer-upgrade-ev-charging",
+          "When the transformer is the limit"
+        ]
+      ]
+    },
+    {
+      "slug": "sri-lanka",
+      "country": "Sri Lanka",
+      "region": "South Asia",
+      "coverage": "target",
+      "eyebrow": "Market · South Asia",
+      "title": "Sri Lanka EV Charging: Reopened Imports, Tired Grid",
+      "meta": "Vehicle imports resumed in stages from Oct 2024 after a four-year ban. On a CEB feeder still recovering from 2022, capacity and ride-through decide the site.",
+      "h1": "EV charging in Sri Lanka: a reopened market on a recovering grid",
+      "lede": "Sri Lanka lifted a four-year vehicle import suspension in stages from October 2024, and steered buyers towards electric three-wheelers while doing it. The grid that must serve them is the same one that rationed power in 2022.",
+      "tldr_label": "In brief — Sri Lanka",
+      "tldr": "Treat the CEB connection and the ride-through policy as the project, and put the first sites where fleet vehicles already run. The import window is open and the fleet is arriving; the feeder and the tariff revision cycle decide whether a site works. Market intelligence only.",
+      "facts": [
+        [
+          "Oct 2024",
+          "Import suspension lifted"
+        ],
+        [
+          "CEB / LECO",
+          "Distribution utilities"
+        ],
+        [
+          "SLSI",
+          "National standards body"
+        ],
+        [
+          "Three-wheelers",
+          "Petrol and diesel banned"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Sri Lanka's vehicle import suspension, in force since March 2020, was lifted in three stages from 1 October 2024 — public passenger and special-purpose vehicles first, goods vehicles from 1 December 2024, personal-use cars from 1 February 2025 — with new petrol and diesel three-wheelers no longer importable.",
+        "source": "Sri Lanka President's Media Division announcement, September 2024 (reported by Daily FT)"
+      },
+      "sources": [
+        "Sri Lanka President's Media Division — staged lifting of the vehicle import suspension, September 2024",
+        "Public Utilities Commission of Sri Lanka (PUCSL) — electricity tariff and licensing decisions",
+        "Sri Lanka Standards Institution (SLSI) — SLS certification scope"
+      ],
+      "sections": [
+        [
+          "A market that reopened in stages, not at once",
+          "<p>Sri Lanka did not simply switch imports back on. Passenger transport and special-purpose vehicles came first in October 2024, goods vehicles in December, and personal cars only from February 2025, with age limits attached and a deliberate tilt towards electric three-wheelers.</p><p>For a charging business the sequencing matters. The first vehicles to arrive are fleet and passenger transport, not private cars in Colombo 7. Plan the opening sites where those vehicles already run: depot-adjacent, on the arterial corridors, and at the intercity bus stands.</p>"
+        ],
+        [
+          "CEB, LECO and a tariff that is revised, not fixed",
+          "<p>Transmission and most distribution sit with the Ceylon Electricity Board, with LECO licensed in part of the Colombo area. Tariffs move through PUCSL rather than being set for a multi-year period, and the revisions since 2022 have been large and frequent enough that a model built on one year's rate is not a model.</p><p>Get the applicable tariff category in writing before committing, and structure the case so a twenty per cent move in the energy rate does not flip it negative. That single test removes most of the tariff risk without needing a forecast.</p>"
+        ],
+        [
+          "Mild heat, punishing humidity, salt in the air",
+          "<p>Coastal ambient is gentle compared with the Gulf, rarely far above the mid-thirties, but relative humidity stays high and the sea air carries chloride. Corrosion rather than derating is the driver on a coastal road site. Specify the enclosure finish, the fastener grade and the connector housing for salt spray, then put them on the maintenance schedule.</p><p>In the hill country the problem inverts: cooler air, heavy rain, and sites that are hard to reach after a landslide. There, service radius becomes part of the specification rather than an afterthought.</p>"
+        ],
+        [
+          "SLSI, CEB approval and an English-language file",
+          "<p>SLSI administers the SLS standards, and there is no separate charger statute we could confirm; the working file is an IEC 61851 test report, a CE declaration and the CEB's own connection approval. The connection approval is the genuinely local part: protection settings, earthing and metering follow CEB practice rather than a generic template.</p><p>Documents are accepted in English, which removes a translation step that slows projects elsewhere in the region. Use that advantage — it is one fewer reason for a file to come back for correction.</p>"
+        ],
+        [
+          "What to fix before a Colombo or hill-country site",
+          "<p>Fix five things before ordering: the CEB or LECO connection capacity and its approval reference; the tariff category and the last two revisions; the flood and drainage level at the plinth; the split between three-wheelers and cars in the expected fleet; and the service distance from a technician who can reach the site in the rain.</p><p>Those answers set the power level, the enclosure and the contract terms. Without them, a quote is only a price for a box.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is now the right time to build charging in Sri Lanka?",
+          "The vehicle side of the window is open: the import suspension was lifted in stages from October 2024, and the policy explicitly favours electric three-wheelers over new petrol or diesel ones. The constraint is the grid and the tariff cycle, not demand. Build where a fleet already operates, get the capacity in writing, and size the first phase so a tariff revision does not make it unviable."
+        ],
+        [
+          "How unreliable is the grid after the 2022 crisis?",
+          "It is better than 2022 and still not firm. CEB and LECO now serve load without the long scheduled cuts of that year, but the system remains sensitive to hydro conditions and fuel supply, and tariffs have been revised repeatedly since. For a charging site that means two design questions: whether you need ride-through storage, and whether your service promise survives a bad monsoon year."
+        ],
+        [
+          "Which connector should a Sri Lankan site offer?",
+          "CCS2 for cars and light commercial vehicles, because the imported fleet follows the European standard, plus a lower-power AC option for three-wheelers that charge overnight on small packs. Confirm the mix with the fleet operator rather than assuming it: a site built for cars at a three-wheeler stand is expensive and idle. A dual-outlet configuration costs less at the order than a retrofit."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we cover"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/120-kw-dc-fast-charging-station",
+          "120 kW station cost bands"
+        ],
+        [
+          "/products/pales",
+          "Pales 60–240 kW"
+        ],
+        [
+          "/tools/charging-station-roi",
+          "Model the site economics"
+        ]
+      ]
+    },
+    {
+      "slug": "thailand",
+      "country": "Thailand",
+      "region": "Southeast Asia",
+      "coverage": "target",
+      "eyebrow": "Market · Southeast Asia",
+      "title": "Thailand EV Charging: TIS 61851 and the Year Clock",
+      "meta": "TIS 61851 Part 1-2567 is mandatory for Mode 3 charging equipment, with twelve months from Royal Gazette publication. Certification sets the site schedule.",
+      "h1": "EV charging in Thailand: the standard now sets the schedule",
+      "lede": "Thailand turned a voluntary IEC adoption into a mandatory industrial standard and gave the market a year to comply. For anyone importing DC equipment, the compliance clock now runs ahead of the site works, and no amount of civil progress makes up for a missing certificate.",
+      "tldr_label": "In brief — Thailand",
+      "tldr": "Book the TISI route before you book the transformer. MEA and PEA connection timelines are slow but predictable; the standard's effective date is not negotiable. This page is market intelligence, not a claim of delivered operations in Thailand.",
+      "facts": [
+        [
+          "TIS 61851",
+          "Mandatory for Mode 3"
+        ],
+        [
+          "MEA / PEA",
+          "Distribution authorities"
+        ],
+        [
+          "EEC",
+          "Eastern vehicle cluster"
+        ],
+        [
+          "12 months",
+          "To comply after gazette"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Thailand notified the WTO on 19 September 2025 (G/TBT/N/THA/789) that EV supply equipment for Mode 3 charging of M and N category road vehicles must comply with TIS 61851 Part 1-2567 (2024), taking effect twelve months after publication in the Royal Gazette.",
+        "source": "Thai Industrial Standards Institute (TISI) — WTO notification G/TBT/N/THA/789, September 2025"
+      },
+      "sources": [
+        "Thai Industrial Standards Institute (TISI) — WTO notification G/TBT/N/THA/789, 19 September 2025, TIS 61851 Part 1-2567 (2024)",
+        "Energy Regulatory Commission (ERC) — electricity tariff structure and charging service rules",
+        "Metropolitan Electricity Authority (MEA) and Provincial Electricity Authority (PEA) — connection application practice"
+      ],
+      "sections": [
+        [
+          "The standard is now the critical path",
+          "<p>Thailand's requirement is specific: EV supply equipment for Mode 3 charging of M and N category road vehicles must meet TIS 61851 Part 1-2567 (2024), and the obligation begins twelve months after publication in the Royal Gazette. That turns certification from paperwork into a schedule item sitting ahead of civil works.</p><p>If a supplier cannot show a TISI route and a test report aligned to the 2024 edition, the site can be finished and still not be legally available for service. Ask for the certificate scope and the covered models, not a compliance statement in a brochure.</p>"
+        ],
+        [
+          "MEA, PEA and the capacity queue",
+          "<p>Bangkok and its five neighbouring provinces sit under MEA; the rest of the country sits under PEA. Both grant capacity through an application that depends on the local transformer and on the load profile you declare, and outside the metropolitan area the transformer is often the binding item rather than the application.</p><p>Declare the load honestly. A site declared at 120 kW and operated at 240 kW is a dispute with the utility, and in a market this competitive it is also a reason for drivers to stop trusting the site's availability data.</p>"
+        ],
+        [
+          "Heat you can design for, humidity you cannot ignore",
+          "<p>Ambient in the central plains sits in the mid-to-high thirties for months, with humidity close to saturation through the monsoon. Derating matters, but condensation and ingress matter more: a cabinet cooled aggressively in a humid climate will collect water inside unless the thermal design accounts for it.</p><p>Flooding is a real input, not a tail risk. The 2011 floods reached industrial estates that had been considered safe. Set the plinth above the local flood record, protect the cable entry, and agree in the contract who inspects the site after a storm.</p>"
+        ],
+        [
+          "Import file, importer of record and Thai labels",
+          "<p>The localisation wave, with Chinese vehicle makers assembling in the Eastern Economic Corridor, has reset what buyers expect from service: local spare parts, Thai-language documentation and a response time measured in hours. Those expectations transfer to charging equipment whether or not your contract mentions them.</p><p>On the import side, plan for a Thai importer of record, Thai labels and manuals, and a certificate holder who can answer a TISI query directly. None of it is exotic, and all of it takes weeks that are easy to lose between purchase order and shipment.</p>"
+        ],
+        [
+          "Site inputs before an EEC or expressway commitment",
+          "<p>Settle these before committing: who holds the TIS certificate and for which models and ratings; the MEA or PEA capacity with its approval number; the declared load profile and the demand-charge exposure that follows from it; the plinth level against the local flood record; and the spare-parts location that sets your response time.</p><p>Five answers from one survey. They decide the power level, the enclosure class and the service contract, and they separate a site that opens on schedule from one that waits for a certificate.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Does a charger sold in Thailand need TISI certification?",
+          "For Mode 3 charging of M and N category road vehicles, yes. TIS 61851 Part 1-2567 (2024) was notified to the WTO in September 2025 and applies twelve months after Royal Gazette publication. Before that, confirm the model and power rating are inside the certificate scope, since approval attaches to specific equipment rather than to a brand. A unit without the route can be installed and still not be legally placed in service."
+        ],
+        [
+          "How long does an MEA or PEA connection take?",
+          "Long enough that it should be started before the equipment order, and variable enough that no single number is honest. The application depends on the serving transformer and the load you declare, and where the transformer needs reinforcement the utility's work sets the date, not yours. Ask for the capacity in kVA with the substation named, and keep the declared profile consistent with what the site will actually draw."
+        ],
+        [
+          "Which connector standard should a Thai site offer?",
+          "CCS2 is the working standard for the passenger fleet, including the vehicles now assembled locally by Chinese makers for this market. Confirm the mix with the fleet or site host instead of extrapolating from another country in the region, and treat a second connector type as a cost to justify rather than a default to include. The order is the cheap moment to decide; the retrofit is not."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we cover"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/180-kw-dc-fast-charging-station",
+          "180 kW station cost bands"
+        ],
+        [
+          "/products/vulco",
+          "Vulco 60–480 kW"
+        ],
+        [
+          "/blog/transformer-upgrade-ev-charging",
+          "When the transformer is the limit"
+        ]
+      ]
+    },
+    {
+      "slug": "philippines",
+      "country": "Philippines",
+      "region": "Southeast Asia",
+      "coverage": "target",
+      "eyebrow": "Market · Southeast Asia",
+      "title": "Philippines EV Charging: A 60 Hz Grid and Typhoons",
+      "meta": "The Philippines runs 230 V at 60 Hz, so 50 Hz transformers and generator sets are out of spec. Typhoon exposure and Meralco capacity shape the rest of the site.",
+      "h1": "EV charging in the Philippines: a 60 Hz grid in a 50 Hz neighbourhood",
+      "lede": "Every other market in this region runs 50 Hz. The Philippines runs 60 Hz at 230 V, and that changes the transformer, the generator set, the contactor coils and the way you read every European datasheet.",
+      "tldr_label": "In brief — Philippines",
+      "tldr": "Write 60 Hz into the drawing before anything else. Then handle typhoon exposure and the Meralco capacity request, in that order. A 50 Hz package retrofitted on site costs more than a 60 Hz package ordered correctly. Market intelligence only.",
+      "facts": [
+        [
+          "60 Hz",
+          "At 230 V service"
+        ],
+        [
+          "~20 a year",
+          "Cyclones in the PAR"
+        ],
+        [
+          "Meralco",
+          "Metro Manila distribution"
+        ],
+        [
+          "BPS / ICC",
+          "Import clearance"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "The Philippine grid is nominal 230 V phase-to-neutral at 60 Hz, one of the few 60 Hz systems in Asia, so 50 Hz-rated transformers, generator sets, contactor coils and pumps specified from a European datasheet are outside specification on a Philippine site.",
+        "source": "Philippine distribution practice — 230 V, 60 Hz service voltage; DOE EV charging station rules, 2023"
+      },
+      "sources": [
+        "Republic Act No. 11697, Electric Vehicle Industry Development Act, 15 April 2022, with its IRR of 2 September 2022",
+        "Philippine Department of Energy — EV charging station accreditation assigned to the Bureau of Energy, July 2023",
+        "Bureau of Philippine Standards (BPS) — Import Commodity Clearance for regulated products",
+        "PAGASA — tropical cyclones entering the Philippine Area of Responsibility, about 20 per year"
+      ],
+      "sections": [
+        [
+          "Sixty hertz is the first line of the specification",
+          "<p>Sixty hertz is not a rounding detail. A transformer designed for 50 Hz and energised at 60 Hz runs at different flux and losses; a generator set built for 50 Hz will not hold voltage and frequency inside the window the charger expects; contactor coils and small motors behave differently again. Each of those is a substitution nobody wants to discover at commissioning.</p><p>So write 230 V, 60 Hz into the enquiry, the single-line diagram and the purchase order. Then check that the reply says the same thing in all three places, because the datasheet and the order form are written by different people.</p>"
+        ],
+        [
+          "Meralco, NGCP and the capacity paperwork",
+          "<p>Metro Manila and the adjacent provinces are served by Meralco, with the transmission grid under NGCP. Capacity is granted through an application that depends on the serving substation and on the load you declare, and in dense commercial districts the answer is sometimes a paid upgrade rather than a connection date.</p><p>Ask for capacity in kVA rather than in charger count, and get the substation named in the reply. If the upgrade falls on your side of the meter, it belongs in the capital budget and in the schedule before the equipment order is placed.</p>"
+        ],
+        [
+          "Twenty cyclones a year and salt in the air",
+          "<p>Around twenty tropical cyclones enter the Philippine Area of Responsibility in a typical year, and the northern islands take most of them. That is a structural input: wind loading on the canopy, water ingress on horizontal surfaces, and a site that may be unreachable for days after a strike.</p><p>Salt is the slower problem. Coastal sites in Batangas, Cebu and Ilocos corrode fasteners and connector housings long before the electronics fail. Specify the finish and the fastener grade explicitly, and put connector inspection into the service contract rather than into a fault report.</p>"
+        ],
+        [
+          "BPS clearance and the DOE accreditation trail",
+          "<p>Regulated products entering the Philippines need BPS clearance, and for charging equipment the safe assumption is that an Import Commodity Clearance will be requested. Prepare IEC 61851 test reports, the accreditation of the testing laboratory and the technical file before the shipment, not after the container is on the dock.</p><p>On the operating side, the DOE assigned EV charging station accreditation to its Bureau of Energy in 2023, and EVIDA, Republic Act 11697, set the policy frame in 2022. An operator should confirm its accreditation path before signing a site lease, because the lease is the harder document to unwind.</p>"
+        ],
+        [
+          "Inputs to settle before a Luzon or Cebu order",
+          "<p>Before ordering, fix: the 60 Hz rating of every component in the chain including the standby generator; the Meralco capacity in kVA and the serving substation; the wind and flood exposure of the site; the BPS clearance route and who holds it; and the technician's distance from the site during typhoon season.</p><p>Each of those is cheap to answer at survey stage and expensive to answer afterwards. That is the entire argument for surveying before quoting, and it is the same argument in every market we work in.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Why does 60 Hz matter for a charging station?",
+          "Because almost every charger datasheet in the world is written for 50 Hz. On a 60 Hz supply, transformers have different flux and losses, generator sets govern differently, and small motors and contactor coils behave differently. None of that is theoretical at commissioning. Specify the frequency on the drawing and the purchase order, and require the supplier to confirm the rating in writing for the exact model."
+        ],
+        [
+          "Is the Philippine EV market large enough yet?",
+          "It is early, and the honest framing is that the policy is ahead of the fleet: EVIDA was signed in 2022, the DOE set an accreditation route in 2023, and charging build-out is still concentrated in Metro Manila and a few resort and retail corridors. Sites that work now are anchored to fleets, malls and destinations with predictable dwell time rather than to through traffic that does not exist yet."
+        ],
+        [
+          "What permits does an operator need in the Philippines?",
+          "Two tracks, and they are separate. The equipment needs BPS clearance to be imported and sold, typically through an Import Commodity Clearance for regulated products. The operator needs the DOE accreditation path that was assigned to the Bureau of Energy in 2023. The electricity connection then runs through Meralco or the local distribution utility. Confirm all three before the lease, because each one can stall independently."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we cover"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/120-kw-dc-fast-charging-station",
+          "120 kW station cost bands"
+        ],
+        [
+          "/products/vulco",
+          "Vulco 60–480 kW"
+        ],
+        [
+          "/data/hot-climate-charging",
+          "Hot and humid field notes"
+        ]
+      ]
+    },
+    {
+      "slug": "malaysia",
+      "country": "Malaysia",
+      "region": "Southeast Asia",
+      "coverage": "target",
+      "eyebrow": "Market · Southeast Asia",
+      "title": "Malaysia EV Charging: The 2024 Approval Regime Explained",
+      "meta": "The Energy Commission's 2024 equipment guidelines put EV chargers inside approval scope. TNB capacity, lightning and the CoA file decide a Malaysian site.",
+      "h1": "EV charging in Malaysia: chargers entered the approval regime in 2024",
+      "lede": "Malaysia moved EV chargers from an unclassified import to a product the Energy Commission approves, in a single guideline revision issued in July 2024. That reshapes the order of work on any new site: the approval file now starts before the civil works, not after them.",
+      "tldr_label": "In brief — Malaysia",
+      "tldr": "Get the Certificate of Approval route right first, then the TNB capacity, then the site. Lightning and humidity will cost you more in maintenance than heat will. Market intelligence only — we are not claiming delivered operations here.",
+      "facts": [
+        [
+          "26 July 2024",
+          "ST equipment guidelines"
+        ],
+        [
+          "TNB",
+          "Peninsular distribution"
+        ],
+        [
+          "SIRIM",
+          "Certification body"
+        ],
+        [
+          "Lightning",
+          "High flash density"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Suruhanjaya Tenaga issued the seventh edition of its Guidelines for the Approval of Electrical Equipment on 26 July 2024, bringing EV chargers into the approval scope for equipment under the Energy Commission's regulation, effective from the date of issue.",
+        "source": "Suruhanjaya Tenaga (Energy Commission) — Guidelines for the Approval of Electrical Equipment, 2024 Edition, 26 July 2024"
+      },
+      "sources": [
+        "Suruhanjaya Tenaga (Energy Commission) — Guidelines for the Approval of Electrical Equipment, 2024 Edition, 26 July 2024",
+        "Tenaga Nasional Berhad (TNB) — connection and maximum-demand application practice",
+        "SIRIM QAS International — product certification against the MS IEC 61851 series",
+        "Malaysian Meteorological Department — thunderstorm and lightning frequency"
+      ],
+      "sections": [
+        [
+          "Chargers became regulated equipment, and the file changed",
+          "<p>Until 2024 a charger could arrive as general electrical equipment. The Energy Commission's 2024 edition of its approval guidelines changed that by putting EV chargers inside the scope, which means a Certificate of Approval held by a Malaysian entity before the unit is placed on the market.</p><p>Practically that creates a sequencing rule: identify the certificate holder and the covered models before the purchase order, because approval attaches to a model and a manufacturer rather than to a shipment. A container of the right product with the wrong model code is a container that waits.</p>"
+        ],
+        [
+          "TNB capacity and the maximum demand charge",
+          "<p>Peninsular Malaysia is served by TNB, with Sarawak Energy and Sabah Electricity in the east. Capacity is granted against maximum demand, and maximum demand is exactly what a charging site creates: a 120 kW site running three sessions at once is a 120 kW customer regardless of how little energy it sells in a day.</p><p>Size the connection to the simultaneous load you intend to allow, and use load management to hold that number below the next tariff step. The control system is almost always cheaper than the capacity upgrade, and it is reversible.</p>"
+        ],
+        [
+          "Lightning is the failure mode, not heat",
+          "<p>Ambient is unremarkable here, low thirties with high humidity year round, but Malaysia has one of the highest lightning flash densities in the world and afternoon thunderstorms are routine. A charger on an exposed highway site will take surges that a basement car park unit never sees.</p><p>Specify surge protection on the AC and DC sides, an earthing system with a measured resistance, and communications cabling that is not the path of least resistance to earth. Then re-measure the earth annually; it is the cheapest maintenance item with the largest effect on uptime.</p>"
+        ],
+        [
+          "SIRIM, MS IEC 61851 and who signs the CoA",
+          "<p>SIRIM QAS certifies against the MS IEC 61851 series, and the approval route runs through the Energy Commission. The two are related but not the same: the test report supports the certificate, and the certificate is what a regulator or a landlord asks to see.</p><p>For an imported unit, confirm the test report covers the exact model and power rating, that the laboratory is accredited, and that a Malaysian entity will hold the approval. Keep the documents with the unit, because an inspection at a mall site happens on the spot and not by email.</p>"
+        ],
+        [
+          "What to settle before a corridor or mall site",
+          "<p>Before committing, settle: the model scope of the Certificate of Approval and who holds it; the TNB maximum demand you will declare and the load-management limit; the lightning and surge design with a measured earth resistance; the site's flood level; and whether the landlord or the operator pays for the upgrade from the substation.</p><p>Mall owners and highway concessionaires ask different questions, and the answers change the commercial structure more than they change the equipment.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do EV chargers need approval in Malaysia now?",
+          "Yes, if they fall within the scope of the Energy Commission's approval guidelines. The 2024 edition, issued on 26 July 2024, brought EV chargers into the approval regime for equipment under the Commission's regulation. In practice that means an approval held by a Malaysian entity, supported by testing against the applicable MS IEC standard. Confirm the exact model and rating are covered before you ship, because approval is model-specific."
+        ],
+        [
+          "How much capacity should I apply for at a highway site?",
+          "Apply for the simultaneous load you intend to allow, not the sum of the nameplate ratings. A site with four 60 kW units and load management that caps the site at 120 kW is a 120 kW customer, and declaring 240 kW buys capacity you will pay for every month whether or not it is used. Get the capacity in kVA, name the substation, and keep the declared profile consistent with the control settings."
+        ],
+        [
+          "What causes most charger downtime in Malaysia?",
+          "Surges and earthing rather than heat. Thunderstorm activity is intense and frequent, and a site with a poor earth will lose communication boards and payment terminals repeatedly while the power modules survive. Humidity then finishes off connectors and cabinet seals. An annual earth-resistance measurement and a surge-protection inspection cost far less than the outages they prevent, and the check itself takes under an hour."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we cover"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/240-kw-dc-fast-charging-station",
+          "240 kW station cost bands"
+        ],
+        [
+          "/products/fora",
+          "Fora 360–960 kW split systems"
+        ],
+        [
+          "/depot/highway-corridor-charging",
+          "Corridor site design"
+        ]
+      ]
+    },
+    {
+      "slug": "iraq",
+      "country": "Iraq",
+      "region": "Middle East",
+      "coverage": "target",
+      "eyebrow": "Market · Middle East",
+      "title": "Iraq EV Charging: 50 °C Heat and Generator Power",
+      "meta": "Baghdad passes 50 °C in summer and the grid collapses at peak, so a viable charging site is designed around its own generation and storage, not the mains.",
+      "h1": "EV charging in Iraq: designing for 50 °C and a grid that leaves",
+      "lede": "In Iraq the mains is a backup. Summer ambient in Baghdad and Basra passes 50 °C, the grid sheds load at peak, and neighbourhood generators already sell electricity by the ampere. A charging site here starts as an energy project.",
+      "tldr_label": "In brief — Iraq",
+      "tldr": "Design the site to run without the grid, then treat the grid as a cost saving when it is present. Storage is not an optimisation here; it is the supply. Enclosure, earthing and service follow from that. Market intelligence only.",
+      "facts": [
+        [
+          "50 °C+",
+          "Baghdad summer ambient"
+        ],
+        [
+          "Ampere sales",
+          "Private generator market"
+        ],
+        [
+          "COSQC",
+          "Standards authority"
+        ],
+        [
+          "Storage first",
+          "Island-mode design"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Summer ambient in Baghdad and Basra passes 50 °C, and the national grid meets only part of summer demand and has collapsed entirely during heatwaves in 2025 and 2026, leaving private neighbourhood generators as the only supply.",
+        "source": "Iraqi Ministry of Electricity statements and press coverage of the 2025–2026 heatwaves (Rudaw, AFP)"
+      },
+      "sources": [
+        "Iraqi Ministry of Electricity — summer supply statements; press coverage of the 2025–2026 heatwave grid failures",
+        "Iraqi Standards Law No. 54 of 1979, administered by COSQC (Central Organization for Standardization and Quality Control)",
+        "Iraqi Ministry of Electricity — distribution and connection practice"
+      ],
+      "sections": [
+        [
+          "The grid is a backup, not the supply",
+          "<p>Generation and distribution sit with the Ministry of Electricity, and in summer the shortfall is structural rather than occasional. A charging site that assumes a firm supply will be unavailable exactly when demand for charging peaks, which is the worst failure mode available.</p><p>So the question is not whether to add storage but how many hours of autonomy the site needs to operate as an island: through an evening peak, through a multi-hour outage, or through a full day. Fix that number first; it decides the storage size and the DC bus architecture, and everything else is detail.</p>"
+        ],
+        [
+          "Ampere subscriptions and the generator economy",
+          "<p>Neighbourhood generators selling power by the ampere are a working institution in Iraqi cities, and a household or shop can subscribe to a few amperes and run indefinitely. A DC charger cannot be served that way: its demand is an order of magnitude larger and its tolerance for voltage and frequency wander is much smaller.</p><p>That is precisely why the storage-first design wins commercially. The generator or the grid charges the battery at a modest, steady rate, and the charger draws from the battery at whatever the vehicle asks for. The subscription stays small while the charging power does not.</p>"
+        ],
+        [
+          "Fifty degrees, dust and an uncertain neutral",
+          "<p>At 50 °C the derating curve is the specification. Ask for sustained output at 50 °C ambient and for the stated internal temperature rise at that ambient, not for the nameplate figure taken at 25 °C. Where a unit cannot hold output, the site accepts a longer session instead of a failed one, and the tariff has to reflect that.</p><p>Dust is the second problem: fine, wind-borne and abrasive, so filters clog, heat exchangers foul and fans seize. The third is earthing. Neutral integrity in older Iraqi installations is unreliable, and a charger that assumes a solid neutral will trip, or sit at a dangerous potential.</p>"
+        ],
+        [
+          "COSQC and the certificate before shipment",
+          "<p>COSQC administers standards and quality control under Iraq's standards law, and consignments of regulated products are expected to carry conformity documentation issued before shipment. Confirm the route with the importer early; retrofitting a certificate after the container has arrived does not happen quickly, and in practice it does not happen at all.</p><p>The technical file should be IEC 61851 based with an accredited laboratory report, plus an explicit declaration of the operating ambient range. If the datasheet stops at 45 °C, it is not describing an Iraqi site and the buyer will find that out in July.</p>"
+        ],
+        [
+          "Inputs that decide an Iraqi site",
+          "<p>Fix these before any order: the autonomy hours the site needs as an island; the generator or subscription capacity available on site; the design ambient and the derating evidence at that ambient; the earthing arrangement and who certifies it; and the spare-parts route into the country.</p><p>Each is a survey answer rather than a catalogue answer, and together they set the storage, the enclosure class and the commercial model. Nothing about this site is won by choosing a better charger.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can a charging station in Iraq run on the grid alone?",
+          "Not credibly. The national grid serves only part of summer demand and has failed entirely during heatwaves, which is when charging demand is highest and the site is most visible. A grid-only site would be unavailable in exactly the hours it is needed. The workable configuration is storage plus a generator or grid charger, with the charger drawing from the battery rather than from the mains."
+        ],
+        [
+          "How much storage does a 60 kW charger need for a Baghdad site?",
+          "Work it from autonomy, not from habit. A 60 kW charger running four hours at full output delivers 240 kWh; at roughly 90% round-trip efficiency that needs about 265 kWh of usable capacity before any reserve for cooling load and a bad day. Then decide whether the replenishment source is a generator, the grid, or both, because that choice sets the charge rate the battery must accept."
+        ],
+        [
+          "What certification does Iraq require for imported chargers?",
+          "Conformity documentation administered by COSQC under the Iraqi standards law, issued before shipment rather than on arrival. In practice that means an IEC 61851 technical file with accredited laboratory test reports, plus a declaration of the operating conditions the unit is rated for. Confirm the exact route with the importer at quotation stage, and treat the certificate as a lead-time item in the schedule."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we cover"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/depot/off-grid-charging",
+          "Off-grid site design"
+        ],
+        [
+          "/products/bess",
+          "Liquid-cooled BESS"
+        ],
+        [
+          "/cost/60-kw-dc-fast-charging-station",
+          "60 kW station cost bands"
+        ]
+      ]
+    },
+    {
+      "slug": "azerbaijan",
+      "country": "Azerbaijan",
+      "region": "Caucasus",
+      "coverage": "target",
+      "eyebrow": "Market · Caucasus",
+      "title": "Azerbaijan EV Charging: AZSTAND, Not EAEU Rules",
+      "meta": "Azerbaijan is outside the EAEU, so EAC TR CU certificates are void there; AZSTAND conformity is the way in. A 220/380 V grid and Caspian weather do the rest.",
+      "h1": "EV charging in Azerbaijan: outside the EAEU, inside a 220/380 V grid",
+      "lede": "Azerbaijan sits next to EAEU markets and is not one of them. That single fact decides the conformity route, and it catches exporters who arrive with a TR CU certificate earned on a neighbouring project.",
+      "tldr_label": "In brief — Azerbaijan",
+      "tldr": "Run the AZSTAND conformity route, not the EAC one. Then check the 220/380 V protection settings and the Baku wind exposure. Corridor truck and bus traffic is the near-term load, not private cars. Market intelligence only.",
+      "facts": [
+        [
+          "AZSTAND",
+          "Conformity authority"
+        ],
+        [
+          "Not EAEU",
+          "TR CU void here"
+        ],
+        [
+          "220/380 V",
+          "CIS-legacy grid"
+        ],
+        [
+          "Absheron",
+          "Salt and wind exposure"
+        ]
+      ],
+      "anchor_fact": {
+        "fact": "Azerbaijan is not a member of the Eurasian Economic Union, so EAC conformity under TR CU 004/2011 on low-voltage equipment and TR CU 020/2011 on electromagnetic compatibility does not apply; market access runs through AZSTAND mandatory conformity certification instead.",
+        "source": "AZSTAND (State Committee for Standardization, Metrology and Patents) — mandatory conformity scope; EAEU membership status"
+      },
+      "sources": [
+        "AZSTAND — State Committee for Standardization, Metrology and Patents, AZS standards and mandatory conformity certification",
+        "Azerenerji — generation and transmission; Azerishig — distribution network operator",
+        "Azerbaijan Energy Regulatory Agency (AERA) — tariff regulation"
+      ],
+      "sections": [
+        [
+          "The certificate you already have is the wrong one",
+          "<p>Azerbaijan is not an EAEU member, which means the EAC mark and the TR CU 004/2011 or 020/2011 certificates that open Russia, Kazakhstan and Armenia do not open this market. Exporters discover it after quoting a project on the assumption that a regional certificate travels with the equipment.</p><p>The domestic route is AZSTAND mandatory conformity, with AZS standards that are largely GOST and IEC derived. Confirm whether the product sits inside the current mandatory list before committing to a price: the scope is published, it changes, and the answer decides the schedule more than any technical parameter does.</p>"
+        ],
+        [
+          "Azerenerji, Azerishig and what 220/380 V changes",
+          "<p>Generation and transmission sit with Azerenerji, distribution with Azerishig, and tariffs with the energy regulatory agency. The nominal grid is 220 V single-phase and 380 V three-phase at 50 Hz — the CIS legacy rather than the 230/400 V used across the EU. A unit configured for 230/400 V will run, but its protection thresholds and its declared operating range should be checked against the local nominal rather than assumed.</p><p>Because the nominal matches China's domestic grid, Chinese-market firmware is closer to correct here than in most export markets. That is a convenience at commissioning, and it is not an approval.</p>"
+        ],
+        [
+          "Baku wind, Absheron salt, cold in the west",
+          "<p>Baku and the Absheron peninsula are hot and dry in summer, with the khazri wind carrying dust and salt, and the city's air is corrosive in a way inland sites are not. Cooling intakes foul, fasteners corrode, and connector housings discolour long before they fail electrically.</p><p>West of the capital the problem inverts. Ganja and the mountain districts see winter temperatures well below freezing, and a unit specified only for Baku will have a bad January. If the network spans both, specify for both and accept the incremental cost as the price of one spare-parts list.</p>"
+        ],
+        [
+          "Assembling the AZS file, and who signs it",
+          "<p>The AZS file is built around testing at AZSTAND-accredited bodies and a technical documentation set, and documents are expected in Azerbaijani or Russian. That translation step is a schedule item sitting between the test report and the certificate, and it is the one most often forgotten in a quotation.</p><p>An in-country applicant — importer, authorised representative or the project company — normally holds the certificate. Establish who that is before the equipment order, because the certificate is not freely transferable and a corridor project can change hands between tender and delivery.</p>"
+        ],
+        [
+          "Inputs before an Absheron or corridor site",
+          "<p>Settle five things: whether the model is inside the AZSTAND mandatory scope and who holds the certificate; the Azerishig connection capacity at the site; the protection settings for 220/380 V; the winter and summer design ambient if the site is outside Baku; and the language and format the documentation must take.</p><p>Corridor truck and bus traffic sets the near-term load profile, so design for that first and let private cars follow. It changes the power level and the bay geometry far more than it changes the charger."
+        ]
+      ],
+      "faq": [
+        [
+          "Can I use an EAC certificate in Azerbaijan?",
+          "No. Azerbaijan is not a member of the Eurasian Economic Union, so TR CU 004/2011 and TR CU 020/2011 conformity, and the EAC mark that goes with it, do not grant market access here. The domestic route is AZSTAND mandatory conformity certification against AZS standards, which are largely GOST and IEC derived. Confirm with AZSTAND whether your product is inside the current mandatory list before you quote or ship."
+        ],
+        [
+          "Is 220 V a problem for a 230 V charger?",
+          "It runs, but the declared operating range and the protection thresholds should be checked rather than assumed. Azerbaijan's 220/380 V nominal is the CIS legacy, and equipment set up for 230/400 V will sit slightly differently against undervoltage and overvoltage limits. The practical check is to confirm the firmware's voltage window at commissioning, and to record the settings so a replacement unit is configured the same way."
+        ],
+        [
+          "Where will charging demand come from first in Azerbaijan?",
+          "From corridor and fleet traffic rather than private cars. The country's position on the Caspian route means trucks, buses and cross-border logistics move through predictable points, and those vehicles have fixed routes and depot returns. A site built around a depot or a corridor stop has a customer from the first day; a site built for private cars in a city with a small EV fleet waits for the fleet to arrive."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All markets we cover"
+        ],
+        [
+          "/inquiry",
+          "Talk about a project"
+        ],
+        [
+          "/cost/120-kw-dc-fast-charging-station",
+          "120 kW station cost bands"
+        ],
+        [
+          "/products/pales",
+          "Pales 60–240 kW"
+        ],
+        [
+          "/journey/compliance",
+          "Certification walkthrough"
+        ]
+      ]
+    }
+  ]
+}

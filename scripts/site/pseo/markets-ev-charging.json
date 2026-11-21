@@ -1,0 +1,239 @@
+{
+  "_comment": "F-new 页面族：/markets/{country}-ev-charging/。与既有国别页（markets-target-*，slug=国家名）互不蚕食：本族 slug 带 -ev-charging 后缀，聚焦『如何在该国实操落地 EV 充电』。事实全部来自既有 markets-target-* spec 与 ops/fact-library.json，禁止未入库数字。本页是市场情报，不得暗示『已在目标国交付』。",
+  "schema_version": 1,
+  "family": "markets-ev-charging",
+  "base_path": "/markets",
+  "base_url": "https://www.anaricharge.com",
+  "date_modified": "2026-11-11",
+  "hub_label": "Markets",
+  "about": "EV charging market entry",
+  "source_line": "Source: Anari Energy market research",
+  "cost_table": false,
+  "pages": [
+    {
+      "slug": "egypt-ev-charging",
+      "power": "Egypt",
+      "title": "EV Charging in Egypt: Tariffs and 45 °C Sites | Anari",
+      "meta": "How to build EV charging in Egypt: the 0.45/0.80 regulated resale markup, GOEIC import conformity, and why 45 °C ambient decides the charger you specify.",
+      "h1": "EV charging in Egypt: regulated tariffs, 45 °C design, grid access",
+      "eyebrow": "Market guide · Egypt",
+      "lede": "Egypt sets the resale margin by decree, so revenue per kWh is known before the first site is signed. What separates a working site from a stalled one is the grid connection offer, the design ambient temperature and the import conformity path.",
+      "tldr_label": "In brief — Egypt",
+      "tldr": "Resale margin is fixed by Decision 101/2025: supply tariff plus 0.45 on AC and 0.80 on DC. Secure the connection offer first, specify for 45 °C in Upper Egypt, and clear GOEIC import conformity before shipment.",
+      "facts": [
+        [
+          "Decision 101/2025",
+          "Regulated resale margin"
+        ],
+        [
+          "0.45 / 0.80",
+          "AC / DC markup"
+        ],
+        [
+          "45 °C",
+          "Upper Egypt design point"
+        ],
+        [
+          "GOEIC",
+          "Import conformity gate"
+        ]
+      ],
+      "sections": [
+        [
+          "What the regulated margin means for your model",
+          "<p>Because the DC markup over the supply tariff is fixed at 0.80 by decree, a CPO in Egypt does not price the kWh — the state does. The business case therefore moves to utilisation: sessions per gun per day, uptime in summer, and how many vehicles one grid connection can serve. A three-gun DC layout on a single feeder raises revenue per available kilowatt without needing a second transformer.</p>"
+        ],
+        [
+          "Heat is the first specification decision",
+          "<p>Upper Egypt regularly designs to a 45 °C ambient. A charger that derates above 40 °C delivers its worst service exactly when demand peaks. Specify units that hold rated output at 45 °C, add shading and ventilation to the compound, and plan dust filters into the maintenance schedule — desert dust is a cooling problem before it is a cosmetic one.</p>"
+        ],
+        [
+          "Import conformity and delivery",
+          "<p>Charging equipment enters Egypt through GOEIC conformity checks. Documents, nameplate data and test reports should be assembled before the equipment ships, not after it lands. Sequence the project as: connection offer, conformity file, then production — a site that waits on either of the first two pays for idle inventory.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Who sets what EV drivers pay per kWh in Egypt?",
+          "The state does. Decision 101/2025 fixes the resale margin at the supply tariff plus 0.45 on AC and 0.80 on DC charging."
+        ],
+        [
+          "What ambient temperature should an Egyptian DC site be designed for?",
+          "45 °C is a practical design point for Upper Egypt. Chargers should hold rated output there instead of derating in the summer afternoon peak."
+        ],
+        [
+          "What must clear before chargers ship to Egypt?",
+          "GOEIC import conformity. The conformity file — nameplate data, test reports, documents — should be complete before equipment leaves the factory."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market guides"
+        ],
+        [
+          "/products/vulco",
+          "Vulco 60–480 kW DC fast chargers"
+        ],
+        [
+          "/cases/jordan-160kw",
+          "How a 160 kW DC site runs at 45 °C in Jordan"
+        ],
+        [
+          "/inquiry",
+          "Request a site-specific quote"
+        ]
+      ]
+    },
+    {
+      "slug": "turkey-ev-charging",
+      "power": "Turkey",
+      "title": "EV Charging in Turkey: Licensing and Pricing Caps | Anari",
+      "meta": "Turkey's EV charging rules in one page: EPDK licensing, the 1 July 2026 motorway card-payment duty for 50 kW+ DC, and the 25% price cap over the best rate.",
+      "h1": "EV charging in Turkey: EPDK licensing, motorway payment rules, price caps",
+      "eyebrow": "Market guide · Türkiye",
+      "lede": "Turkey is one of the few markets where the charging business is licensed like a utility and priced like one too. The rules are explicit: an EPDK licence, card payment from 1 July 2026 on motorways, and a 25% ceiling over your own best rate.",
+      "tldr_label": "In brief — Türkiye",
+      "tldr": "Charge point operators need an EPDK licence. From 1 July 2026, DC units of 50 kW and above on motorways must accept card payment. Prices may not exceed the operator's best rate by more than 25% anywhere in the network.",
+      "facts": [
+        [
+          "50 kW DC",
+          "Card payment threshold"
+        ],
+        [
+          "1 July 2026",
+          "Motorway rule in force"
+        ],
+        [
+          "25%",
+          "Cap above best rate"
+        ],
+        [
+          "EPDK",
+          "Licensing authority"
+        ]
+      ],
+      "sections": [
+        [
+          "Licensing first, hardware second",
+          "<p>The EPDK licence is the entry ticket, and the pricing rule that comes with it shapes the network design. Because no session may be priced more than 25% above the operator's best rate, price discrimination across locations is bounded — revenue strategy has to come from utilisation and uptime rather than from charging more at captive sites.</p>"
+        ],
+        [
+          "The motorway payment rule changes the hardware list",
+          "<p>From 1 July 2026, DC chargers of 50 kW and above on motorways must accept card payment. That is a hardware and integration requirement, not a promise in an app: the payment terminal, its certification and its failover behaviour belong on the equipment checklist at procurement time, not at commissioning.</p>"
+        ],
+        [
+          "What we can quote for a Turkish site",
+          "<p>The charging hardware, the ANARI OS backend and the service plan are quotable. Grid connection, civil works and the payment-terminal certification depend on the site and the licensed operator of record, which is why a survey precedes any number.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do EV charging operators need a licence in Turkey?",
+          "Yes. Charging networks are licensed by EPDK, the energy regulator, before commercial operation."
+        ],
+        [
+          "Which chargers must accept card payment on Turkish motorways?",
+          "DC units of 50 kW and above, from 1 July 2026 onward. The payment terminal is part of the equipment scope, not an app feature."
+        ],
+        [
+          "How is charging pricing capped in Turkey?",
+          "No session may cost more than 25% above the operator's own best rate, which limits location-based price discrimination."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market guides"
+        ],
+        [
+          "/products/fora",
+          "Fora 360–960 kW split DC chargers"
+        ],
+        [
+          "/cases/emerging-markets",
+          "Emerging-market DC deployment notes"
+        ],
+        [
+          "/inquiry",
+          "Request a site-specific quote"
+        ]
+      ]
+    },
+    {
+      "slug": "morocco-ev-charging",
+      "power": "Morocco",
+      "title": "EV Charging in Morocco: Law 82-21 and Site Design | Anari",
+      "meta": "Building EV charging in Morocco: Law 82-21 self-production, the ONEE connection and the Tangier–Kenitra corridor, plus the Chergui wind factor in site design.",
+      "h1": "EV charging in Morocco: Law 82-21 self-production and the auto corridor",
+      "eyebrow": "Market guide · Morocco",
+      "lede": "Morocco lets a site generate part of its own supply under Law 82-21, and the Tangier–Kenitra corridor concentrates the vehicles that need it. Both facts point at the same design: DC charging paired with on-site PV and storage.",
+      "tldr_label": "In brief — Morocco",
+      "tldr": "Law 82-21 opens a self-production route, ONEE remains the single national utility for the grid side, and the Tangier–Kenitra automotive corridor is where duty cycles justify DC power with PV plus storage on site.",
+      "facts": [
+        [
+          "Law 82-21",
+          "Self-production route"
+        ],
+        [
+          "ONEE",
+          "Single national utility"
+        ],
+        [
+          "Tangier–Kenitra",
+          "Automotive corridor"
+        ],
+        [
+          "Chergui",
+          "Hot dry desert wind"
+        ]
+      ],
+      "sections": [
+        [
+          "Self-production changes the site economics",
+          "<p>Under Law 82-21 a site can produce part of its own electricity. For a DC charging site that pairs naturally with rooftop or canopy PV plus a battery: the battery shaves the demand peaks that DC guns create, and the PV covers a share of daytime energy. The grid connection with ONEE is sized for the remainder, not for the full nameplate.</p>"
+        ],
+        [
+          "Where the demand actually drives",
+          "<p>The Tangier–Kenitra axis carries Morocco's automotive industry and its fleet traffic. Corridor sites see predictable, repeated duty cycles — the profile where DC fast charging earns its capital cost — while city sites behave more like destination charging with lower, flatter demand.</p>"
+        ],
+        [
+          "Design for the Chergui, not for the brochure",
+          "<p>The Chergui brings hot, dry, dust-laden wind off the Sahara. Enclosure filtering, sealing and a cleaning schedule are part of the specification in Morocco, exactly as 45 °C thermal design is in the Gulf — the climate sets the maintenance plan before the first session is sold.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can a Moroccan EV charging site produce its own power?",
+          "Yes. Law 82-21 provides a self-production route, which pairs well with on-site PV and battery storage behind the grid connection."
+        ],
+        [
+          "Who controls the grid connection in Morocco?",
+          "ONEE, the single national utility, handles the grid side; the site's connection offer sizes how much charger power can be served."
+        ],
+        [
+          "Which region justifies high-power DC first in Morocco?",
+          "The Tangier–Kenitra automotive corridor, where fleet duty cycles are repeated and predictable."
+        ]
+      ],
+      "internal": [
+        [
+          "/markets/",
+          "All market guides"
+        ],
+        [
+          "/products/bess",
+          "Liquid-cooled BESS 120–418 kWh"
+        ],
+        [
+          "/cases/hot-climate",
+          "Hot-climate DC charging engineering"
+        ],
+        [
+          "/inquiry",
+          "Request a site-specific quote"
+        ]
+      ]
+    }
+  ]
+}

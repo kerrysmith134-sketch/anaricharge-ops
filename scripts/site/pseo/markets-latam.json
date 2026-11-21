@@ -1,0 +1,1441 @@
+{
+ "_comment": "F1 国别页 · 拉美批次 1（2026-11-09）。只写站点运营条件与技术约束，不暗示未交付国家的已交付；El Salvador 与 Peru 有站内证据支撑。",
+ "family": "markets-latam",
+ "base_path": "/markets",
+ "base_url": "https://www.anaricharge.com",
+ "date_modified": "2026-11-09",
+ "pages": [
+  {
+   "slug": "mexico",
+   "country": "Mexico",
+   "region": "North America",
+   "eyebrow": "Market · North America",
+   "title": "EV Charging in Mexico: Grid, Heat and Nearshoring Sites",
+   "meta": "Northern desert heat, CFE capacity queues and US-linked supply chains decide a Mexican charging site. What to specify before you sign the order.",
+   "h1": "EV charging in Mexico: grid capacity, desert heat and the nearshoring site",
+   "lede": "Mexico splits into two design problems: a hot, dry north serving industrial parks, and a humid centre and south. Both are limited by the same thing — the capacity CFE can give you at the site.",
+   "tldr_label": "In brief — Mexico",
+   "tldr": "Treat the connection as the project. CFE capacity windows decide the timeline; ambient heat in the north decides the enclosure and the derating curve. Ask for both in writing.",
+   "facts": [
+    [
+     "CFE",
+     "National utility connection"
+    ],
+    [
+     "40 °C+",
+     "Northern desert design point"
+    ],
+    [
+     "CCS1 + CCS2",
+     "Both appear in the field"
+    ],
+    [
+     "Nearshoring",
+     "Industrial park demand driver"
+    ]
+   ],
+   "sections": [
+    [
+     "The connection sets the project, not the charger",
+     "<p>In Mexico the binding constraint is rarely the equipment. A site can be cleared for construction while the capacity request is still moving through CFE, and that gap is where schedules die. Size the first phase to the capacity you can actually be granted, then expand by module rather than by new civil works.</p><p>Ask your supplier for a document that separates hardware, installation and grid works. If those three are bundled into one number, you cannot tell which part is waiting on the utility.</p>"
+    ],
+    [
+     "Desert heat and the derating curve",
+     "<p>Northern states run long stretches above 40 °C. A unit quoted at 25 °C tells you nothing about July. Request the derating curve as a function of ambient temperature, and the sustained output at your design point — not the nameplate figure.</p><p>The same specification question applies to enclosures and cable ratings. Heat ages connectors faster than it ages electronics, which is why connector damage shows up before electronics failure.</p>"
+    ],
+    [
+     "Two supply chains, not one",
+     "<p>Mexico sits next to the North American connector ecosystem and inside a Latin American service model. That means CCS1 equipment is present in the field while CCS2 vehicles also circulate. Specify the connector mix from the vehicles you expect, not from the standard you prefer.</p><p>For spare parts and service, the practical question is how many hours a technician needs to reach the site. Northern industrial corridors are easier than the humid south; quote the service radius before you quote the unit.</p>"
+    ],
+    [
+     "Payment, permits and the border supply chain",
+     "<p>Payment behaviour is the part of a Mexican project that is most often assumed rather than checked. Fleet cards, bank transfers and app-based payment all coexist, and the settlement path a site owner expects is usually the one their existing customers already use. Agree it before the equipment order, because retrofitting a payment model is more expensive than choosing one.</p><p>Permits follow the municipality, and the electrical inspection is where projects lose weeks. Ask for the permit package as a deliverable, not as a follow-up. The border supply chain helps with hardware lead time, but it does not shorten the local inspection."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Record five things during the survey: the CFE capacity that is actually available and its approval date, the summer design ambient temperature for the site, the connector mix of the vehicles you expect, the service distance from the nearest technician base, and the payment method the site owner already accepts.</p><p>Those five answers decide the enclosure, the power level, the connector configuration, the service contract and the settlement design. None of them comes from a datasheet.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Which connector standard should a Mexican site use?",
+     "Both CCS1 and CCS2 appear in the field. Decide from the vehicle fleet you expect rather than from a default; a dual-standard output configuration costs less than a retrofit. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "How long does a CFE capacity request take?",
+     "It varies by region and by the load you ask for. Plan the first phase around a capacity you can plausibly be granted, and treat every later phase as a separate request. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Is desert heat a warranty issue?",
+     "Only if the specification ignores it. Ask for sustained output at your local design temperature and for the derating curve in writing. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/data/hot-climate-charging",
+     "Hot-climate field observations"
+    ]
+   ]
+  },
+  {
+   "slug": "guatemala",
+   "country": "Guatemala",
+   "region": "Central America",
+   "eyebrow": "Market · Central America",
+   "title": "EV Charging in Guatemala: Highlands, Hydro and Site Load",
+   "meta": "Guatemala runs on a hydro-heavy grid across volcanic highlands and a humid coast. Altitude, rainfall and connection depth decide the charging site.",
+   "h1": "EV charging in Guatemala: highland altitude, hydro power and a humid coast",
+   "lede": "Guatemala is small but not uniform: volcanic highlands, a humid Caribbean coast and a hydro-dominated grid. A site specified for the capital is not specified for the coast.",
+   "tldr_label": "In brief — Guatemala",
+   "tldr": "Design for altitude and rainfall as much as for heat. Hydro-heavy supply means the energy is there; the local distribution capacity and the service distance are what limit a site.",
+   "facts": [
+    [
+     "Hydro-dominant",
+     "Generation mix"
+    ],
+    [
+     "1,500 m+",
+     "Highland design altitude"
+    ],
+    [
+     "Humid coast",
+     "Water ingress control"
+    ],
+    [
+     "SIEPAC",
+     "Regional interconnection"
+    ]
+   ],
+   "sections": [
+    [
+     "Altitude is an electrical condition",
+     "<p>Highland sites sit above 1,500 m, and some corridors climb considerably higher. Altitude changes heat dissipation and clearances, so equipment ratings that are fine at sea level need checking against the installed height. Ask for the altitude derating, not just the temperature derating.</p><p>Cooler air helps the charger and hurts nothing — until the enclosure is asked to shed heat at a lower air density. The two effects must be calculated together.</p>"
+    ],
+    [
+     "A hydro grid with local limits",
+     "<p>Guatemala's generation is dominated by hydro, and the country participates in the regional SIEPAC interconnection. Nationally the energy is available; locally, the distribution transformer at your site is the real constraint. That distinction matters because it moves cost from generation to civil works.</p><p>For any site above roughly 100 kW, get the transformer rating and the available fault level before you fix the charger count.</p>"
+    ],
+    [
+     "Rain, not just temperature",
+     "<p>The Caribbean coast receives heavy rainfall for months at a time. Ingress protection is not a datasheet formality there: cable entry, connector seating and cabinet drainage decide whether the station stays online through the wet season.</p><p>Plan the service model around distance. One technician covering both highlands and coast spends more time driving than working, so the spare-parts kit matters as much as the response time.</p>"
+    ],
+    [
+     "Land, community and highland site access",
+     "<p>Highland sites often sit on land with layered ownership or communal agreements, and access for construction differs from access for operation. A charger that is installed before the land question is settled becomes an asset nobody can service. Confirm access rights for heavy vehicles and for a service van before commissioning.</p><p>Volcanic terrain also means site grading and drainage are more expensive than the flat-site estimates used in proposals. Budget for civil works from the survey, not from a template."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: the site elevation, the wet-season exposure of the proposed cabinet position, the transformer rating and spare capacity, the land and access rights, and the distance to a service base.</p><p>In highland terrain, access for a service van is a design requirement. If the cabinet can only be reached by four-wheel drive in the wet season, that belongs in the operating plan.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Does altitude change charger selection?",
+     "Yes. Above roughly 1,500 m, air density falls and heat dissipation changes. Ask for the altitude derating figure for the exact site height. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Is the grid reliable enough for DC fast charging?",
+     "Generation is largely hydro and regionally interconnected. The usual limit is the local distribution capacity, which has to be surveyed site by site. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What about hurricane-season exposure?",
+     "Water ingress and drainage matter more than wind for the equipment itself. Specify cable entry and cabinet drainage explicitly. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/highway-corridor-charging",
+     "Highway corridor charging"
+    ]
+   ]
+  },
+  {
+   "slug": "honduras",
+   "country": "Honduras",
+   "region": "Central America",
+   "eyebrow": "Market · Central America",
+   "title": "EV Charging in Honduras: Heat, Storm Season and Grid Load",
+   "meta": "Honduras combines tropical heat, a long storm season and a distribution grid that limits fast charging. What decides a site and what to specify.",
+   "h1": "EV charging in Honduras: tropical heat, storm season and connection depth",
+   "lede": "Honduras is a hot, humid market with a storm season that tests water ingress and a distribution network that decides how much power a site can actually draw.",
+   "tldr_label": "In brief — Honduras",
+   "tldr": "Water ingress and the distribution transformer are the two constraints. Treat storm-season availability as a design requirement rather than a maintenance problem.",
+   "facts": [
+    [
+     "Tropical",
+     "Hot and humid year-round"
+    ],
+    [
+     "Storm season",
+     "Jun–Nov exposure"
+    ],
+    [
+     "Distribution-limited",
+     "Site capacity constraint"
+    ],
+    [
+     "SIEPAC",
+     "Regional interconnection"
+    ]
+   ],
+   "sections": [
+    [
+     "Design for the wet season",
+     "<p>For roughly half the year Honduras is wet, and the sites that fail are usually the ones where water reached a cable gland or a connector. Ingress protection has to be specified at the cabinet, at the cable entry and at the connector holster, not only on the main enclosure label.</p><p>Ask for the drainage plan and for the ground-level cable routing. Water ingress is a civil detail as much as an equipment detail.</p>"
+    ],
+    [
+     "The transformer decides the phase size",
+     "<p>Fast charging draws a load that many sites were never wired for. Before committing to a charger count, establish the existing transformer rating, the spare capacity and the cost of an upgrade. That single survey usually changes the phase-one design.</p><p>A split, modular platform lets the first phase match the capacity you have and expand later by adding modules rather than replacing units.</p>"
+    ],
+    [
+     "Service reach is the hidden cost",
+     "<p>Outside the main urban corridor, technician travel time dominates the service bill. For a first site, ask what spare parts are held locally and what the realistic response window is in writing.</p><p>Heat and humidity also age connectors faster than electronics. Budget for connector replacement from the first year rather than treating it as a warranty event.</p>"
+    ],
+    [
+     "Anchor customers: ports, fleets and utilities",
+     "<p>The projects that work in Honduras have a named anchor: a port operator, a distribution fleet or a utility-adjacent business. An anchor gives a predictable duty cycle, which is what makes a surveyed connection worth paying for. Without one, a public site is a bet on demand that the market does not yet show.</p><p>Ask who the first paying user is before asking what the charger costs. That single question reorders most project plans."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: the existing transformer rating and spare capacity, the storm-season drainage path, the connector mix of the expected fleet, the local spare-parts arrangement, and the named anchor customer.</p><p>If there is no anchor customer, stop and revisit the business case. A public site in this market depends on utilisation that has to be demonstrated, not assumed.</p><p>Finally, write down what the site will look like in the wet season rather than in the dry one. Photographs from the site visit are not evidence; a drainage plan and an ingress specification are.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is Honduras a viable first market?",
+     "It is viable for fleet and corridor sites where a specific anchor customer exists. It is a poor market for speculative public charging without a surveyed connection. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "How much power can a typical site support?",
+     "That is a site-by-site question. Survey the existing transformer and spare capacity before choosing a charger count. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What fails first in this climate?",
+     "Connectors and cable terminations, not the power electronics. Specify connector replacement as a scheduled item. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/data/hot-climate-charging",
+     "Hot-climate field observations"
+    ]
+   ]
+  },
+  {
+   "slug": "el-salvador",
+   "country": "El Salvador",
+   "region": "Central America",
+   "eyebrow": "Market · Central America",
+   "title": "EV Charging in El Salvador: First Site to a Service Model",
+   "meta": "El Salvador's small, geothermal-rich grid is where we delivered our first Latin American site. What the deployment changed about the service model.",
+   "h1": "EV charging in El Salvador: from a first site to a repeatable service model",
+   "lede": "El Salvador is compact, geothermal-rich and small enough that a single site can define the service model for the region. It is where we delivered our first Latin American deployment.",
+   "tldr_label": "In brief — El Salvador",
+   "tldr": "A compact market with a geothermal-heavy grid. The deployment lesson was not about power electronics; it was about payment integration and local service reach.",
+   "facts": [
+    [
+     "First LatAm site",
+     "Delivered deployment"
+    ],
+    [
+     "Geothermal",
+     "Significant generation share"
+    ],
+    [
+     "Compact",
+     "Short service radius"
+    ],
+    [
+     "Payment integration",
+     "Local model required"
+    ]
+   ],
+   "sections": [
+    [
+     "Why the first site was placed here",
+     "<p>El Salvador's grid is small and geothermal generation gives it a comparatively stable supply. For a first Latin American deployment that combination reduces two risks at once: the connection is manageable and the generation mix is less volatile.</p><p>The country is also compact. A single service base can cover the territory, which matters when the nearest spare-parts warehouse is on another continent.</p>"
+    ],
+    [
+     "What the deployment actually taught",
+     "<p>The hardware questions were answerable in advance. The harder questions were local: how a driver pays, how the site owner reconciles revenue, and who answers the phone at 22:00. Payment integration was the part that needed redesign rather than translation.</p><p>That is the piece we now treat as a first-class deliverable for the region: a payment and settlement path that matches local practice, agreed before the equipment order is placed.</p>"
+    ],
+    [
+     "Building the regional base below the baseline",
+     "<p>Latin America is a priority region for us, and a first site is only useful if it becomes a base for the next ones. The follow-on work is service reach, a local partner for civil works and a connector mix that reflects the vehicles actually arriving.</p><p>If you are evaluating a site in the region, the first conversation should be about who services it and how the money flows — then about the charger.</p>"
+    ],
+    [
+     "What a second site would need",
+     "<p>The first deployment answered the equipment question. A second site would test the service model: whether a local partner can do first-line response, whether spare connectors are held in country, and whether the payment path scales beyond one location.</p><p>That is the sequence we recommend for the region: prove the operating model on one site, then replicate it. Replicating equipment before the service model is proven is how regional rollouts stall."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: the available connection capacity, the payment method local drivers already use, the local partner for civil works, the spare-parts holding plan, and the response-time commitment you can actually staff.</p><p>The first deployment showed that the last three decide whether a site stays useful after commissioning. They should be agreed in writing before the equipment is ordered.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Do you have a delivered site in El Salvador?",
+     "Yes — it is our first Latin American deployment, and it is the case we use as the reference for the region. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Does that mean you have projects across Latin America?",
+     "No. Latin America is a priority region, but public evidence currently covers one delivered site. Ask us which countries have documented deployments before you plan around it. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What is the first thing to settle for a new site?",
+     "The payment and settlement path, and who provides local service. Both are harder to change after commissioning than the equipment choice. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cases/jordan-160kw",
+     "A 45 °C deployment case"
+    ],
+    [
+     "/tools/charging-station-roi",
+     "ROI calculator"
+    ]
+   ]
+  },
+  {
+   "slug": "nicaragua",
+   "country": "Nicaragua",
+   "region": "Central America",
+   "eyebrow": "Market · Central America",
+   "title": "EV Charging in Nicaragua: Volcanic Grid, Tropical Heat",
+   "meta": "Nicaragua pairs a geothermal and hydro generation mix with tropical heat and a thin service network. How to scope a first charging site safely.",
+   "h1": "EV charging in Nicaragua: geothermal supply, tropical heat, thin service",
+   "lede": "Nicaragua has an unusually clean generation mix for the region, but a thin service network and tropical conditions make the support model the harder half of a project.",
+   "tldr_label": "In brief — Nicaragua",
+   "tldr": "Generation is not the constraint. Service logistics and heat-driven connector wear are. Scope a first site around an anchor customer rather than around public demand.",
+   "facts": [
+    [
+     "Geothermal + hydro",
+     "Generation mix"
+    ],
+    [
+     "Tropical",
+     "Heat and humidity"
+    ],
+    [
+     "Thin service",
+     "Long technician reach"
+    ],
+    [
+     "Anchor-driven",
+     "First-site logic"
+    ]
+   ],
+   "sections": [
+    [
+     "Generation is the easy part",
+     "<p>Nicaragua's grid benefits from geothermal and hydro capacity, which makes energy availability less of a risk than in markets dependent on imported fuel. The practical constraint sits in distribution and in the site's own transformer.</p><p>For a first project, get the site's available capacity surveyed before selecting power levels. A 60 kW first phase that is online beats a 240 kW design that waits a year.</p>"
+    ],
+    [
+     "Heat and humidity age connectors",
+     "<p>Tropical conditions accelerate connector and cable wear. On a publicly used site this shows up as intermittent charging long before it shows up as an equipment fault, and drivers report it as a broken station.</p><p>Build connector inspection into the operating plan from day one, and keep a spare set on site rather than in a distant warehouse.</p>"
+    ],
+    [
+     "Anchor customers before public sites",
+     "<p>With a thin service network, an anchor customer — a fleet, a depot or a hotel group — makes the economics and the maintenance plan work. Public charging without an anchor shifts all the risk onto utilisation that may not exist yet.</p><p>Start with one site and a named local partner for civil works and first-line response.</p>"
+    ],
+    [
+     "Standards, documentation and certification",
+     "<p>Certification and documentation are part of the critical path in markets with thinner supply chains. A charger without the right certification paperwork for the local authority is a charger that cannot be energised. Ask for the certification package and the customs classification up front.</p><p>Keep the electrical drawings and the protection settings in the local language and on site. When a fault happens months later, the person who needs them is not the person who bought the equipment."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: the transformer rating and spare capacity, the certification documents the local authority requires, the connector mix, the spare connector holding, and the distance to a first-line service partner.</p><p>Certification is a schedule item here, not paperwork. A charger that cannot be energised is not a delivered charger.</p><p>Treat the first project as a service-model pilot rather than a volume play. One site that stays online teaches more about this market than three that are installed and unreachable.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is the Nicaraguan grid a limiting factor?",
+     "Less than in fuel-dependent markets — geothermal and hydro carry a meaningful share. The local distribution capacity at your site is still the binding number. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What should a first site look like?",
+     "A modest first phase sized to surveyed capacity, anchored by a fleet or depot customer, with a local partner for first-line service. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What maintenance item gets missed?",
+     "Connector and cable inspection. Heat and humidity wear them faster than the electronics. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/bus-depot-charging",
+     "Bus depot charging"
+    ]
+   ]
+  },
+  {
+   "slug": "costa-rica",
+   "country": "Costa Rica",
+   "region": "Central America",
+   "eyebrow": "Market · Central America",
+   "title": "EV Charging in Costa Rica: 99% Renewable, Wet Climate",
+   "meta": "Costa Rica runs an almost fully renewable grid and a long wet season. The constraints are distribution capacity and water ingress, not energy.",
+   "h1": "EV charging in Costa Rica: a renewable grid, a wet climate and local capacity",
+   "lede": "Costa Rica generates almost all of its electricity from renewables and has one of the region's strongest electrification policies. That makes the grid a friend — and the wet season the design problem.",
+   "tldr_label": "In brief — Costa Rica",
+   "tldr": "Energy availability is not the issue; the local distribution capacity and months of rain are. Specify ingress protection and drainage as engineering requirements.",
+   "facts": [
+    [
+     "~99%",
+     "Renewable generation"
+    ],
+    [
+     "Wet season",
+     "May–Nov heavy rainfall"
+    ],
+    [
+     "Distribution-limited",
+     "Local capacity constraint"
+    ],
+    [
+     "Tourism",
+     "Destination charging demand"
+    ]
+   ],
+   "sections": [
+    [
+     "A grid that helps the business case",
+     "<p>With generation close to fully renewable, the carbon argument for electrification is already settled locally. That changes the sales conversation: the case rests on operating cost and on meeting a policy direction that is unlikely to reverse.</p><p>The constraint moves to distribution. A destination site with a weak service drop can still be a good project if the first phase is sized to what the connection supports.</p>"
+    ],
+    [
+     "Rain for half the year",
+     "<p>Months of sustained rainfall find every weak point: cable glands, connector holsters, cabinet seals and ground drainage. A station that survives the dry season is not evidence of a correct specification.</p><p>Ask for the drainage and cable-entry detail in the site design, and for the ingress class at each joint rather than only at the cabinet.</p>"
+    ],
+    [
+     "Tourism and destination charging",
+     "<p>Costa Rica's economy is tourism-heavy, which concentrates demand at hotels, lodges and national-park gateways. Those sites usually want lower power with high availability, not the highest power available.</p><p>Availability is what guests notice. A 22 kW AC-plus-DC mix with a service plan beats a single high-power unit that is offline for a week.</p>"
+    ],
+    [
+     "Policy direction and destination corridors",
+     "<p>Costa Rica's electrification policy is a tailwind that most markets lack, and it makes long-lived infrastructure easier to justify. The practical implication is that a site can be planned on a ten-year view rather than a two-year one.</p><p>Destination corridors — the routes that connect the capital to the main tourism regions — are where a public charging investment has the clearest use case. A driver needs a reliable stop between two points, not a dense cluster in one city."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: the service-drop capacity available for charging, the wet-season drainage path, the mix of overnight and daytime demand, the payment method guests expect, and the service arrangement for a tourism site that may be remote.</p><p>For a destination site, availability is the product. The survey should include how quickly a fault can be attended in high season, not only in the low season.</p><p>The same logic applies to power level: a reliable 50 kW unit serving guests every day is a better asset than a 200 kW unit that the connection cannot support and the site cannot service.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is the renewable grid an advantage?",
+     "Yes for the business case and for policy alignment. It does not remove the local distribution constraint, which still has to be surveyed. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What power level suits a hotel site?",
+     "Usually a mix of AC overnight charging and one or two DC units, sized to the available connection rather than to a maximum figure. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What is the main climate risk?",
+     "Water ingress during the wet season. Specify glands, holsters and drainage explicitly. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/hotel-destination-charging",
+     "Hotel and destination charging"
+    ]
+   ]
+  },
+  {
+   "slug": "panama",
+   "country": "Panama",
+   "region": "Central America",
+   "eyebrow": "Market · Central America",
+   "title": "EV Charging in Panama: Humidity, Canal Logistics, Islands",
+   "meta": "Panama combines canal-driven logistics demand, high humidity and island grids. How to scope depot and corridor charging in a humid tropical climate.",
+   "h1": "EV charging in Panama: canal logistics, high humidity and island grids",
+   "lede": "Panama's demand is shaped by the canal and the logistics that surrounds it, not by commuter traffic. High humidity and island installations make it a specification-heavy market.",
+   "tldr_label": "In brief — Panama",
+   "tldr": "Depot and corridor demand around the canal is the realistic first case. Humidity control and the difference between mainland and island grids decide the design.",
+   "facts": [
+    [
+     "Canal logistics",
+     "Depot and corridor demand"
+    ],
+    [
+     "High humidity",
+     "Year-round conditions"
+    ],
+    [
+     "Island grids",
+     "Separate capacity limits"
+    ],
+    [
+     "CCS2 + Type2",
+     "Common in the field"
+    ]
+   ],
+   "sections": [
+    [
+     "Demand follows the canal",
+     "<p>Panama's freight and port activity creates concentrated, predictable vehicle movements — the kind of duty cycle where depot charging works economically. A logistics site knows how many vehicles return each night and when.</p><p>That predictability is worth more than a high-traffic location for a first site, because utilisation can be modelled before the equipment is ordered.</p>"
+    ],
+    [
+     "Humidity is a corrosion problem",
+     "<p>Sustained humidity attacks enclosures, terminations and connectors. In coastal locations the salt load adds to it. The specification question is not whether the cabinet is rated for outdoor use, but whether the terminations and the connector interfaces are protected against corrosion over years.</p><p>Ask for the corrosion protection class and for the materials used at cable entry.</p>"
+    ],
+    [
+     "Mainland grid, island grid",
+     "<p>Panama's mainland system and its island installations are different engineering problems. An island site may have a small, isolated supply where a battery buffer is more useful than additional charger power.</p><p>Treat storage as a design option rather than an upsell: it changes the connection requirement, and on an island that is often the deciding factor.</p>"
+    ],
+    [
+     "Maritime, port and logistics fleets",
+     "<p>Panama's economy concentrates around the canal and the logistics that surround it. Port and distribution fleets have short, repeated routes and return to a known base each night, which is the duty cycle depot charging is designed for.</p><p>Those fleets also already manage electrical infrastructure and safety procedures, so the project conversation is technical rather than educational. That tends to shorten the sales cycle and improve the accuracy of the load estimate."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: whether the site is on the mainland grid or an island supply, the corrosion exposure of the cabinet position, the fleet duty cycle and return time, the available capacity, and the local service arrangement.</p><p>On an island site, add one more: the value of a storage buffer compared with a connection upgrade. That comparison often changes the design.</p><p>If the answer favours storage, solve it as an electrical design question with the site engineer, not as a product choice made from a catalogue.</p><p>A depot that returns the same vehicles to the same bays each night can be sized from counted duty cycles, which is a stronger basis than a traffic estimate.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "What is the strongest first case in Panama?",
+     "Depot charging for logistics and port-adjacent fleets, where duty cycles are predictable and the site can be sized from real vehicle counts. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Does humidity really matter for chargers?",
+     "Yes. Corrosion at terminations and connector interfaces is a common failure mode in tropical coastal sites and should be specified against. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Are island installations different?",
+     "Substantially. Smaller, isolated supply often makes a storage buffer more valuable than extra charger power. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/highway-corridor-charging",
+     "Corridor charging"
+    ]
+   ]
+  },
+  {
+   "slug": "dominican-republic",
+   "country": "Dominican Republic",
+   "region": "Caribbean",
+   "eyebrow": "Market · Caribbean",
+   "title": "EV Charging in the Dominican Republic: Island Grid Heat",
+   "meta": "An island grid, tropical heat and tourism-driven demand shape charging in the Dominican Republic. What to specify before committing to a site.",
+   "h1": "EV charging in the Dominican Republic: island grid, tropical heat, tourism",
+   "lede": "The Dominican Republic is an island market with a tourism-heavy demand pattern. Heat and humidity are constant, and the grid's capacity is a site-level question rather than a national one.",
+   "tldr_label": "In brief — Dominican Republic",
+   "tldr": "Resort and fleet sites are the realistic first cases. Island grid capacity and year-round heat set the specification; storage can substitute for connection upgrades.",
+   "facts": [
+    [
+     "Island grid",
+     "Separate capacity limits"
+    ],
+    [
+     "Tropical",
+     "Year-round heat"
+    ],
+    [
+     "Tourism",
+     "Resort destination demand"
+    ],
+    [
+     "Storage",
+     "Alternative to grid upgrade"
+    ]
+   ],
+   "sections": [
+    [
+     "Island capacity is a site question",
+     "<p>On an island system, generation and network capacity are finite in a way that shapes individual projects. A resort or depot may be told that the connection can be increased, but only with works that change the project's payback.</p><p>Establish the available capacity first, then decide whether to size the charger to it or to add storage and shift load away from the peak.</p>"
+    ],
+    [
+     "Heat is continuous, not seasonal",
+     "<p>Year-round tropical heat means the design point is close to the worst month. A charger specified for a European summer will derate for most of the year here. Ask for sustained output at the local design temperature and for the derating curve.</p><p>Cooling design also affects maintenance intervals: filter cleaning and airflow checks belong in the operating plan, not in a warranty claim.</p>"
+    ],
+    [
+     "Tourism demand is peaky",
+     "<p>Resort charging demand clusters around arrivals and departures. That pattern rewards availability and simple payment over raw power, and it makes a small number of reliable units more valuable than a large installation with frequent faults.</p><p>For fleets serving the tourism economy, night-time depot charging is the cleaner case because the duty cycle is predictable.</p>"
+    ],
+    [
+     "Resort procurement and backup generation",
+     "<p>Resort and hotel groups in the Dominican Republic commonly run backup generation, because continuity matters to guests. That existing habit is useful: the electrical room, the maintenance team and the fuel logistics already exist, and the charging project can attach to them.</p><p>It also sets an expectation of availability. A charging installation that is down for a week is judged against a generator that starts within seconds. Plan the service contract accordingly."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: the site's available capacity and any upgrade cost, the backup-generation arrangement already present, the summer design ambient, the corrosion exposure, and the availability expectation the operator already meets with generators.</p><p>That last item sets the service standard. If the site already promises seconds-level backup, a charger contract written in days will not satisfy the same customer.</p><p>Write the service commitment to match that standard, and specify the response window in hours rather than in working days.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Can the grid support DC fast charging?",
+     "It varies by site and by region of the island. Survey the available capacity before selecting power levels; storage can reduce the required upgrade. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What is the main climate risk?",
+     "Sustained heat plus humidity. Specify sustained output at the local design temperature and protect terminations from corrosion. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What charging suits a resort?",
+     "A small number of reliable units with simple payment, sized to the connection, rather than maximum power. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/hotel-destination-charging",
+     "Hotel and destination charging"
+    ]
+   ]
+  },
+  {
+   "slug": "colombia",
+   "country": "Colombia",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Colombia: Altitude, Hydro and Two Climates",
+   "meta": "Colombia combines high-altitude Andean cities, a hot Caribbean coast and a hydro-heavy grid. Two climates, two specifications, one national market.",
+   "h1": "EV charging in Colombia: altitude, hydro power and two climates",
+   "lede": "Colombia is two markets in one country: Andean cities above 2,500 m with cool air and steep terrain, and a Caribbean coast that is hot and humid year-round.",
+   "tldr_label": "In brief — Colombia",
+   "tldr": "Altitude and coastline are different design points. Hydro-heavy generation helps the business case; the distribution connection and the terrain decide the site.",
+   "facts": [
+    [
+     "2,600 m",
+     "Bogotá design altitude"
+    ],
+    [
+     "Hydro-dominant",
+     "Generation mix"
+    ],
+    [
+     "Two climates",
+     "Andean vs Caribbean"
+    ],
+    [
+     "Terrain",
+     "Route and siting constraint"
+    ]
+   ],
+   "sections": [
+    [
+     "Two design points in one market",
+     "<p>Bogotá sits around 2,600 m, where air is thin and cool. Coastal cities are hot and humid at sea level. A charger specified for one is not specified for the other: altitude changes heat dissipation, humidity changes corrosion and ingress risk.</p><p>If you operate across both, specify two configurations rather than one compromise.</p>"
+    ],
+    [
+     "Hydro supply, distribution limits",
+     "<p>Colombia's generation is dominated by hydro, which gives a low-carbon supply but also exposes the system to drought cycles. For a site, the practical consequence is that resilience conversations are not theoretical.</p><p>Distribution capacity remains the binding constraint for a specific project. Get the site's transformer and fault level before fixing the charger count.</p>"
+    ],
+    [
+     "Terrain shapes the network",
+     "<p>Andean geography means long, steep routes between cities. Corridor charging has to account for elevation gain and for the energy a loaded vehicle consumes climbing, which changes the spacing between stops.</p><p>For fleet depots in the cities, terrain matters less than the night-time load profile and the space available for vehicles to queue.</p>"
+    ],
+    [
+     "Regulation, tariffs and charging policy",
+     "<p>Colombia has been developing a dedicated framework for electric mobility, and the practical effect for a project is that the tariff treatment of a charging installation deserves a specific question to the utility. Whether a site is billed as a commercial load, a service or a special category changes the operating cost materially.</p><p>Get the tariff classification confirmed in writing. It is a small administrative item with a large effect on payback."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey six items: the site elevation, the design ambient range, the transformer rating and spare capacity, the tariff classification the utility will apply, the connector mix, and the terrain access for service.</p><p>The tariff classification is the one most often skipped and the one with the largest effect on operating cost. Ask the utility, do not infer it.</p><p>Once the classification is confirmed, compare it against the modelled utilisation before signing the power level into a contract.</p><p>Above all, resist the single national specification. Two sites in the same country can require different enclosures, different protection and different service intervals.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is altitude a real specification issue in Colombia?",
+     "Yes for Andean sites. Above roughly 1,500 m, air density affects heat dissipation, so ask for altitude derating at the site's actual height. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Is hydro generation a risk?",
+     "It lowers the carbon intensity and raises drought sensitivity. For an individual site the practical question is still local distribution capacity. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Which city should a first project target?",
+     "The one where you have an anchor customer and a surveyed connection. Bogotá and the Caribbean coast need different specifications. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/data/hot-climate-charging",
+     "Hot-climate field observations"
+    ]
+   ]
+  },
+  {
+   "slug": "ecuador",
+   "country": "Ecuador",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Ecuador: Andes, Amazon and Grid Stress",
+   "meta": "Ecuador spans Andean highlands, Amazon lowlands and a hot coast, on a hydro grid exposed to drought. How that shapes a charging project and a site design.",
+   "h1": "EV charging in Ecuador: three regions, one hydro-exposed grid",
+   "lede": "Ecuador is Andes, Amazon and coast at once, and its hydro-dominated grid is exposed to drought cycles. Site design has to answer for both the geography and the resilience question.",
+   "tldr_label": "In brief — Ecuador",
+   "tldr": "Pick the region first: highland, Amazon or coast each imply a different design point. Hydro exposure means resilience and load management deserve a line item.",
+   "facts": [
+    [
+     "2,850 m",
+     "Quito design altitude"
+    ],
+    [
+     "Hydro-dominant",
+     "Drought-exposed supply"
+    ],
+    [
+     "Three regions",
+     "Andes / Amazon / coast"
+    ],
+    [
+     "Load management",
+     "Resilience lever"
+    ]
+   ],
+   "sections": [
+    [
+     "The region sets the design point",
+     "<p>Quito sits near 2,850 m, the Amazon basin is hot and humid at low altitude, and the coast is hot with a pronounced wet season. Altitude alters heat dissipation; humidity alters corrosion and ingress risk. Those are different specifications, not different marketing.</p><p>If a project spans regions, specify per site rather than adopting a national standard.</p>"
+    ],
+    [
+     "A hydro grid with drought exposure",
+     "<p>Ecuador's electricity is largely hydro, which gives low-carbon supply and a real sensitivity to dry years. When reservoir levels fall, the system feels it, and large new loads face more scrutiny.</p><p>That makes load management worth designing in: scheduling depot charging away from system peaks and adding a storage buffer where the connection is tight.</p>"
+    ],
+    [
+     "Terrain and the corridor question",
+     "<p>Routes between the highlands and the coast involve sustained climbs and descents. For corridor charging, the energy a loaded vehicle uses climbing changes the spacing between stops, and the descent raises a separate question about regenerative charging.</p><p>For urban fleets the constraint is simpler: night-time load and the space to queue vehicles.</p>"
+    ],
+    [
+     "Mining and municipal fleets as anchors",
+     "<p>Ecuador's most predictable electrification candidates are industrial: mining services, municipal fleets and tourism transport that runs on fixed routes. Those buyers already understand load management, because they already manage large loads.</p><p>For a first project, an anchor of this kind gives a surveyed connection and a known duty cycle. Public charging can follow once the operating model exists."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey six items: the region and therefore the design point, the site elevation, the transformer rating, the load-management option available, the connector mix, and the corridor or depot duty cycle.</p><p>Given hydro exposure to drought, also ask what the site operator's plan is for a constrained-supply week. A charging site that can shift load is easier to keep online.</p><p>That plan is a commercial document as much as an engineering one: a site that can curtail load without going offline keeps its revenue through a tight week.</p><p>Ask the operator what happens in a dry year, and design the answer into the site rather than into a contingency plan.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Does altitude matter in Ecuador?",
+     "Yes for highland sites. Ask for altitude derating at the site's actual height rather than a sea-level rating. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "How exposed is the grid to drought?",
+     "Generation is largely hydro, so dry years stress the system. Design load management and consider storage where the connection is tight. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What is the realistic first project?",
+     "An urban or depot site with an anchor fleet and a surveyed connection, in whichever region the customer already operates. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/bus-depot-charging",
+     "Bus depot charging"
+    ]
+   ]
+  },
+  {
+   "slug": "peru",
+   "country": "Peru",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Peru: Hyper-Arid Coast and Andean Sites",
+   "meta": "Peru pairs one of the world's driest coasts with high Andes and Amazon lowlands. We have delivered projects here — what the climate asks of a site.",
+   "h1": "EV charging in Peru: hyper-arid coast, Andean altitude, Amazon humidity",
+   "lede": "Peru has delivered projects and three radically different operating environments: a hyper-arid coastal strip, high Andes and humid Amazon lowlands. The specification follows the geography.",
+   "tldr_label": "In brief — Peru",
+   "tldr": "The coast is dry and dusty, the Andes are high and cold, the Amazon is hot and humid. We have delivered here, and the lesson is that one national specification does not survive contact with all three.",
+   "facts": [
+    [
+     "Delivered",
+     "Projects in Peru"
+    ],
+    [
+     "Hyper-arid",
+     "Coastal dust and dryness"
+    ],
+    [
+     "4,000 m",
+     "Andean design altitude"
+    ],
+    [
+     "Three climates",
+     "Coast / Andes / Amazon"
+    ]
+   ],
+   "sections": [
+    [
+     "The driest coast changes maintenance",
+     "<p>Lima and much of the coastal strip see almost no rain. That removes the water-ingress problem and introduces a different one: dust. Fine airborne dust settles into cooling paths and connector holsters, and over months it reduces thermal headroom.</p><p>Filter cleaning intervals on the coast should be set by dust load, not by the generic service schedule.</p>"
+    ],
+    [
+     "Altitude in the Andes",
+     "<p>Andean sites sit high enough that air density matters for cooling, and night temperatures fall well below the coastal range. A single enclosure design has to answer for both thinning air and cold starts.</p><p>Ask for derating curves against both temperature and altitude at the site's real elevation.</p>"
+    ],
+    [
+     "Amazon humidity is the opposite problem",
+     "<p>In the lowlands, heat and humidity return: corrosion at terminations, ingress at cable entries and connector wear. The equipment may be identical to the coastal site; the protection and the maintenance plan are not.</p><p>For projects spanning regions, plan three service profiles rather than one national one.</p>"
+    ],
+    [
+     "Mining corridors and coastal depots",
+     "<p>Peru's mining economy creates two distinct charging cases: coastal depots that serve ports and industry, and high-altitude corridors that serve mine sites. The coastal case is a logistics project with a surveyed connection; the Andean case is an altitude and cold-start project.</p><p>Treat them as separate designs. A specification that works in Lima will not work at 4,000 m, and the service distance in the Andes is measured in hours, not kilometres."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey six items: the site elevation, the dust load at the cabinet position, the design ambient range, the transformer rating, the connector mix, and the distance to a service base.</p><p>On the coast, dust sets the maintenance interval. In the Andes, elevation sets the derating. In the Amazon, humidity sets the ingress requirement. One survey form should record all three.</p><p>Record all three on one form, because a project that spans regions will otherwise be specified for whichever region the buyer happened to visit first.</p><p>The practical consequence is a three-row survey form: coast, Andes, Amazon. Each row has its own derating and maintenance assumptions.</p><p>Record the elevation on the same line as the ambient temperature, so the derating figure can be read from one row rather than reconstructed later.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Do you have delivered projects in Peru?",
+     "Yes. Peru is one of the Latin American countries where we have delivered, and it is part of the evidence base for the region. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Does the dry coast need less protection?",
+     "It needs different protection. Water ingress is less of a risk, dust and thermal headroom are more of one. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What is the hardest part of an Andean site?",
+     "Altitude and temperature swing together. Specify derating against both, at the site's actual elevation. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cases/jordan-160kw",
+     "A 45 °C deployment case"
+    ],
+    [
+     "/tools/charging-station-roi",
+     "ROI calculator"
+    ]
+   ]
+  },
+  {
+   "slug": "bolivia",
+   "country": "Bolivia",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Bolivia: 4,000 m Altitude and Derating",
+   "meta": "Bolivia's altiplano sits near 4,000 m, where thin air changes cooling and cold nights change operation. A specification problem before a commercial one.",
+   "h1": "EV charging in Bolivia: 4,000 m altitude, cold nights and thin air",
+   "lede": "Bolivia includes the highest major urban areas in the region. On the altiplano, altitude and cold are not edge cases — they are the operating condition for most of the year.",
+   "tldr_label": "In brief — Bolivia",
+   "tldr": "Altitude derating is the first specification question, and cold-start behaviour is the second. Get both in writing before discussing power levels.",
+   "facts": [
+    [
+     "~4,000 m",
+     "Altiplano altitude"
+    ],
+    [
+     "Cold nights",
+     "Year-round low temperatures"
+    ],
+    [
+     "Thin air",
+     "Reduced cooling capacity"
+    ],
+    [
+     "Altitude derating",
+     "First spec question"
+    ]
+   ],
+   "sections": [
+    [
+     "Thin air changes the thermal design",
+     "<p>At 4,000 m, air density is roughly two-thirds of sea level. Fans move less mass, heat transfer falls, and a unit that is thermally comfortable at sea level may derate far earlier here. The nameplate power is not the deliverable.</p><p>Ask for the derating curve as a function of altitude at the site's real elevation, and for the sustained output at the combination of altitude and summer temperature.</p>"
+    ],
+    [
+     "Cold nights and cold starts",
+     "<p>Altiplano nights are cold year-round, and charging equipment has to start reliably at low temperature. Battery behaviour in the vehicle also changes: charging power tapers earlier when the pack is cold.</p><p>That affects the practical charging time drivers experience, which is what they judge the station by.</p>"
+    ],
+    [
+     "A market for anchor fleets first",
+     "<p>Bolivia's charging demand is concentrated where a fleet operator has a reason to electrify — mining services, municipal fleets, tourism transport. Those sites justify a surveyed, engineered installation.</p><p>A public site without an anchor customer is a bet on utilisation that has not yet appeared.</p>"
+    ],
+    [
+     "Mining services as the anchor",
+     "<p>Bolivia's most credible electrification path runs through mining services and municipal fleets, where vehicles return to a known base and the operator already manages heavy electrical loads. That duty cycle makes the engineering honest: real vehicle counts, real routes, real night-time load.</p><p>Altitude is a specification issue throughout, so the site survey has to record elevation as carefully as it records the transformer rating."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey six items: the exact site elevation, the winter design temperature, the summer design ambient, the transformer rating, the anchor fleet's duty cycle, and the distance to a service base.</p><p>Elevation belongs first on the form. At altiplano heights it changes both the cooling calculation and the practical charging time a driver experiences.</p><p>Then check the vehicle side: at these temperatures, the charging power a vehicle accepts is as important as the power the charger can deliver.</p><p>A cold pack accepts less power, so the practical charging time at 4,000 m is longer than a nameplate calculation suggests.</p><p>Then ask for the cold-start specification in writing, because a charger that starts slowly on a cold morning is a charger drivers stop trusting.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Does 4,000 m altitude really change charger performance?",
+     "Yes. Air density falls by roughly a third, which reduces cooling capacity. Ask for altitude derating at the actual site elevation. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "How does cold affect charging time?",
+     "Vehicle batteries accept less power when cold, so practical charging time is longer than the nameplate suggests. Both effects should be in the site's operating assumptions. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What is the best first project type?",
+     "A depot or fleet site with a predictable duty cycle, engineered for the altitude rather than adapted afterwards. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/data/hot-climate-charging",
+     "Field observations"
+    ]
+   ]
+  },
+  {
+   "slug": "paraguay",
+   "country": "Paraguay",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Paraguay: Itaipú Power, Subtropical Heat",
+   "meta": "Paraguay has some of the region's cheapest hydro power and hot, humid summers. Low energy cost meets high heat in the design of a charging site.",
+   "h1": "EV charging in Paraguay: cheap hydro power and subtropical heat",
+   "lede": "Paraguay benefits from Itaipú hydro capacity and low electricity costs, which strengthens the operating case. The counterweight is a hot, humid subtropical climate.",
+   "tldr_label": "In brief — Paraguay",
+   "tldr": "Energy cost is a genuine advantage here. The specification work is about heat and humidity, and the commercial work is about utilisation, not tariff.",
+   "facts": [
+    [
+     "Itaipú",
+     "Hydro capacity"
+    ],
+    [
+     "Low tariffs",
+     "Energy cost advantage"
+    ],
+    [
+     "Subtropical",
+     "Hot humid summers"
+    ],
+    [
+     "Corridor",
+     "Asunción–Ciudad del Este route"
+    ]
+   ],
+   "sections": [
+    [
+     "The cost case is unusually strong",
+     "<p>Hydro capacity from Itaipú gives Paraguay low electricity costs by regional standards, which improves the operating economics of charging directly. That is a real advantage and it should be the centre of a commercial proposal.</p><p>It does not remove the need for a surveyed connection. Low tariffs do not create distribution capacity where there is none.</p>"
+    ],
+    [
+     "Subtropical heat and humidity",
+     "<p>Summers are hot and humid, and the wet season is pronounced. Cooling design has to reflect sustained high ambient temperatures, and ingress protection has to reflect heavy rain.</p><p>Ask for sustained output at the local summer design point, not a 25 °C rating.</p>"
+    ],
+    [
+     "Corridor and border traffic",
+     "<p>The Asunción–Ciudad del Este axis carries trade and passenger traffic, which makes corridor charging plausible along a defined route rather than scattered across the country.</p><p>For a corridor, spacing matters more than individual site power: drivers need a reliable next stop, not one impressive station.</p>"
+    ],
+    [
+     "Border trade and the corridor case",
+     "<p>Paraguay's economy is shaped by cross-border trade, and the Asunción–Ciudad del Este route carries a steady mix of freight and passenger traffic. That makes a corridor strategy more credible than scattered urban sites.</p><p>For a corridor, the design criterion is the guarantee of a working next stop. Individual site power matters less than the promise that the route is usable end to end."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: the transformer rating and spare capacity, the summer design ambient, the wet-season drainage, the corridor position relative to the next reliable stop, and the payment method local fleets use.</p><p>Low tariffs make the operating case easier, but they do not change the connection survey. Keep the two conversations separate.</p><p>For a corridor site, the spacing decision is the commercial decision. Get the next reliable stop right before optimising anything else.</p><p>Low tariffs improve payback, but they do not create traffic. Site selection is still the largest single variable in the business case.</p><p>The corridor decision, the connection survey and the payment method are the three items that decide whether the site performs as modelled.</p><p>A site that is surveyed properly and sized modestly will outperform a larger installation that was never checked against the connection.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is electricity cost a real advantage?",
+     "Yes, hydro capacity gives Paraguay comparatively low tariffs, which improves charging economics. The site connection still has to be surveyed. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What does the climate require?",
+     "Sustained high heat and heavy rain. Specify output at the summer design point and ingress protection at every joint. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Where does corridor charging make sense?",
+     "Along a defined route with steady traffic, such as the Asunción–Ciudad del Este axis. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/highway-corridor-charging",
+     "Corridor charging"
+    ]
+   ]
+  },
+  {
+   "slug": "uruguay",
+   "country": "Uruguay",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Uruguay: Wind-Heavy Grid, Four Seasons",
+   "meta": "Uruguay's grid is dominated by wind and hydro, and its climate has four real seasons. A temperate market where availability beats peak power.",
+   "h1": "EV charging in Uruguay: a wind-heavy grid and four real seasons",
+   "lede": "Uruguay's power system is unusually renewable, with wind and hydro carrying most of the load. Its climate is temperate with genuine seasons, which changes the specification from tropical markets.",
+   "tldr_label": "In brief — Uruguay",
+   "tldr": "A temperate, renewable market where the grid is strong and the constraint is utilisation. Corridor coverage between Montevideo and the coast is the practical case.",
+   "facts": [
+    [
+     "Wind + hydro",
+     "Dominant generation"
+    ],
+    [
+     "Four seasons",
+     "Temperate design range"
+    ],
+    [
+     "Strong grid",
+     "Fewer connection limits"
+    ],
+    [
+     "Corridor",
+     "Montevideo to the coast"
+    ]
+   ],
+   "sections": [
+    [
+     "A grid that is not the constraint",
+     "<p>Uruguay's wind and hydro capacity means that, for many sites, available capacity is less of a blocker than in neighbouring markets. That shifts the project's centre of gravity from civil works to utilisation and service.</p><p>It also makes electrification commitments easier to justify internally: the supply is already low-carbon.</p>"
+    ],
+    [
+     "Temperate, not tropical",
+     "<p>Four real seasons mean both summer heat and winter cold matter. The design range is wider than a tropical market and the extremes are lower. Cold-morning charging behaviour affects the practical charging time drivers see.</p><p>Specify a range, not a single design point, and check the cold-start behaviour of the equipment.</p>"
+    ],
+    [
+     "Corridor coverage beats density",
+     "<p>Population and traffic concentrate along the Montevideo–coast axis. For a country this size, a small number of reliable corridor sites changes the usability of electric vehicles more than dense coverage in one city.</p><p>A single corridor site that is always available is worth more than three that are occasionally down.</p>"
+    ],
+    [
+     "Policy and public corridor programmes",
+     "<p>Uruguay has pursued electrification consistently, including support for charging infrastructure and a grid that is already largely renewable. That combination makes the public case for a charging project unusually straightforward: the supply is clean and the policy direction is stable.</p><p>The practical constraint is utilisation, not permission. A corridor site placed where traffic genuinely concentrates is worth more than coverage that is spread thin for political reasons."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey five items: the available connection capacity, the winter and summer design points, the corridor position, the availability expectation of the site, and the service arrangement.</p><p>With a strong renewable grid, the connection is rarely the blocker, so the survey should spend its effort on utilisation and on the service commitment instead.</p><p>When the grid is not the constraint, the project's risk sits in demand. Price that risk before committing to a multi-site build.</p><p>A corridor that is reliably complete is more useful to a driver than a dense network that ends abruptly at the border of the next department.</p><p>Set the availability target before the power level, and let the equipment follow from the service promise rather than the other way round.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is grid capacity a problem in Uruguay?",
+     "Less than in many regional markets because of wind and hydro capacity. Site-level checks are still required, but they are rarely the deciding factor. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What climate range should be specified?",
+     "A genuinely four-season range, from summer heat to winter cold. Check cold-start behaviour as well as hot-weather derating. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Where should a first corridor site go?",
+     "On the Montevideo–coast axis where traffic concentrates, prioritising reliability over power. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/highway-corridor-charging",
+     "Corridor charging"
+    ]
+   ]
+  },
+  {
+   "slug": "argentina",
+   "country": "Argentina",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Argentina: Distance, Cold and Imports",
+   "meta": "Argentina is a long country with Patagonian cold, temperate Pampas and import constraints. Distance and equipment availability shape a site.",
+   "h1": "EV charging in Argentina: distance, Patagonian cold and import reality",
+   "lede": "Argentina stretches from subtropical north to Patagonian south. That distance, plus a cold design point in the south and a constrained import environment, defines what a project has to plan for.",
+   "tldr_label": "In brief — Argentina",
+   "tldr": "Service distance and spare-parts availability are the hard constraints. Patagonian cold and long corridors make reliability a specification, not an aspiration.",
+   "facts": [
+    [
+     "3,700 km",
+     "North-to-south span"
+    ],
+    [
+     "Patagonia",
+     "Sub-zero design point"
+    ],
+    [
+     "Import constraints",
+     "Spares lead time"
+    ],
+    [
+     "Long corridors",
+     "Service distance"
+    ]
+   ],
+   "sections": [
+    [
+     "Distance is the design driver",
+     "<p>Argentina's length means a corridor strategy and a depot strategy are different businesses. For corridors, spacing between reliable stops decides usability; for depots, the constraint is night-time load and site access.</p><p>Plan spare-parts holdings before choosing power levels. In a long country, a failed unit far from a warehouse is an outage, not a maintenance ticket.</p>"
+    ],
+    [
+     "Patagonian cold and temperate Pampas",
+     "<p>Southern sites face sub-zero conditions and wind, while the Pampas are temperate with hot summers. One national specification will be wrong at one end. Specify per region, and check cold-start behaviour where the winter design point is negative.</p><p>Vehicle-side behaviour matters too: cold packs accept less power, so practical charging time in winter is longer.</p>"
+    ],
+    [
+     "Import reality and documentation",
+     "<p>Equipment availability and lead times are affected by the import environment. That makes certification and documentation part of the critical path rather than paperwork that happens after the order.</p><p>Ask for the customs and certification package up front, and plan the commissioning date with a realistic buffer.</p>"
+    ],
+    [
+     "Provincial variation and permits",
+     "<p>Argentina's provinces differ in permitting, in electrical inspection practice and in the treatment of distributed loads. A national template will be wrong somewhere. Get the provincial requirement for the specific site before committing to a schedule.</p><p>Currency and import rules also affect equipment timing, so the permit work and the import paperwork should run in parallel rather than in sequence. Sequential planning is the most common cause of a missed commissioning date here."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey six items: the provincial permitting requirement, the winter design temperature, the distance to the nearest spare-parts holding, the import and certification status of the chosen equipment, the available capacity, and the site access for heavy vehicles.</p><p>Run permits and import paperwork in parallel. Sequencing them is the most common reason a commissioning date slips in this market.</p><p>When they run in parallel the project is a logistics exercise; when they run in sequence it becomes a schedule risk that no supplier can absorb.</p><p>A realistic buffer is not pessimism in this market; it is the difference between a commissioning date and a missed one.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "What makes Argentina harder than other regional markets?",
+     "Distance and import logistics. The equipment is not the hard part; getting spares and documentation to a remote site on time is. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Does Patagonian cold change the specification?",
+     "Yes. Sub-zero design points affect cold-start behaviour and, on the vehicle side, charging power. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Should a first project be a corridor or a depot?",
+     "A depot with an anchor fleet is easier to model. A corridor project depends on several sites being reliable at once. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/depot/highway-corridor-charging",
+     "Corridor charging"
+    ]
+   ]
+  },
+  {
+   "slug": "chile",
+   "country": "Chile",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Chile: Atacama Solar, Andes and Mining",
+   "meta": "Chile combines Atacama solar, Andean altitude, a 4,300 km corridor and mining fleets. A market where the operating condition varies by 3,000 km.",
+   "h1": "EV charging in Chile: Atacama solar, Andean altitude and mining fleets",
+   "lede": "Chile is a 4,300 km strip with the world's driest desert in the north, a temperate centre and cold Patagonia in the south. Mining fleets and corridor coverage are the two credible first cases.",
+   "tldr_label": "In brief — Chile",
+   "tldr": "The Atacama is a dust and solar problem; the Andes are an altitude problem; the south is a cold problem. Mining fleets give a predictable, high-utilisation first case.",
+   "facts": [
+    [
+     "4,300 km",
+     "North-to-south span"
+    ],
+    [
+     "Atacama",
+     "Hyper-arid, high solar"
+    ],
+    [
+     "Andes",
+     "Altitude design point"
+    ],
+    [
+     "Mining fleets",
+     "Predictable high utilisation"
+    ]
+   ],
+   "sections": [
+    [
+     "Atacama: dust, sun and thinning air",
+     "<p>The northern desert combines intense solar load, very dry air and dust. Cooling systems pull in dust, so filter service intervals have to be set for the site rather than for a generic schedule. High altitude reduces air density and therefore cooling capacity.</p><p>Ask for a derating figure that combines altitude and temperature at the specific site, not one number for the whole country.</p>"
+    ],
+    [
+     "Mining fleets are the strongest case",
+     "<p>Mining operations run predictable, high-utilisation vehicle cycles and already manage large electrical loads. That makes depot charging an engineering exercise with a known duty cycle rather than a bet on public demand.</p><p>It also means reliability requirements are high: a charger that fails mid-shift stops an operation, not a driver.</p>"
+    ],
+    [
+     "The corridor problem",
+     "<p>Covering a 4,300 km country with charging is not a single project. The defensible approach is route segments with a defined next-stop guarantee, starting where traffic already concentrates.</p><p>Between the desert north, the temperate centre and cold Patagonia, each segment has its own specification.</p>"
+    ],
+    [
+     "Mining electrification and permitting",
+     "<p>Chile's mining sector is electrifying on a scale that creates real charging demand, and mining companies already run large electrical infrastructure. That makes the technical conversation unusually detailed and the procurement process correspondingly formal.</p><p>Permitting follows the region and the site's environmental classification. Build the approval step into the plan from the start; a mining site cannot be commissioned on a verbal approval."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey six items: the region and its design point, the site elevation, the dust load at the cabinet position, the transformer rating, the environmental classification that drives permitting, and the fleet duty cycle.</p><p>For a mining site, add the shift pattern. Reliability requirements follow the shift, not the calendar, and the service contract should reflect that.</p><p>For corridor segments, the same discipline applies to the next-stop guarantee: it should be a written commitment with a defined response, not an aspiration.</p><p>Mining procurement is formal, so the documentation has to be complete before the technical discussion even begins.</p><p>A mining operator will ask for the derating at altitude, the dust maintenance interval and the shift-pattern availability figure in the first meeting.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Why is the Atacama different from other hot markets?",
+     "It is dry rather than humid. Dust ingress and solar load dominate; water ingress is less of a concern. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Does altitude matter in Chile?",
+     "Yes on Andean sites. Ask for combined altitude and temperature derating at the site's actual height. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What is the most credible first case?",
+     "A mining or fleet depot with a measured duty cycle, or a corridor segment with defined traffic. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/data/hot-climate-charging",
+     "Hot-climate field observations"
+    ]
+   ]
+  },
+  {
+   "slug": "brazil",
+   "country": "Brazil",
+   "region": "South America",
+   "eyebrow": "Market · South America",
+   "title": "EV Charging in Brazil: Hydro Grid, Heat and Portuguese",
+   "meta": "Brazil combines a hydro-heavy grid, tropical and subtropical heat, continental distance and a Portuguese-language market. What shapes a site.",
+   "h1": "EV charging in Brazil: hydro power, tropical heat and a Portuguese market",
+   "lede": "Brazil is a continent-sized market with a hydro-dominated grid, tropical and subtropical climates, and Portuguese as the working language. Distance and language change the plan as much as the climate.",
+   "tldr_label": "In brief — Brazil",
+   "tldr": "Hydro gives low-carbon supply; distance and heat set the specification. Content and service must be in Portuguese — Spanish material reads as foreign to a Brazilian buyer.",
+   "facts": [
+    [
+     "Hydro-dominant",
+     "Generation mix"
+    ],
+    [
+     "Portuguese",
+     "Market language"
+    ],
+    [
+     "Tropical + subtropical",
+     "Two design ranges"
+    ],
+    [
+     "Continental",
+     "Service distance"
+    ]
+   ],
+   "sections": [
+    [
+     "Hydro supply and the connection question",
+     "<p>Brazil's electricity is largely hydro, which gives a low-carbon basis for electrification and a supply that is generally adequate at national level. As elsewhere in the region, the site's own distribution connection is the binding constraint for a specific project.</p><p>Get the available capacity and the upgrade cost before deciding the charger count.</p>"
+    ],
+    [
+     "Two climates, one country",
+     "<p>The north and northeast are hot and humid year-round; the south is subtropical with genuine winter cold. A specification written for São Paulo is close to neither. Heat and humidity drive ingress and connector wear; southern winters drive cold-start behaviour.</p><p>Specify per region and check both derating and cold start.</p>"
+    ],
+    [
+     "Portuguese is not a translation detail",
+     "<p>Brazilian buyers read Portuguese, and Spanish-language pages read as foreign. That is a content and service decision, not a localisation nicety: search demand, sales conversations and support all happen in Portuguese.</p><p>We treat Portuguese as a separate locale from Spanish rather than as a variant of it, including separate URLs and language signals.</p>"
+    ],
+    [
+     "Regulatory context and state variation",
+     "<p>Brazil's electricity regulation is nationally set but the practical experience of a charging site varies by state and by distributor. The tariff treatment of a charging installation should be confirmed with the local distributor rather than assumed from a national rule.</p><p>Brazil's size also means a national rollout is really several regional projects. Choose the first state by where the anchor customer and the distributor relationship already exist, then reuse that model."
+    ],
+    [
+     "Site inputs to settle before the order",
+     "<p>Survey six items: the state and distributor, the tariff treatment of the installation, the regional design point, the available capacity, the connector mix, and the distance to a service base.</p><p>Also settle the language question early. Documentation, labels and support in Portuguese are part of the deliverable in Brazil, not a translation added afterwards.</p><p>Getting the distributor relationship right in the first state is what makes the second and third state faster rather than harder.</p><p>Treat each state as a separate project with its own distributor, and reuse the relationship rather than the paperwork.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Why does Portuguese matter if Spanish pages exist?",
+     "They are different markets and different search behaviour. A Brazilian buyer searching in Portuguese does not find Spanish content useful, and treating the two as one locale suppresses both. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "What are Brazil's two climate design points?",
+     "Hot and humid in the north and northeast; subtropical with real winter cold in the south. They imply different protection and derating requirements. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ],
+    [
+     "Is hydro generation a benefit?",
+     "Yes for carbon intensity. It does not remove the local connection constraint for a specific site. The practical next step is a site survey: the connection and the local requirements decide more than the equipment datasheet."
+    ]
+   ],
+   "internal": [
+    [
+     "/markets/",
+     "All markets we serve"
+    ],
+    [
+     "/inquiry",
+     "Talk about a project"
+    ],
+    [
+     "/cost/160-kw-dc-fast-charging-station",
+     "160 kW station cost bands"
+    ],
+    [
+     "/tools/charging-station-roi",
+     "ROI calculator"
+    ],
+    [
+     "/pt/markets/brazil",
+     "Portuguese (Brazil)"
+    ]
+   ]
+  }
+ ]
+}
