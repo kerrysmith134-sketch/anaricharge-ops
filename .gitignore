@@ -18,3 +18,8 @@ __pycache__/
 ops/locks/
 ops/write-scope.json
 ops/indexnow-state.json
+
+# 额外排除
+.anariev-facts-wt/
+.agents/
+.tmpcfg/

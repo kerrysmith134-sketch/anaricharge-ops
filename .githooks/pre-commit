@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# 工作区仓库 pre-commit（2026-11-21 建仓时加）
+# 目的：只防两件真正危险的事 —— 机密泄漏、误提交大目录。
+# 不套用站点仓库那套 PII 扫描：本仓库的运营脚本本来就要在终端打印邮箱/公司名（内部工具）。
+set -euo pipefail
+
+staged="$(git diff --cached --name-only)"
+blocked=0
+
+# 1) 机密文件
+if echo "$staged" | grep -qE '(^|/)\.secrets/|\.env$|(^|/)id_rsa|\.pem$'; then
+  echo "❌ 拒绝提交机密文件（.secrets/ / .env / 私钥）：" >&2
+  echo "$staged" | grep -E '(^|/)\.secrets/|\.env$|(^|/)id_rsa|\.pem$' >&2
+  blocked=1
+fi
+
+# 2) 被 .gitignore 排除的大目录（防 git add -f 手滑）
+if echo "$staged" | grep -qE '^(06-site|08-execution|02-skills|03-workflows)/'; then
+  echo "❌ 拒绝提交被排除的大目录（06-site/08-execution/02-skills/03-workflows）" >&2
+  echo "$staged" | grep -E '^(06-site|08-execution|02-skills|03-workflows)/' | head -5 >&2
+  blocked=1
+fi
+
+# 3) 大文件（>2MB）
+while IFS= read -r f; do
+  [ -f "$f" ] || continue
+  sz=$(wc -c < "$f" | tr -d ' ')
+  if [ "$sz" -gt 2097152 ]; then
+    echo "❌ 文件过大（>2MB）：$f ($sz bytes)" >&2
+    blocked=1
+  fi
+done <<< "$staged"
+
+[ "$blocked" -eq 1 ] && exit 1
+echo "✅ pre-commit（工作区）：无机密、无大目录、无超大文件"
