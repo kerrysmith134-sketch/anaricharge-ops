@@ -199,11 +199,16 @@
   },
   {
    "id": "deploy-guard",
-   "title": "部署守卫（每小时）",
+   "title": "部署守卫（每 30 分钟）",
    "tier": "L1",
-   "why": "纯脚本 deploy-guard.sh：比对 sitemap 指纹，不一致才自动部署；无判断无写作",
+   "why": "纯脚本 deploy-guard.sh：比对 sitemap 指纹，不一致才自动部署；并行团队 push 频繁时窗口缩到 ≤30 分钟",
    "schedule_id": "schedule-821b8593-f885-49b4-b73d-e7c980e89685",
    "added": "2026-11-21"
+  },
+  {
+   "id": "schedule-d2f9d3f9-e151-4d91-91bf-21ca221a501b",
+   "title": "内容档 #2 站内缺口日更（R3-b，每日 09:50，opportunity_rank 驱动）",
+   "tier": "L3"
   }
  ]
 }
