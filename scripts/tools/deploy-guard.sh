@@ -20,6 +20,10 @@ LOG="$WS/08-execution/tech/deploy-guard.jsonl"
 MODE="${1:-}"
 
 mkdir -p "$(dirname "$LOG")"
+# 0) 远端是否领先本地（有人 push 但本地没拉 → 比对本地 sitemap 会误判"已同步"）
+BEHIND="$({ cd "$SITE" && git fetch -q origin main 2>/dev/null; git rev-list --count HEAD..origin/main 2>/dev/null; } || echo 0)"
+export BEHIND
+
 before="$(cd "$SITE" && bash scripts/tools/deploy-sync-check.sh 2>&1)"
 if echo "$before" | grep -q "线上已同步"; then
   # 一致：静默（L1 档位不该刷屏），只在台账留痕
@@ -29,6 +33,10 @@ rec={"ts":dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
      "action":"noop","detail":sys.argv[1].strip()[:200]}
 open("/Users/kerrychu/anari-charge-website/08-execution/tech/deploy-guard.jsonl","a",encoding="utf-8").write(json.dumps(rec,ensure_ascii=False)+"\n")
 PY
+  if [ "${BEHIND:-0}" -gt 0 ] 2>/dev/null; then
+    echo "⚠️ 线上与本地已同步，但远端领先本地 ${BEHIND} 个提交（有人 push 未拉取）"
+    echo "   处理：cd 06-site/anari-new-site && git pull --ff-only origin main && bash scripts/tools/deploy-site.sh"
+  fi
   exit 0
 fi
 
