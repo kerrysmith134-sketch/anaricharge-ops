@@ -53,6 +53,11 @@ STATES = ["new", "mql", "sal", "saqo", "won", "lost", "disqualified"]
 ADVANCE = {"new", "mql", "sal", "saqo", "won"}   # 只这些会推进"历史最高阶段"
 QUAL_KEYS = ["real_contact", "icp", "market", "need", "trigger", "accepted"]
 ORDER = {s: i for i, s in enumerate(STATES)}
+# 受控回退：只能退一级，且必须写原因（2026-11-23 新增）。
+# 起因：ad436b61 被标 saqo，但六条件缺 trigger/accepted；状态机只有前进与结案，
+# 没有回退路径 → 只能靠手改 jsonl，既不审计也不可复用。这里给出唯一合法回退口。
+BACK = {"mql": "new", "sal": "mql", "saqo": "sal"}
+
 FORWARD = {"new": {"mql", "disqualified"},
            "mql": {"sal", "lost", "disqualified"},
            "sal": {"saqo", "lost"},
@@ -193,6 +198,35 @@ def cmd_list(a):
     return 0
 
 
+def cmd_revert(a):
+    """把状态回退一级（saqo→sal / sal→mql / mql→new），必须写 --reason，并留审计事件。"""
+    recs = load()
+    rec = recs.get(a.submission_id)
+    if not rec:
+        print(f"账本里没有 {a.submission_id}。先 sync 或核对 ID。")
+        return 1
+    cur = rec.get("status")
+    target = a.to or BACK.get(cur)
+    if not target:
+        print(f"{cur} 没有可回退的上一级（won/lost/disqualified 是结案状态，不能回退）。")
+        return 1
+    if BACK.get(cur) != target:
+        print(f"只允许回退一级：{cur} → {BACK.get(cur)}；不允许 {cur} → {target}。")
+        return 1
+    if not a.reason:
+        print("回退必须写 --reason（为什么之前的判定是错的）。")
+        return 1
+    ev = {"at": now(), "from": cur, "to": target, "by": a.by,
+          "reason": a.reason, "note": a.note or "", "revert": True}
+    rec["events"].append(ev)
+    rec["status"] = target
+    rec["updated_at"] = now()
+    save(recs)
+    print(f"{a.submission_id}: {cur} → {target}（回退，已留审计）")
+    print("  原因:", a.reason)
+    return 0
+
+
 def cmd_set(a):
     recs = load()
     rec = recs.get(a.submission_id)
@@ -325,7 +359,12 @@ def cmd_report(a):
     print(f"  有效询盘 (D1)      {valid}")
     print(f"  MQL               {mql}" + (f"   {mql / valid * 100:.0f}%" if valid else ""))
     print(f"  SAL（销售接受）    {sal}" + (f"   {sal / valid * 100:.0f}%" if valid else ""))
-    print(f"  SAQO（北极星）     {saqo}")
+    # 北极星只认「当前状态」；max_stage（历史最高）另列，避免回退后口径打架
+    saqo_cur = sum(1 for r in scope if r["status"] in ("saqo", "won"))
+    print(f"  SAQO（北极星）     {saqo_cur}")
+    if saqo != saqo_cur:
+        print(f"    ↳ 历史最高曾到 {saqo}（{saqo - saqo_cur} 条已按六条件回退，"
+              f"见 events；不计入北极星）")
     print(f"  Won               {won}")
     print(f"  Pipeline (USD)    {pipeline:,}")
     if lost:
@@ -362,6 +401,12 @@ def main():
     p.add_argument("submission_id")
     p = sub.add_parser("report")
 
+    rvb = sub.add_parser("revert", help="回退一级状态（必须写 --reason，留审计）")
+    rvb.add_argument("submission_id")
+    rvb.add_argument("--to", help="目标状态；省略则退到上一级")
+    rvb.add_argument("--reason", required=True)
+    rvb.add_argument("--by", default="kerry")
+    rvb.add_argument("--note", default="")
     rv = sub.add_parser("revalue", help="只改 pipeline 金额（状态不变，留痕）")
     rv.add_argument("submission_id")
     rv.add_argument("--value", type=int, required=True)
@@ -370,8 +415,10 @@ def main():
     rv.set_defaults(func=cmd_revalue)
     p.add_argument("--days", type=int, default=30)
     a = ap.parse_args()
+    rvb.set_defaults(func=cmd_revert)
     return {"sync": cmd_sync, "list": cmd_list, "set": cmd_set, "qualify": cmd_qualify,
-            "show": cmd_show, "report": cmd_report, "revalue": cmd_revalue}[a.cmd](a)
+            "show": cmd_show, "report": cmd_report, "revalue": cmd_revalue,
+            "revert": cmd_revert}[a.cmd](a)
 
 
 if __name__ == "__main__":
