@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17",
+ "generated_at": "2026-11-25",
  "policy": "L1=纯脚本秒级；L2=快模型+脚本；L3=强模型判断",
  "tasks": [
   {
@@ -199,9 +199,9 @@
   },
   {
    "id": "deploy-guard",
-   "title": "部署守卫（每 30 分钟）",
+   "title": "部署守卫（每天 3 次 09/15/21）",
    "tier": "L1",
-   "why": "纯脚本 deploy-guard.sh：比对 sitemap 指纹，不一致才自动部署；并行团队 push 频繁时窗口缩到 ≤30 分钟",
+   "why": "纯脚本 deploy-guard.sh：比对 sitemap 指纹，不一致才自动部署。频率按用户指示降为 3 次/天（并行方约每天提交一次）",
    "schedule_id": "schedule-821b8593-f885-49b4-b73d-e7c980e89685",
    "added": "2026-11-21"
   },
@@ -209,6 +209,49 @@
    "id": "schedule-d2f9d3f9-e151-4d91-91bf-21ca221a501b",
    "title": "内容档 #2 站内缺口日更（R3-b，每日 09:50，opportunity_rank 驱动）",
    "tier": "L3"
+  },
+  {
+   "id": "schedule-20b3230c-fdf1-499a-a7b8-46e1573f4569",
+   "title": "飞轮中间裁决（周四 20:00 · 检查上轮动作完成率）",
+   "tier": "L3",
+   "why": "周中只处理本周变化 + 上轮动作完成率，恶化才插队；不重写全量复盘",
+   "registered": "2026-11-23"
+  },
+  {
+   "id": "schedule-6d16da44-8380-4b41-b3d0-93289698b362",
+   "title": "内容档 #3（每日第三篇·销售阻力驱动）",
+   "tier": "L3",
+   "why": "强模型写作 + 五件套门禁",
+   "registered": "2026-11-23"
+  },
+  {
+   "id": "schedule-ddab4c70-052a-4e59-b652-b4dd2a4cd0d9",
+   "title": "案例研究工厂（每周 1 篇证据型案例）",
+   "tier": "L3",
+   "why": "证据型长文，需事实核对与客户授权边界判断",
+   "registered": "2026-11-23"
+  },
+  {
+   "id": "schedule-c9c5fbd0-781d-493c-83f4-a161e63e2d95",
+   "title": "渠道开发（区域集成商/EPC 名单）",
+   "tier": "L3",
+   "why": "名单质量判断 + 抑制/隐私矩阵约束",
+   "registered": "2026-11-23"
+  },
+  {
+   "id": "schedule-c00e2ec4-0dbb-480f-bd02-292a1edb1fda",
+   "title": "周度独立门禁验证（verifier，周日 22:40）",
+   "tier": "L2",
+   "why": "跑 verify-gates + deploy-sync-check 出报告，不改文件（脚本+快模型）",
+   "registered": "2026-11-23"
+  },
+  {
+   "id": "schedule-f0576653-840d-44bc-86c7-723e6a99cb4d",
+   "title": "GSC 请求编入索引（每日 16:30 北京，≤5 个）",
+   "tier": "L2",
+   "why": "跑 gsc_request_indexing.py + 看台账数配额，无内容判断（脚本+快模型）；16:30 是太平洋日重置后的窗口",
+   "registered": "2026-11-25"
   }
- ]
+ ],
+ "note": "2026-11-23 复盘发现登记表 41 条 vs 实际排期 46 条，补齐 5 条（内容档#3/案例研究/渠道开发/飞轮中间裁决/verifier）；档位分级本身未变。 2026-11-25 新增 GSC 请求编入索引档（16:30 北京，L2），E1 不再打 GSC。"
 }
